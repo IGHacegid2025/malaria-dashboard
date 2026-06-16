@@ -1,0 +1,8 @@
+Author,doi,title,year of publication,year of sample collection,study focus,state,city,sample size Nigeria only,mutation,comment
+Grossman,10.1093/jtm/taad114,Emergence of artemisinin-based combination treatment failure in patients returning from sub-Saharan Africa with P.falciparum malaria,2023.0,2009-2020,returning traveler,,Ramat Gan,7.0,0,no mutation
+Ajibaye,10.3389/fcimb.2024.1366563,Detection of novel Plasmodium falciparum coronin gene mutations in a recrudescent ACT-treated patient in South-Western Nigeria,2024.0,2019,12 months to <70 years,Lagos,Ijede General hospital (IJGH),7.0,P76S,all mutations found in same isolates from same patient
+,,,,,,,,, I68G,"all mutations found in same isolate alongside wt, same patient before and after treatment"
+,,,,,,,,, L173F,
+,,,,,,,,,G50E,
+,,,,,,,,,R100K,
+,,,,,,,,,E107V,

@@ -1,0 +1,40 @@
+[ {
+    "blocks": [
+      {
+        "kind": "calculator",
+        "field": "prevalence",
+        "uri": "geneConfig.json",
+        "layout": {
+          "column_span": 2,
+          "height": 3
+        }
+      }
+    ]
+  },
+  {
+    "blocks": [ ]
+  },
+  {
+    "width": 1,
+    "blocks": [
+      {
+        "kind": "map",
+        "field": "geo",
+        "root-name": "Nigeria",
+        "uri": "states.svg",
+        "admin_sublevel_name": "State",
+        "admin_sublevel_name_pl": "States",
+        "layout": {
+          "height": 2
+        }
+      },
+      {
+        "kind": "map-readout",
+        "field": "geo",
+        "root-name": "Nigeria",
+        "admin_sublevel_name": "State",
+        "admin_sublevel_name_pl": "States"
+      }
+    ]
+  }
+]
