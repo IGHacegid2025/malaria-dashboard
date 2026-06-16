@@ -1,0 +1,1122 @@
+{
+  "coronin|E107V": {
+    "antimalarial": "artemisinin",
+    "blurb": [
+      "Reduced artemisinin sensitivity is possible.",
+      "Reduced artemisinin sensitivity is expected.",
+      "High risk for reduced artemisinin sensitivity."
+    ],
+    "classifications": [
+      "low",
+      "intermediate",
+      "high"
+    ],
+    "guidelines": [
+      "threshold based on own judgement, no WHO guideline is available",
+      "threshold based on own judgement, no WHO guideline is available",
+      "threshold based on own judgement, no WHO guideline is available"
+    ],
+    "link": "threshold based on own judgement, no WHO guideline is available",
+    "messages": [
+      "This mutation has been associated with reduced artemisinin resistance in-vitro. The mutation is present at low prevalence in this geographical area.",
+      "This mutation has been associated with reduced artemisinin resistance in-vitro. The mutation is present at increased prevalence in this geographical area. Therefore, artemisinin might no longer be working.",
+      "This mutation has been associated with reduced artemisinin resistance in-vitro. The mutation is present at high prevalence in this geographical area. Therefore, there is a high chance that artemisinin will no longer be active in this geographical area."
+    ],
+    "resistance": "",
+    "thresholds": [
+      0.3,
+      0.6,
+      1.0
+    ]
+  },
+  "coronin|G50E": {
+    "antimalarial": "artemisinin",
+    "blurb": [
+      "Reduced artemisinin sensitivity is possible.",
+      "Reduced artemisinin sensitivity is expected.",
+      "High risk for reduced artemisinin sensitivity."
+    ],
+    "classifications": [
+      "low",
+      "intermediate",
+      "high"
+    ],
+    "guidelines": [
+      "threshold based on own judgement, no WHO guideline is available",
+      "threshold based on own judgement, no WHO guideline is available",
+      "threshold based on own judgement, no WHO guideline is available"
+    ],
+    "link": "threshold based on own judgement, no WHO guideline is available",
+    "messages": [
+      "This mutation has been associated with reduced artemisinin resistance in-vitro. The mutation is present at low prevalence in this geographical area.",
+      "This mutation has been associated with reduced artemisinin resistance in-vitro. The mutation is present at increased prevalence in this geographical area. Therefore, artemisinin might no longer be working.",
+      "This mutation has been associated with reduced artemisinin resistance in-vitro. The mutation is present at high prevalence in this geographical area. Therefore, there is a high chance that artemisinin will no longer be active in this geographical area."
+    ],
+    "resistance": "",
+    "thresholds": [
+      0.3,
+      0.6,
+      1.0
+    ]
+  },
+  "coronin|R100K": {
+    "antimalarial": "artemisinin",
+    "blurb": [
+      "Reduced artemisinin sensitivity is possible.",
+      "Reduced artemisinin sensitivity is expected.",
+      "High risk for reduced artemisinin sensitivity."
+    ],
+    "classifications": [
+      "low",
+      "intermediate",
+      "high"
+    ],
+    "guidelines": [
+      "threshold based on own judgement, no WHO guideline is available",
+      "threshold based on own judgement, no WHO guideline is available",
+      "threshold based on own judgement, no WHO guideline is available"
+    ],
+    "link": "threshold based on own judgement, no WHO guideline is available",
+    "messages": [
+      "This mutation has been associated with reduced artemisinin resistance in-vitro. The mutation is present at low prevalence in this geographical area.",
+      "This mutation has been associated with reduced artemisinin resistance in-vitro. The mutation is present at increased prevalence in this geographical area. Therefore, artemisinin might no longer be working.",
+      "This mutation has been associated with reduced artemisinin resistance in-vitro. The mutation is present at high prevalence in this geographical area. Therefore, there is a high chance that artemisinin will no longer be active in this geographical area."
+    ],
+    "resistance": "",
+    "thresholds": [
+      0.3,
+      0.6,
+      1.0
+    ]
+  },
+  "crt|*": {
+    "antimalarial": "chloroquine",
+    "blurb": [
+      "Chloroquine sensitivity is possibly reduced.",
+      "Chloroquine sensitivity is possibly reduced.",
+      "Chloroquine sensitivity is possibly reduced."
+    ],
+    "classifications": [
+      "low",
+      "intermediate",
+      "intermediate"
+    ],
+    "guidelines": [
+      "threshold based on own judgement, no WHO guideline is available",
+      "threshold based on own judgement, no WHO guideline is available",
+      "threshold based on own judgement, no WHO guideline is available"
+    ],
+    "link": "threshold based on own judgement, no WHO guideline is available",
+    "messages": [
+      "This mutation is present in a gene conferring resistance to chloroquine. The observed mutation is not a validated mutation for chloroquine resistance and present at low prevalence.",
+      "This mutation is present in a gene conferring resistance to chloroquine. The observed mutation is not a validated mutation for chloroquine resistance but present at increased prevalence.",
+      "This mutation is present in a gene conferring resistance to chloroquine. The observed mutation is not a validated mutation for chloroquine resistance but present atvery high prevalence."
+    ],
+    "resistance": "",
+    "thresholds": [
+      0.3,
+      0.6,
+      1.0
+    ]
+  },
+  "crt|K76T": {
+    "antimalarial": "chloroquine",
+    "blurb": [
+      "Chloroquine sensitivity is reduced."
+    ],
+    "classifications": [
+      "high"
+    ],
+    "guidelines": [
+      "threshold based on own judgement, no WHO guideline is available"
+    ],
+    "link": "threshold based on own judgement, no WHO guideline is available",
+    "messages": [
+      "This mutation is sufficent to confer full resistance to chloroquine, therefore the drug should no longer be used in this region."
+    ],
+    "resistance": "",
+    "thresholds": [
+      1.0
+    ]
+  },
+  "exonuclease|E415G": {
+    "antimalarial": "piperaquine",
+    "blurb": [
+      "Piperaquine is still expected to work.",
+      "Reduced sensitivity to piperaquine is expected.",
+      "Reduced sensitivity to piperaquine is expected."
+    ],
+    "classifications": [
+      "low",
+      "intermediate",
+      "high"
+    ],
+    "guidelines": [
+      "threshold based on own judgement, no WHO guideline is available",
+      "threshold based on own judgement, no WHO guideline is available",
+      "threshold based on own judgement, no WHO guideline is available"
+    ],
+    "link": "threshold based on own judgement, no WHO guideline is available",
+    "messages": [
+      "There is low resistance level in this region. So drug is still expected to active.",
+      "Resistance to piperaquine is increasing in this region, drug sensitivity is expected to be reduced. The use of other artemisinin partner drugs are therefore recommended.",
+      "Due to high level of resistance in this region, piperaquine is no longer suitable and its use (especially as artemisinin partner drug) should be stopped."
+    ],
+    "resistance": "",
+    "thresholds": [
+      0.3,
+      0.6,
+      1.0
+    ]
+  },
+  "hrp2|deletion": {
+    "antimalarial": "NA",
+    "blurb": [
+      "No false-negative RDT results expected.",
+      "False-negative RDT results are likely.",
+      "High probability for false-negative RDT results."
+    ],
+    "classifications": [
+      "low",
+      "intermediate",
+      "high"
+    ],
+    "guidelines": [
+      "WHO guideline: if gene deletions have prevalence > 5% in a country, steps like switching to different RDT need to be taken (Response plan to pfhrp2 gene deletions, WHO, 2024)",
+      "WHO guideline: if gene deletions have prevalence > 5% in a country, steps like switching to different RDT need to be taken (Response plan to pfhrp2 gene deletions, WHO, 2024)",
+      "WHO guideline: if gene deletions have prevalence > 5% in a country, steps like switching to different RDT need to be taken (Response plan to pfhrp2 gene deletions, WHO, 2024)"
+    ],
+    "link": "WHO guideline: if gene deletions have prevalence > 5% in a country, steps like switching to different RDT need to be taken (Response plan to pfhrp2 gene deletions, WHO, 2024)",
+    "messages": [
+      "Deletions of hrp2 can lead to false-negative results of HRP2-based RDTs. The prevalence of these deletions in this geographical area is low.",
+      "Deletions of hrp2 can lead to false-negative results of HRP2-based RDTs. The prevalence of these deletions in this geographical area is increased and thereby false-negative results are likely.",
+      "Deletions of hrp2 can lead to false-negative results of HRP2-based RDTs. The prevalence of these deletions in this geographical area is very high and actions according to https://www.who.int/publications/i/item/9789240101838 should be taken by the Malaria Elimination Program."
+    ],
+    "resistance": "",
+    "thresholds": [
+      0.03,
+      0.049,
+      1.0
+    ]
+  },
+  "hrp3|deletion": {
+    "antimalarial": "NA",
+    "blurb": [
+      "No false-negative RDT results expected.",
+      "False-negative RDT results are likely.",
+      "High probability for false-negative RDT results."
+    ],
+    "classifications": [
+      "low",
+      "intermediate",
+      "high"
+    ],
+    "guidelines": [
+      "WHO guideline: if gene deletions have prevalence > 5% in a country, steps like switching to different RDT need to be taken (Response plan to pfhrp2 gene deletions, WHO, 2024)",
+      "WHO guideline: if gene deletions have prevalence > 5% in a country, steps like switching to different RDT need to be taken (Response plan to pfhrp2 gene deletions, WHO, 2024)",
+      "WHO guideline: if gene deletions have prevalence > 5% in a country, steps like switching to different RDT need to be taken (Response plan to pfhrp2 gene deletions, WHO, 2024)"
+    ],
+    "link": "WHO guideline: if gene deletions have prevalence > 5% in a country, steps like switching to different RDT need to be taken (Response plan to pfhrp2 gene deletions, WHO, 2024)",
+    "messages": [
+      "Deletions of hrp3 can lead to false-negative results of HRP2-based RDTs. The prevalence of these deletions in this geographical area is low.",
+      "Deletions of hrp3 can lead to false-negative results of HRP2-based RDTs. The prevalence of these deletions in this geographical area is increased and thereby false-negative results are likely.",
+      "Deletions of hrp3 can lead to false-negative results of HRP2-based RDTs. The prevalence of these deletions in this geographical area is very high and actions according to https://www.who.int/publications/i/item/9789240101838 should be taken by the Malaria Elimination Program."
+    ],
+    "resistance": "",
+    "thresholds": [
+      0.03,
+      0.049,
+      1.0
+    ]
+  },
+  "kelch13|*": {
+    "antimalarial": "artemisinin",
+    "blurb": [
+      "Reduced sensitivity to artemisinin is possible.",
+      "Reduced sensitivity to artemisinin is possible.",
+      "Reduced sensitivity to artemisinin is possible."
+    ],
+    "classifications": [
+      "intermediate",
+      "intermediate",
+      "intermediate"
+    ],
+    "guidelines": [
+      "threshold based on own judgement, no WHO guideline is available, https://www.who.int/news-room/questions-and-answers/item/artemisinin-resistance",
+      "threshold based on own judgement, no WHO guideline is available, https://www.who.int/news-room/questions-and-answers/item/artemisinin-resistance",
+      "threshold based on own judgement, no WHO guideline is available, https://www.who.int/news-room/questions-and-answers/item/artemisinin-resistance"
+    ],
+    "link": "threshold based on own judgement, no WHO guideline is available, https://www.who.int/news-room/questions-and-answers/item/artemisinin-resistance",
+    "messages": [
+      "The reported mutation is not a confirmed marker to lead to artemisin resistance as per WHO guidelines and is present at low prevalence.",
+      "The reported mutation is not a confirmed marker to lead to artemisin resistance as per WHO guidelines and is present at low prevalence.",
+      "The reported mutation is not a confirmed marker to lead to artemisin resistance as per WHO guidelines but is present at increasing prevalence."
+    ],
+    "resistance": "",
+    "thresholds": [
+      0.3,
+      0.6,
+      1.0
+    ]
+  },
+  "kelch13|A481V": {
+    "antimalarial": "artemisinin",
+    "blurb": [
+      "Reduced sensitivity to artemisinin is likely.",
+      "Reduced sensitivity to artemisinin is likely.",
+      "Reduced sensitivity to artemisinin is likely."
+    ],
+    "classifications": [
+      "low",
+      "intermediate",
+      "high"
+    ],
+    "guidelines": [
+      "threshold based on own judgement, no WHO guideline is available, https://www.who.int/news-room/questions-and-answers/item/artemisinin-resistance",
+      "threshold based on own judgement, no WHO guideline is available, https://www.who.int/news-room/questions-and-answers/item/artemisinin-resistance",
+      "threshold based on own judgement, no WHO guideline is available, https://www.who.int/news-room/questions-and-answers/item/artemisinin-resistance"
+    ],
+    "link": "threshold based on own judgement, no WHO guideline is available, https://www.who.int/news-room/questions-and-answers/item/artemisinin-resistance",
+    "messages": [
+      "This molecular marker is a candidate mutation for artemsisin partial resistance as classified by WHO. It is present at low prevalence in this region. Artemisinin might no longer be active.",
+      "This molecular marker is a candidate mutation for artemsisin partial resistance as classified by WHO. It is present at increased prevalence in this region. Artemisinin might no longer be active.",
+      "This molecular marker is a candidate mutation for artemsisin partial resistance as classified by WHO. It is present at very high prevalence in this region. There is a high chance that artemisinin is not active any more in this geographical region."
+    ],
+    "resistance": "",
+    "thresholds": [
+      0.3,
+      0.6,
+      1.0
+    ]
+  },
+  "kelch13|A675V": {
+    "antimalarial": "artemisinin",
+    "blurb": [
+      "Reduced sensitivity to artemisinin is expected."
+    ],
+    "classifications": [
+      "high"
+    ],
+    "guidelines": [
+      "https://www.who.int/news-room/questions-and-answers/item/artemisinin-resistance"
+    ],
+    "link": "https://www.who.int/news-room/questions-and-answers/item/artemisinin-resistance",
+    "messages": [
+      "This molecular marker is a validated mutation leading to artemsisin partial resistance (WHO, 2025)."
+    ],
+    "resistance": "",
+    "thresholds": [
+      1.0
+    ]
+  },
+  "kelch13|C469F": {
+    "antimalarial": "artemisinin",
+    "blurb": [
+      "Reduced sensitivity to artemisinin is likely.",
+      "Reduced sensitivity to artemisinin is likely.",
+      "Reduced sensitivity to artemisinin is likely."
+    ],
+    "classifications": [
+      "low",
+      "intermediate",
+      "high"
+    ],
+    "guidelines": [
+      "threshold based on own judgement, no WHO guideline is available, https://www.who.int/news-room/questions-and-answers/item/artemisinin-resistance",
+      "threshold based on own judgement, no WHO guideline is available, https://www.who.int/news-room/questions-and-answers/item/artemisinin-resistance",
+      "threshold based on own judgement, no WHO guideline is available, https://www.who.int/news-room/questions-and-answers/item/artemisinin-resistance"
+    ],
+    "link": "threshold based on own judgement, no WHO guideline is available, https://www.who.int/news-room/questions-and-answers/item/artemisinin-resistance",
+    "messages": [
+      "This molecular marker is a candidate mutation for artemsisin partial resistance as classified by WHO. It is present at low prevalence in this region. Artemisinin might no longer be active.",
+      "This molecular marker is a candidate mutation for artemsisin partial resistance as classified by WHO. It is present at increased prevalence in this region. Artemisinin might no longer be active.",
+      "This molecular marker is a candidate mutation for artemsisin partial resistance as classified by WHO. It is present at very high prevalence in this region. There is a high chance that artemisinin is not active any more in this geographical region."
+    ],
+    "resistance": "",
+    "thresholds": [
+      0.3,
+      0.6,
+      1.0
+    ]
+  },
+  "kelch13|C469Y": {
+    "antimalarial": "artemisinin",
+    "blurb": [
+      "Reduced sensitivity to artemisinin is expected."
+    ],
+    "classifications": [
+      "high"
+    ],
+    "guidelines": [
+      "https://www.who.int/news-room/questions-and-answers/item/artemisinin-resistance"
+    ],
+    "link": "https://www.who.int/news-room/questions-and-answers/item/artemisinin-resistance",
+    "messages": [
+      "This molecular marker is a validated mutation leading to artemsisin partial resistance (WHO, 2025)."
+    ],
+    "resistance": "",
+    "thresholds": [
+      1.0
+    ]
+  },
+  "kelch13|C580Y": {
+    "antimalarial": "artemisinin",
+    "blurb": [
+      "Reduced sensitivity to artemisinin is expected."
+    ],
+    "classifications": [
+      "high"
+    ],
+    "guidelines": [
+      "https://www.who.int/news-room/questions-and-answers/item/artemisinin-resistance"
+    ],
+    "link": "https://www.who.int/news-room/questions-and-answers/item/artemisinin-resistance",
+    "messages": [
+      "This molecular marker is a validated mutation leading to artemsisin partial resistance (WHO, 2025)."
+    ],
+    "resistance": "",
+    "thresholds": [
+      1.0
+    ]
+  },
+  "kelch13|F446I": {
+    "antimalarial": "artemisinin",
+    "blurb": [
+      "Reduced sensitivity to artemisinin is expected."
+    ],
+    "classifications": [
+      "high"
+    ],
+    "guidelines": [
+      "https://www.who.int/news-room/questions-and-answers/item/artemisinin-resistance"
+    ],
+    "link": "https://www.who.int/news-room/questions-and-answers/item/artemisinin-resistance",
+    "messages": [
+      "This molecular marker is a validated mutation leading to artemsisin partial resistance (WHO, 2025)."
+    ],
+    "resistance": "",
+    "thresholds": [
+      1.0
+    ]
+  },
+  "kelch13|G449A": {
+    "antimalarial": "artemisinin",
+    "blurb": [
+      "Reduced sensitivity to artemisinin is likely.",
+      "Reduced sensitivity to artemisinin is likely.",
+      "Reduced sensitivity to artemisinin is likely."
+    ],
+    "classifications": [
+      "low",
+      "intermediate",
+      "high"
+    ],
+    "guidelines": [
+      "threshold based on own judgement, no WHO guideline is available, https://www.who.int/news-room/questions-and-answers/item/artemisinin-resistance",
+      "threshold based on own judgement, no WHO guideline is available, https://www.who.int/news-room/questions-and-answers/item/artemisinin-resistance",
+      "threshold based on own judgement, no WHO guideline is available, https://www.who.int/news-room/questions-and-answers/item/artemisinin-resistance"
+    ],
+    "link": "threshold based on own judgement, no WHO guideline is available, https://www.who.int/news-room/questions-and-answers/item/artemisinin-resistance",
+    "messages": [
+      "This molecular marker is a candidate mutation for artemsisin partial resistance as classified by WHO. It is present at low prevalence in this region. Artemisinin might no longer be active.",
+      "This molecular marker is a candidate mutation for artemsisin partial resistance as classified by WHO. It is present at increased prevalence in this region. Artemisinin might no longer be active.",
+      "This molecular marker is a candidate mutation for artemsisin partial resistance as classified by WHO. It is present at very high prevalence in this region. There is a high chance that artemisinin is not active any more in this geographical region."
+    ],
+    "resistance": "",
+    "thresholds": [
+      0.3,
+      0.6,
+      1.0
+    ]
+  },
+  "kelch13|G538V": {
+    "antimalarial": "artemisinin",
+    "blurb": [
+      "Reduced sensitivity to artemisinin is likely.",
+      "Reduced sensitivity to artemisinin is likely.",
+      "Reduced sensitivity to artemisinin is likely."
+    ],
+    "classifications": [
+      "low",
+      "intermediate",
+      "high"
+    ],
+    "guidelines": [
+      "threshold based on own judgement, no WHO guideline is available, https://www.who.int/news-room/questions-and-answers/item/artemisinin-resistance",
+      "threshold based on own judgement, no WHO guideline is available, https://www.who.int/news-room/questions-and-answers/item/artemisinin-resistance",
+      "threshold based on own judgement, no WHO guideline is available, https://www.who.int/news-room/questions-and-answers/item/artemisinin-resistance"
+    ],
+    "link": "threshold based on own judgement, no WHO guideline is available, https://www.who.int/news-room/questions-and-answers/item/artemisinin-resistance",
+    "messages": [
+      "This molecular marker is a candidate mutation for artemsisin partial resistance as classified by WHO. It is present at low prevalence in this region. Artemisinin might no longer be active.",
+      "This molecular marker is a candidate mutation for artemsisin partial resistance as classified by WHO. It is present at increased prevalence in this region. Artemisinin might no longer be active.",
+      "This molecular marker is a candidate mutation for artemsisin partial resistance as classified by WHO. It is present at very high prevalence in this region. There is a high chance that artemisinin is not active any more in this geographical region."
+    ],
+    "resistance": "",
+    "thresholds": [
+      0.3,
+      0.6,
+      1.0
+    ]
+  },
+  "kelch13|I543T": {
+    "antimalarial": "artemisinin",
+    "blurb": [
+      "Reduced sensitivity to artemisinin is expected."
+    ],
+    "classifications": [
+      "high"
+    ],
+    "guidelines": [
+      "https://www.who.int/news-room/questions-and-answers/item/artemisinin-resistance"
+    ],
+    "link": "https://www.who.int/news-room/questions-and-answers/item/artemisinin-resistance",
+    "messages": [
+      "This molecular marker is a validated mutation leading to artemsisin partial resistance (WHO, 2025)."
+    ],
+    "resistance": "",
+    "thresholds": [
+      1.0
+    ]
+  },
+  "kelch13|M476I": {
+    "antimalarial": "artemisinin",
+    "blurb": [
+      "Reduced sensitivity to artemisinin is expected."
+    ],
+    "classifications": [
+      "high"
+    ],
+    "guidelines": [
+      "https://www.who.int/news-room/questions-and-answers/item/artemisinin-resistance"
+    ],
+    "link": "https://www.who.int/news-room/questions-and-answers/item/artemisinin-resistance",
+    "messages": [
+      "This molecular marker is a validated mutation leading to artemsisin partial resistance (WHO, 2025)."
+    ],
+    "resistance": "",
+    "thresholds": [
+      1.0
+    ]
+  },
+  "kelch13|N458Y": {
+    "antimalarial": "artemisinin",
+    "blurb": [
+      "Reduced sensitivity to artemisinin is expected."
+    ],
+    "classifications": [
+      "high"
+    ],
+    "guidelines": [
+      "https://www.who.int/news-room/questions-and-answers/item/artemisinin-resistance"
+    ],
+    "link": "https://www.who.int/news-room/questions-and-answers/item/artemisinin-resistance",
+    "messages": [
+      "This molecular marker is a validated mutation leading to artemsisin partial resistance (WHO, 2025)."
+    ],
+    "resistance": "",
+    "thresholds": [
+      1.0
+    ]
+  },
+  "kelch13|N537D": {
+    "antimalarial": "artemisinin",
+    "blurb": [
+      "Reduced sensitivity to artemisinin is likely.",
+      "Reduced sensitivity to artemisinin is likely.",
+      "Reduced sensitivity to artemisinin is likely."
+    ],
+    "classifications": [
+      "low",
+      "intermediate",
+      "high"
+    ],
+    "guidelines": [
+      "threshold based on own judgement, no WHO guideline is available, https://www.who.int/news-room/questions-and-answers/item/artemisinin-resistance",
+      "threshold based on own judgement, no WHO guideline is available, https://www.who.int/news-room/questions-and-answers/item/artemisinin-resistance",
+      "threshold based on own judgement, no WHO guideline is available, https://www.who.int/news-room/questions-and-answers/item/artemisinin-resistance"
+    ],
+    "link": "threshold based on own judgement, no WHO guideline is available, https://www.who.int/news-room/questions-and-answers/item/artemisinin-resistance",
+    "messages": [
+      "This molecular marker is a candidate mutation for artemsisin partial resistance as classified by WHO. It is present at low prevalence in this region. Artemisinin might no longer be active.",
+      "This molecular marker is a candidate mutation for artemsisin partial resistance as classified by WHO. It is present at increased prevalence in this region. Artemisinin might no longer be active.",
+      "This molecular marker is a candidate mutation for artemsisin partial resistance as classified by WHO. It is present at very high prevalence in this region. There is a high chance that artemisinin is not active any more in this geographical region."
+    ],
+    "resistance": "",
+    "thresholds": [
+      0.3,
+      0.6,
+      1.0
+    ]
+  },
+  "kelch13|N537I": {
+    "antimalarial": "artemisinin",
+    "blurb": [
+      "Reduced sensitivity to artemisinin is likely.",
+      "Reduced sensitivity to artemisinin is likely.",
+      "Reduced sensitivity to artemisinin is likely."
+    ],
+    "classifications": [
+      "low",
+      "intermediate",
+      "high"
+    ],
+    "guidelines": [
+      "threshold based on own judgement, no WHO guideline is available, https://www.who.int/news-room/questions-and-answers/item/artemisinin-resistance",
+      "threshold based on own judgement, no WHO guideline is available, https://www.who.int/news-room/questions-and-answers/item/artemisinin-resistance",
+      "threshold based on own judgement, no WHO guideline is available, https://www.who.int/news-room/questions-and-answers/item/artemisinin-resistance"
+    ],
+    "link": "threshold based on own judgement, no WHO guideline is available, https://www.who.int/news-room/questions-and-answers/item/artemisinin-resistance",
+    "messages": [
+      "This molecular marker is a candidate mutation for artemsisin partial resistance as classified by WHO. It is present at low prevalence in this region. Artemisinin might no longer be active.",
+      "This molecular marker is a candidate mutation for artemsisin partial resistance as classified by WHO. It is present at increased prevalence in this region. Artemisinin might no longer be active.",
+      "This molecular marker is a candidate mutation for artemsisin partial resistance as classified by WHO. It is present at very high prevalence in this region. There is a high chance that artemisinin is not active any more in this geographical region."
+    ],
+    "resistance": "",
+    "thresholds": [
+      0.3,
+      0.6,
+      1.0
+    ]
+  },
+  "kelch13|P441L": {
+    "antimalarial": "artemisinin",
+    "blurb": [
+      "Reduced sensitivity to artemisinin is likely.",
+      "Reduced sensitivity to artemisinin is likely.",
+      "Reduced sensitivity to artemisinin is likely."
+    ],
+    "classifications": [
+      "low",
+      "intermediate",
+      "high"
+    ],
+    "guidelines": [
+      "https://www.who.int/news-room/questions-and-answers/item/artemisinin-resistance",
+      "threshold based on own judgement, no WHO guideline is available, https://www.who.int/news-room/questions-and-answers/item/artemisinin-resistance",
+      "threshold based on own judgement, no WHO guideline is available, https://www.who.int/news-room/questions-and-answers/item/artemisinin-resistance"
+    ],
+    "link": "https://www.who.int/news-room/questions-and-answers/item/artemisinin-resistance",
+    "messages": [
+      "This molecular marker is a validated mutation leading to artemsisin partial resistance (WHO, 2025).",
+      "This molecular marker is a candidate mutation for artemsisin partial resistance as classified by WHO. It is present at increased prevalence in this region. Artemisinin might no longer be active.",
+      "This molecular marker is a candidate mutation for artemsisin partial resistance as classified by WHO. It is present at very high prevalence in this region. There is a high chance that artemisinin is not active any more in this geographical region."
+    ],
+    "resistance": "",
+    "thresholds": [
+      0.3,
+      0.6,
+      1.0
+    ]
+  },
+  "kelch13|P527H": {
+    "antimalarial": "artemisinin",
+    "blurb": [
+      "Reduced sensitivity to artemisinin is likely.",
+      "Reduced sensitivity to artemisinin is likely.",
+      "Reduced sensitivity to artemisinin is likely."
+    ],
+    "classifications": [
+      "low",
+      "intermediate",
+      "high"
+    ],
+    "guidelines": [
+      "threshold based on own judgement, no WHO guideline is available, https://www.who.int/news-room/questions-and-answers/item/artemisinin-resistance",
+      "threshold based on own judgement, no WHO guideline is available, https://www.who.int/news-room/questions-and-answers/item/artemisinin-resistance",
+      "threshold based on own judgement, no WHO guideline is available, https://www.who.int/news-room/questions-and-answers/item/artemisinin-resistance"
+    ],
+    "link": "threshold based on own judgement, no WHO guideline is available, https://www.who.int/news-room/questions-and-answers/item/artemisinin-resistance",
+    "messages": [
+      "This molecular marker is a candidate mutation for artemsisin partial resistance as classified by WHO. It is present at low prevalence in this region. Artemisinin might no longer be active.",
+      "This molecular marker is a candidate mutation for artemsisin partial resistance as classified by WHO. It is present at increased prevalence in this region. Artemisinin might no longer be active.",
+      "This molecular marker is a candidate mutation for artemsisin partial resistance as classified by WHO. It is present at very high prevalence in this region. There is a high chance that artemisinin is not active any more in this geographical region."
+    ],
+    "resistance": "",
+    "thresholds": [
+      0.3,
+      0.6,
+      1.0
+    ]
+  },
+  "kelch13|P553L": {
+    "antimalarial": "artemisinin",
+    "blurb": [
+      "Reduced sensitivity to artemisinin is expected."
+    ],
+    "classifications": [
+      "high"
+    ],
+    "guidelines": [
+      "https://www.who.int/news-room/questions-and-answers/item/artemisinin-resistance"
+    ],
+    "link": "https://www.who.int/news-room/questions-and-answers/item/artemisinin-resistance",
+    "messages": [
+      "This molecular marker is a validated mutation leading to artemsisin partial resistance (WHO, 2025)."
+    ],
+    "resistance": "",
+    "thresholds": [
+      1.0
+    ]
+  },
+  "kelch13|P574L": {
+    "antimalarial": "artemisinin",
+    "blurb": [
+      "Reduced sensitivity to artemisinin is expected."
+    ],
+    "classifications": [
+      "high"
+    ],
+    "guidelines": [
+      "https://www.who.int/news-room/questions-and-answers/item/artemisinin-resistance"
+    ],
+    "link": "https://www.who.int/news-room/questions-and-answers/item/artemisinin-resistance",
+    "messages": [
+      "This molecular marker is a validated mutation leading to artemsisin partial resistance (WHO, 2025)."
+    ],
+    "resistance": "",
+    "thresholds": [
+      1.0
+    ]
+  },
+  "kelch13|R515K": {
+    "antimalarial": "artemisinin",
+    "blurb": [
+      "Reduced sensitivity to artemisinin is likely.",
+      "Reduced sensitivity to artemisinin is likely.",
+      "Reduced sensitivity to artemisinin is likely."
+    ],
+    "classifications": [
+      "low",
+      "intermediate",
+      "high"
+    ],
+    "guidelines": [
+      "threshold based on own judgement, no WHO guideline is available, https://www.who.int/news-room/questions-and-answers/item/artemisinin-resistance",
+      "threshold based on own judgement, no WHO guideline is available, https://www.who.int/news-room/questions-and-answers/item/artemisinin-resistance",
+      "threshold based on own judgement, no WHO guideline is available, https://www.who.int/news-room/questions-and-answers/item/artemisinin-resistance"
+    ],
+    "link": "threshold based on own judgement, no WHO guideline is available, https://www.who.int/news-room/questions-and-answers/item/artemisinin-resistance",
+    "messages": [
+      "This molecular marker is a candidate mutation for artemsisin partial resistance as classified by WHO. It is present at low prevalence in this region. Artemisinin might no longer be active.",
+      "This molecular marker is a candidate mutation for artemsisin partial resistance as classified by WHO. It is present at increased prevalence in this region. Artemisinin might no longer be active.",
+      "This molecular marker is a candidate mutation for artemsisin partial resistance as classified by WHO. It is present at very high prevalence in this region. There is a high chance that artemisinin is not active any more in this geographical region."
+    ],
+    "resistance": "",
+    "thresholds": [
+      0.3,
+      0.6,
+      1.0
+    ]
+  },
+  "kelch13|R539T": {
+    "antimalarial": "artemisinin",
+    "blurb": [
+      "Reduced sensitivity to artemisinin is expected."
+    ],
+    "classifications": [
+      "high"
+    ],
+    "guidelines": [
+      "https://www.who.int/news-room/questions-and-answers/item/artemisinin-resistance"
+    ],
+    "link": "https://www.who.int/news-room/questions-and-answers/item/artemisinin-resistance",
+    "messages": [
+      "This molecular marker is a validated mutation leading to artemsisin partial resistance (WHO, 2025)."
+    ],
+    "resistance": "",
+    "thresholds": [
+      1.0
+    ]
+  },
+  "kelch13|R561H": {
+    "antimalarial": "artemisinin",
+    "blurb": [
+      "Reduced sensitivity to artemisinin is expected."
+    ],
+    "classifications": [
+      "high"
+    ],
+    "guidelines": [
+      "https://www.who.int/news-room/questions-and-answers/item/artemisinin-resistance"
+    ],
+    "link": "https://www.who.int/news-room/questions-and-answers/item/artemisinin-resistance",
+    "messages": [
+      "This molecular marker is a validated mutation leading to artemsisin partial resistance (WHO, 2025)."
+    ],
+    "resistance": "",
+    "thresholds": [
+      1.0
+    ]
+  },
+  "kelch13|R622I": {
+    "antimalarial": "artemisinin",
+    "blurb": [
+      "Reduced sensitivity to artemisinin is expected."
+    ],
+    "classifications": [
+      "high"
+    ],
+    "guidelines": [
+      "https://www.who.int/news-room/questions-and-answers/item/artemisinin-resistance"
+    ],
+    "link": "https://www.who.int/news-room/questions-and-answers/item/artemisinin-resistance",
+    "messages": [
+      "This molecular marker is a validated mutation leading to artemsisin partial resistance (WHO, 2025)."
+    ],
+    "resistance": "",
+    "thresholds": [
+      1.0
+    ]
+  },
+  "kelch13|V568G": {
+    "antimalarial": "artemisinin",
+    "blurb": [
+      "Reduced sensitivity to artemisinin is likely.",
+      "Reduced sensitivity to artemisinin is likely.",
+      "Reduced sensitivity to artemisinin is likely."
+    ],
+    "classifications": [
+      "low",
+      "intermediate",
+      "high"
+    ],
+    "guidelines": [
+      "threshold based on own judgement, no WHO guideline is available, https://www.who.int/news-room/questions-and-answers/item/artemisinin-resistance",
+      "threshold based on own judgement, no WHO guideline is available, https://www.who.int/news-room/questions-and-answers/item/artemisinin-resistance",
+      "threshold based on own judgement, no WHO guideline is available, https://www.who.int/news-room/questions-and-answers/item/artemisinin-resistance"
+    ],
+    "link": "threshold based on own judgement, no WHO guideline is available, https://www.who.int/news-room/questions-and-answers/item/artemisinin-resistance",
+    "messages": [
+      "This molecular marker is a candidate mutation for artemsisin partial resistance as classified by WHO. It is present at low prevalence in this region. Artemisinin might no longer be active.",
+      "This molecular marker is a candidate mutation for artemsisin partial resistance as classified by WHO. It is present at increased prevalence in this region. Artemisinin might no longer be active.",
+      "This molecular marker is a candidate mutation for artemsisin partial resistance as classified by WHO. It is present at very high prevalence in this region. There is a high chance that artemisinin is not active any more in this geographical region."
+    ],
+    "resistance": "",
+    "thresholds": [
+      0.3,
+      0.6,
+      1.0
+    ]
+  },
+  "kelch13|Y493H": {
+    "antimalarial": "artemisinin",
+    "blurb": [
+      "Reduced sensitivity to artemisinin is expected."
+    ],
+    "classifications": [
+      "high"
+    ],
+    "guidelines": [
+      "https://www.who.int/news-room/questions-and-answers/item/artemisinin-resistance"
+    ],
+    "link": "https://www.who.int/news-room/questions-and-answers/item/artemisinin-resistance",
+    "messages": [
+      "This molecular marker is a validated mutation leading to artemsisin partial resistance (WHO, 2025)."
+    ],
+    "resistance": "",
+    "thresholds": [
+      1.0
+    ]
+  },
+  "mdr1|*": {
+    "antimalarial": "general",
+    "blurb": [
+      "Reduced antimalarial sensitivity is possible.",
+      "Reduced antimalarial sensitivity is possible.",
+      "Reduced antimalarial sensitivity is possible."
+    ],
+    "classifications": [
+      "low",
+      "intermediate",
+      "high"
+    ],
+    "guidelines": [
+      "threshold based on own judgement, no WHO guideline is available",
+      "threshold based on own judgement, no WHO guideline is available",
+      "threshold based on own judgement, no WHO guideline is available"
+    ],
+    "link": "threshold based on own judgement, no WHO guideline is available",
+    "messages": [
+      "This mutation has not been associated with resistance to any particular antimalarial and the prevalence of the mutation is low. ",
+      "This mutation has not been associated with resistance to any particular antimalarial but the  prevalence of the mutation is increased and could thereby impact the efficacy of antimalarials.",
+      "This mutation has not been associated with resistance to any particular antimalarial but the  prevalence of the mutation is high and could thereby impact the efficacy of antimalarials."
+    ],
+    "resistance": "",
+    "thresholds": [
+      0.3,
+      0.6,
+      1.0
+    ]
+  },
+  "mdr1|N86-Y184F-D1246": {
+    "antimalarial": "artemether-lumefantrine",
+    "blurb": [
+      "Reduced sensitivity to artemether-lumefantrine likely.",
+      "Reduced sensitivity to artemether-lumefantrine likely.",
+      "High risk for reduced sensitivity to artemether-lumefantrine."
+    ],
+    "classifications": [
+      "low",
+      "intermediate",
+      "high"
+    ],
+    "guidelines": [
+      "threshold based on own judgement, no WHO guideline is available",
+      "threshold based on own judgement, no WHO guideline is available",
+      "threshold based on own judgement, no WHO guideline is available"
+    ],
+    "link": "threshold based on own judgement, no WHO guideline is available",
+    "messages": [
+      "This haplotype has been associated with reduced artemether-lumefantrine efficacy but is present at very low prevalence in this geographical area.",
+      "This haplotype has been associated with reduced artemether-lumefantrine efficacy but is present at increased prevalence in this geographical area.",
+      "This haplotype has been associated with reduced artemether-lumefantrine efficacy but is present at very high prevalence in this geographical area."
+    ],
+    "resistance": "",
+    "thresholds": [
+      0.3,
+      0.6,
+      1.0
+    ]
+  },
+  "mdr1|N86Y": {
+    "antimalarial": "chloroquine",
+    "blurb": [
+      "Reduced chloroquine sensitivity is possible.",
+      "Reduced chloroquine sensitivity is expected.",
+      "High risk for reduced chloroquine sensitivity."
+    ],
+    "classifications": [
+      "low",
+      "intermediate",
+      "high"
+    ],
+    "guidelines": [
+      "threshold based on own judgement, no WHO guideline is available",
+      "threshold based on own judgement, no WHO guideline is available",
+      "threshold based on own judgement, no WHO guideline is available"
+    ],
+    "link": "threshold based on own judgement, no WHO guideline is available",
+    "messages": [
+      "This haplotype has been associated with reduced chloroquine efficacy but is present at very low prevalence in this geographical area.",
+      "This haplotype has been associated with reduced chloroquine efficacy but is present at increased prevalence in this geographical area.",
+      "This haplotype has been associated with reduced chloroquine efficacy but is present at very high prevalence in this geographical area."
+    ],
+    "resistance": "",
+    "thresholds": [
+      0.3,
+      0.6,
+      1.0
+    ]
+  },
+  "mdr1|N86Y-Y184F-D1246N": {
+    "antimalarial": "artesunate-amodiaquine",
+    "blurb": [
+      "Reduced artesunate-amodiaquine sensitivity possible. ",
+      "Reduced artesunate-amodiaquine sensitivity expected.",
+      "High risk for reduced artesunate-amodiaquine sensitivity."
+    ],
+    "classifications": [
+      "low",
+      "intermediate",
+      "high"
+    ],
+    "guidelines": [
+      "threshold based on own judgement, no WHO guideline is available",
+      "threshold based on own judgement, no WHO guideline is available",
+      "threshold based on own judgement, no WHO guideline is available"
+    ],
+    "link": "threshold based on own judgement, no WHO guideline is available",
+    "messages": [
+      "This haplotype has been associated with reduced artesunate-amodiaquine efficacy but is present at very low prevalence in this geographical area.",
+      "This haplotype has been associated with reduced artesunate-amodiaquine efficacy but is present at increased prevalence in this geographical area.",
+      "This haplotype has been associated with reduced artesunate-amodiaquine efficacy but is present at very high prevalence in this geographical area."
+    ],
+    "resistance": "",
+    "thresholds": [
+      0.3,
+      0.6,
+      1.0
+    ]
+  },
+  "mdr2|*": {
+    "antimalarial": "general",
+    "blurb": [
+      "Reduced antimalarial sensitivity is possible.",
+      "Reduced antimalarial sensitivity is possible.",
+      "Reduced antimalarial sensitivity is possible."
+    ],
+    "classifications": [
+      "low",
+      "intermediate",
+      "high"
+    ],
+    "guidelines": [
+      "threshold based on own judgement, no WHO guideline is available",
+      "threshold based on own judgement, no WHO guideline is available",
+      "threshold based on own judgement, no WHO guideline is available"
+    ],
+    "link": "threshold based on own judgement, no WHO guideline is available",
+    "messages": [
+      "This mutation has not been associated with resistance to any particular antimalarial and the prevalence of the mutation is low. ",
+      "This mutation has not been associated with resistance to any particular antimalarial but the  prevalence of the mutation is increased and could thereby impact the efficacy of antimalarials.",
+      "This mutation has not been associated with resistance to any particular antimalarial but the  prevalence of the mutation is high and could thereby impact the efficacy of antimalarials."
+    ],
+    "resistance": "",
+    "thresholds": [
+      0.3,
+      0.6,
+      1.0
+    ]
+  },
+  "mdr2|F423Y": {
+    "antimalarial": "pyrimethamine",
+    "blurb": [
+      "Reduced sensitivity to pyrimethamine is possible.",
+      "Reduced sensitivity to pyrimethamine is expected.",
+      "There is high risk for reduced sensitivity to pyrimthamine."
+    ],
+    "classifications": [
+      "low",
+      "intermediate",
+      "intermediate"
+    ],
+    "guidelines": [
+      "threshold based on own judgement, no WHO guideline is available",
+      "threshold based on own judgement, no WHO guideline is available",
+      "threshold based on own judgement, no WHO guideline is available"
+    ],
+    "link": "threshold based on own judgement, no WHO guideline is available",
+    "messages": [
+      "This mutation has been associated with reduced pyrimethamine resistance in-vitro. The mutation is present at low prevalence in this geographical area. ",
+      "This mutation has been associated with reduced pyrimethamine resistance in-vitro. The mutation is present at increased prevalence in this geographical area. Therefore, the efficacy of pyrimethamine might be reduced.",
+      "This mutation has been associated with reduced pyrimethamine resistance in-vitro. The mutation is present at high prevalence in this geographical area. Therefore, there is a high chance that the efficacy of pyrimethamine is reduced."
+    ],
+    "resistance": "",
+    "thresholds": [
+      0.3,
+      0.6,
+      1.0
+    ]
+  },
+  "psfr|A437G-K540E-A581G-N51I-C59R-S108N": {
+    "antimalarial": "sulfadoxine/pyrimethamine",
+    "blurb": [
+      "Full resistance to sulfadoxine/pyrimethamine.",
+      "Full resistance to sulfadoxine/pyrimethamine.",
+      "Full resistance to sulfadoxine/pyrimethamine."
+    ],
+    "classifications": [
+      "high",
+      "high",
+      "high"
+    ],
+    "guidelines": [
+      "threshold based on own judgement, WHO states SP can still be effective in SMC and IPTp even if high prevalence of mutations",
+      "threshold based on own judgement, WHO states SP can still be effective in SMC and IPTp even if high prevalence of mutations",
+      "threshold based on own judgement, WHO states SP can still be effective in SMC and IPTp even if high prevalence of mutations"
+    ],
+    "link": "threshold based on own judgement, WHO states SP can still be effective in SMC and IPTp even if high prevalence of mutations",
+    "messages": [
+      "Parasites with this haplotype combination are considered \"super resistant\" to sulfadoxine-pyrimethamine. The prevalence of this haplotype is low in this geographical area, still the spread of these parasites can strongly influence the efficacy of sulfadoxine/pyrimethamine in this geographical area.",
+      "Parasites with this haplotype combination are considered \"super resistant\" to sulfadoxine-pyrimethamine. The prevalence of this haplotype is increased in this geographical area, therefore the efficacy of sulfadoxine/pyrimethamine is considered low in this geographical area.",
+      "Parasites with this haplotype combination are considered \"super resistant\" to sulfadoxine-pyrimethamine. The prevalence of this haplotype is very high in this geographical area, therefore the efficacy of sulfadoxine/pyrimethamine is considered low in this geographical area."
+    ],
+    "resistance": "super",
+    "thresholds": [
+      0.3,
+      0.6,
+      1.0
+    ]
+  },
+  "psfr|A437G-K540E-N51I-C59R-S108N": {
+    "antimalarial": "sulfadoxine/pyrimethamine",
+    "blurb": [
+      "Full resistance to sulfadoxine/pyrimethamine.",
+      "Full resistance to sulfadoxine/pyrimethamine.",
+      "Full resistance to sulfadoxine/pyrimethamine."
+    ],
+    "classifications": [
+      "high",
+      "high",
+      "high"
+    ],
+    "guidelines": [
+      "threshold based on own judgement, WHO states SP can still be effective in SMC and IPTp even if high prevalence of mutations",
+      "threshold based on own judgement, WHO states SP can still be effective in SMC and IPTp even if high prevalence of mutations",
+      "threshold based on own judgement, WHO states SP can still be effective in SMC and IPTp even if high prevalence of mutations"
+    ],
+    "link": "threshold based on own judgement, WHO states SP can still be effective in SMC and IPTp even if high prevalence of mutations",
+    "messages": [
+      "Parasites with this haplotype combination are considered resistant to sulfadoxine-pyrimethamine. The prevalence of this haplotype is low in this geographical area, still the spread of these parasites can strongly influence the efficacy of sulfadoxine/pyrimethamine in this geographical area.",
+      "Parasites with this haplotype combination are considered resistant to sulfadoxine-pyrimethamine. The prevalence of this haplotype is increased in this geographical area, therefore the efficacy of sulfadoxine/pyrimethamine is considered low in this geographical area.",
+      "Parasites with this haplotype combination are considered resistant to sulfadoxine-pyrimethamine. The prevalence of this haplotype is very high in this geographical area, therefore the efficacy of sulfadoxine/pyrimethamine is considered very low in this geographical area."
+    ],
+    "resistance": "full",
+    "thresholds": [
+      0.3,
+      0.6,
+      1.0
+    ]
+  },
+  "psfr|A437G-K540E-N51I-C59R-S108N-I164L": {
+    "antimalarial": "sulfadoxine/pyrimethamine",
+    "blurb": [
+      "Full resistance to sulfadoxine/pyrimethamine.",
+      "Full resistance to sulfadoxine/pyrimethamine.",
+      "Full resistance to sulfadoxine/pyrimethamine."
+    ],
+    "classifications": [
+      "high",
+      "high",
+      "high"
+    ],
+    "guidelines": [
+      "threshold based on own judgement, WHO states SP can still be effective in SMC and IPTp even if high prevalence of mutations",
+      "threshold based on own judgement, WHO states SP can still be effective in SMC and IPTp even if high prevalence of mutations",
+      "threshold based on own judgement, WHO states SP can still be effective in SMC and IPTp even if high prevalence of mutations"
+    ],
+    "link": "threshold based on own judgement, WHO states SP can still be effective in SMC and IPTp even if high prevalence of mutations",
+    "messages": [
+      "Parasites with this haplotype combination are considered \"super resistant\" to sulfadoxine-pyrimethamine. The prevalence of this haplotype is low in this geographical area, still the spread of these parasites can strongly influence the efficacy of sulfadoxine/pyrimethamine in this geographical area.",
+      "Parasites with this haplotype combination are considered \"super resistant\" to sulfadoxine-pyrimethamine. The prevalence of this haplotype is increased in this geographical area, therefore the efficacy of sulfadoxine/pyrimethamine is considered low in this geographical area.",
+      "Parasites with this haplotype combination are considered \"super resistant\" to sulfadoxine-pyrimethamine. The prevalence of this haplotype is very high in this geographical area, therefore the efficacy of sulfadoxine/pyrimethamine is considered low in this geographical area."
+    ],
+    "resistance": "super",
+    "thresholds": [
+      0.3,
+      0.6,
+      1.0
+    ]
+  },
+  "psfr|A437G-N51I-C59R-S108N": {
+    "antimalarial": "sulfadoxine/pyrimethamine",
+    "blurb": [
+      "Sulfdaxine/pyrimethamine resistance is low.",
+      "Sulfdaxine/pyrimethamine resistance expected.",
+      "High probability for partial resistance to sulfadoxine/pyrimethamine."
+    ],
+    "classifications": [
+      "low",
+      "intermediate",
+      "intermediate"
+    ],
+    "guidelines": [
+      "threshold based on own judgement, WHO states SP can still be effective in SMC and IPTp even if high prevalence of mutations",
+      "threshold based on own judgement, WHO states SP can still be effective in SMC and IPTp even if high prevalence of mutations",
+      "threshold based on own judgement, WHO states SP can still be effective in SMC and IPTp even if high prevalence of mutations"
+    ],
+    "link": "threshold based on own judgement, WHO states SP can still be effective in SMC and IPTp even if high prevalence of mutations",
+    "messages": [
+      "Parasites with this haplotype combination are considered partial resistant to sulfadoxine-pyrimethamine. The prevalence of this haplotype is low in this geographical area.",
+      "Parasites with this haplotype combination are considered partial resistant to sulfadoxine-pyrimethamine. The prevalence of this haplotype is increased in this geographical area. SP used for seasonal malaria chemoprevention (SMC) and IPTp in pregnancy could be ineffective.",
+      "Parasites with this haplotype combination are considered partial resistant to sulfadoxine-pyrimethamine. The prevalence of this haplotype is increased in this geographical area. SP used for seasonal malaria chemoprevention (SMC) and IPTp in pregnancy could be ineffective."
+    ],
+    "resistance": "partial",
+    "thresholds": [
+      0.3,
+      0.6,
+      1.0
+    ]
+  }
+}

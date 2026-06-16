@@ -1,0 +1,84 @@
+{
+  "site": "Nigeria",
+  "timeline": {
+    "dataInterval": 365,
+    "selectionCount": 1,
+    "startIndex": 2192,
+    "timeTickInterval": "year"
+  },
+  "layouts": {
+    "single_pathogen": [ {
+        "id": "single",
+        "name": "Single",
+        "layout_file": "single.json"
+      } ]
+  },
+  "diseases": {
+    "malaria": { "name": "Malaria Mutations" }
+  },
+  "sets": {
+    "source": {
+      "Sequencing": "Aniebo I., unpublished data"
+    },
+    "hrp_mutation": {
+      "hrp2": "hrp2 Deletion",
+      "hrp3": "hrp3 Deletion"
+    },
+    "species": {
+      "pf": "P.falciparum",
+      "pm": "P.malariae",
+      "po": "P.ovale",
+      "pv": "P.vivax",
+      "pk": "P.knowlesi"
+    },
+    "species_exclusive": {
+      "pf": "P.falciparum only",
+      "pm": "P.malariae only",
+      "po": "P.ovale only",
+      "pv": "P.vivax only",
+      "pk": "P.knowlesi only",
+      "pf, pm": "P.falciparum, P.malariae",
+      "pf, po": "P.falciparum, P.ovale",
+      "pf, pm, po": "P.falciparum, P.malariae, P.ovale"
+    },
+    "geo": {
+      "AB": "Abia",
+      "AD": "Adamawa",
+      "AK": "Akwa Ibom",
+      "AN": "Anambra",
+      "BA": "Bauchi",
+      "BY": "Bayelsa",
+      "BE": "Benue",
+      "BO": "Borno",
+      "CR": "Cross River",
+      "DE": "Delta",
+      "EB": "Ebonyi",
+      "ED": "Edo",
+      "EK": "Ekiti",
+      "EN": "Enugu",
+      "FC": "FCT",
+      "GO": "Gombe",
+      "IM": "Imo",
+      "JI": "Jigawa",
+      "KD": "Kaduna",
+      "KN": "Kano",
+      "KT": "Katsina",
+      "KE": "Kebbi",
+      "KO": "Kogi",
+      "KW": "Kwara",
+      "LA": "Lagos",
+      "NA": "Nasarawa",
+      "NI": "Niger",
+      "OG": "Ogun",
+      "ON": "Ondo",
+      "OS": "Osun",
+      "OY": "Oyo",
+      "PL": "Plateau",
+      "RI": "Rivers",
+      "SO": "Sokoto",
+      "TA": "Taraba",
+      "YO": "Yobe",
+      "ZA": "Zamfara"
+    }
+  }
+}

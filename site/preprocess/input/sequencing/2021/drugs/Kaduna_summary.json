@@ -1,0 +1,843 @@
+[
+    {
+        "sample": "Kano_Kaduna_A2J1M",
+        "total_reads": 3904,
+        "min_reads_threshold": 20,
+        "sample_MOI": 2,
+        "Hw": 0.199493,
+        "haplotypes": [
+            {
+                "Haplotype_ID": "HAP1",
+                "Count": 2724,
+                "Frequency": 0.714961,
+                "MOI_contribution": 1.429921
+            },
+            {
+                "Haplotype_ID": "HAP2",
+                "Count": 1086,
+                "Frequency": 0.285039,
+                "MOI_contribution": 0.570079
+            }
+        ]
+    },
+    {
+        "sample": "Kano_Kaduna_C6Z0I",
+        "total_reads": 385,
+        "min_reads_threshold": 3,
+        "sample_MOI": 1,
+        "Hw": 0.463254,
+        "haplotypes": [
+            {
+                "Haplotype_ID": "HAP1",
+                "Count": 351,
+                "Frequency": 1.0,
+                "MOI_contribution": 1.0
+            }
+        ]
+    },
+    {
+        "sample": "Kano_Kaduna_C7N8F",
+        "total_reads": 838,
+        "min_reads_threshold": 5,
+        "sample_MOI": 2,
+        "Hw": 0.155668,
+        "haplotypes": [
+            {
+                "Haplotype_ID": "HAP1",
+                "Count": 421,
+                "Frequency": 0.509685,
+                "MOI_contribution": 1.01937
+            },
+            {
+                "Haplotype_ID": "HAP2",
+                "Count": 405,
+                "Frequency": 0.490315,
+                "MOI_contribution": 0.98063
+            }
+        ]
+    },
+    {
+        "sample": "Kano_Kaduna_F0A2H",
+        "total_reads": 479,
+        "min_reads_threshold": 3,
+        "sample_MOI": 3,
+        "Hw": 0.767511,
+        "haplotypes": [
+            {
+                "Haplotype_ID": "HAP1",
+                "Count": 328,
+                "Frequency": 0.725664,
+                "MOI_contribution": 2.176991
+            },
+            {
+                "Haplotype_ID": "HAP2",
+                "Count": 96,
+                "Frequency": 0.212389,
+                "MOI_contribution": 0.637168
+            },
+            {
+                "Haplotype_ID": "HAP3",
+                "Count": 28,
+                "Frequency": 0.061947,
+                "MOI_contribution": 0.185841
+            }
+        ]
+    },
+    {
+        "sample": "Kano_Kaduna_F2Z6N",
+        "total_reads": 2477,
+        "min_reads_threshold": 13,
+        "sample_MOI": 1,
+        "Hw": 0.363562,
+        "haplotypes": [
+            {
+                "Haplotype_ID": "HAP1",
+                "Count": 2464,
+                "Frequency": 1.0,
+                "MOI_contribution": 1.0
+            }
+        ]
+    },
+    {
+        "sample": "Kano_Kaduna_F9D8Z",
+        "total_reads": 3439,
+        "min_reads_threshold": 18,
+        "sample_MOI": 2,
+        "Hw": 0.615729,
+        "haplotypes": [
+            {
+                "Haplotype_ID": "HAP1",
+                "Count": 3023,
+                "Frequency": 0.902388,
+                "MOI_contribution": 1.804776
+            },
+            {
+                "Haplotype_ID": "HAP2",
+                "Count": 327,
+                "Frequency": 0.097612,
+                "MOI_contribution": 0.195224
+            }
+        ]
+    },
+    {
+        "sample": "Kano_Kaduna_H1U6J",
+        "total_reads": 2980,
+        "min_reads_threshold": 15,
+        "sample_MOI": 3,
+        "Hw": 0.247379,
+        "haplotypes": [
+            {
+                "Haplotype_ID": "HAP1",
+                "Count": 2020,
+                "Frequency": 0.723496,
+                "MOI_contribution": 2.170487
+            },
+            {
+                "Haplotype_ID": "HAP2",
+                "Count": 632,
+                "Frequency": 0.226361,
+                "MOI_contribution": 0.679083
+            },
+            {
+                "Haplotype_ID": "HAP3",
+                "Count": 140,
+                "Frequency": 0.050143,
+                "MOI_contribution": 0.15043
+            }
+        ]
+    },
+    {
+        "sample": "Kano_Kaduna_H3V3J",
+        "total_reads": 2255,
+        "min_reads_threshold": 12,
+        "sample_MOI": 1,
+        "Hw": 0.000887,
+        "haplotypes": [
+            {
+                "Haplotype_ID": "HAP1",
+                "Count": 2254,
+                "Frequency": 1.0,
+                "MOI_contribution": 1.0
+            }
+        ]
+    },
+    {
+        "sample": "Kano_Kaduna_J2G8Z",
+        "total_reads": 658,
+        "min_reads_threshold": 4,
+        "sample_MOI": 2,
+        "Hw": 0.968115,
+        "haplotypes": [
+            {
+                "Haplotype_ID": "HAP1",
+                "Count": 536,
+                "Frequency": 0.818321,
+                "MOI_contribution": 1.636641
+            },
+            {
+                "Haplotype_ID": "HAP2",
+                "Count": 119,
+                "Frequency": 0.181679,
+                "MOI_contribution": 0.363359
+            }
+        ]
+    },
+    {
+        "sample": "Kano_Kaduna_M0G2U",
+        "total_reads": 5740,
+        "min_reads_threshold": 29,
+        "sample_MOI": 3,
+        "Hw": 0.758002,
+        "haplotypes": [
+            {
+                "Haplotype_ID": "HAP1",
+                "Count": 3795,
+                "Frequency": 0.680108,
+                "MOI_contribution": 2.040323
+            },
+            {
+                "Haplotype_ID": "HAP2",
+                "Count": 1445,
+                "Frequency": 0.258961,
+                "MOI_contribution": 0.776882
+            },
+            {
+                "Haplotype_ID": "HAP3",
+                "Count": 340,
+                "Frequency": 0.060932,
+                "MOI_contribution": 0.182796
+            }
+        ]
+    },
+    {
+        "sample": "Kano_Kaduna_M3Z9Y",
+        "total_reads": 4697,
+        "min_reads_threshold": 24,
+        "sample_MOI": 1,
+        "Hw": 0.690107,
+        "haplotypes": [
+            {
+                "Haplotype_ID": "HAP1",
+                "Count": 3888,
+                "Frequency": 1.0,
+                "MOI_contribution": 1.0
+            }
+        ]
+    },
+    {
+        "sample": "Kano_Kaduna_M4W5S",
+        "total_reads": 2784,
+        "min_reads_threshold": 14,
+        "sample_MOI": 3,
+        "Hw": 0.502837,
+        "haplotypes": [
+            {
+                "Haplotype_ID": "HAP1",
+                "Count": 1946,
+                "Frequency": 0.706609,
+                "MOI_contribution": 2.119826
+            },
+            {
+                "Haplotype_ID": "HAP2",
+                "Count": 740,
+                "Frequency": 0.2687,
+                "MOI_contribution": 0.8061
+            },
+            {
+                "Haplotype_ID": "HAP3",
+                "Count": 68,
+                "Frequency": 0.024691,
+                "MOI_contribution": 0.074074
+            }
+        ]
+    },
+    {
+        "sample": "Kano_Kaduna_N0B0O",
+        "total_reads": 5796,
+        "min_reads_threshold": 29,
+        "sample_MOI": 3,
+        "Hw": 0.253788,
+        "haplotypes": [
+            {
+                "Haplotype_ID": "HAP1",
+                "Count": 2754,
+                "Frequency": 0.521393,
+                "MOI_contribution": 1.56418
+            },
+            {
+                "Haplotype_ID": "HAP2",
+                "Count": 1749,
+                "Frequency": 0.331125,
+                "MOI_contribution": 0.993374
+            },
+            {
+                "Haplotype_ID": "HAP3",
+                "Count": 779,
+                "Frequency": 0.147482,
+                "MOI_contribution": 0.442446
+            }
+        ]
+    },
+    {
+        "sample": "Kano_Kaduna_O3G9H",
+        "total_reads": 10572,
+        "min_reads_threshold": 53,
+        "sample_MOI": 3,
+        "Hw": 0.574885,
+        "haplotypes": [
+            {
+                "Haplotype_ID": "HAP1",
+                "Count": 6350,
+                "Frequency": 0.660358,
+                "MOI_contribution": 1.981073
+            },
+            {
+                "Haplotype_ID": "HAP2",
+                "Count": 1697,
+                "Frequency": 0.176477,
+                "MOI_contribution": 0.52943
+            },
+            {
+                "Haplotype_ID": "HAP3",
+                "Count": 1569,
+                "Frequency": 0.163166,
+                "MOI_contribution": 0.489497
+            }
+        ]
+    },
+    {
+        "sample": "Kano_Kaduna_O5H3E",
+        "total_reads": 1911,
+        "min_reads_threshold": 10,
+        "sample_MOI": 4,
+        "Hw": 0.569665,
+        "haplotypes": [
+            {
+                "Haplotype_ID": "HAP1",
+                "Count": 911,
+                "Frequency": 0.497542,
+                "MOI_contribution": 1.990169
+            },
+            {
+                "Haplotype_ID": "HAP2",
+                "Count": 399,
+                "Frequency": 0.217914,
+                "MOI_contribution": 0.871655
+            },
+            {
+                "Haplotype_ID": "HAP3",
+                "Count": 346,
+                "Frequency": 0.188968,
+                "MOI_contribution": 0.755871
+            },
+            {
+                "Haplotype_ID": "HAP4",
+                "Count": 175,
+                "Frequency": 0.095576,
+                "MOI_contribution": 0.382305
+            }
+        ]
+    },
+    {
+        "sample": "Kano_Kaduna_Q0R6O",
+        "total_reads": 0,
+        "min_reads_threshold": 0,
+        "sample_MOI": 1,
+        "Hw": null,
+        "haplotypes": []
+    },
+    {
+        "sample": "Kano_Kaduna_Q4R6S",
+        "total_reads": 0,
+        "min_reads_threshold": 0,
+        "sample_MOI": 1,
+        "Hw": null,
+        "haplotypes": []
+    },
+    {
+        "sample": "Kano_Kaduna_Q7Y9G",
+        "total_reads": 7423,
+        "min_reads_threshold": 38,
+        "sample_MOI": 5,
+        "Hw": 0.488748,
+        "haplotypes": [
+            {
+                "Haplotype_ID": "HAP1",
+                "Count": 3288,
+                "Frequency": 0.464014,
+                "MOI_contribution": 2.320068
+            },
+            {
+                "Haplotype_ID": "HAP2",
+                "Count": 2558,
+                "Frequency": 0.360994,
+                "MOI_contribution": 1.804968
+            },
+            {
+                "Haplotype_ID": "HAP3",
+                "Count": 829,
+                "Frequency": 0.116991,
+                "MOI_contribution": 0.584956
+            },
+            {
+                "Haplotype_ID": "HAP4",
+                "Count": 240,
+                "Frequency": 0.03387,
+                "MOI_contribution": 0.169348
+            },
+            {
+                "Haplotype_ID": "HAP5",
+                "Count": 171,
+                "Frequency": 0.024132,
+                "MOI_contribution": 0.12066
+            }
+        ]
+    },
+    {
+        "sample": "Kano_Kaduna_R0A7Y",
+        "total_reads": 3864,
+        "min_reads_threshold": 20,
+        "sample_MOI": 2,
+        "Hw": 0.68471,
+        "haplotypes": [
+            {
+                "Haplotype_ID": "HAP1",
+                "Count": 2794,
+                "Frequency": 0.723834,
+                "MOI_contribution": 1.447668
+            },
+            {
+                "Haplotype_ID": "HAP2",
+                "Count": 1066,
+                "Frequency": 0.276166,
+                "MOI_contribution": 0.552332
+            }
+        ]
+    },
+    {
+        "sample": "Kano_Kaduna_R0U1N",
+        "total_reads": 14553,
+        "min_reads_threshold": 73,
+        "sample_MOI": 3,
+        "Hw": 0.169351,
+        "haplotypes": [
+            {
+                "Haplotype_ID": "HAP1",
+                "Count": 13570,
+                "Frequency": 0.952348,
+                "MOI_contribution": 2.857043
+            },
+            {
+                "Haplotype_ID": "HAP2",
+                "Count": 368,
+                "Frequency": 0.025826,
+                "MOI_contribution": 0.077479
+            },
+            {
+                "Haplotype_ID": "HAP3",
+                "Count": 311,
+                "Frequency": 0.021826,
+                "MOI_contribution": 0.065478
+            }
+        ]
+    },
+    {
+        "sample": "Kano_Kaduna_R9X0Y",
+        "total_reads": 8180,
+        "min_reads_threshold": 41,
+        "sample_MOI": 3,
+        "Hw": 0.396762,
+        "haplotypes": [
+            {
+                "Haplotype_ID": "HAP1",
+                "Count": 6799,
+                "Frequency": 0.953978,
+                "MOI_contribution": 2.861933
+            },
+            {
+                "Haplotype_ID": "HAP2",
+                "Count": 171,
+                "Frequency": 0.023993,
+                "MOI_contribution": 0.07198
+            },
+            {
+                "Haplotype_ID": "HAP3",
+                "Count": 157,
+                "Frequency": 0.022029,
+                "MOI_contribution": 0.066087
+            }
+        ]
+    },
+    {
+        "sample": "Kano_Kaduna_S1S0M",
+        "total_reads": 201,
+        "min_reads_threshold": 3,
+        "sample_MOI": 2,
+        "Hw": 0.0546,
+        "haplotypes": [
+            {
+                "Haplotype_ID": "HAP1",
+                "Count": 180,
+                "Frequency": 0.909091,
+                "MOI_contribution": 1.818182
+            },
+            {
+                "Haplotype_ID": "HAP2",
+                "Count": 18,
+                "Frequency": 0.090909,
+                "MOI_contribution": 0.181818
+            }
+        ]
+    },
+    {
+        "sample": "Kano_Kaduna_S3D7G",
+        "total_reads": 982,
+        "min_reads_threshold": 5,
+        "sample_MOI": 3,
+        "Hw": 0.499238,
+        "haplotypes": [
+            {
+                "Haplotype_ID": "HAP1",
+                "Count": 467,
+                "Frequency": 0.552663,
+                "MOI_contribution": 1.657988
+            },
+            {
+                "Haplotype_ID": "HAP2",
+                "Count": 306,
+                "Frequency": 0.36213,
+                "MOI_contribution": 1.086391
+            },
+            {
+                "Haplotype_ID": "HAP3",
+                "Count": 72,
+                "Frequency": 0.085207,
+                "MOI_contribution": 0.255621
+            }
+        ]
+    },
+    {
+        "sample": "Kano_Kaduna_S5A1Y",
+        "total_reads": 6234,
+        "min_reads_threshold": 32,
+        "sample_MOI": 4,
+        "Hw": 0.738001,
+        "haplotypes": [
+            {
+                "Haplotype_ID": "HAP1",
+                "Count": 2825,
+                "Frequency": 0.469659,
+                "MOI_contribution": 1.878637
+            },
+            {
+                "Haplotype_ID": "HAP2",
+                "Count": 2525,
+                "Frequency": 0.419784,
+                "MOI_contribution": 1.679135
+            },
+            {
+                "Haplotype_ID": "HAP3",
+                "Count": 532,
+                "Frequency": 0.088446,
+                "MOI_contribution": 0.353782
+            },
+            {
+                "Haplotype_ID": "HAP4",
+                "Count": 133,
+                "Frequency": 0.022111,
+                "MOI_contribution": 0.088446
+            }
+        ]
+    },
+    {
+        "sample": "Kano_Kaduna_S9D6L",
+        "total_reads": 6362,
+        "min_reads_threshold": 32,
+        "sample_MOI": 2,
+        "Hw": 0.455173,
+        "haplotypes": [
+            {
+                "Haplotype_ID": "HAP1",
+                "Count": 5065,
+                "Frequency": 0.960736,
+                "MOI_contribution": 1.921472
+            },
+            {
+                "Haplotype_ID": "HAP2",
+                "Count": 207,
+                "Frequency": 0.039264,
+                "MOI_contribution": 0.078528
+            }
+        ]
+    },
+    {
+        "sample": "Kano_Kaduna_U0K2H",
+        "total_reads": 6567,
+        "min_reads_threshold": 33,
+        "sample_MOI": 3,
+        "Hw": 0.273346,
+        "haplotypes": [
+            {
+                "Haplotype_ID": "HAP1",
+                "Count": 5087,
+                "Frequency": 0.810032,
+                "MOI_contribution": 2.430096
+            },
+            {
+                "Haplotype_ID": "HAP2",
+                "Count": 1160,
+                "Frequency": 0.184713,
+                "MOI_contribution": 0.55414
+            },
+            {
+                "Haplotype_ID": "HAP3",
+                "Count": 33,
+                "Frequency": 0.005255,
+                "MOI_contribution": 0.015764
+            }
+        ]
+    },
+    {
+        "sample": "Kano_Kaduna_V7N4U",
+        "total_reads": 2031,
+        "min_reads_threshold": 11,
+        "sample_MOI": 4,
+        "Hw": 0.597528,
+        "haplotypes": [
+            {
+                "Haplotype_ID": "HAP1",
+                "Count": 1300,
+                "Frequency": 0.654253,
+                "MOI_contribution": 2.617011
+            },
+            {
+                "Haplotype_ID": "HAP2",
+                "Count": 378,
+                "Frequency": 0.190237,
+                "MOI_contribution": 0.760946
+            },
+            {
+                "Haplotype_ID": "HAP3",
+                "Count": 297,
+                "Frequency": 0.149472,
+                "MOI_contribution": 0.597886
+            },
+            {
+                "Haplotype_ID": "HAP4",
+                "Count": 12,
+                "Frequency": 0.006039,
+                "MOI_contribution": 0.024157
+            }
+        ]
+    },
+    {
+        "sample": "Kano_Kaduna_W0U9B",
+        "total_reads": 7187,
+        "min_reads_threshold": 36,
+        "sample_MOI": 4,
+        "Hw": 0.580996,
+        "haplotypes": [
+            {
+                "Haplotype_ID": "HAP1",
+                "Count": 5028,
+                "Frequency": 0.740501,
+                "MOI_contribution": 2.962003
+            },
+            {
+                "Haplotype_ID": "HAP2",
+                "Count": 1481,
+                "Frequency": 0.218115,
+                "MOI_contribution": 0.872459
+            },
+            {
+                "Haplotype_ID": "HAP3",
+                "Count": 160,
+                "Frequency": 0.023564,
+                "MOI_contribution": 0.094256
+            },
+            {
+                "Haplotype_ID": "HAP4",
+                "Count": 121,
+                "Frequency": 0.01782,
+                "MOI_contribution": 0.071281
+            }
+        ]
+    },
+    {
+        "sample": "Kano_Kaduna_X1P8W",
+        "total_reads": 4834,
+        "min_reads_threshold": 25,
+        "sample_MOI": 3,
+        "Hw": 0.281787,
+        "haplotypes": [
+            {
+                "Haplotype_ID": "HAP1",
+                "Count": 2778,
+                "Frequency": 0.596906,
+                "MOI_contribution": 1.790718
+            },
+            {
+                "Haplotype_ID": "HAP2",
+                "Count": 967,
+                "Frequency": 0.207778,
+                "MOI_contribution": 0.623335
+            },
+            {
+                "Haplotype_ID": "HAP3",
+                "Count": 909,
+                "Frequency": 0.195316,
+                "MOI_contribution": 0.585948
+            }
+        ]
+    },
+    {
+        "sample": "Kano_Kaduna_X5C3I",
+        "total_reads": 5692,
+        "min_reads_threshold": 29,
+        "sample_MOI": 2,
+        "Hw": 0.266662,
+        "haplotypes": [
+            {
+                "Haplotype_ID": "HAP1",
+                "Count": 2878,
+                "Frequency": 0.534051,
+                "MOI_contribution": 1.068102
+            },
+            {
+                "Haplotype_ID": "HAP2",
+                "Count": 2511,
+                "Frequency": 0.465949,
+                "MOI_contribution": 0.931898
+            }
+        ]
+    },
+    {
+        "sample": "Kano_Kaduna_X6U9I",
+        "total_reads": 987,
+        "min_reads_threshold": 5,
+        "sample_MOI": 3,
+        "Hw": 0.123276,
+        "haplotypes": [
+            {
+                "Haplotype_ID": "HAP1",
+                "Count": 585,
+                "Frequency": 0.63587,
+                "MOI_contribution": 1.907609
+            },
+            {
+                "Haplotype_ID": "HAP2",
+                "Count": 298,
+                "Frequency": 0.323913,
+                "MOI_contribution": 0.971739
+            },
+            {
+                "Haplotype_ID": "HAP3",
+                "Count": 37,
+                "Frequency": 0.040217,
+                "MOI_contribution": 0.120652
+            }
+        ]
+    },
+    {
+        "sample": "Kano_Kaduna_X9Q4C",
+        "total_reads": 5525,
+        "min_reads_threshold": 28,
+        "sample_MOI": 2,
+        "Hw": 0.24356,
+        "haplotypes": [
+            {
+                "Haplotype_ID": "HAP1",
+                "Count": 2830,
+                "Frequency": 0.53915,
+                "MOI_contribution": 1.078301
+            },
+            {
+                "Haplotype_ID": "HAP2",
+                "Count": 2419,
+                "Frequency": 0.46085,
+                "MOI_contribution": 0.921699
+            }
+        ]
+    },
+    {
+        "sample": "Kano_Kaduna_Y0X9G",
+        "total_reads": 2302,
+        "min_reads_threshold": 12,
+        "sample_MOI": 2,
+        "Hw": 0.515752,
+        "haplotypes": [
+            {
+                "Haplotype_ID": "HAP1",
+                "Count": 1949,
+                "Frequency": 0.879116,
+                "MOI_contribution": 1.758232
+            },
+            {
+                "Haplotype_ID": "HAP2",
+                "Count": 268,
+                "Frequency": 0.120884,
+                "MOI_contribution": 0.241768
+            }
+        ]
+    },
+    {
+        "sample": "Kano_Kaduna_Y3W9I",
+        "total_reads": 8793,
+        "min_reads_threshold": 44,
+        "sample_MOI": 3,
+        "Hw": 0.232435,
+        "haplotypes": [
+            {
+                "Haplotype_ID": "HAP1",
+                "Count": 7427,
+                "Frequency": 0.895683,
+                "MOI_contribution": 2.687048
+            },
+            {
+                "Haplotype_ID": "HAP2",
+                "Count": 810,
+                "Frequency": 0.097685,
+                "MOI_contribution": 0.293054
+            },
+            {
+                "Haplotype_ID": "HAP3",
+                "Count": 55,
+                "Frequency": 0.006633,
+                "MOI_contribution": 0.019899
+            }
+        ]
+    },
+    {
+        "sample": "Kano_Kaduna_Z1F4K",
+        "total_reads": 6176,
+        "min_reads_threshold": 31,
+        "sample_MOI": 4,
+        "Hw": 0.204986,
+        "haplotypes": [
+            {
+                "Haplotype_ID": "HAP1",
+                "Count": 2879,
+                "Frequency": 0.479673,
+                "MOI_contribution": 1.918694
+            },
+            {
+                "Haplotype_ID": "HAP2",
+                "Count": 2319,
+                "Frequency": 0.386371,
+                "MOI_contribution": 1.545485
+            },
+            {
+                "Haplotype_ID": "HAP3",
+                "Count": 519,
+                "Frequency": 0.086471,
+                "MOI_contribution": 0.345885
+            },
+            {
+                "Haplotype_ID": "HAP4",
+                "Count": 285,
+                "Frequency": 0.047484,
+                "MOI_contribution": 0.189937
+            }
+        ]
+    }
+]

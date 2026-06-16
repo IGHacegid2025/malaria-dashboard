@@ -1,0 +1,36 @@
+{
+  "title": "Malaria Mutations",
+  "size": "a4",
+  "orientation": "landscape",
+  "pages":
+  [
+    { "head": "Mutation Prevalences",
+      "columns": [ { "children": [ "prevalence-table" ] } ] },
+    { "head": "Parasite Clones and Others",
+      "columns": [
+        {
+          "width": 2,
+          "children": [ [ [ "moi-distribution/xl", "average-moi/lg" ], "plasmodium-species/lg" ], "sm-prevalence-table/xs" ]
+        },
+        {
+          "width": 1,
+          "children": [ "datasource" ]
+        }
+      ]
+    },
+    {
+      "head": "Malaria Prevalence in Children",
+      "columns": [
+        {
+          "width": 2,
+          "children": [ "map/2xl" ]
+        }, {
+          "width": 1,
+          "children": [ "map-readout" ]
+        }
+      ]
+    },
+    { "head": "Funding Information",
+      "columns": [ { "children": [ "textbox" ] } ] }
+  ]
+}

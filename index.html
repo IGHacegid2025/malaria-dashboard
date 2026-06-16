@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="/assets/icon.png">
+  <!--
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  -->
+
+  <title> Malaria Dashboard </title>
+
+  <!-- temporarily disabled while debugging some other font bits
+  <script src="octet/opentype.min.js"></script>
+  -->
+
+  <!--
+  <script src="octet/sketch.js"></script>
+  <script src="octet/opentype.min.js"></script>
+  -->
+  <!--
+  <script src="SoftNum.js"></script>
+  <script src="SimpleSVG.js"></script>
+  -->
+  <script type="module" crossorigin src="/assets/index-CmSGdc4x.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index.css">
+</head>
+
+<body>
+  <div id="flex-upper-backdrop">
+    <div id="flex-upper">
+      <div class="flex home-nav multi-nav hidden">
+        <div class="flex-col">
+          <div class="nav-disease">All pathogens</p></div>
+          <p class="nav-selection">
+            <span class="nav-site"></span>,
+            <span class="nav-daterange"></span>
+          </p>
+        </div>
+      </div>
+    
+      <div class="flex home-nav single-nav hidden">
+        <button type="button" class="home-button">
+          <span class="icon"></span>
+          <span class="visually-hidden">Back</span>
+        </button>
+        <div class="flex-col">
+          <div class="top-row">
+            <p class="nav-disease"></p>
+          </div>
+          <p class="nav-selection">
+            <span class="nav-site"></span>,
+            <span class="nav-daterange"></span>
+          </p>
+        </div>
+      </div>
+      <canvas id="timeline"> </canvas>
+      <input type="text" id="date-range-picker" /> <!-- must be an input for daterange picker to work -->
+      <div id="header-geo">
+        <div class="dropdown-container">
+          <button type="button" id="sitemap" aria-expanded="false" aria-controls="site-dropdown"></button>
+          <div class="dropdown" id="site-dropdown" tabindex="-1"></div>
+        </div>
+        <div id="minimap-container">
+          <button type="button" id="minimap" aria-expanded="false" aria-controls="minimap-dropdown"></button>
+          <div class="dropdown" id="minimap-dropdown" tabindex="-1"></div>
+        </div>
+        <div class="site-logo-title">
+          <div id="client-logo"></div>
+          <div id="logo"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="toggles-container">
+  <div class="fixed-toggles">
+      <div class="test-toggle" id="test-block">
+        <h3 style="visibility: hidden;">Test results</h3>
+      </div>
+
+      <div class="test-toggle" id="case-status-block">
+        <h3 style="visibility: hidden;">Case Status</h3>
+      </div>
+      
+      <div class="filters" id="filter-time">
+      </div>
+      <div class="page-toggle-container" id="page-time"></div>
+
+    </div>
+  </div>
+
+  <div id="grid-backdrop">
+  <div id="outer">
+    <div id="flex-lower">
+      <!-- this is filled by lookout.js with the different views -->
+      <div id="home-container" class="column-container" style="display: none;">
+        <div class="flex-col">
+          <div class="flex main">
+          </div>
+        </div>
+      </div>
+
+      <!-- template for single pathogens -->
+      <div class="column-container single-container">
+        <div class="flex-col">
+          <div class="main">
+          </div>
+        </div>
+      </div>
+
+      <!-- unknowns -->
+      <div id="unknowns-container" class="column-container">
+        <div class="flex-col">
+          <div class="flex home-nav">
+            <button type="button" class="home-button">
+              <span class="icon"></span>
+              <span class="visually-hidden">Back</span>
+            </button>
+            <div class="flex-col">
+              <p class="nav-disease">Unknowns</p>
+              <p class="nav-selection">
+                <span class="nav-site"></span>,
+                <span class="nav-daterange"></span>
+              </p>
+            </div>
+          </div>
+          <div class="flex">
+            <div class="flex-col">
+              <h2>Unknowns</h2>
+              <div id="unknowns-table-container"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  <section id="templates" style="display: none;">
+    
+    <div class="prevalence-table-container">
+      <table>
+        <thead><tr></tr></thead>
+        <tbody id="table-body">
+        </tbody>
+      </table>
+    </div>
+
+     
+    <div class="sm-prevalence-table prevalence-table-container">
+      <table>
+        <thead>
+          <tr></tr>
+        </thead>
+        <tbody id="table-body">
+        </tbody>
+      </table>
+    </div>
+
+   
+    <div class="percent-header flex">
+      <h3></h3>
+      <p><span class="rec-count"></span>% of records</p>
+    </div>
+    <div class="lines"></div>
+    <svg class="chart-svg donut-chart chart" width="100%" height="100%" viewbox="0 0 100 100">
+      <g style="transform: translate(50%, 50%);">
+        <path class="sector" data-disease="" d=""></path>
+      </g>
+    </svg>
+
+    <svg class="chart-svg gauge-chart chart" width="100%" height="100%" viewbox="0 0 100 100">
+      <g style="transform: translate(50%, 50%);">
+        <path class="sector" data-disease="" d=""></path>
+      </g>
+    </svg>
+
+    <svg class="chart-svg telescope-chart chart" width="100%" height="100%">
+      <g style="transform: translate(50%, 50%);">
+        <path class="sector" data-disease="" d=""></path>
+      </g>
+    </svg>
+
+  <svg class="chart-svg tinydonut-chart chart" width="100%" height="100%" viewbox="0 0 100 100">
+      <g style="transform: translate(50%, 50%);">
+        <path class="sector" data-disease="" d=""></path>
+      </g>
+    </svg>
+    
+    <div class="leaderboard"></div>
+    <span class="leaderboard-bar-wrap">
+      <span class="bar" style="width: 0%;"></span>
+    </span>
+
+    <div class="histogram">
+      <div class="column-wrap">
+        <div class="bar-wrap">
+          <div class="bar"></div>
+        </div>
+        <div class="bar-readout">
+          <span class="value"></span>
+          <span class="count"></span>
+        </div>
+      </div>
+      <div class="no-data">No data<br />available.</div>
+    </div>
+
+    <div class="filter-container">
+      <!-- <div class="filter-label"></div> -->
+      <div class="filter-list"></div>
+    </div>
+
+    <div class="toggle-readout">
+      <label>
+        <input type="checkbox">
+        <span class="value"></span>
+        <span class="num"></span>
+      </label>
+    </div>
+
+    <button class="filter-value">
+      <span class="value-label"></span>
+      <span class="dismisser">
+        <span class="visually-hidden">Dismiss</span>
+        <span class="icon"></span>
+      </span>
+    </button>
+
+    <span class="field-div expander">
+      <span class="visually-hidden">Expand</span>
+      <span class="icon">+</span>
+    </span>
+
+    <div class="expanded-module"></div>
+
+    <div class="text-tally">
+      <div class="text-tally-header">
+        <p class="field-name"></p>
+        <p class="count-readout"></p>
+      </div>
+      <p class="words">
+        <button class="text-button"></button>
+      </p>
+      <div class="title-detail">
+        <div class="titles"></div>
+      </div>
+    </div>
+
+    <div class="togglepanel">
+      <form class="radio">
+        <label>
+          <input type="radio" name="ele" />
+          <span class="toggle-title"></span>
+        </label>
+      </form>
+      <div class="charts"></div>
+    </div>
+
+    <div class="address-panel">
+      <div class="address-content">
+      </div>
+    </div>
+
+    <div class="number-chart">
+      <div class="number-chart-text">
+        <p class="number-chart-title"></p>
+        <p class="number-chart-number"></p>
+      </div>
+    </div>
+    </div>
+
+
+  </section>
+
+
+</body>
+
+</html>

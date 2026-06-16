@@ -1,0 +1,77 @@
+[
+    {
+        "sample": "Taraba_Adamawa_F3W5K",
+        "total_reads": 468,
+        "min_reads_threshold": 3,
+        "sample_MOI": 2,
+        "Hw": 0.159048,
+        "haplotypes": [
+            {
+                "Haplotype_ID": "HAP1",
+                "Count": 227,
+                "Frequency": 0.506696,
+                "MOI_contribution": 1.013393
+            },
+            {
+                "Haplotype_ID": "HAP2",
+                "Count": 221,
+                "Frequency": 0.493304,
+                "MOI_contribution": 0.986607
+            }
+        ]
+    },
+    {
+        "sample": "Taraba_Adamawa_O3W0O",
+        "total_reads": 1795,
+        "min_reads_threshold": 9,
+        "sample_MOI": 2,
+        "Hw": 0.484642,
+        "haplotypes": [
+            {
+                "Haplotype_ID": "HAP1",
+                "Count": 1731,
+                "Frequency": 0.981293,
+                "MOI_contribution": 1.962585
+            },
+            {
+                "Haplotype_ID": "HAP2",
+                "Count": 33,
+                "Frequency": 0.018707,
+                "MOI_contribution": 0.037415
+            }
+        ]
+    },
+    {
+        "sample": "Taraba_Adamawa_Y1C6I",
+        "total_reads": 7438,
+        "min_reads_threshold": 38,
+        "sample_MOI": 4,
+        "Hw": 0.491868,
+        "haplotypes": [
+            {
+                "Haplotype_ID": "HAP1",
+                "Count": 3343,
+                "Frequency": 0.465534,
+                "MOI_contribution": 1.862136
+            },
+            {
+                "Haplotype_ID": "HAP2",
+                "Count": 2517,
+                "Frequency": 0.350508,
+                "MOI_contribution": 1.402033
+            },
+            {
+                "Haplotype_ID": "HAP3",
+                "Count": 869,
+                "Frequency": 0.121014,
+                "MOI_contribution": 0.484055
+            },
+            {
+                "Haplotype_ID": "HAP4",
+                "Count": 452,
+                "Frequency": 0.062944,
+                "MOI_contribution": 0.251776
+            }
+        ]
+    }
+]

@@ -1,0 +1,139 @@
+{
+  "charts": {
+    "prevalence-table": {
+      "label": "Antimalarial Resistance Mutation Prevalences",
+      "kind": "prevalence-table",
+      "column_headers": [ "Antimalarial", "Gene", "Haplotype", "Prevalence", "Action" ],
+      "fields": [
+        {
+          "field": "crt",
+          "label": "pfcrt"
+        }, {
+          "field": "mdr1",
+          "label": "pfmdr1"
+        },
+        { "field": "mdr2",
+          "label": "pfmdr2"
+        }, {
+          "field": "ferredoxin",
+          "label": "ferredoxin"
+        }, {
+          "field": "coronin",
+          "label": "coronin"
+        },
+        {
+          "field": "psfr",
+          "label": "<div class='dhps'>dhps</div><div class ='dhfr'>dhfr</div>"
+        },
+        {
+          "field": "exonuclease",
+          "label": "exonuclease"
+        },
+        {
+          "field": "kelch13",
+          "label": "kelch 13"
+        }
+      ],
+      "abbrev": "malaria",
+      "uri": "geneConfig.json",
+      "height": "xxxl"
+    },
+    "hrp_deletion": {
+      "label": "Diagnostic resistance (hrp2/3 gene deletion)",
+      "kind": "donut",
+      "field": "hrp_mutation",
+      "height": "lg",
+      "filterDisabled": true
+    },
+    "sm-prevalence-table": {
+      "kind": "sm-prevalence-table",
+      "column_headers": [ "Gene", "Prevalence", "action" ],
+      "field": "hrp_mutation",
+      "uri": "geneConfig.json",
+      "filterDisabled": true,
+      "height": "lg",
+      "set": "hrp_deletion"
+    },
+    "moi-distribution": {
+      "style": {
+        "padding-top": "0.6em"
+      },
+      "kind": "histogram",
+      "filterDisabled": true,
+      "height": "sm",
+      "field": "moi",
+      "label": "MOI Distribution"
+    },
+    "average-moi": {
+      "hide_header": true,
+      "kind": "big-number",
+      "field": "moi",
+      "label": "Average Parasite Clones per Patient (Multiplicity of Infection)",
+      "calculation": {
+        "mean": true
+      }
+    },
+    "plasmodium-species": {
+      "label": "Plasmodium Species Detected",
+      "kind": "set-analysis",
+      "field": "species",
+      "showPercent": true,
+      "height": "xl"
+    },
+    "textbox": {
+      "kind": "textbox",
+      "height": "xl",
+      "label": "Funding Information",
+      "displayedText": "The concept of the molecular surveillance reporting tool (dashboard) was developed by Dr. Ifeyinwa Aniebo in her role as Principal Investigator (PI), a Calestous Juma Science Leadership Fellow, and Associate Professor of Molecular Biology and Genomics from a 5 year grant funding from the Bill and Melinda Gates Foundation. \nThe dashboard is maintained by laboratory team members Dr. Vera Mitesser, Khadim Gueye, John Openibo, affiliated with the Institute for Genomics and Global Health, Redeemer's University, Ede, Nigeria under the lead of Prof. Christian Happi."
+    },
+    "map": {
+      "kind": "map",
+      "field": "geo",
+      "height": "xl",
+      "label": "Malaria Prevalence in Chilren by State",
+      "preferredField": "MIS",
+      "root-name": "Nigeria",
+      "uri": "states.svg",
+      "admin_sublevel_name": "State",
+      "admin_sublevel_name_pl": "States"
+    },
+    "map-readout": {
+      "kind": "map-readout",
+      "height": "xxxl",
+      "field": "geo",
+      "showPercentOnly": true,
+      "preferredField": "MIS",
+      "root-name": "Nigeria",
+      "admin_sublevel_name": "State",
+      "admin_sublevel_name_pl": "States"
+    },
+    "datasource": {
+      "kind": "shelf",
+      "field": "source",
+      "label": "Data Source",
+      "height": "sm",
+      "showLabelOnly": true,
+      "filterDisabled": true
+    }
+  },
+  "columns": [
+    {
+      "title": "Mutation Prevalences",
+      "width": 7,
+      "children": [ [ "prevalence-table" ],
+        [ "hrp_deletion", "sm-prevalence-table" ] ]
+    },
+    {
+      "width": 2,
+      "title": "Parasite Clones and Others",
+      "children": [ [ "average-moi", "moi-distribution" ], [ "plasmodium-species" ], "datasource", "textbox" ]
+    },
+    {
+      "title": "Malaria Prevalence in Children",
+      "width": 2,
+      "children": [
+        "map", "map-readout"
+      ]
+    }
+  ]
+}
