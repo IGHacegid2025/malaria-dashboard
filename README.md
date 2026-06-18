@@ -165,6 +165,3 @@ Now, go back to your browser at **http://localhost:9200/** and refresh the page.
 
 The dashboard layout is configured through two JSON files: `site.json` and `single.json`. Documentation on how to edit these is available at:
 [https://lookout.sentinel.network/docs/configure/](https://lookout.sentinel.network/docs/configure/)
-
-
-#test for update
