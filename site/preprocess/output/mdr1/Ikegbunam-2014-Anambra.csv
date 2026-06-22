@@ -1,0 +1,5 @@
+marker,type,prevalence,c86,c184,c1034,c1042,c1246
+mdr1,single,0.2440,N,F,.,.,D
+mdr1,single,0.0122,N,Y,.,.,Y
+mdr1,double,0.0610,Y,F,.,.,D
+mdr1,double,0.0122,N,F,.,.,Y

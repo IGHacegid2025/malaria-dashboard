@@ -1,0 +1,9 @@
+marker,type,prevalence,c86,c184,c1034,c1042,c1246
+mdr1,wt-sequence,0.4900,N,Y,.,.,D
+mdr1,single,0.0150,Y,Y,.,.,D
+mdr1,single,0.4800,N,F,.,.,D
+mdr1,single,0.0000,N,Y,.,.,Y
+mdr1,double,0.0150,Y,F,.,.,D
+mdr1,double,0.0000,Y,Y,.,.,Y
+mdr1,double,0.0000,N,F,.,.,Y
+mdr1,double,0.0000,Y,Y,.,.,D

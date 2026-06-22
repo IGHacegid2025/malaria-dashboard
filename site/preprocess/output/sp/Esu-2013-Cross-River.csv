@@ -1,0 +1,4 @@
+marker,type,prevalence,c51,c59,c108,c164,c431,c436,c437,c540,c581,c613
+dhfr/dhps,triple/quadruple,0.7140,N,C,S,I,S,A,A,K,A,S
+dhfr/dhps,triple/double,0.1070,N,C,S,I,S,A,A,K,A,A
+dhfr/dhps,triple/single,0.1070,N,C,S,I,S,A,A,K,A,A

@@ -20,88 +20,16 @@
     "records": [
       {
         "city": "",
-        "count": 50,
-        "date": "2016-01-02",
-        "geo": "Zhejiang",
+        "count": 500,
+        "date": "2017-01-02",
+        "geo": "AD",
         "malaria": "positive",
         "mdr1": {
-          "N86Y": 0.08
-        },
-        "source": "Wang, 2016"
-      },
-      {
-        "city": "",
-        "count": 7,
-        "date": "2020-01-02",
-        "geo": "Zhejiang",
-        "malaria": "positive",
-        "mdr1": {
-          "N86Y": 0.5
-        },
-        "source": "Wang, 2020"
-      },
-      {
-        "city": "Lagos",
-        "count": 7,
-        "date": "2024-01-02",
-        "geo": "LA",
-        "malaria": "positive",
-        "mdr1": {
-          "N86-Y184F-D1246": 0.143,
-          "N86Y": 0.714,
+          "N86-Y184F-D1246": 0.48,
+          "N86Y": 0.03,
           "N86Y-Y184F-D1246N": 0
         },
-        "source": "Ibekpobaoku, 2024"
-      },
-      {
-        "city": "",
-        "count": 41,
-        "date": "2017-01-02",
-        "geo": "Zhejiang",
-        "malaria": "positive",
-        "mdr1": {
-          "N86Y": 0.0
-        },
-        "source": "Wang, 2017"
-      },
-      {
-        "city": "Anka",
-        "count": 615,
-        "crt": {
-          "K76T": 0.364
-        },
-        "date": "2018-01-02",
-        "geo": "ZA",
-        "malaria": "positive",
-        "mdr1": {
-          "N86Y": 0.0099
-        },
-        "source": "Beshir, 2018"
-      },
-      {
-        "city": "Anka",
-        "count": 1096,
-        "crt": {
-          "K76T": 0.116
-        },
-        "date": "2016-01-02",
-        "geo": "ZA",
-        "malaria": "positive",
-        "mdr1": {
-          "N86Y": 0.0014
-        },
-        "source": "Beshir, 2016"
-      },
-      {
-        "city": "",
-        "count": 31,
-        "date": "2019-01-02",
-        "geo": "Zhejiang",
-        "malaria": "positive",
-        "mdr1": {
-          "N86Y": 0.0323
-        },
-        "source": "Wang, 2019"
+        "source": "Adamu, 2017"
       },
       {
         "city": "",
@@ -112,6 +40,19 @@
         "mdr1": {
           "N86-Y184F-D1246": 0.48,
           "N86Y": 0.13999999999999999,
+          "N86Y-Y184F-D1246N": 0
+        },
+        "source": "Adamu, 2017"
+      },
+      {
+        "city": "",
+        "count": 500,
+        "date": "2017-01-02",
+        "geo": "KN",
+        "malaria": "positive",
+        "mdr1": {
+          "N86-Y184F-D1246": 0.6981,
+          "N86Y": 0.040999999999999995,
           "N86Y-Y184F-D1246N": 0
         },
         "source": "Adamu, 2017"
@@ -146,15 +87,32 @@
         "source": "Agomo, 2016"
       },
       {
-        "city": "",
-        "count": 29,
-        "date": "2018-01-02",
-        "geo": "Zhejiang",
+        "city": "Anka",
+        "count": 1096,
+        "crt": {
+          "K76T": 0.116
+        },
+        "date": "2016-01-02",
+        "geo": "ZA",
         "malaria": "positive",
         "mdr1": {
-          "N86Y": 0.069
+          "N86Y": 0.0014
         },
-        "source": "Wang, 2018"
+        "source": "Beshir, 2016"
+      },
+      {
+        "city": "Anka",
+        "count": 615,
+        "crt": {
+          "K76T": 0.364
+        },
+        "date": "2018-01-02",
+        "geo": "ZA",
+        "malaria": "positive",
+        "mdr1": {
+          "N86Y": 0.0099
+        },
+        "source": "Beshir, 2018"
       },
       {
         "city": "Wuhan",
@@ -166,6 +124,87 @@
           "N86Y": 0.1112
         },
         "source": "Cheng, 2018"
+      },
+      {
+        "city": "Ota",
+        "count": 75,
+        "date": "2018-01-02",
+        "geo": "OG",
+        "malaria": "positive",
+        "mdr1": {
+          "N86-Y184F-D1246": 0,
+          "N86Y": 0.12,
+          "N86Y-Y184F-D1246N": 0
+        },
+        "source": "Dokunmu, 2018"
+      },
+      {
+        "city": "Lagos",
+        "count": 7,
+        "date": "2024-01-02",
+        "geo": "LA",
+        "malaria": "positive",
+        "mdr1": {
+          "N86-Y184F-D1246": 0.143,
+          "N86Y": 0.714,
+          "N86Y-Y184F-D1246N": 0
+        },
+        "source": "Ibekpobaoku, 2024"
+      },
+      {
+        "city": "",
+        "count": 50,
+        "date": "2016-01-02",
+        "geo": "Zhejiang",
+        "malaria": "positive",
+        "mdr1": {
+          "N86Y": 0.08
+        },
+        "source": "Wang, 2016"
+      },
+      {
+        "city": "",
+        "count": 41,
+        "date": "2017-01-02",
+        "geo": "Zhejiang",
+        "malaria": "positive",
+        "mdr1": {
+          "N86Y": 0.0
+        },
+        "source": "Wang, 2017"
+      },
+      {
+        "city": "",
+        "count": 29,
+        "date": "2018-01-02",
+        "geo": "Zhejiang",
+        "malaria": "positive",
+        "mdr1": {
+          "N86Y": 0.069
+        },
+        "source": "Wang, 2018"
+      },
+      {
+        "city": "",
+        "count": 31,
+        "date": "2019-01-02",
+        "geo": "Zhejiang",
+        "malaria": "positive",
+        "mdr1": {
+          "N86Y": 0.0323
+        },
+        "source": "Wang, 2019"
+      },
+      {
+        "city": "",
+        "count": 7,
+        "date": "2020-01-02",
+        "geo": "Zhejiang",
+        "malaria": "positive",
+        "mdr1": {
+          "N86Y": 0.5
+        },
+        "source": "Wang, 2020"
       },
       {
         "city": "",
@@ -185,59 +224,6 @@
           "A437G-N51I-C59R-S108N": 0.0
         },
         "source": "Zhao, 2016"
-      },
-      {
-        "city": "",
-        "count": 500,
-        "date": "2017-01-02",
-        "geo": "KN",
-        "malaria": "positive",
-        "mdr1": {
-          "N86-Y184F-D1246": 0.6981,
-          "N86Y": 0.040999999999999995,
-          "N86Y-Y184F-D1246N": 0
-        },
-        "source": "Adamu, 2017"
-      },
-      {
-        "city": "",
-        "count": 500,
-        "date": "2017-01-02",
-        "geo": "AD",
-        "malaria": "positive",
-        "mdr1": {
-          "N86-Y184F-D1246": 0.48,
-          "N86Y": 0.03,
-          "N86Y-Y184F-D1246N": 0
-        },
-        "source": "Adamu, 2017"
-      },
-      {
-        "city": "Ota",
-        "count": 75,
-        "date": "2018-01-02",
-        "geo": "OG",
-        "malaria": "positive",
-        "mdr1": {
-          "N86-Y184F-D1246": 0,
-          "N86Y": 0.12,
-          "N86Y-Y184F-D1246N": 0
-        },
-        "source": "Dokunmu, 2018"
-      },
-      {
-        "city": "Ohaukwu, Ezza-South",
-        "count": 600,
-        "date": "2021-01-02",
-        "geo": "EB",
-        "malaria": "positive",
-        "psfr": {
-          "A437G-K540E-A581G-N51I-C59R-S108N": 0,
-          "A437G-K540E-N51I-C59R-S108N": 0.0016,
-          "A437G-K540E-N51I-C59R-S108N-I164L": 0,
-          "A437G-N51I-C59R-S108N": 0.0
-        },
-        "source": "Figueroa, Romero, 2021"
       },
       {
         "city": "Ile-Ife",
@@ -268,6 +254,76 @@
         "source": "Fagbemi, 2018"
       },
       {
+        "city": "Ohaukwu, Ezza-South",
+        "count": 702,
+        "date": "2018-01-02",
+        "geo": "EB",
+        "malaria": "positive",
+        "psfr": {
+          "A437G-K540E-A581G-N51I-C59R-S108N": 0,
+          "A437G-K540E-N51I-C59R-S108N": 0,
+          "A437G-K540E-N51I-C59R-S108N-I164L": 0,
+          "A437G-N51I-C59R-S108N": 0.0
+        },
+        "source": "Figueroa, Romero, 2018"
+      },
+      {
+        "city": "Ohaukwu, Ezza-South",
+        "count": 600,
+        "date": "2021-01-02",
+        "geo": "EB",
+        "malaria": "positive",
+        "psfr": {
+          "A437G-K540E-A581G-N51I-C59R-S108N": 0,
+          "A437G-K540E-N51I-C59R-S108N": 0.0016,
+          "A437G-K540E-N51I-C59R-S108N-I164L": 0,
+          "A437G-N51I-C59R-S108N": 0.0
+        },
+        "source": "Figueroa, Romero, 2021"
+      },
+      {
+        "city": "Wuhan",
+        "count": 33,
+        "date": "2015-01-02",
+        "geo": "Hubei",
+        "malaria": "positive",
+        "psfr": {
+          "A437G-K540E-A581G-N51I-C59R-S108N": 0,
+          "A437G-K540E-N51I-C59R-S108N": 0,
+          "A437G-K540E-N51I-C59R-S108N-I164L": 0,
+          "A437G-N51I-C59R-S108N": 0.0
+        },
+        "source": "Jiang, 2015"
+      },
+      {
+        "city": "Ore",
+        "count": 266,
+        "date": "2021-01-02",
+        "geo": "OS",
+        "malaria": "positive",
+        "psfr": {
+          "A437G-K540E-A581G-N51I-C59R-S108N": 0,
+          "A437G-K540E-N51I-C59R-S108N": 0.0038,
+          "A437G-K540E-N51I-C59R-S108N-I164L": 0,
+          "A437G-N51I-C59R-S108N": 0.519
+        },
+        "source": "Mart\u00edn Ram\u00edrez, 2021"
+      },
+      {
+        "city": "",
+        "count": 145,
+        "date": "2018-01-02",
+        "geo": "Zhejiang",
+        "malaria": "positive",
+        "psfr": {
+          "A437G-K540E-A581G-N51I-C59R-S108N": 0,
+          "A437G-K540E-N51I-C59R-S108N": 0,
+          "A437G-K540E-N51I-C59R-S108N-I164L": 0,
+          "A437G-N51I-C59R-S108N": 0.0
+        },
+        "source": "Wang, 2018"
+      },
+      {
         "city": "",
         "count": 36,
         "date": "2015-01-02",
@@ -294,62 +350,6 @@
           "A437G-N51I-C59R-S108N": 0.543
         },
         "source": "Zhou, 2017"
-      },
-      {
-        "city": "Wuhan",
-        "count": 33,
-        "date": "2015-01-02",
-        "geo": "Hubei",
-        "malaria": "positive",
-        "psfr": {
-          "A437G-K540E-A581G-N51I-C59R-S108N": 0,
-          "A437G-K540E-N51I-C59R-S108N": 0,
-          "A437G-K540E-N51I-C59R-S108N-I164L": 0,
-          "A437G-N51I-C59R-S108N": 0.0
-        },
-        "source": "Jiang, 2015"
-      },
-      {
-        "city": "",
-        "count": 145,
-        "date": "2018-01-02",
-        "geo": "Zhejiang",
-        "malaria": "positive",
-        "psfr": {
-          "A437G-K540E-A581G-N51I-C59R-S108N": 0,
-          "A437G-K540E-N51I-C59R-S108N": 0,
-          "A437G-K540E-N51I-C59R-S108N-I164L": 0,
-          "A437G-N51I-C59R-S108N": 0.0
-        },
-        "source": "Wang, 2018"
-      },
-      {
-        "city": "Ore",
-        "count": 266,
-        "date": "2021-01-02",
-        "geo": "OS",
-        "malaria": "positive",
-        "psfr": {
-          "A437G-K540E-A581G-N51I-C59R-S108N": 0,
-          "A437G-K540E-N51I-C59R-S108N": 0.0038,
-          "A437G-K540E-N51I-C59R-S108N-I164L": 0,
-          "A437G-N51I-C59R-S108N": 0.519
-        },
-        "source": "Mart\u00edn Ram\u00edrez, 2021"
-      },
-      {
-        "city": "Ohaukwu, Ezza-South",
-        "count": 702,
-        "date": "2018-01-02",
-        "geo": "EB",
-        "malaria": "positive",
-        "psfr": {
-          "A437G-K540E-A581G-N51I-C59R-S108N": 0,
-          "A437G-K540E-N51I-C59R-S108N": 0,
-          "A437G-K540E-N51I-C59R-S108N-I164L": 0,
-          "A437G-N51I-C59R-S108N": 0.0
-        },
-        "source": "Figueroa, Romero, 2018"
       },
       {
         "city": "Kano",
@@ -550,59 +550,15 @@
         "source": "Zubair, 2024"
       },
       {
-        "city": "Wuhan",
-        "count": 18,
+        "city": "Ijede General hospital (IJGH)",
+        "count": 7,
         "crt": {
-          "K76T": 0.1112
-        },
-        "date": "2018-01-02",
-        "geo": "NA",
-        "malaria": "positive",
-        "source": "Cheng, 2018"
-      },
-      {
-        "city": "",
-        "count": 41,
-        "crt": {
-          "K76T": 0.4634
-        },
-        "date": "2017-01-02",
-        "geo": "NA",
-        "malaria": "positive",
-        "source": "Wang, 2017"
-      },
-      {
-        "city": "",
-        "count": 29,
-        "crt": {
-          "K76T": 0.34400000000000003
+          "K76T": 1.0
         },
         "date": "2019-01-02",
-        "geo": "NA",
-        "malaria": "positive",
-        "source": "Wang, 2019"
-      },
-      {
-        "city": "",
-        "count": 41,
-        "crt": {
-          "K76T": 0.6000000000000001
-        },
-        "date": "2016-01-02",
         "geo": "LA",
         "malaria": "positive",
-        "source": "Oboh, 2016"
-      },
-      {
-        "city": "Lagos",
-        "count": 121,
-        "crt": {
-          "K76T": 0.286
-        },
-        "date": "2020-01-02",
-        "geo": "LA",
-        "malaria": "positive",
-        "source": "Ibekpobaoku, 2020"
+        "source": "Ajibaye, 2019"
       },
       {
         "city": "Ibadan",
@@ -614,6 +570,39 @@
         "geo": "OY",
         "malaria": "positive",
         "source": "Amusan, 2021"
+      },
+      {
+        "city": "Wuhan",
+        "count": 18,
+        "crt": {
+          "K76T": 0.1112
+        },
+        "date": "2018-01-02",
+        "geo": "NA",
+        "malaria": "positive",
+        "source": "Cheng, 2018"
+      },
+      {
+        "city": "Marseille",
+        "count": 16,
+        "crt": {
+          "K76T": 0.46
+        },
+        "date": "2017-01-02",
+        "geo": "NA",
+        "malaria": "positive",
+        "source": "Foguim, 2017"
+      },
+      {
+        "city": "Lagos",
+        "count": 121,
+        "crt": {
+          "K76T": 0.286
+        },
+        "date": "2020-01-02",
+        "geo": "LA",
+        "malaria": "positive",
+        "source": "Ibekpobaoku, 2020"
       },
       {
         "city": "",
@@ -628,6 +617,28 @@
       },
       {
         "city": "",
+        "count": 88,
+        "crt": {
+          "K76T": 0.12
+        },
+        "date": "2017-01-02",
+        "geo": "NA",
+        "malaria": "positive",
+        "source": "Kong, 2017"
+      },
+      {
+        "city": "Ore",
+        "count": 297,
+        "crt": {
+          "K76T": 0.1582
+        },
+        "date": "2021-01-02",
+        "geo": "OS",
+        "malaria": "positive",
+        "source": "Mart\u00edn Ram\u00edrez, 2021"
+      },
+      {
+        "city": "",
         "count": 41,
         "crt": {
           "K76T": 0.586
@@ -638,15 +649,15 @@
         "source": "Oboh, 2016"
       },
       {
-        "city": "Ijede General hospital (IJGH)",
-        "count": 7,
+        "city": "",
+        "count": 41,
         "crt": {
-          "K76T": 1.0
+          "K76T": 0.6000000000000001
         },
-        "date": "2019-01-02",
+        "date": "2016-01-02",
         "geo": "LA",
         "malaria": "positive",
-        "source": "Ajibaye, 2019"
+        "source": "Oboh, 2016"
       },
       {
         "city": "",
@@ -661,14 +672,14 @@
       },
       {
         "city": "",
-        "count": 88,
+        "count": 41,
         "crt": {
-          "K76T": 0.12
+          "K76T": 0.4634
         },
         "date": "2017-01-02",
         "geo": "NA",
         "malaria": "positive",
-        "source": "Kong, 2017"
+        "source": "Wang, 2017"
       },
       {
         "city": "",
@@ -683,14 +694,14 @@
       },
       {
         "city": "",
-        "count": 167,
+        "count": 29,
         "crt": {
-          "K76T": 0.355
+          "K76T": 0.34400000000000003
         },
-        "date": "2016-01-02",
+        "date": "2019-01-02",
         "geo": "NA",
         "malaria": "positive",
-        "source": "Zhao, 2016"
+        "source": "Wang, 2019"
       },
       {
         "city": "",
@@ -704,130 +715,20 @@
         "source": "Wang, 2020"
       },
       {
-        "city": "Ore",
-        "count": 297,
+        "city": "",
+        "count": 167,
         "crt": {
-          "K76T": 0.1582
+          "K76T": 0.355
         },
-        "date": "2021-01-02",
-        "geo": "OS",
-        "malaria": "positive",
-        "source": "Mart\u00edn Ram\u00edrez, 2021"
-      },
-      {
-        "city": "Marseille",
-        "count": 16,
-        "crt": {
-          "K76T": 0.46
-        },
-        "date": "2017-01-02",
+        "date": "2016-01-02",
         "geo": "NA",
         "malaria": "positive",
-        "source": "Foguim, 2017"
+        "source": "Zhao, 2016"
       },
       {
-        "count": 75,
+        "count": 23,
         "date": "2021-01-02",
-        "geo": "TA",
-        "malaria": "positive",
-        "mdr1": {
-          "N86-Y184F-D1246": 0.0133,
-          "N86Y": 0.08,
-          "N86Y-Y184F-D1246N": 0.0
-        },
-        "source": "Sequencing"
-      },
-      {
-        "coronin": {
-          "E107V": 0.0,
-          "G50E": 0.0,
-          "R100K": 0.0
-        },
-        "count": 70,
-        "date": "2021-01-02",
-        "geo": "TA",
-        "malaria": "positive",
-        "source": "Sequencing"
-      },
-      {
-        "count": 63,
-        "date": "2021-01-02",
-        "geo": "TA",
-        "kelch13": {
-          "A481V": 0.0,
-          "A675V": 0.0,
-          "C469F": 0.0,
-          "C469Y": 0.0,
-          "C580Y": 0.0,
-          "F446I": 0.0,
-          "G449A": 0.0,
-          "G538V": 0.0,
-          "I543T": 0.0,
-          "M476I": 0.0,
-          "N458Y": 0.0,
-          "N537D": 0.0,
-          "N537I": 0.0,
-          "P441L": 0.0,
-          "P527H": 0.0,
-          "P553L": 0.0,
-          "P574L": 0.0,
-          "R515K": 0.0,
-          "R539T": 0.0,
-          "R561H": 0.0,
-          "R622I": 0.0,
-          "V568G": 0.0,
-          "Y493H": 0.0
-        },
-        "malaria": "positive",
-        "source": "Sequencing"
-      },
-      {
-        "count": 78,
-        "crt": {
-          "K76T": 0.0769
-        },
-        "date": "2021-01-02",
-        "geo": "TA",
-        "malaria": "positive",
-        "source": "Sequencing"
-      },
-      {
-        "count": 76,
-        "date": "2021-01-02",
-        "exonuclease": {
-          "E415G": 0.0
-        },
-        "geo": "TA",
-        "malaria": "positive",
-        "source": "Sequencing"
-      },
-      {
-        "count": 72,
-        "date": "2021-01-02",
-        "geo": "TA",
-        "malaria": "positive",
-        "mdr2": {
-          "F423Y": 0.8611
-        },
-        "source": "Sequencing"
-      },
-      {
-        "count": 67,
-        "date": "2021-01-02",
-        "geo": "TA",
-        "malaria": "positive",
-        "psfr": {
-          "A437G-K540E-A581G-N51I-C59R-S108N": 0.0,
-          "A437G-K540E-N51I-C59R-S108N": 0.0,
-          "A437G-K540E-N51I-C59R-S108N-I164L": 0.0,
-          "A437G-N51I-C59R-S108N": 0.4627
-        },
-        "source": "Sequencing"
-      },
-      {
-        "count": 51,
-        "date": "2021-01-02",
-        "geo": "YO",
+        "geo": "AB",
         "malaria": "positive",
         "mdr1": {
           "N86-Y184F-D1246": 0.0,
@@ -837,130 +738,9 @@
         "source": "Sequencing"
       },
       {
-        "coronin": {
-          "E107V": 0.0,
-          "G50E": 0.0,
-          "R100K": 0.0
-        },
-        "count": 47,
-        "date": "2021-01-02",
-        "geo": "YO",
-        "malaria": "positive",
-        "source": "Sequencing"
-      },
-      {
-        "count": 52,
-        "date": "2021-01-02",
-        "ferredoxin": {
-          "D193Y": 0.0
-        },
-        "geo": "YO",
-        "malaria": "positive",
-        "source": "Sequencing"
-      },
-      {
-        "count": 43,
-        "date": "2021-01-02",
-        "geo": "YO",
-        "kelch13": {
-          "A481V": 0.0,
-          "A675V": 0.0,
-          "C469F": 0.0,
-          "C469Y": 0.0,
-          "C580Y": 0.0,
-          "F446I": 0.0,
-          "G449A": 0.0,
-          "G538V": 0.0,
-          "I543T": 0.0,
-          "M476I": 0.0,
-          "N458Y": 0.0,
-          "N537D": 0.0,
-          "N537I": 0.0,
-          "P441L": 0.0,
-          "P527H": 0.0,
-          "P553L": 0.0,
-          "P574L": 0.0,
-          "R515K": 0.0,
-          "R539T": 0.0,
-          "R561H": 0.0,
-          "R622I": 0.0,
-          "V568G": 0.0,
-          "Y493H": 0.0
-        },
-        "malaria": "positive",
-        "source": "Sequencing"
-      },
-      {
-        "count": 53,
-        "crt": {
-          "K76T": 0.2642
-        },
-        "date": "2021-01-02",
-        "geo": "YO",
-        "malaria": "positive",
-        "source": "Sequencing"
-      },
-      {
-        "count": 48,
-        "date": "2021-01-02",
-        "exonuclease": {
-          "E415G": 0.0
-        },
-        "geo": "YO",
-        "malaria": "positive",
-        "source": "Sequencing"
-      },
-      {
-        "count": 50,
-        "date": "2021-01-02",
-        "geo": "YO",
-        "malaria": "positive",
-        "mdr2": {
-          "F423Y": 0.9
-        },
-        "source": "Sequencing"
-      },
-      {
-        "count": 47,
-        "date": "2021-01-02",
-        "geo": "YO",
-        "malaria": "positive",
-        "psfr": {
-          "A437G-K540E-A581G-N51I-C59R-S108N": 0.0,
-          "A437G-K540E-N51I-C59R-S108N": 0.0,
-          "A437G-K540E-N51I-C59R-S108N-I164L": 0.0,
-          "A437G-N51I-C59R-S108N": 0.4043
-        },
-        "source": "Sequencing"
-      },
-      {
-        "count": 3,
-        "date": "2021-01-02",
-        "geo": "AD",
-        "malaria": "positive",
-        "mdr1": {
-          "N86-Y184F-D1246": 0.0,
-          "N86Y": 0.3333,
-          "N86Y-Y184F-D1246N": 0.0
-        },
-        "source": "Sequencing"
-      },
-      {
-        "coronin": {
-          "E107V": 0.0,
-          "G50E": 0.0,
-          "R100K": 0.0
-        },
-        "count": 3,
-        "date": "2021-01-02",
-        "geo": "AD",
-        "malaria": "positive",
-        "source": "Sequencing"
-      },
-      {
         "count": 2,
         "date": "2021-01-02",
-        "geo": "AD",
+        "geo": "AB",
         "kelch13": {
           "A481V": 0.0,
           "A675V": 0.0,
@@ -986,376 +766,568 @@
           "V568G": 0.0,
           "Y493H": 0.0
         },
-        "malaria": "positive",
-        "source": "Sequencing"
-      },
-      {
-        "count": 3,
-        "crt": {
-          "K76T": 0.0
-        },
-        "date": "2021-01-02",
-        "geo": "AD",
-        "malaria": "positive",
-        "source": "Sequencing"
-      },
-      {
-        "count": 3,
-        "date": "2021-01-02",
-        "exonuclease": {
-          "E415G": 0.0
-        },
-        "geo": "AD",
-        "malaria": "positive",
-        "source": "Sequencing"
-      },
-      {
-        "count": 3,
-        "date": "2021-01-02",
-        "geo": "AD",
-        "malaria": "positive",
-        "mdr2": {
-          "F423Y": 1.0
-        },
-        "source": "Sequencing"
-      },
-      {
-        "count": 2,
-        "date": "2021-01-02",
-        "geo": "AD",
-        "malaria": "positive",
-        "psfr": {
-          "A437G-K540E-A581G-N51I-C59R-S108N": 0.0,
-          "A437G-K540E-N51I-C59R-S108N": 0.0,
-          "A437G-K540E-N51I-C59R-S108N-I164L": 0.0,
-          "A437G-N51I-C59R-S108N": 0.5
-        },
-        "source": "Sequencing"
-      },
-      {
-        "count": 128,
-        "date": "2021-01-02",
-        "geo": "KN",
-        "malaria": "positive",
-        "mdr1": {
-          "N86-Y184F-D1246": 0.0,
-          "N86Y": 0.0703,
-          "N86Y-Y184F-D1246N": 0.0
-        },
-        "source": "Sequencing"
-      },
-      {
-        "coronin": {
-          "E107V": 0.0,
-          "G50E": 0.0,
-          "R100K": 0.0
-        },
-        "count": 115,
-        "date": "2021-01-02",
-        "geo": "KN",
-        "malaria": "positive",
-        "source": "Sequencing"
-      },
-      {
-        "count": 128,
-        "date": "2021-01-02",
-        "ferredoxin": {
-          "D193Y": 0.0
-        },
-        "geo": "KN",
-        "malaria": "positive",
-        "source": "Sequencing"
-      },
-      {
-        "count": 113,
-        "date": "2021-01-02",
-        "geo": "KN",
-        "kelch13": {
-          "A481V": 0.0,
-          "A675V": 0.0,
-          "C469F": 0.0,
-          "C469Y": 0.0,
-          "C580Y": 0.0,
-          "F446I": 0.0,
-          "G449A": 0.0,
-          "G538V": 0.0,
-          "I543T": 0.0,
-          "M476I": 0.0,
-          "N458Y": 0.0,
-          "N537D": 0.0,
-          "N537I": 0.0,
-          "P441L": 0.0,
-          "P527H": 0.0,
-          "P553L": 0.0,
-          "P574L": 0.0,
-          "R515K": 0.0,
-          "R539T": 0.0,
-          "R561H": 0.0,
-          "R622I": 0.0,
-          "V568G": 0.0,
-          "Y493H": 0.0
-        },
-        "malaria": "positive",
-        "source": "Sequencing"
-      },
-      {
-        "count": 124,
-        "crt": {
-          "K76T": 0.0968
-        },
-        "date": "2021-01-02",
-        "geo": "KN",
-        "malaria": "positive",
-        "source": "Sequencing"
-      },
-      {
-        "count": 128,
-        "date": "2021-01-02",
-        "exonuclease": {
-          "E415G": 0.0
-        },
-        "geo": "KN",
-        "malaria": "positive",
-        "source": "Sequencing"
-      },
-      {
-        "count": 121,
-        "date": "2021-01-02",
-        "geo": "KN",
-        "malaria": "positive",
-        "mdr2": {
-          "F423Y": 0.7273
-        },
-        "source": "Sequencing"
-      },
-      {
-        "count": 115,
-        "date": "2021-01-02",
-        "geo": "KN",
-        "malaria": "positive",
-        "psfr": {
-          "A437G-K540E-A581G-N51I-C59R-S108N": 0.0,
-          "A437G-K540E-N51I-C59R-S108N": 0.0,
-          "A437G-K540E-N51I-C59R-S108N-I164L": 0.0,
-          "A437G-N51I-C59R-S108N": 0.3652
-        },
-        "source": "Sequencing"
-      },
-      {
-        "count": 87,
-        "date": "2021-01-02",
-        "geo": "KT",
-        "malaria": "positive",
-        "mdr1": {
-          "N86-Y184F-D1246": 0.0,
-          "N86Y": 0.046,
-          "N86Y-Y184F-D1246N": 0.0
-        },
-        "source": "Sequencing"
-      },
-      {
-        "coronin": {
-          "E107V": 0.0,
-          "G50E": 0.0,
-          "R100K": 0.0
-        },
-        "count": 4,
-        "date": "2021-01-02",
-        "geo": "KT",
-        "malaria": "positive",
-        "source": "Sequencing"
-      },
-      {
-        "count": 10,
-        "date": "2021-01-02",
-        "ferredoxin": {
-          "D193Y": 0.0
-        },
-        "geo": "KT",
-        "malaria": "positive",
-        "source": "Sequencing"
-      },
-      {
-        "count": 50,
-        "date": "2021-01-02",
-        "geo": "KT",
-        "kelch13": {
-          "A481V": 0.0,
-          "A675V": 0.0,
-          "C469F": 0.0,
-          "C469Y": 0.0,
-          "C580Y": 0.0,
-          "F446I": 0.0,
-          "G449A": 0.0,
-          "G538V": 0.0,
-          "I543T": 0.0,
-          "M476I": 0.0,
-          "N458Y": 0.0,
-          "N537D": 0.0,
-          "N537I": 0.0,
-          "P441L": 0.0,
-          "P527H": 0.0,
-          "P553L": 0.0,
-          "P574L": 0.0,
-          "R515K": 0.0,
-          "R539T": 0.0,
-          "R561H": 0.0,
-          "R622I": 0.0,
-          "V568G": 0.0,
-          "Y493H": 0.0
-        },
-        "malaria": "positive",
-        "source": "Sequencing"
-      },
-      {
-        "count": 91,
-        "crt": {
-          "K76T": 0.1648
-        },
-        "date": "2021-01-02",
-        "geo": "KT",
-        "malaria": "positive",
-        "source": "Sequencing"
-      },
-      {
-        "count": 10,
-        "date": "2021-01-02",
-        "exonuclease": {
-          "E415G": 0.0
-        },
-        "geo": "KT",
-        "malaria": "positive",
-        "source": "Sequencing"
-      },
-      {
-        "count": 7,
-        "date": "2021-01-02",
-        "geo": "KT",
-        "malaria": "positive",
-        "mdr2": {
-          "F423Y": 0.8571
-        },
-        "source": "Sequencing"
-      },
-      {
-        "count": 61,
-        "date": "2021-01-02",
-        "geo": "KT",
-        "malaria": "positive",
-        "psfr": {
-          "A437G-K540E-A581G-N51I-C59R-S108N": 0.0,
-          "A437G-K540E-N51I-C59R-S108N": 0.0,
-          "A437G-K540E-N51I-C59R-S108N-I164L": 0.0,
-          "A437G-N51I-C59R-S108N": 0.8525
-        },
-        "source": "Sequencing"
-      },
-      {
-        "count": 22,
-        "date": "2021-01-02",
-        "geo": "GO",
-        "malaria": "positive",
-        "mdr1": {
-          "N86-Y184F-D1246": 0.0,
-          "N86Y": 0.2273,
-          "N86Y-Y184F-D1246N": 0.0
-        },
-        "source": "Sequencing"
-      },
-      {
-        "coronin": {
-          "E107V": 0.0,
-          "G50E": 0.0,
-          "R100K": 0.0
-        },
-        "count": 18,
-        "date": "2021-01-02",
-        "geo": "GO",
         "malaria": "positive",
         "source": "Sequencing"
       },
       {
         "count": 23,
-        "date": "2021-01-02",
-        "ferredoxin": {
-          "D193Y": 0.0
+        "crt": {
+          "K76T": 0.6087
         },
-        "geo": "GO",
+        "date": "2021-01-02",
+        "geo": "AB",
         "malaria": "positive",
         "source": "Sequencing"
       },
       {
         "count": 21,
         "date": "2021-01-02",
-        "geo": "GO",
-        "kelch13": {
-          "A481V": 0.0,
-          "A675V": 0.0,
-          "C469F": 0.0,
-          "C469Y": 0.0,
-          "C580Y": 0.0,
-          "F446I": 0.0,
-          "G449A": 0.0,
-          "G538V": 0.0,
-          "I543T": 0.0,
-          "M476I": 0.0,
-          "N458Y": 0.0,
-          "N537D": 0.0,
-          "N537I": 0.0,
-          "P441L": 0.0,
-          "P527H": 0.0,
-          "P553L": 0.0,
-          "P574L": 0.0,
-          "R515K": 0.0,
-          "R539T": 0.0,
-          "R561H": 0.0,
-          "R622I": 0.0,
-          "V568G": 0.0,
-          "Y493H": 0.0
+        "dhfr": {
+          "N51I-C59R-S108N": 1.0
         },
+        "geo": "AB",
         "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 12,
+        "date": "2021-01-02",
+        "dhps": {
+          "A437G": 1.0
+        },
+        "geo": "AB",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 12,
+        "date": "2021-01-02",
+        "geo": "AB",
+        "malaria": "positive",
+        "psfr": {
+          "A437G-K540E-A581G-N51I-C59R-S108N": 0.0,
+          "A437G-K540E-N51I-C59R-S108N": 0.0,
+          "A437G-K540E-N51I-C59R-S108N-I164L": 0.0,
+          "A437G-N51I-C59R-S108N": 1.0
+        },
         "source": "Sequencing"
       },
       {
         "count": 24,
-        "crt": {
-          "K76T": 0.3333
-        },
         "date": "2021-01-02",
-        "geo": "GO",
+        "geo": "AD",
         "malaria": "positive",
+        "mdr1": {
+          "N86-Y184F-D1246": 0.0,
+          "N86Y": 0.125,
+          "N86Y-Y184F-D1246N": 0.0
+        },
         "source": "Sequencing"
       },
       {
-        "count": 21,
-        "date": "2021-01-02",
-        "exonuclease": {
-          "E415G": 0.0
+        "coronin": {
+          "E107V": 0.0,
+          "G50E": 0.0,
+          "R100K": 0.0
         },
-        "geo": "GO",
+        "count": 17,
+        "date": "2021-01-02",
+        "geo": "AD",
         "malaria": "positive",
         "source": "Sequencing"
       },
       {
         "count": 20,
         "date": "2021-01-02",
-        "geo": "GO",
+        "ferredoxin": {
+          "D193Y": 0.0
+        },
+        "geo": "AD",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 18,
+        "date": "2021-01-02",
+        "geo": "AD",
+        "kelch13": {
+          "A481V": 0.0,
+          "A675V": 0.0,
+          "C469F": 0.0,
+          "C469Y": 0.0,
+          "C580Y": 0.0,
+          "F446I": 0.0,
+          "G449A": 0.0,
+          "G538V": 0.0,
+          "I543T": 0.0,
+          "M476I": 0.0,
+          "N458Y": 0.0,
+          "N537D": 0.0,
+          "N537I": 0.0,
+          "P441L": 0.0,
+          "P527H": 0.0,
+          "P553L": 0.0,
+          "P574L": 0.0,
+          "R515K": 0.0,
+          "R539T": 0.0,
+          "R561H": 0.0,
+          "R622I": 0.0,
+          "V568G": 0.0,
+          "Y493H": 0.0
+        },
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 26,
+        "crt": {
+          "K76T": 0.1538
+        },
+        "date": "2021-01-02",
+        "geo": "AD",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 24,
+        "date": "2021-01-02",
+        "exonuclease": {
+          "E415G": 0.0
+        },
+        "geo": "AD",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 24,
+        "date": "2021-01-02",
+        "dhfr": {
+          "N51I-C59R-S108N": 0.8333
+        },
+        "geo": "AD",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 21,
+        "date": "2021-01-02",
+        "geo": "AD",
         "malaria": "positive",
         "mdr2": {
-          "F423Y": 0.8
+          "F423Y": 0.9524
         },
         "source": "Sequencing"
       },
       {
-        "count": 22,
+        "count": 20,
         "date": "2021-01-02",
-        "geo": "GO",
+        "dhps": {
+          "A437G": 0.85
+        },
+        "geo": "AD",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 20,
+        "date": "2021-01-02",
+        "geo": "AD",
         "malaria": "positive",
         "psfr": {
           "A437G-K540E-A581G-N51I-C59R-S108N": 0.0,
           "A437G-K540E-N51I-C59R-S108N": 0.0,
           "A437G-K540E-N51I-C59R-S108N-I164L": 0.0,
-          "A437G-N51I-C59R-S108N": 0.5
+          "A437G-N51I-C59R-S108N": 0.65
+        },
+        "source": "Sequencing"
+      },
+      {
+        "count": 44,
+        "date": "2021-01-02",
+        "geo": "NA",
+        "malaria": "positive",
+        "mdr1": {
+          "N86-Y184F-D1246": 0.0,
+          "N86Y": 0.0455,
+          "N86Y-Y184F-D1246N": 0.0
+        },
+        "source": "Sequencing"
+      },
+      {
+        "count": 1,
+        "date": "2021-01-02",
+        "geo": "NA",
+        "kelch13": {
+          "A481V": 0.0,
+          "A675V": 0.0,
+          "C469F": 0.0,
+          "C469Y": 0.0,
+          "C580Y": 0.0,
+          "F446I": 0.0,
+          "G449A": 0.0,
+          "G538V": 0.0,
+          "I543T": 0.0,
+          "M476I": 0.0,
+          "N458Y": 0.0,
+          "N537D": 0.0,
+          "N537I": 0.0,
+          "P441L": 0.0,
+          "P527H": 0.0,
+          "P553L": 0.0,
+          "P574L": 0.0,
+          "R515K": 0.0,
+          "R539T": 0.0,
+          "R561H": 0.0,
+          "R622I": 0.0,
+          "V568G": 0.0,
+          "Y493H": 0.0
+        },
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 43,
+        "crt": {
+          "K76T": 0.4419
+        },
+        "date": "2021-01-02",
+        "geo": "NA",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 37,
+        "date": "2021-01-02",
+        "dhfr": {
+          "N51I-C59R-S108N": 0.973
+        },
+        "geo": "NA",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 14,
+        "date": "2021-01-02",
+        "dhps": {
+          "A437G": 1.0
+        },
+        "geo": "NA",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 14,
+        "date": "2021-01-02",
+        "geo": "NA",
+        "malaria": "positive",
+        "psfr": {
+          "A437G-K540E-A581G-N51I-C59R-S108N": 0.0,
+          "A437G-K540E-N51I-C59R-S108N": 0.0,
+          "A437G-K540E-N51I-C59R-S108N-I164L": 0.0,
+          "A437G-N51I-C59R-S108N": 0.9286
+        },
+        "source": "Sequencing"
+      },
+      {
+        "count": 100,
+        "date": "2021-01-02",
+        "geo": "BA",
+        "malaria": "positive",
+        "mdr1": {
+          "N86-Y184F-D1246": 0.0,
+          "N86Y": 0.02,
+          "N86Y-Y184F-D1246N": 0.0
+        },
+        "source": "Sequencing"
+      },
+      {
+        "coronin": {
+          "E107V": 0.0,
+          "G50E": 0.0,
+          "R100K": 0.0
+        },
+        "count": 92,
+        "date": "2021-01-02",
+        "geo": "BA",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 97,
+        "date": "2021-01-02",
+        "ferredoxin": {
+          "D193Y": 0.0
+        },
+        "geo": "BA",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 73,
+        "date": "2021-01-02",
+        "geo": "BA",
+        "kelch13": {
+          "A481V": 0.0,
+          "A675V": 0.0,
+          "C469F": 0.0,
+          "C469Y": 0.0,
+          "C580Y": 0.0,
+          "F446I": 0.0,
+          "G449A": 0.0,
+          "G538V": 0.0,
+          "I543T": 0.0,
+          "M476I": 0.0,
+          "N458Y": 0.0,
+          "N537D": 0.0,
+          "N537I": 0.0,
+          "P441L": 0.0,
+          "P527H": 0.0,
+          "P553L": 0.0,
+          "P574L": 0.0,
+          "R515K": 0.0,
+          "R539T": 0.0,
+          "R561H": 0.0,
+          "R622I": 0.0,
+          "V568G": 0.0,
+          "Y493H": 0.0
+        },
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 98,
+        "crt": {
+          "K76T": 0.2755
+        },
+        "date": "2021-01-02",
+        "geo": "BA",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 99,
+        "date": "2021-01-02",
+        "exonuclease": {
+          "E415G": 0.0
+        },
+        "geo": "BA",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 98,
+        "date": "2021-01-02",
+        "dhfr": {
+          "N51I-C59R-S108N": 0.3878
+        },
+        "geo": "BA",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 96,
+        "date": "2021-01-02",
+        "geo": "BA",
+        "malaria": "positive",
+        "mdr2": {
+          "F423Y": 0.9167
+        },
+        "source": "Sequencing"
+      },
+      {
+        "count": 92,
+        "date": "2021-01-02",
+        "dhps": {
+          "A437G": 0.9239
+        },
+        "geo": "BA",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 92,
+        "date": "2021-01-02",
+        "geo": "BA",
+        "malaria": "positive",
+        "psfr": {
+          "A437G-K540E-A581G-N51I-C59R-S108N": 0.0,
+          "A437G-K540E-N51I-C59R-S108N": 0.0,
+          "A437G-K540E-N51I-C59R-S108N-I164L": 0.0,
+          "A437G-N51I-C59R-S108N": 0.3478
+        },
+        "source": "Sequencing"
+      },
+      {
+        "count": 34,
+        "date": "2021-01-02",
+        "geo": "BY",
+        "malaria": "positive",
+        "mdr1": {
+          "N86-Y184F-D1246": 0.0,
+          "N86Y": 0.0,
+          "N86Y-Y184F-D1246N": 0.0
+        },
+        "source": "Sequencing"
+      },
+      {
+        "count": 29,
+        "date": "2021-01-02",
+        "geo": "BY",
+        "kelch13": {
+          "A481V": 0.0,
+          "A675V": 0.0,
+          "C469F": 0.0,
+          "C469Y": 0.0,
+          "C580Y": 0.0,
+          "F446I": 0.0,
+          "G449A": 0.0,
+          "G538V": 0.0,
+          "I543T": 0.0,
+          "M476I": 0.0,
+          "N458Y": 0.0,
+          "N537D": 0.0,
+          "N537I": 0.0,
+          "P441L": 0.0,
+          "P527H": 0.0,
+          "P553L": 0.0,
+          "P574L": 0.0,
+          "R515K": 0.0,
+          "R539T": 0.0,
+          "R561H": 0.0,
+          "R622I": 0.0,
+          "V568G": 0.0,
+          "Y493H": 0.0
+        },
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 32,
+        "crt": {
+          "K76T": 0.75
+        },
+        "date": "2021-01-02",
+        "geo": "BY",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 34,
+        "date": "2021-01-02",
+        "dhfr": {
+          "N51I-C59R-S108N": 1.0
+        },
+        "geo": "BY",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 31,
+        "date": "2021-01-02",
+        "dhps": {
+          "A437G": 0.9677
+        },
+        "geo": "BY",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 31,
+        "date": "2021-01-02",
+        "geo": "BY",
+        "malaria": "positive",
+        "psfr": {
+          "A437G-K540E-A581G-N51I-C59R-S108N": 0.0,
+          "A437G-K540E-N51I-C59R-S108N": 0.0,
+          "A437G-K540E-N51I-C59R-S108N-I164L": 0.0,
+          "A437G-N51I-C59R-S108N": 0.9677
+        },
+        "source": "Sequencing"
+      },
+      {
+        "count": 43,
+        "date": "2021-01-02",
+        "geo": "BE",
+        "malaria": "positive",
+        "mdr1": {
+          "N86-Y184F-D1246": 0.0,
+          "N86Y": 0.0233,
+          "N86Y-Y184F-D1246N": 0.0
+        },
+        "source": "Sequencing"
+      },
+      {
+        "count": 38,
+        "date": "2021-01-02",
+        "geo": "BE",
+        "kelch13": {
+          "A481V": 0.0,
+          "A675V": 0.0,
+          "C469F": 0.0,
+          "C469Y": 0.0,
+          "C580Y": 0.0,
+          "F446I": 0.0,
+          "G449A": 0.0,
+          "G538V": 0.0,
+          "I543T": 0.0,
+          "M476I": 0.0,
+          "N458Y": 0.0,
+          "N537D": 0.0,
+          "N537I": 0.0,
+          "P441L": 0.0,
+          "P527H": 0.0,
+          "P553L": 0.0,
+          "P574L": 0.0,
+          "R515K": 0.0,
+          "R539T": 0.0,
+          "R561H": 0.0,
+          "R622I": 0.0,
+          "V568G": 0.0,
+          "Y493H": 0.0
+        },
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 45,
+        "crt": {
+          "K76T": 0.0889
+        },
+        "date": "2021-01-02",
+        "geo": "BE",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 42,
+        "date": "2021-01-02",
+        "dhfr": {
+          "N51I-C59R-S108N": 0.9762
+        },
+        "geo": "BE",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 43,
+        "date": "2021-01-02",
+        "dhps": {
+          "A437G": 0.9302
+        },
+        "geo": "BE",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 42,
+        "date": "2021-01-02",
+        "geo": "BE",
+        "malaria": "positive",
+        "psfr": {
+          "A437G-K540E-A581G-N51I-C59R-S108N": 0.0,
+          "A437G-K540E-N51I-C59R-S108N": 0.0,
+          "A437G-K540E-N51I-C59R-S108N-I164L": 0.0,
+          "A437G-N51I-C59R-S108N": 0.9524
         },
         "source": "Sequencing"
       },
@@ -1446,6 +1418,16 @@
         "source": "Sequencing"
       },
       {
+        "count": 17,
+        "date": "2021-01-02",
+        "dhfr": {
+          "N51I-C59R-S108N": 0.4706
+        },
+        "geo": "BO",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
         "count": 15,
         "date": "2021-01-02",
         "geo": "BO",
@@ -1458,6 +1440,16 @@
       {
         "count": 17,
         "date": "2021-01-02",
+        "dhps": {
+          "A437G": 0.9412
+        },
+        "geo": "BO",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 17,
+        "date": "2021-01-02",
         "geo": "BO",
         "malaria": "positive",
         "psfr": {
@@ -1465,6 +1457,1141 @@
           "A437G-K540E-N51I-C59R-S108N": 0.0,
           "A437G-K540E-N51I-C59R-S108N-I164L": 0.0,
           "A437G-N51I-C59R-S108N": 0.4706
+        },
+        "source": "Sequencing"
+      },
+      {
+        "count": 21,
+        "date": "2021-01-02",
+        "geo": "NA",
+        "malaria": "positive",
+        "mdr1": {
+          "N86-Y184F-D1246": 0.0,
+          "N86Y": 0.0,
+          "N86Y-Y184F-D1246N": 0.0
+        },
+        "source": "Sequencing"
+      },
+      {
+        "count": 18,
+        "date": "2021-01-02",
+        "geo": "NA",
+        "kelch13": {
+          "A481V": 0.0,
+          "A675V": 0.0,
+          "C469F": 0.0,
+          "C469Y": 0.0,
+          "C580Y": 0.0,
+          "F446I": 0.0,
+          "G449A": 0.0,
+          "G538V": 0.0,
+          "I543T": 0.0,
+          "M476I": 0.0,
+          "N458Y": 0.0,
+          "N537D": 0.0,
+          "N537I": 0.0,
+          "P441L": 0.0,
+          "P527H": 0.0,
+          "P553L": 0.0,
+          "P574L": 0.0,
+          "R515K": 0.0,
+          "R539T": 0.0,
+          "R561H": 0.0,
+          "R622I": 0.0,
+          "V568G": 0.0,
+          "Y493H": 0.0
+        },
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 21,
+        "crt": {
+          "K76T": 0.0476
+        },
+        "date": "2021-01-02",
+        "geo": "NA",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 21,
+        "date": "2021-01-02",
+        "dhfr": {
+          "N51I-C59R-S108N": 1.0
+        },
+        "geo": "NA",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 21,
+        "date": "2021-01-02",
+        "dhps": {
+          "A437G": 1.0
+        },
+        "geo": "NA",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 21,
+        "date": "2021-01-02",
+        "geo": "NA",
+        "malaria": "positive",
+        "psfr": {
+          "A437G-K540E-A581G-N51I-C59R-S108N": 0.0,
+          "A437G-K540E-N51I-C59R-S108N": 0.0,
+          "A437G-K540E-N51I-C59R-S108N-I164L": 0.0,
+          "A437G-N51I-C59R-S108N": 1.0
+        },
+        "source": "Sequencing"
+      },
+      {
+        "count": 34,
+        "date": "2021-01-02",
+        "geo": "DE",
+        "malaria": "positive",
+        "mdr1": {
+          "N86-Y184F-D1246": 0.0,
+          "N86Y": 0.0,
+          "N86Y-Y184F-D1246N": 0.0
+        },
+        "source": "Sequencing"
+      },
+      {
+        "count": 27,
+        "date": "2021-01-02",
+        "geo": "DE",
+        "kelch13": {
+          "A481V": 0.0,
+          "A675V": 0.0,
+          "C469F": 0.0,
+          "C469Y": 0.0,
+          "C580Y": 0.0,
+          "F446I": 0.0,
+          "G449A": 0.0,
+          "G538V": 0.0,
+          "I543T": 0.0,
+          "M476I": 0.0,
+          "N458Y": 0.0,
+          "N537D": 0.0,
+          "N537I": 0.0,
+          "P441L": 0.0,
+          "P527H": 0.0,
+          "P553L": 0.0,
+          "P574L": 0.0,
+          "R515K": 0.0,
+          "R539T": 0.0,
+          "R561H": 0.0,
+          "R622I": 0.0,
+          "V568G": 0.0,
+          "Y493H": 0.0
+        },
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 32,
+        "crt": {
+          "K76T": 0.4688
+        },
+        "date": "2021-01-02",
+        "geo": "DE",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 34,
+        "date": "2021-01-02",
+        "dhfr": {
+          "N51I-C59R-S108N": 1.0
+        },
+        "geo": "DE",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 31,
+        "date": "2021-01-02",
+        "dhps": {
+          "A437G": 1.0
+        },
+        "geo": "DE",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 31,
+        "date": "2021-01-02",
+        "geo": "DE",
+        "malaria": "positive",
+        "psfr": {
+          "A437G-K540E-A581G-N51I-C59R-S108N": 0.0,
+          "A437G-K540E-N51I-C59R-S108N": 0.0,
+          "A437G-K540E-N51I-C59R-S108N-I164L": 0.0,
+          "A437G-N51I-C59R-S108N": 1.0
+        },
+        "source": "Sequencing"
+      },
+      {
+        "count": 45,
+        "date": "2021-01-02",
+        "geo": "EB",
+        "malaria": "positive",
+        "mdr1": {
+          "N86-Y184F-D1246": 0.0,
+          "N86Y": 0.0,
+          "N86Y-Y184F-D1246N": 0.0
+        },
+        "source": "Sequencing"
+      },
+      {
+        "count": 38,
+        "date": "2021-01-02",
+        "geo": "EB",
+        "kelch13": {
+          "A481V": 0.0,
+          "A675V": 0.0,
+          "C469F": 0.0,
+          "C469Y": 0.0,
+          "C580Y": 0.0,
+          "F446I": 0.0,
+          "G449A": 0.0,
+          "G538V": 0.0,
+          "I543T": 0.0,
+          "M476I": 0.0,
+          "N458Y": 0.0,
+          "N537D": 0.0,
+          "N537I": 0.0,
+          "P441L": 0.0,
+          "P527H": 0.0,
+          "P553L": 0.0,
+          "P574L": 0.0,
+          "R515K": 0.0,
+          "R539T": 0.0,
+          "R561H": 0.0,
+          "R622I": 0.0,
+          "V568G": 0.0,
+          "Y493H": 0.0
+        },
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 45,
+        "crt": {
+          "K76T": 0.1333
+        },
+        "date": "2021-01-02",
+        "geo": "EB",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 45,
+        "date": "2021-01-02",
+        "dhfr": {
+          "N51I-C59R-S108N": 0.9778
+        },
+        "geo": "EB",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 44,
+        "date": "2021-01-02",
+        "dhps": {
+          "A437G": 0.9091
+        },
+        "geo": "EB",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 43,
+        "date": "2021-01-02",
+        "geo": "EB",
+        "malaria": "positive",
+        "psfr": {
+          "A437G-K540E-A581G-N51I-C59R-S108N": 0.0,
+          "A437G-K540E-N51I-C59R-S108N": 0.0,
+          "A437G-K540E-N51I-C59R-S108N-I164L": 0.0,
+          "A437G-N51I-C59R-S108N": 0.8837
+        },
+        "source": "Sequencing"
+      },
+      {
+        "count": 15,
+        "date": "2021-01-02",
+        "geo": "ED",
+        "malaria": "positive",
+        "mdr1": {
+          "N86-Y184F-D1246": 0.0,
+          "N86Y": 0.0,
+          "N86Y-Y184F-D1246N": 0.0
+        },
+        "source": "Sequencing"
+      },
+      {
+        "count": 16,
+        "crt": {
+          "K76T": 0.125
+        },
+        "date": "2021-01-02",
+        "geo": "ED",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 9,
+        "date": "2021-01-02",
+        "dhfr": {
+          "N51I-C59R-S108N": 1.0
+        },
+        "geo": "ED",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 4,
+        "date": "2021-01-02",
+        "dhps": {
+          "A437G": 1.0
+        },
+        "geo": "ED",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 4,
+        "date": "2021-01-02",
+        "geo": "ED",
+        "malaria": "positive",
+        "psfr": {
+          "A437G-K540E-A581G-N51I-C59R-S108N": 0.0,
+          "A437G-K540E-N51I-C59R-S108N": 0.0,
+          "A437G-K540E-N51I-C59R-S108N-I164L": 0.0,
+          "A437G-N51I-C59R-S108N": 1.0
+        },
+        "source": "Sequencing"
+      },
+      {
+        "count": 21,
+        "date": "2021-01-02",
+        "geo": "EK",
+        "malaria": "positive",
+        "mdr1": {
+          "N86-Y184F-D1246": 0.0,
+          "N86Y": 0.0,
+          "N86Y-Y184F-D1246N": 0.0
+        },
+        "source": "Sequencing"
+      },
+      {
+        "count": 17,
+        "date": "2021-01-02",
+        "geo": "EK",
+        "kelch13": {
+          "A481V": 0.0,
+          "A675V": 0.0,
+          "C469F": 0.0,
+          "C469Y": 0.0,
+          "C580Y": 0.0,
+          "F446I": 0.0,
+          "G449A": 0.0,
+          "G538V": 0.0,
+          "I543T": 0.0,
+          "M476I": 0.0,
+          "N458Y": 0.0,
+          "N537D": 0.0,
+          "N537I": 0.0,
+          "P441L": 0.0,
+          "P527H": 0.0,
+          "P553L": 0.0,
+          "P574L": 0.0,
+          "R515K": 0.0,
+          "R539T": 0.0,
+          "R561H": 0.0,
+          "R622I": 0.0,
+          "V568G": 0.0,
+          "Y493H": 0.0
+        },
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 21,
+        "crt": {
+          "K76T": 0.1905
+        },
+        "date": "2021-01-02",
+        "geo": "EK",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 21,
+        "date": "2021-01-02",
+        "dhfr": {
+          "N51I-C59R-S108N": 1.0
+        },
+        "geo": "EK",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 19,
+        "date": "2021-01-02",
+        "dhps": {
+          "A437G": 0.9474
+        },
+        "geo": "EK",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 19,
+        "date": "2021-01-02",
+        "geo": "EK",
+        "malaria": "positive",
+        "psfr": {
+          "A437G-K540E-A581G-N51I-C59R-S108N": 0.0,
+          "A437G-K540E-N51I-C59R-S108N": 0.0,
+          "A437G-K540E-N51I-C59R-S108N-I164L": 0.0,
+          "A437G-N51I-C59R-S108N": 0.9474
+        },
+        "source": "Sequencing"
+      },
+      {
+        "count": 37,
+        "date": "2021-01-02",
+        "geo": "NA",
+        "malaria": "positive",
+        "mdr1": {
+          "N86-Y184F-D1246": 0.0,
+          "N86Y": 0.0,
+          "N86Y-Y184F-D1246N": 0.0
+        },
+        "source": "Sequencing"
+      },
+      {
+        "count": 13,
+        "date": "2021-01-02",
+        "geo": "NA",
+        "kelch13": {
+          "A481V": 0.0,
+          "A675V": 0.0,
+          "C469F": 0.0,
+          "C469Y": 0.0,
+          "C580Y": 0.0,
+          "F446I": 0.0,
+          "G449A": 0.0,
+          "G538V": 0.0,
+          "I543T": 0.0,
+          "M476I": 0.0,
+          "N458Y": 0.0,
+          "N537D": 0.0,
+          "N537I": 0.0,
+          "P441L": 0.0,
+          "P527H": 0.0,
+          "P553L": 0.0,
+          "P574L": 0.0,
+          "R515K": 0.0,
+          "R539T": 0.0,
+          "R561H": 0.0,
+          "R622I": 0.0,
+          "V568G": 0.0,
+          "Y493H": 0.0
+        },
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 37,
+        "crt": {
+          "K76T": 0.1622
+        },
+        "date": "2021-01-02",
+        "geo": "NA",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 36,
+        "date": "2021-01-02",
+        "dhfr": {
+          "N51I-C59R-S108N": 0.8889
+        },
+        "geo": "NA",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 36,
+        "date": "2021-01-02",
+        "dhps": {
+          "A437G": 0.9722
+        },
+        "geo": "NA",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 35,
+        "date": "2021-01-02",
+        "geo": "NA",
+        "malaria": "positive",
+        "psfr": {
+          "A437G-K540E-A581G-N51I-C59R-S108N": 0.0,
+          "A437G-K540E-N51I-C59R-S108N": 0.0,
+          "A437G-K540E-N51I-C59R-S108N-I164L": 0.0,
+          "A437G-N51I-C59R-S108N": 0.8857
+        },
+        "source": "Sequencing"
+      },
+      {
+        "count": 22,
+        "date": "2021-01-02",
+        "geo": "GO",
+        "malaria": "positive",
+        "mdr1": {
+          "N86-Y184F-D1246": 0.0,
+          "N86Y": 0.2273,
+          "N86Y-Y184F-D1246N": 0.0
+        },
+        "source": "Sequencing"
+      },
+      {
+        "coronin": {
+          "E107V": 0.0,
+          "G50E": 0.0,
+          "R100K": 0.0
+        },
+        "count": 18,
+        "date": "2021-01-02",
+        "geo": "GO",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 23,
+        "date": "2021-01-02",
+        "ferredoxin": {
+          "D193Y": 0.0
+        },
+        "geo": "GO",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 21,
+        "date": "2021-01-02",
+        "geo": "GO",
+        "kelch13": {
+          "A481V": 0.0,
+          "A675V": 0.0,
+          "C469F": 0.0,
+          "C469Y": 0.0,
+          "C580Y": 0.0,
+          "F446I": 0.0,
+          "G449A": 0.0,
+          "G538V": 0.0,
+          "I543T": 0.0,
+          "M476I": 0.0,
+          "N458Y": 0.0,
+          "N537D": 0.0,
+          "N537I": 0.0,
+          "P441L": 0.0,
+          "P527H": 0.0,
+          "P553L": 0.0,
+          "P574L": 0.0,
+          "R515K": 0.0,
+          "R539T": 0.0,
+          "R561H": 0.0,
+          "R622I": 0.0,
+          "V568G": 0.0,
+          "Y493H": 0.0
+        },
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 24,
+        "crt": {
+          "K76T": 0.3333
+        },
+        "date": "2021-01-02",
+        "geo": "GO",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 21,
+        "date": "2021-01-02",
+        "exonuclease": {
+          "E415G": 0.0
+        },
+        "geo": "GO",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 23,
+        "date": "2021-01-02",
+        "dhfr": {
+          "N51I-C59R-S108N": 0.5217
+        },
+        "geo": "GO",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 20,
+        "date": "2021-01-02",
+        "geo": "GO",
+        "malaria": "positive",
+        "mdr2": {
+          "F423Y": 0.8
+        },
+        "source": "Sequencing"
+      },
+      {
+        "count": 22,
+        "date": "2021-01-02",
+        "dhps": {
+          "A437G": 0.8182
+        },
+        "geo": "GO",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 22,
+        "date": "2021-01-02",
+        "geo": "GO",
+        "malaria": "positive",
+        "psfr": {
+          "A437G-K540E-A581G-N51I-C59R-S108N": 0.0,
+          "A437G-K540E-N51I-C59R-S108N": 0.0,
+          "A437G-K540E-N51I-C59R-S108N-I164L": 0.0,
+          "A437G-N51I-C59R-S108N": 0.4091
+        },
+        "source": "Sequencing"
+      },
+      {
+        "count": 89,
+        "date": "2021-01-02",
+        "geo": "JI",
+        "malaria": "positive",
+        "mdr1": {
+          "N86-Y184F-D1246": 0.0,
+          "N86Y": 0.0337,
+          "N86Y-Y184F-D1246N": 0.0
+        },
+        "source": "Sequencing"
+      },
+      {
+        "coronin": {
+          "E107V": 0.0,
+          "G50E": 0.0,
+          "R100K": 0.0
+        },
+        "count": 106,
+        "date": "2021-01-02",
+        "geo": "JI",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 109,
+        "date": "2021-01-02",
+        "ferredoxin": {
+          "D193Y": 0.0
+        },
+        "geo": "JI",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 73,
+        "date": "2021-01-02",
+        "geo": "JI",
+        "kelch13": {
+          "A481V": 0.0,
+          "A675V": 0.0,
+          "C469F": 0.0,
+          "C469Y": 0.0,
+          "C580Y": 0.0,
+          "F446I": 0.0,
+          "G449A": 0.0,
+          "G538V": 0.0,
+          "I543T": 0.0,
+          "M476I": 0.0,
+          "N458Y": 0.0,
+          "N537D": 0.0,
+          "N537I": 0.0,
+          "P441L": 0.0,
+          "P527H": 0.0,
+          "P553L": 0.0,
+          "P574L": 0.0,
+          "R515K": 0.0,
+          "R539T": 0.0,
+          "R561H": 0.0,
+          "R622I": 0.0,
+          "V568G": 0.0,
+          "Y493H": 0.0
+        },
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 99,
+        "crt": {
+          "K76T": 0.1414
+        },
+        "date": "2021-01-02",
+        "geo": "JI",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 110,
+        "date": "2021-01-02",
+        "exonuclease": {
+          "E415G": 0.0
+        },
+        "geo": "JI",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 87,
+        "date": "2021-01-02",
+        "dhfr": {
+          "N51I-C59R-S108N": 0.7701
+        },
+        "geo": "JI",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 108,
+        "date": "2021-01-02",
+        "geo": "JI",
+        "malaria": "positive",
+        "mdr2": {
+          "F423Y": 0.8519
+        },
+        "source": "Sequencing"
+      },
+      {
+        "count": 83,
+        "date": "2021-01-02",
+        "dhps": {
+          "A437G": 0.8675
+        },
+        "geo": "JI",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 83,
+        "date": "2021-01-02",
+        "geo": "JI",
+        "malaria": "positive",
+        "psfr": {
+          "A437G-K540E-A581G-N51I-C59R-S108N": 0.0,
+          "A437G-K540E-N51I-C59R-S108N": 0.0,
+          "A437G-K540E-N51I-C59R-S108N-I164L": 0.0,
+          "A437G-N51I-C59R-S108N": 0.6988
+        },
+        "source": "Sequencing"
+      },
+      {
+        "count": 38,
+        "date": "2021-01-02",
+        "geo": "KD",
+        "malaria": "positive",
+        "mdr1": {
+          "N86-Y184F-D1246": 0.0,
+          "N86Y": 0.0789,
+          "N86Y-Y184F-D1246N": 0.0
+        },
+        "source": "Sequencing"
+      },
+      {
+        "coronin": {
+          "E107V": 0.0,
+          "G50E": 0.0,
+          "R100K": 0.0
+        },
+        "count": 38,
+        "date": "2021-01-02",
+        "geo": "KD",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 43,
+        "date": "2021-01-02",
+        "ferredoxin": {
+          "D193Y": 0.0
+        },
+        "geo": "KD",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 35,
+        "date": "2021-01-02",
+        "geo": "KD",
+        "kelch13": {
+          "A481V": 0.0,
+          "A675V": 0.0,
+          "C469F": 0.0,
+          "C469Y": 0.0,
+          "C580Y": 0.0,
+          "F446I": 0.0,
+          "G449A": 0.0,
+          "G538V": 0.0,
+          "I543T": 0.0,
+          "M476I": 0.0,
+          "N458Y": 0.0,
+          "N537D": 0.0,
+          "N537I": 0.0,
+          "P441L": 0.0,
+          "P527H": 0.0,
+          "P553L": 0.0,
+          "P574L": 0.0,
+          "R515K": 0.0,
+          "R539T": 0.0,
+          "R561H": 0.0,
+          "R622I": 0.0,
+          "V568G": 0.0,
+          "Y493H": 0.0
+        },
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 42,
+        "crt": {
+          "K76T": 0.381
+        },
+        "date": "2021-01-02",
+        "geo": "KD",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 44,
+        "date": "2021-01-02",
+        "exonuclease": {
+          "E415G": 0.0
+        },
+        "geo": "KD",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 38,
+        "date": "2021-01-02",
+        "dhfr": {
+          "N51I-C59R-S108N": 0.7368
+        },
+        "geo": "KD",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 41,
+        "date": "2021-01-02",
+        "geo": "KD",
+        "malaria": "positive",
+        "mdr2": {
+          "F423Y": 0.7317
+        },
+        "source": "Sequencing"
+      },
+      {
+        "count": 36,
+        "date": "2021-01-02",
+        "dhps": {
+          "A437G": 0.8611
+        },
+        "geo": "KD",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 36,
+        "date": "2021-01-02",
+        "geo": "KD",
+        "malaria": "positive",
+        "psfr": {
+          "A437G-K540E-A581G-N51I-C59R-S108N": 0.0,
+          "A437G-K540E-N51I-C59R-S108N": 0.0,
+          "A437G-K540E-N51I-C59R-S108N-I164L": 0.0,
+          "A437G-N51I-C59R-S108N": 0.6389
+        },
+        "source": "Sequencing"
+      },
+      {
+        "count": 128,
+        "date": "2021-01-02",
+        "geo": "KN",
+        "malaria": "positive",
+        "mdr1": {
+          "N86-Y184F-D1246": 0.0,
+          "N86Y": 0.0703,
+          "N86Y-Y184F-D1246N": 0.0
+        },
+        "source": "Sequencing"
+      },
+      {
+        "coronin": {
+          "E107V": 0.0,
+          "G50E": 0.0,
+          "R100K": 0.0
+        },
+        "count": 115,
+        "date": "2021-01-02",
+        "geo": "KN",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 128,
+        "date": "2021-01-02",
+        "ferredoxin": {
+          "D193Y": 0.0
+        },
+        "geo": "KN",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 113,
+        "date": "2021-01-02",
+        "geo": "KN",
+        "kelch13": {
+          "A481V": 0.0,
+          "A675V": 0.0,
+          "C469F": 0.0,
+          "C469Y": 0.0,
+          "C580Y": 0.0,
+          "F446I": 0.0,
+          "G449A": 0.0,
+          "G538V": 0.0,
+          "I543T": 0.0,
+          "M476I": 0.0,
+          "N458Y": 0.0,
+          "N537D": 0.0,
+          "N537I": 0.0,
+          "P441L": 0.0,
+          "P527H": 0.0,
+          "P553L": 0.0,
+          "P574L": 0.0,
+          "R515K": 0.0,
+          "R539T": 0.0,
+          "R561H": 0.0,
+          "R622I": 0.0,
+          "V568G": 0.0,
+          "Y493H": 0.0
+        },
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 124,
+        "crt": {
+          "K76T": 0.0968
+        },
+        "date": "2021-01-02",
+        "geo": "KN",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 128,
+        "date": "2021-01-02",
+        "exonuclease": {
+          "E415G": 0.0
+        },
+        "geo": "KN",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 128,
+        "date": "2021-01-02",
+        "dhfr": {
+          "N51I-C59R-S108N": 0.3359
+        },
+        "geo": "KN",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 121,
+        "date": "2021-01-02",
+        "geo": "KN",
+        "malaria": "positive",
+        "mdr2": {
+          "F423Y": 0.7273
+        },
+        "source": "Sequencing"
+      },
+      {
+        "count": 115,
+        "date": "2021-01-02",
+        "dhps": {
+          "A437G": 0.9739
+        },
+        "geo": "KN",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 115,
+        "date": "2021-01-02",
+        "geo": "KN",
+        "malaria": "positive",
+        "psfr": {
+          "A437G-K540E-A581G-N51I-C59R-S108N": 0.0,
+          "A437G-K540E-N51I-C59R-S108N": 0.0,
+          "A437G-K540E-N51I-C59R-S108N-I164L": 0.0,
+          "A437G-N51I-C59R-S108N": 0.3478
+        },
+        "source": "Sequencing"
+      },
+      {
+        "count": 87,
+        "date": "2021-01-02",
+        "geo": "KT",
+        "malaria": "positive",
+        "mdr1": {
+          "N86-Y184F-D1246": 0.0,
+          "N86Y": 0.046,
+          "N86Y-Y184F-D1246N": 0.0
+        },
+        "source": "Sequencing"
+      },
+      {
+        "coronin": {
+          "E107V": 0.0,
+          "G50E": 0.0,
+          "R100K": 0.0
+        },
+        "count": 4,
+        "date": "2021-01-02",
+        "geo": "KT",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 10,
+        "date": "2021-01-02",
+        "ferredoxin": {
+          "D193Y": 0.0
+        },
+        "geo": "KT",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 50,
+        "date": "2021-01-02",
+        "geo": "KT",
+        "kelch13": {
+          "A481V": 0.0,
+          "A675V": 0.0,
+          "C469F": 0.0,
+          "C469Y": 0.0,
+          "C580Y": 0.0,
+          "F446I": 0.0,
+          "G449A": 0.0,
+          "G538V": 0.0,
+          "I543T": 0.0,
+          "M476I": 0.0,
+          "N458Y": 0.0,
+          "N537D": 0.0,
+          "N537I": 0.0,
+          "P441L": 0.0,
+          "P527H": 0.0,
+          "P553L": 0.0,
+          "P574L": 0.0,
+          "R515K": 0.0,
+          "R539T": 0.0,
+          "R561H": 0.0,
+          "R622I": 0.0,
+          "V568G": 0.0,
+          "Y493H": 0.0
+        },
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 91,
+        "crt": {
+          "K76T": 0.1648
+        },
+        "date": "2021-01-02",
+        "geo": "KT",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 10,
+        "date": "2021-01-02",
+        "exonuclease": {
+          "E415G": 0.0
+        },
+        "geo": "KT",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 80,
+        "date": "2021-01-02",
+        "dhfr": {
+          "N51I-C59R-S108N": 0.8625
+        },
+        "geo": "KT",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 7,
+        "date": "2021-01-02",
+        "geo": "KT",
+        "malaria": "positive",
+        "mdr2": {
+          "F423Y": 0.8571
+        },
+        "source": "Sequencing"
+      },
+      {
+        "count": 61,
+        "date": "2021-01-02",
+        "dhps": {
+          "A437G": 0.8689
+        },
+        "geo": "KT",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 61,
+        "date": "2021-01-02",
+        "geo": "KT",
+        "malaria": "positive",
+        "psfr": {
+          "A437G-K540E-A581G-N51I-C59R-S108N": 0.0,
+          "A437G-K540E-N51I-C59R-S108N": 0.0,
+          "A437G-K540E-N51I-C59R-S108N-I164L": 0.0,
+          "A437G-N51I-C59R-S108N": 0.7377
         },
         "source": "Sequencing"
       },
@@ -1557,11 +2684,31 @@
       {
         "count": 147,
         "date": "2021-01-02",
+        "dhfr": {
+          "N51I-C59R-S108N": 0.3537
+        },
+        "geo": "KE",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 147,
+        "date": "2021-01-02",
         "geo": "KE",
         "malaria": "positive",
         "mdr2": {
           "F423Y": 0.7823
         },
+        "source": "Sequencing"
+      },
+      {
+        "count": 144,
+        "date": "2021-01-02",
+        "dhps": {
+          "A437G": 0.9236
+        },
+        "geo": "KE",
+        "malaria": "positive",
         "source": "Sequencing"
       },
       {
@@ -1573,48 +2720,26 @@
           "A437G-K540E-A581G-N51I-C59R-S108N": 0.0,
           "A437G-K540E-N51I-C59R-S108N": 0.0,
           "A437G-K540E-N51I-C59R-S108N-I164L": 0.0,
-          "A437G-N51I-C59R-S108N": 0.3521
+          "A437G-N51I-C59R-S108N": 0.3169
         },
         "source": "Sequencing"
       },
       {
-        "count": 89,
+        "count": 24,
         "date": "2021-01-02",
-        "geo": "JI",
+        "geo": "KO",
         "malaria": "positive",
         "mdr1": {
           "N86-Y184F-D1246": 0.0,
-          "N86Y": 0.0337,
+          "N86Y": 0.0,
           "N86Y-Y184F-D1246N": 0.0
         },
         "source": "Sequencing"
       },
       {
-        "coronin": {
-          "E107V": 0.0,
-          "G50E": 0.0,
-          "R100K": 0.0
-        },
-        "count": 106,
+        "count": 16,
         "date": "2021-01-02",
-        "geo": "JI",
-        "malaria": "positive",
-        "source": "Sequencing"
-      },
-      {
-        "count": 109,
-        "date": "2021-01-02",
-        "ferredoxin": {
-          "D193Y": 0.0
-        },
-        "geo": "JI",
-        "malaria": "positive",
-        "source": "Sequencing"
-      },
-      {
-        "count": 73,
-        "date": "2021-01-02",
-        "geo": "JI",
+        "geo": "KO",
         "kelch13": {
           "A481V": 0.0,
           "A675V": 0.0,
@@ -1644,45 +2769,964 @@
         "source": "Sequencing"
       },
       {
-        "count": 99,
+        "count": 26,
         "crt": {
-          "K76T": 0.1414
+          "K76T": 0.3846
         },
         "date": "2021-01-02",
-        "geo": "JI",
+        "geo": "KO",
         "malaria": "positive",
         "source": "Sequencing"
       },
       {
-        "count": 110,
+        "count": 24,
         "date": "2021-01-02",
-        "exonuclease": {
-          "E415G": 0.0
+        "dhfr": {
+          "N51I-C59R-S108N": 0.9583
         },
-        "geo": "JI",
+        "geo": "KO",
         "malaria": "positive",
         "source": "Sequencing"
       },
       {
-        "count": 108,
+        "count": 24,
         "date": "2021-01-02",
-        "geo": "JI",
-        "malaria": "positive",
-        "mdr2": {
-          "F423Y": 0.8519
+        "dhps": {
+          "A437G": 0.9583
         },
+        "geo": "KO",
+        "malaria": "positive",
         "source": "Sequencing"
       },
       {
-        "count": 83,
+        "count": 24,
         "date": "2021-01-02",
-        "geo": "JI",
+        "geo": "KO",
         "malaria": "positive",
         "psfr": {
           "A437G-K540E-A581G-N51I-C59R-S108N": 0.0,
           "A437G-K540E-N51I-C59R-S108N": 0.0,
           "A437G-K540E-N51I-C59R-S108N-I164L": 0.0,
-          "A437G-N51I-C59R-S108N": 0.7952
+          "A437G-N51I-C59R-S108N": 0.9583
+        },
+        "source": "Sequencing"
+      },
+      {
+        "count": 7,
+        "date": "2021-01-02",
+        "geo": "KW",
+        "malaria": "positive",
+        "mdr1": {
+          "N86-Y184F-D1246": 0.0,
+          "N86Y": 0.0,
+          "N86Y-Y184F-D1246N": 0.0
+        },
+        "source": "Sequencing"
+      },
+      {
+        "coronin": {
+          "E107V": 0.0,
+          "G50E": 0.0,
+          "R100K": 0.0
+        },
+        "count": 6,
+        "date": "2021-01-02",
+        "geo": "KW",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 7,
+        "date": "2021-01-02",
+        "ferredoxin": {
+          "D193Y": 0.0
+        },
+        "geo": "KW",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 7,
+        "crt": {
+          "K76T": 0.4286
+        },
+        "date": "2021-01-02",
+        "geo": "KW",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 9,
+        "date": "2021-01-02",
+        "exonuclease": {
+          "E415G": 0.0
+        },
+        "geo": "KW",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 5,
+        "date": "2021-01-02",
+        "dhfr": {
+          "N51I-C59R-S108N": 1.0
+        },
+        "geo": "KW",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 6,
+        "date": "2021-01-02",
+        "geo": "KW",
+        "malaria": "positive",
+        "mdr2": {
+          "F423Y": 0.8333
+        },
+        "source": "Sequencing"
+      },
+      {
+        "count": 2,
+        "date": "2021-01-02",
+        "dhps": {
+          "A437G": 1.0
+        },
+        "geo": "KW",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 2,
+        "date": "2021-01-02",
+        "geo": "KW",
+        "malaria": "positive",
+        "psfr": {
+          "A437G-K540E-A581G-N51I-C59R-S108N": 0.0,
+          "A437G-K540E-N51I-C59R-S108N": 0.0,
+          "A437G-K540E-N51I-C59R-S108N-I164L": 0.0,
+          "A437G-N51I-C59R-S108N": 1.0
+        },
+        "source": "Sequencing"
+      },
+      {
+        "count": 4,
+        "date": "2021-01-02",
+        "geo": "LA",
+        "malaria": "positive",
+        "mdr1": {
+          "N86-Y184F-D1246": 0.0,
+          "N86Y": 0.0,
+          "N86Y-Y184F-D1246N": 0.0
+        },
+        "source": "Sequencing"
+      },
+      {
+        "count": 4,
+        "date": "2021-01-02",
+        "geo": "LA",
+        "kelch13": {
+          "A481V": 0.0,
+          "A675V": 0.0,
+          "C469F": 0.0,
+          "C469Y": 0.0,
+          "C580Y": 0.0,
+          "F446I": 0.0,
+          "G449A": 0.0,
+          "G538V": 0.0,
+          "I543T": 0.0,
+          "M476I": 0.0,
+          "N458Y": 0.0,
+          "N537D": 0.0,
+          "N537I": 0.0,
+          "P441L": 0.0,
+          "P527H": 0.0,
+          "P553L": 0.0,
+          "P574L": 0.0,
+          "R515K": 0.0,
+          "R539T": 0.0,
+          "R561H": 0.0,
+          "R622I": 0.0,
+          "V568G": 0.0,
+          "Y493H": 0.0
+        },
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 3,
+        "crt": {
+          "K76T": 0.3333
+        },
+        "date": "2021-01-02",
+        "geo": "LA",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 4,
+        "date": "2021-01-02",
+        "dhfr": {
+          "N51I-C59R-S108N": 1.0
+        },
+        "geo": "LA",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 4,
+        "date": "2021-01-02",
+        "dhps": {
+          "A437G": 1.0
+        },
+        "geo": "LA",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 4,
+        "date": "2021-01-02",
+        "geo": "LA",
+        "malaria": "positive",
+        "psfr": {
+          "A437G-K540E-A581G-N51I-C59R-S108N": 0.0,
+          "A437G-K540E-N51I-C59R-S108N": 0.0,
+          "A437G-K540E-N51I-C59R-S108N-I164L": 0.0,
+          "A437G-N51I-C59R-S108N": 1.0
+        },
+        "source": "Sequencing"
+      },
+      {
+        "count": 45,
+        "date": "2021-01-02",
+        "geo": "NI",
+        "malaria": "positive",
+        "mdr1": {
+          "N86-Y184F-D1246": 0.0,
+          "N86Y": 0.0,
+          "N86Y-Y184F-D1246N": 0.0
+        },
+        "source": "Sequencing"
+      },
+      {
+        "coronin": {
+          "E107V": 0.0,
+          "G50E": 0.0,
+          "R100K": 0.0
+        },
+        "count": 9,
+        "date": "2021-01-02",
+        "geo": "NI",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 9,
+        "date": "2021-01-02",
+        "ferredoxin": {
+          "D193Y": 0.0
+        },
+        "geo": "NI",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 26,
+        "date": "2021-01-02",
+        "geo": "NI",
+        "kelch13": {
+          "A481V": 0.0,
+          "A675V": 0.0,
+          "C469F": 0.0,
+          "C469Y": 0.0,
+          "C580Y": 0.0,
+          "F446I": 0.0,
+          "G449A": 0.0,
+          "G538V": 0.0,
+          "I543T": 0.0,
+          "M476I": 0.0,
+          "N458Y": 0.0,
+          "N537D": 0.0,
+          "N537I": 0.0,
+          "P441L": 0.0,
+          "P527H": 0.0,
+          "P553L": 0.0,
+          "P574L": 0.0,
+          "R515K": 0.0,
+          "R539T": 0.0,
+          "R561H": 0.0,
+          "R622I": 0.0,
+          "V568G": 0.0,
+          "Y493H": 0.0
+        },
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 54,
+        "crt": {
+          "K76T": 0.3704
+        },
+        "date": "2021-01-02",
+        "geo": "NI",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 9,
+        "date": "2021-01-02",
+        "exonuclease": {
+          "E415G": 0.0
+        },
+        "geo": "NI",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 43,
+        "date": "2021-01-02",
+        "dhfr": {
+          "N51I-C59R-S108N": 0.9302
+        },
+        "geo": "NI",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 9,
+        "date": "2021-01-02",
+        "geo": "NI",
+        "malaria": "positive",
+        "mdr2": {
+          "F423Y": 1.0
+        },
+        "source": "Sequencing"
+      },
+      {
+        "count": 34,
+        "date": "2021-01-02",
+        "dhps": {
+          "A437G": 0.8824
+        },
+        "geo": "NI",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 34,
+        "date": "2021-01-02",
+        "geo": "NI",
+        "malaria": "positive",
+        "psfr": {
+          "A437G-K540E-A581G-N51I-C59R-S108N": 0.0,
+          "A437G-K540E-N51I-C59R-S108N": 0.0,
+          "A437G-K540E-N51I-C59R-S108N-I164L": 0.0,
+          "A437G-N51I-C59R-S108N": 0.8529
+        },
+        "source": "Sequencing"
+      },
+      {
+        "count": 18,
+        "date": "2021-01-02",
+        "geo": "OG",
+        "malaria": "positive",
+        "mdr1": {
+          "N86-Y184F-D1246": 0.0,
+          "N86Y": 0.0,
+          "N86Y-Y184F-D1246N": 0.0
+        },
+        "source": "Sequencing"
+      },
+      {
+        "count": 17,
+        "date": "2021-01-02",
+        "geo": "OG",
+        "kelch13": {
+          "A481V": 0.0,
+          "A675V": 0.0,
+          "C469F": 0.0,
+          "C469Y": 0.0,
+          "C580Y": 0.0,
+          "F446I": 0.0,
+          "G449A": 0.0,
+          "G538V": 0.0,
+          "I543T": 0.0,
+          "M476I": 0.0,
+          "N458Y": 0.0,
+          "N537D": 0.0,
+          "N537I": 0.0,
+          "P441L": 0.0,
+          "P527H": 0.0,
+          "P553L": 0.0,
+          "P574L": 0.0,
+          "R515K": 0.0,
+          "R539T": 0.0,
+          "R561H": 0.0,
+          "R622I": 0.0,
+          "V568G": 0.0,
+          "Y493H": 0.0
+        },
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 17,
+        "crt": {
+          "K76T": 0.2941
+        },
+        "date": "2021-01-02",
+        "geo": "OG",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 19,
+        "date": "2021-01-02",
+        "dhfr": {
+          "N51I-C59R-S108N": 0.9474
+        },
+        "geo": "OG",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 19,
+        "date": "2021-01-02",
+        "dhps": {
+          "A437G": 1.0
+        },
+        "geo": "OG",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 19,
+        "date": "2021-01-02",
+        "geo": "OG",
+        "malaria": "positive",
+        "psfr": {
+          "A437G-K540E-A581G-N51I-C59R-S108N": 0.0,
+          "A437G-K540E-N51I-C59R-S108N": 0.0,
+          "A437G-K540E-N51I-C59R-S108N-I164L": 0.0,
+          "A437G-N51I-C59R-S108N": 0.9474
+        },
+        "source": "Sequencing"
+      },
+      {
+        "count": 44,
+        "date": "2021-01-02",
+        "geo": "ON",
+        "malaria": "positive",
+        "mdr1": {
+          "N86-Y184F-D1246": 0.0,
+          "N86Y": 0.0,
+          "N86Y-Y184F-D1246N": 0.0
+        },
+        "source": "Sequencing"
+      },
+      {
+        "count": 43,
+        "date": "2021-01-02",
+        "geo": "ON",
+        "kelch13": {
+          "A481V": 0.0,
+          "A675V": 0.0,
+          "C469F": 0.0,
+          "C469Y": 0.0,
+          "C580Y": 0.0,
+          "F446I": 0.0,
+          "G449A": 0.0,
+          "G538V": 0.0,
+          "I543T": 0.0,
+          "M476I": 0.0,
+          "N458Y": 0.0,
+          "N537D": 0.0,
+          "N537I": 0.0,
+          "P441L": 0.0,
+          "P527H": 0.0,
+          "P553L": 0.0,
+          "P574L": 0.0,
+          "R515K": 0.0,
+          "R539T": 0.0,
+          "R561H": 0.0,
+          "R622I": 0.0,
+          "V568G": 0.0,
+          "Y493H": 0.0
+        },
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 47,
+        "crt": {
+          "K76T": 0.7447
+        },
+        "date": "2021-01-02",
+        "geo": "ON",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 59,
+        "date": "2021-01-02",
+        "dhfr": {
+          "N51I-C59R-S108N": 1.0
+        },
+        "geo": "ON",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 53,
+        "date": "2021-01-02",
+        "dhps": {
+          "A437G": 1.0
+        },
+        "geo": "ON",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 53,
+        "date": "2021-01-02",
+        "geo": "ON",
+        "malaria": "positive",
+        "psfr": {
+          "A437G-K540E-A581G-N51I-C59R-S108N": 0.0,
+          "A437G-K540E-N51I-C59R-S108N": 0.0,
+          "A437G-K540E-N51I-C59R-S108N-I164L": 0.0,
+          "A437G-N51I-C59R-S108N": 1.0
+        },
+        "source": "Sequencing"
+      },
+      {
+        "count": 19,
+        "date": "2021-01-02",
+        "geo": "OS",
+        "malaria": "positive",
+        "mdr1": {
+          "N86-Y184F-D1246": 0.0,
+          "N86Y": 0.0,
+          "N86Y-Y184F-D1246N": 0.0
+        },
+        "source": "Sequencing"
+      },
+      {
+        "coronin": {
+          "E107V": 0.0,
+          "G50E": 0.0,
+          "R100K": 0.0
+        },
+        "count": 16,
+        "date": "2021-01-02",
+        "geo": "OS",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 22,
+        "date": "2021-01-02",
+        "ferredoxin": {
+          "D193Y": 0.0
+        },
+        "geo": "OS",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 2,
+        "date": "2021-01-02",
+        "geo": "OS",
+        "kelch13": {
+          "A481V": 0.0,
+          "A675V": 0.0,
+          "C469F": 0.0,
+          "C469Y": 0.0,
+          "C580Y": 0.0,
+          "F446I": 0.0,
+          "G449A": 0.0,
+          "G538V": 0.0,
+          "I543T": 0.0,
+          "M476I": 0.0,
+          "N458Y": 0.0,
+          "N537D": 0.0,
+          "N537I": 0.0,
+          "P441L": 0.0,
+          "P527H": 0.0,
+          "P553L": 0.0,
+          "P574L": 0.0,
+          "R515K": 0.0,
+          "R539T": 0.0,
+          "R561H": 0.0,
+          "R622I": 0.0,
+          "V568G": 0.0,
+          "Y493H": 0.0
+        },
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 19,
+        "crt": {
+          "K76T": 0.1053
+        },
+        "date": "2021-01-02",
+        "geo": "OS",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 21,
+        "date": "2021-01-02",
+        "exonuclease": {
+          "E415G": 0.0
+        },
+        "geo": "OS",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 19,
+        "date": "2021-01-02",
+        "dhfr": {
+          "N51I-C59R-S108N": 1.0
+        },
+        "geo": "OS",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 19,
+        "date": "2021-01-02",
+        "geo": "OS",
+        "malaria": "positive",
+        "mdr2": {
+          "F423Y": 0.6842
+        },
+        "source": "Sequencing"
+      },
+      {
+        "count": 9,
+        "date": "2021-01-02",
+        "dhps": {
+          "A437G": 1.0
+        },
+        "geo": "OS",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 9,
+        "date": "2021-01-02",
+        "geo": "OS",
+        "malaria": "positive",
+        "psfr": {
+          "A437G-K540E-A581G-N51I-C59R-S108N": 0.0,
+          "A437G-K540E-N51I-C59R-S108N": 0.0,
+          "A437G-K540E-N51I-C59R-S108N-I164L": 0.0,
+          "A437G-N51I-C59R-S108N": 1.0
+        },
+        "source": "Sequencing"
+      },
+      {
+        "count": 29,
+        "date": "2021-01-02",
+        "geo": "OY",
+        "malaria": "positive",
+        "mdr1": {
+          "N86-Y184F-D1246": 0.0,
+          "N86Y": 0.1034,
+          "N86Y-Y184F-D1246N": 0.0
+        },
+        "source": "Sequencing"
+      },
+      {
+        "count": 24,
+        "date": "2021-01-02",
+        "geo": "OY",
+        "kelch13": {
+          "A481V": 0.0,
+          "A675V": 0.0,
+          "C469F": 0.0,
+          "C469Y": 0.0,
+          "C580Y": 0.0,
+          "F446I": 0.0,
+          "G449A": 0.0,
+          "G538V": 0.0,
+          "I543T": 0.0,
+          "M476I": 0.0,
+          "N458Y": 0.0,
+          "N537D": 0.0,
+          "N537I": 0.0,
+          "P441L": 0.0,
+          "P527H": 0.0,
+          "P553L": 0.0,
+          "P574L": 0.0,
+          "R515K": 0.0,
+          "R539T": 0.0,
+          "R561H": 0.0,
+          "R622I": 0.0,
+          "V568G": 0.0,
+          "Y493H": 0.0
+        },
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 30,
+        "crt": {
+          "K76T": 0.1667
+        },
+        "date": "2021-01-02",
+        "geo": "OY",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 31,
+        "date": "2021-01-02",
+        "dhfr": {
+          "N51I-C59R-S108N": 0.9355
+        },
+        "geo": "OY",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 31,
+        "date": "2021-01-02",
+        "dhps": {
+          "A437G": 0.9677
+        },
+        "geo": "OY",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 31,
+        "date": "2021-01-02",
+        "geo": "OY",
+        "malaria": "positive",
+        "psfr": {
+          "A437G-K540E-A581G-N51I-C59R-S108N": 0.0,
+          "A437G-K540E-N51I-C59R-S108N": 0.0,
+          "A437G-K540E-N51I-C59R-S108N-I164L": 0.0,
+          "A437G-N51I-C59R-S108N": 0.9032
+        },
+        "source": "Sequencing"
+      },
+      {
+        "count": 39,
+        "date": "2021-01-02",
+        "geo": "PL",
+        "malaria": "positive",
+        "mdr1": {
+          "N86-Y184F-D1246": 0.0,
+          "N86Y": 0.0,
+          "N86Y-Y184F-D1246N": 0.0
+        },
+        "source": "Sequencing"
+      },
+      {
+        "coronin": {
+          "E107V": 0.0,
+          "G50E": 0.0,
+          "R100K": 0.0
+        },
+        "count": 39,
+        "date": "2021-01-02",
+        "geo": "PL",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 46,
+        "date": "2021-01-02",
+        "ferredoxin": {
+          "D193Y": 0.0
+        },
+        "geo": "PL",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 12,
+        "date": "2021-01-02",
+        "geo": "PL",
+        "kelch13": {
+          "A481V": 0.0,
+          "A675V": 0.0,
+          "C469F": 0.0,
+          "C469Y": 0.0,
+          "C580Y": 0.0,
+          "F446I": 0.0,
+          "G449A": 0.0,
+          "G538V": 0.0,
+          "I543T": 0.0,
+          "M476I": 0.0,
+          "N458Y": 0.0,
+          "N537D": 0.0,
+          "N537I": 0.0,
+          "P441L": 0.0,
+          "P527H": 0.0,
+          "P553L": 0.0,
+          "P574L": 0.0,
+          "R515K": 0.0,
+          "R539T": 0.0,
+          "R561H": 0.0,
+          "R622I": 0.0,
+          "V568G": 0.0,
+          "Y493H": 0.0
+        },
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 41,
+        "crt": {
+          "K76T": 0.3659
+        },
+        "date": "2021-01-02",
+        "geo": "PL",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 45,
+        "date": "2021-01-02",
+        "exonuclease": {
+          "E415G": 0.0
+        },
+        "geo": "PL",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 40,
+        "date": "2021-01-02",
+        "dhfr": {
+          "N51I-C59R-S108N": 0.975
+        },
+        "geo": "PL",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 41,
+        "date": "2021-01-02",
+        "geo": "PL",
+        "malaria": "positive",
+        "mdr2": {
+          "F423Y": 0.9268
+        },
+        "source": "Sequencing"
+      },
+      {
+        "count": 20,
+        "date": "2021-01-02",
+        "dhps": {
+          "A437G": 1.0
+        },
+        "geo": "PL",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 20,
+        "date": "2021-01-02",
+        "geo": "PL",
+        "malaria": "positive",
+        "psfr": {
+          "A437G-K540E-A581G-N51I-C59R-S108N": 0.0,
+          "A437G-K540E-N51I-C59R-S108N": 0.0,
+          "A437G-K540E-N51I-C59R-S108N-I164L": 0.0,
+          "A437G-N51I-C59R-S108N": 1.0
+        },
+        "source": "Sequencing"
+      },
+      {
+        "count": 11,
+        "date": "2021-01-02",
+        "geo": "RI",
+        "malaria": "positive",
+        "mdr1": {
+          "N86-Y184F-D1246": 0.0,
+          "N86Y": 0.0,
+          "N86Y-Y184F-D1246N": 0.0
+        },
+        "source": "Sequencing"
+      },
+      {
+        "count": 10,
+        "date": "2021-01-02",
+        "geo": "RI",
+        "kelch13": {
+          "A481V": 0.0,
+          "A675V": 0.0,
+          "C469F": 0.0,
+          "C469Y": 0.0,
+          "C580Y": 0.0,
+          "F446I": 0.0,
+          "G449A": 0.0,
+          "G538V": 0.0,
+          "I543T": 0.0,
+          "M476I": 0.0,
+          "N458Y": 0.0,
+          "N537D": 0.0,
+          "N537I": 0.0,
+          "P441L": 0.0,
+          "P527H": 0.0,
+          "P553L": 0.0,
+          "P574L": 0.0,
+          "R515K": 0.0,
+          "R539T": 0.0,
+          "R561H": 0.0,
+          "R622I": 0.0,
+          "V568G": 0.0,
+          "Y493H": 0.0
+        },
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 13,
+        "crt": {
+          "K76T": 0.4615
+        },
+        "date": "2021-01-02",
+        "geo": "RI",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 12,
+        "date": "2021-01-02",
+        "dhfr": {
+          "N51I-C59R-S108N": 1.0
+        },
+        "geo": "RI",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 12,
+        "date": "2021-01-02",
+        "dhps": {
+          "A437G": 1.0
+        },
+        "geo": "RI",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 12,
+        "date": "2021-01-02",
+        "geo": "RI",
+        "malaria": "positive",
+        "psfr": {
+          "A437G-K540E-A581G-N51I-C59R-S108N": 0.0,
+          "A437G-K540E-N51I-C59R-S108N": 0.0,
+          "A437G-K540E-N51I-C59R-S108N-I164L": 0.0,
+          "A437G-N51I-C59R-S108N": 1.0
         },
         "source": "Sequencing"
       },
@@ -1773,6 +3817,16 @@
         "source": "Sequencing"
       },
       {
+        "count": 129,
+        "date": "2021-01-02",
+        "dhfr": {
+          "N51I-C59R-S108N": 0.3798
+        },
+        "geo": "SO",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
         "count": 117,
         "date": "2021-01-02",
         "geo": "SO",
@@ -1785,24 +3839,34 @@
       {
         "count": 113,
         "date": "2021-01-02",
+        "dhps": {
+          "A437G": 0.8319
+        },
+        "geo": "SO",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 113,
+        "date": "2021-01-02",
         "geo": "SO",
         "malaria": "positive",
         "psfr": {
           "A437G-K540E-A581G-N51I-C59R-S108N": 0.0,
           "A437G-K540E-N51I-C59R-S108N": 0.0,
           "A437G-K540E-N51I-C59R-S108N-I164L": 0.0,
-          "A437G-N51I-C59R-S108N": 0.3717
+          "A437G-N51I-C59R-S108N": 0.3274
         },
         "source": "Sequencing"
       },
       {
-        "count": 38,
+        "count": 79,
         "date": "2021-01-02",
-        "geo": "KD",
+        "geo": "TA",
         "malaria": "positive",
         "mdr1": {
-          "N86-Y184F-D1246": 0.0,
-          "N86Y": 0.0789,
+          "N86-Y184F-D1246": 0.0127,
+          "N86Y": 0.0886,
           "N86Y-Y184F-D1246N": 0.0
         },
         "source": "Sequencing"
@@ -1813,26 +3877,26 @@
           "G50E": 0.0,
           "R100K": 0.0
         },
-        "count": 38,
+        "count": 75,
         "date": "2021-01-02",
-        "geo": "KD",
+        "geo": "TA",
         "malaria": "positive",
         "source": "Sequencing"
       },
       {
-        "count": 43,
+        "count": 5,
         "date": "2021-01-02",
         "ferredoxin": {
           "D193Y": 0.0
         },
-        "geo": "KD",
+        "geo": "TA",
         "malaria": "positive",
         "source": "Sequencing"
       },
       {
-        "count": 35,
+        "count": 66,
         "date": "2021-01-02",
-        "geo": "KD",
+        "geo": "TA",
         "kelch13": {
           "A481V": 0.0,
           "A675V": 0.0,
@@ -1862,45 +3926,194 @@
         "source": "Sequencing"
       },
       {
-        "count": 42,
+        "count": 83,
         "crt": {
-          "K76T": 0.381
+          "K76T": 0.0723
         },
         "date": "2021-01-02",
-        "geo": "KD",
+        "geo": "TA",
         "malaria": "positive",
         "source": "Sequencing"
       },
       {
-        "count": 44,
+        "count": 81,
         "date": "2021-01-02",
         "exonuclease": {
           "E415G": 0.0
         },
-        "geo": "KD",
+        "geo": "TA",
         "malaria": "positive",
         "source": "Sequencing"
       },
       {
-        "count": 41,
+        "count": 77,
         "date": "2021-01-02",
-        "geo": "KD",
+        "dhfr": {
+          "N51I-C59R-S108N": 0.4935
+        },
+        "geo": "TA",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 77,
+        "date": "2021-01-02",
+        "geo": "TA",
         "malaria": "positive",
         "mdr2": {
-          "F423Y": 0.7317
+          "F423Y": 0.8701
         },
         "source": "Sequencing"
       },
       {
-        "count": 36,
+        "count": 70,
         "date": "2021-01-02",
-        "geo": "KD",
+        "dhps": {
+          "A437G": 0.8571
+        },
+        "geo": "TA",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 70,
+        "date": "2021-01-02",
+        "geo": "TA",
         "malaria": "positive",
         "psfr": {
           "A437G-K540E-A581G-N51I-C59R-S108N": 0.0,
           "A437G-K540E-N51I-C59R-S108N": 0.0,
           "A437G-K540E-N51I-C59R-S108N-I164L": 0.0,
-          "A437G-N51I-C59R-S108N": 0.7222
+          "A437G-N51I-C59R-S108N": 0.3714
+        },
+        "source": "Sequencing"
+      },
+      {
+        "count": 51,
+        "date": "2021-01-02",
+        "geo": "YO",
+        "malaria": "positive",
+        "mdr1": {
+          "N86-Y184F-D1246": 0.0,
+          "N86Y": 0.0,
+          "N86Y-Y184F-D1246N": 0.0
+        },
+        "source": "Sequencing"
+      },
+      {
+        "coronin": {
+          "E107V": 0.0,
+          "G50E": 0.0,
+          "R100K": 0.0
+        },
+        "count": 47,
+        "date": "2021-01-02",
+        "geo": "YO",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 52,
+        "date": "2021-01-02",
+        "ferredoxin": {
+          "D193Y": 0.0
+        },
+        "geo": "YO",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 43,
+        "date": "2021-01-02",
+        "geo": "YO",
+        "kelch13": {
+          "A481V": 0.0,
+          "A675V": 0.0,
+          "C469F": 0.0,
+          "C469Y": 0.0,
+          "C580Y": 0.0,
+          "F446I": 0.0,
+          "G449A": 0.0,
+          "G538V": 0.0,
+          "I543T": 0.0,
+          "M476I": 0.0,
+          "N458Y": 0.0,
+          "N537D": 0.0,
+          "N537I": 0.0,
+          "P441L": 0.0,
+          "P527H": 0.0,
+          "P553L": 0.0,
+          "P574L": 0.0,
+          "R515K": 0.0,
+          "R539T": 0.0,
+          "R561H": 0.0,
+          "R622I": 0.0,
+          "V568G": 0.0,
+          "Y493H": 0.0
+        },
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 53,
+        "crt": {
+          "K76T": 0.2642
+        },
+        "date": "2021-01-02",
+        "geo": "YO",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 48,
+        "date": "2021-01-02",
+        "exonuclease": {
+          "E415G": 0.0
+        },
+        "geo": "YO",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 49,
+        "date": "2021-01-02",
+        "dhfr": {
+          "N51I-C59R-S108N": 0.4082
+        },
+        "geo": "YO",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 50,
+        "date": "2021-01-02",
+        "geo": "YO",
+        "malaria": "positive",
+        "mdr2": {
+          "F423Y": 0.9
+        },
+        "source": "Sequencing"
+      },
+      {
+        "count": 47,
+        "date": "2021-01-02",
+        "dhps": {
+          "A437G": 0.9362
+        },
+        "geo": "YO",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 47,
+        "date": "2021-01-02",
+        "geo": "YO",
+        "malaria": "positive",
+        "psfr": {
+          "A437G-K540E-A581G-N51I-C59R-S108N": 0.0,
+          "A437G-K540E-N51I-C59R-S108N": 0.0,
+          "A437G-K540E-N51I-C59R-S108N-I164L": 0.0,
+          "A437G-N51I-C59R-S108N": 0.383
         },
         "source": "Sequencing"
       },
@@ -1991,6 +4204,16 @@
         "source": "Sequencing"
       },
       {
+        "count": 24,
+        "date": "2021-01-02",
+        "dhfr": {
+          "N51I-C59R-S108N": 0.2917
+        },
+        "geo": "ZA",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
         "count": 16,
         "date": "2021-01-02",
         "geo": "ZA",
@@ -2003,6 +4226,16 @@
       {
         "count": 20,
         "date": "2021-01-02",
+        "dhps": {
+          "A437G": 0.9
+        },
+        "geo": "ZA",
+        "malaria": "positive",
+        "source": "Sequencing"
+      },
+      {
+        "count": 20,
+        "date": "2021-01-02",
         "geo": "ZA",
         "malaria": "positive",
         "psfr": {
@@ -2010,115 +4243,6 @@
           "A437G-K540E-N51I-C59R-S108N": 0.0,
           "A437G-K540E-N51I-C59R-S108N-I164L": 0.0,
           "A437G-N51I-C59R-S108N": 0.15
-        },
-        "source": "Sequencing"
-      },
-      {
-        "count": 100,
-        "date": "2021-01-02",
-        "geo": "BA",
-        "malaria": "positive",
-        "mdr1": {
-          "N86-Y184F-D1246": 0.0,
-          "N86Y": 0.02,
-          "N86Y-Y184F-D1246N": 0.0
-        },
-        "source": "Sequencing"
-      },
-      {
-        "coronin": {
-          "E107V": 0.0,
-          "G50E": 0.0,
-          "R100K": 0.0
-        },
-        "count": 92,
-        "date": "2021-01-02",
-        "geo": "BA",
-        "malaria": "positive",
-        "source": "Sequencing"
-      },
-      {
-        "count": 97,
-        "date": "2021-01-02",
-        "ferredoxin": {
-          "D193Y": 0.0
-        },
-        "geo": "BA",
-        "malaria": "positive",
-        "source": "Sequencing"
-      },
-      {
-        "count": 73,
-        "date": "2021-01-02",
-        "geo": "BA",
-        "kelch13": {
-          "A481V": 0.0,
-          "A675V": 0.0,
-          "C469F": 0.0,
-          "C469Y": 0.0,
-          "C580Y": 0.0,
-          "F446I": 0.0,
-          "G449A": 0.0,
-          "G538V": 0.0,
-          "I543T": 0.0,
-          "M476I": 0.0,
-          "N458Y": 0.0,
-          "N537D": 0.0,
-          "N537I": 0.0,
-          "P441L": 0.0,
-          "P527H": 0.0,
-          "P553L": 0.0,
-          "P574L": 0.0,
-          "R515K": 0.0,
-          "R539T": 0.0,
-          "R561H": 0.0,
-          "R622I": 0.0,
-          "V568G": 0.0,
-          "Y493H": 0.0
-        },
-        "malaria": "positive",
-        "source": "Sequencing"
-      },
-      {
-        "count": 98,
-        "crt": {
-          "K76T": 0.2755
-        },
-        "date": "2021-01-02",
-        "geo": "BA",
-        "malaria": "positive",
-        "source": "Sequencing"
-      },
-      {
-        "count": 99,
-        "date": "2021-01-02",
-        "exonuclease": {
-          "E415G": 0.0
-        },
-        "geo": "BA",
-        "malaria": "positive",
-        "source": "Sequencing"
-      },
-      {
-        "count": 96,
-        "date": "2021-01-02",
-        "geo": "BA",
-        "malaria": "positive",
-        "mdr2": {
-          "F423Y": 0.9167
-        },
-        "source": "Sequencing"
-      },
-      {
-        "count": 92,
-        "date": "2021-01-02",
-        "geo": "BA",
-        "malaria": "positive",
-        "psfr": {
-          "A437G-K540E-A581G-N51I-C59R-S108N": 0.0,
-          "A437G-K540E-N51I-C59R-S108N": 0.0,
-          "A437G-K540E-N51I-C59R-S108N-I164L": 0.0,
-          "A437G-N51I-C59R-S108N": 0.3804
         },
         "source": "Sequencing"
       },
@@ -2336,25 +4460,89 @@
         "source": "Sequencing"
       },
       {
-        "count": 26,
+        "count": 8,
         "date": "2021-01-02",
-        "geo": "SO",
-        "malaria": "positive",
-        "moi": 4,
-        "source": "Sequencing"
-      },
-      {
-        "count": 40,
-        "date": "2021-01-02",
-        "geo": "SO",
+        "geo": "AB",
         "malaria": "positive",
         "moi": 2,
         "source": "Sequencing"
       },
       {
-        "count": 27,
+        "count": 6,
         "date": "2021-01-02",
-        "geo": "SO",
+        "geo": "AB",
+        "malaria": "positive",
+        "moi": 3,
+        "source": "Sequencing"
+      },
+      {
+        "count": 6,
+        "date": "2021-01-02",
+        "geo": "AB",
+        "malaria": "positive",
+        "moi": 5,
+        "source": "Sequencing"
+      },
+      {
+        "count": 2,
+        "date": "2021-01-02",
+        "geo": "AB",
+        "malaria": "positive",
+        "moi": 4,
+        "source": "Sequencing"
+      },
+      {
+        "count": 1,
+        "date": "2021-01-02",
+        "geo": "AB",
+        "malaria": "positive",
+        "moi": 1,
+        "source": "Sequencing"
+      },
+      {
+        "count": 7,
+        "date": "2021-01-02",
+        "geo": "AD",
+        "malaria": "positive",
+        "moi": 1,
+        "source": "Sequencing"
+      },
+      {
+        "count": 3,
+        "date": "2021-01-02",
+        "geo": "AD",
+        "malaria": "positive",
+        "moi": 4,
+        "source": "Sequencing"
+      },
+      {
+        "count": 4,
+        "date": "2021-01-02",
+        "geo": "AD",
+        "malaria": "positive",
+        "moi": 6,
+        "source": "Sequencing"
+      },
+      {
+        "count": 1,
+        "date": "2021-01-02",
+        "geo": "AD",
+        "malaria": "positive",
+        "moi": 9,
+        "source": "Sequencing"
+      },
+      {
+        "count": 1,
+        "date": "2021-01-02",
+        "geo": "AD",
+        "malaria": "positive",
+        "moi": 14,
+        "source": "Sequencing"
+      },
+      {
+        "count": 3,
+        "date": "2021-01-02",
+        "geo": "AD",
         "malaria": "positive",
         "moi": 3,
         "source": "Sequencing"
@@ -2362,25 +4550,17 @@
       {
         "count": 3,
         "date": "2021-01-02",
-        "geo": "SO",
+        "geo": "AD",
         "malaria": "positive",
         "moi": 5,
         "source": "Sequencing"
       },
       {
-        "count": 13,
+        "count": 1,
         "date": "2021-01-02",
-        "geo": "SO",
+        "geo": "AD",
         "malaria": "positive",
-        "moi": 1,
-        "source": "Sequencing"
-      },
-      {
-        "count": 2,
-        "date": "2021-01-02",
-        "geo": "SO",
-        "malaria": "positive",
-        "moi": 6,
+        "moi": 10,
         "source": "Sequencing"
       },
       {
@@ -2396,53 +4576,45 @@
         "date": "2021-01-02",
         "geo": "AD",
         "malaria": "positive",
-        "moi": 4,
+        "moi": 7,
         "source": "Sequencing"
       },
       {
-        "count": 48,
+        "count": 10,
         "date": "2021-01-02",
-        "geo": "KE",
+        "geo": "AK",
         "malaria": "positive",
         "moi": 2,
-        "source": "Sequencing"
-      },
-      {
-        "count": 52,
-        "date": "2021-01-02",
-        "geo": "KE",
-        "malaria": "positive",
-        "moi": 3,
-        "source": "Sequencing"
-      },
-      {
-        "count": 22,
-        "date": "2021-01-02",
-        "geo": "KE",
-        "malaria": "positive",
-        "moi": 4,
-        "source": "Sequencing"
-      },
-      {
-        "count": 19,
-        "date": "2021-01-02",
-        "geo": "KE",
-        "malaria": "positive",
-        "moi": 1,
         "source": "Sequencing"
       },
       {
         "count": 4,
         "date": "2021-01-02",
-        "geo": "KE",
+        "geo": "AK",
         "malaria": "positive",
         "moi": 5,
         "source": "Sequencing"
       },
       {
-        "count": 1,
+        "count": 12,
         "date": "2021-01-02",
-        "geo": "KE",
+        "geo": "AK",
+        "malaria": "positive",
+        "moi": 3,
+        "source": "Sequencing"
+      },
+      {
+        "count": 7,
+        "date": "2021-01-02",
+        "geo": "AK",
+        "malaria": "positive",
+        "moi": 1,
+        "source": "Sequencing"
+      },
+      {
+        "count": 3,
+        "date": "2021-01-02",
+        "geo": "AK",
         "malaria": "positive",
         "moi": 7,
         "source": "Sequencing"
@@ -2450,15 +4622,391 @@
       {
         "count": 1,
         "date": "2021-01-02",
-        "geo": "KE",
+        "geo": "AK",
         "malaria": "positive",
         "moi": 6,
         "source": "Sequencing"
       },
       {
-        "count": 26,
+        "count": 7,
         "date": "2021-01-02",
-        "geo": "TA",
+        "geo": "AK",
+        "malaria": "positive",
+        "moi": 4,
+        "source": "Sequencing"
+      },
+      {
+        "count": 27,
+        "date": "2021-01-02",
+        "geo": "BA",
+        "malaria": "positive",
+        "moi": 1,
+        "source": "Sequencing"
+      },
+      {
+        "count": 12,
+        "date": "2021-01-02",
+        "geo": "BA",
+        "malaria": "positive",
+        "moi": 4,
+        "source": "Sequencing"
+      },
+      {
+        "count": 17,
+        "date": "2021-01-02",
+        "geo": "BA",
+        "malaria": "positive",
+        "moi": 2,
+        "source": "Sequencing"
+      },
+      {
+        "count": 1,
+        "date": "2021-01-02",
+        "geo": "BA",
+        "malaria": "positive",
+        "moi": 13,
+        "source": "Sequencing"
+      },
+      {
+        "count": 17,
+        "date": "2021-01-02",
+        "geo": "BA",
+        "malaria": "positive",
+        "moi": 3,
+        "source": "Sequencing"
+      },
+      {
+        "count": 7,
+        "date": "2021-01-02",
+        "geo": "BA",
+        "malaria": "positive",
+        "moi": 6,
+        "source": "Sequencing"
+      },
+      {
+        "count": 10,
+        "date": "2021-01-02",
+        "geo": "BA",
+        "malaria": "positive",
+        "moi": 5,
+        "source": "Sequencing"
+      },
+      {
+        "count": 2,
+        "date": "2021-01-02",
+        "geo": "BA",
+        "malaria": "positive",
+        "moi": 11,
+        "source": "Sequencing"
+      },
+      {
+        "count": 3,
+        "date": "2021-01-02",
+        "geo": "BA",
+        "malaria": "positive",
+        "moi": 8,
+        "source": "Sequencing"
+      },
+      {
+        "count": 4,
+        "date": "2021-01-02",
+        "geo": "BA",
+        "malaria": "positive",
+        "moi": 7,
+        "source": "Sequencing"
+      },
+      {
+        "count": 5,
+        "date": "2021-01-02",
+        "geo": "BA",
+        "malaria": "positive",
+        "moi": 10,
+        "source": "Sequencing"
+      },
+      {
+        "count": 2,
+        "date": "2021-01-02",
+        "geo": "BA",
+        "malaria": "positive",
+        "moi": 9,
+        "source": "Sequencing"
+      },
+      {
+        "count": 3,
+        "date": "2021-01-02",
+        "geo": "BY",
+        "malaria": "positive",
+        "moi": 6,
+        "source": "Sequencing"
+      },
+      {
+        "count": 7,
+        "date": "2021-01-02",
+        "geo": "BY",
+        "malaria": "positive",
+        "moi": 2,
+        "source": "Sequencing"
+      },
+      {
+        "count": 11,
+        "date": "2021-01-02",
+        "geo": "BY",
+        "malaria": "positive",
+        "moi": 1,
+        "source": "Sequencing"
+      },
+      {
+        "count": 5,
+        "date": "2021-01-02",
+        "geo": "BY",
+        "malaria": "positive",
+        "moi": 4,
+        "source": "Sequencing"
+      },
+      {
+        "count": 3,
+        "date": "2021-01-02",
+        "geo": "BY",
+        "malaria": "positive",
+        "moi": 5,
+        "source": "Sequencing"
+      },
+      {
+        "count": 7,
+        "date": "2021-01-02",
+        "geo": "BY",
+        "malaria": "positive",
+        "moi": 3,
+        "source": "Sequencing"
+      },
+      {
+        "count": 1,
+        "date": "2021-01-02",
+        "geo": "BY",
+        "malaria": "positive",
+        "moi": 7,
+        "source": "Sequencing"
+      },
+      {
+        "count": 2,
+        "date": "2021-01-02",
+        "geo": "BY",
+        "malaria": "positive",
+        "moi": 14,
+        "source": "Sequencing"
+      },
+      {
+        "count": 9,
+        "date": "2021-01-02",
+        "geo": "BE",
+        "malaria": "positive",
+        "moi": 3,
+        "source": "Sequencing"
+      },
+      {
+        "count": 7,
+        "date": "2021-01-02",
+        "geo": "BE",
+        "malaria": "positive",
+        "moi": 1,
+        "source": "Sequencing"
+      },
+      {
+        "count": 11,
+        "date": "2021-01-02",
+        "geo": "BE",
+        "malaria": "positive",
+        "moi": 2,
+        "source": "Sequencing"
+      },
+      {
+        "count": 1,
+        "date": "2021-01-02",
+        "geo": "BE",
+        "malaria": "positive",
+        "moi": 9,
+        "source": "Sequencing"
+      },
+      {
+        "count": 9,
+        "date": "2021-01-02",
+        "geo": "BE",
+        "malaria": "positive",
+        "moi": 4,
+        "source": "Sequencing"
+      },
+      {
+        "count": 3,
+        "date": "2021-01-02",
+        "geo": "BE",
+        "malaria": "positive",
+        "moi": 6,
+        "source": "Sequencing"
+      },
+      {
+        "count": 3,
+        "date": "2021-01-02",
+        "geo": "BE",
+        "malaria": "positive",
+        "moi": 7,
+        "source": "Sequencing"
+      },
+      {
+        "count": 1,
+        "date": "2021-01-02",
+        "geo": "BE",
+        "malaria": "positive",
+        "moi": 5,
+        "source": "Sequencing"
+      },
+      {
+        "count": 1,
+        "date": "2021-01-02",
+        "geo": "BE",
+        "malaria": "positive",
+        "moi": 13,
+        "source": "Sequencing"
+      },
+      {
+        "count": 1,
+        "date": "2021-01-02",
+        "geo": "BE",
+        "malaria": "positive",
+        "moi": 8,
+        "source": "Sequencing"
+      },
+      {
+        "count": 6,
+        "date": "2021-01-02",
+        "geo": "BO",
+        "malaria": "positive",
+        "moi": 2,
+        "source": "Sequencing"
+      },
+      {
+        "count": 3,
+        "date": "2021-01-02",
+        "geo": "BO",
+        "malaria": "positive",
+        "moi": 6,
+        "source": "Sequencing"
+      },
+      {
+        "count": 3,
+        "date": "2021-01-02",
+        "geo": "BO",
+        "malaria": "positive",
+        "moi": 4,
+        "source": "Sequencing"
+      },
+      {
+        "count": 3,
+        "date": "2021-01-02",
+        "geo": "BO",
+        "malaria": "positive",
+        "moi": 3,
+        "source": "Sequencing"
+      },
+      {
+        "count": 1,
+        "date": "2021-01-02",
+        "geo": "BO",
+        "malaria": "positive",
+        "moi": 8,
+        "source": "Sequencing"
+      },
+      {
+        "count": 1,
+        "date": "2021-01-02",
+        "geo": "BO",
+        "malaria": "positive",
+        "moi": 5,
+        "source": "Sequencing"
+      },
+      {
+        "count": 2,
+        "date": "2021-01-02",
+        "geo": "BO",
+        "malaria": "positive",
+        "moi": 1,
+        "source": "Sequencing"
+      },
+      {
+        "count": 3,
+        "date": "2021-01-02",
+        "geo": "CR",
+        "malaria": "positive",
+        "moi": 7,
+        "source": "Sequencing"
+      },
+      {
+        "count": 3,
+        "date": "2021-01-02",
+        "geo": "CR",
+        "malaria": "positive",
+        "moi": 2,
+        "source": "Sequencing"
+      },
+      {
+        "count": 2,
+        "date": "2021-01-02",
+        "geo": "CR",
+        "malaria": "positive",
+        "moi": 6,
+        "source": "Sequencing"
+      },
+      {
+        "count": 6,
+        "date": "2021-01-02",
+        "geo": "CR",
+        "malaria": "positive",
+        "moi": 3,
+        "source": "Sequencing"
+      },
+      {
+        "count": 1,
+        "date": "2021-01-02",
+        "geo": "CR",
+        "malaria": "positive",
+        "moi": 11,
+        "source": "Sequencing"
+      },
+      {
+        "count": 2,
+        "date": "2021-01-02",
+        "geo": "CR",
+        "malaria": "positive",
+        "moi": 9,
+        "source": "Sequencing"
+      },
+      {
+        "count": 2,
+        "date": "2021-01-02",
+        "geo": "CR",
+        "malaria": "positive",
+        "moi": 1,
+        "source": "Sequencing"
+      },
+      {
+        "count": 2,
+        "date": "2021-01-02",
+        "geo": "CR",
+        "malaria": "positive",
+        "moi": 4,
+        "source": "Sequencing"
+      },
+      {
+        "count": 1,
+        "date": "2021-01-02",
+        "geo": "CR",
+        "malaria": "positive",
+        "moi": 10,
+        "source": "Sequencing"
+      },
+      {
+        "count": 4,
+        "date": "2021-01-02",
+        "geo": "DE",
         "malaria": "positive",
         "moi": 3,
         "source": "Sequencing"
@@ -2466,63 +5014,95 @@
       {
         "count": 13,
         "date": "2021-01-02",
-        "geo": "TA",
-        "malaria": "positive",
-        "moi": 2,
-        "source": "Sequencing"
-      },
-      {
-        "count": 6,
-        "date": "2021-01-02",
-        "geo": "TA",
-        "malaria": "positive",
-        "moi": 4,
-        "source": "Sequencing"
-      },
-      {
-        "count": 11,
-        "date": "2021-01-02",
-        "geo": "TA",
+        "geo": "DE",
         "malaria": "positive",
         "moi": 1,
         "source": "Sequencing"
       },
       {
-        "count": 2,
+        "count": 11,
         "date": "2021-01-02",
-        "geo": "TA",
-        "malaria": "positive",
-        "moi": 5,
-        "source": "Sequencing"
-      },
-      {
-        "count": 22,
-        "date": "2021-01-02",
-        "geo": "BA",
+        "geo": "DE",
         "malaria": "positive",
         "moi": 2,
         "source": "Sequencing"
       },
       {
-        "count": 18,
+        "count": 2,
         "date": "2021-01-02",
-        "geo": "BA",
+        "geo": "DE",
+        "malaria": "positive",
+        "moi": 10,
+        "source": "Sequencing"
+      },
+      {
+        "count": 3,
+        "date": "2021-01-02",
+        "geo": "DE",
         "malaria": "positive",
         "moi": 4,
         "source": "Sequencing"
       },
       {
-        "count": 28,
+        "count": 1,
         "date": "2021-01-02",
-        "geo": "BA",
+        "geo": "DE",
         "malaria": "positive",
-        "moi": 3,
+        "moi": 9,
         "source": "Sequencing"
       },
       {
         "count": 1,
         "date": "2021-01-02",
-        "geo": "BA",
+        "geo": "DE",
+        "malaria": "positive",
+        "moi": 5,
+        "source": "Sequencing"
+      },
+      {
+        "count": 1,
+        "date": "2021-01-02",
+        "geo": "DE",
+        "malaria": "positive",
+        "moi": 7,
+        "source": "Sequencing"
+      },
+      {
+        "count": 1,
+        "date": "2021-01-02",
+        "geo": "DE",
+        "malaria": "positive",
+        "moi": 8,
+        "source": "Sequencing"
+      },
+      {
+        "count": 11,
+        "date": "2021-01-02",
+        "geo": "EB",
+        "malaria": "positive",
+        "moi": 2,
+        "source": "Sequencing"
+      },
+      {
+        "count": 21,
+        "date": "2021-01-02",
+        "geo": "EB",
+        "malaria": "positive",
+        "moi": 1,
+        "source": "Sequencing"
+      },
+      {
+        "count": 3,
+        "date": "2021-01-02",
+        "geo": "EB",
+        "malaria": "positive",
+        "moi": 7,
+        "source": "Sequencing"
+      },
+      {
+        "count": 2,
+        "date": "2021-01-02",
+        "geo": "EB",
         "malaria": "positive",
         "moi": 6,
         "source": "Sequencing"
@@ -2530,47 +5110,63 @@
       {
         "count": 2,
         "date": "2021-01-02",
-        "geo": "BA",
+        "geo": "EB",
         "malaria": "positive",
-        "moi": 5,
+        "moi": 10,
         "source": "Sequencing"
       },
       {
-        "count": 4,
+        "count": 5,
         "date": "2021-01-02",
-        "geo": "BA",
-        "malaria": "positive",
-        "moi": 1,
-        "source": "Sequencing"
-      },
-      {
-        "count": 3,
-        "date": "2021-01-02",
-        "geo": "ZA",
-        "malaria": "positive",
-        "moi": 2,
-        "source": "Sequencing"
-      },
-      {
-        "count": 12,
-        "date": "2021-01-02",
-        "geo": "ZA",
-        "malaria": "positive",
-        "moi": 1,
-        "source": "Sequencing"
-      },
-      {
-        "count": 2,
-        "date": "2021-01-02",
-        "geo": "ZA",
+        "geo": "EB",
         "malaria": "positive",
         "moi": 3,
         "source": "Sequencing"
       },
       {
-        "count": 3,
+        "count": 4,
         "date": "2021-01-02",
-        "geo": "ZA",
+        "geo": "EB",
+        "malaria": "positive",
+        "moi": 4,
+        "source": "Sequencing"
+      },
+      {
+        "count": 1,
+        "date": "2021-01-02",
+        "geo": "EB",
+        "malaria": "positive",
+        "moi": 9,
+        "source": "Sequencing"
+      },
+      {
+        "count": 4,
+        "date": "2021-01-02",
+        "geo": "EB",
+        "malaria": "positive",
+        "moi": 5,
+        "source": "Sequencing"
+      },
+      {
+        "count": 6,
+        "date": "2021-01-02",
+        "geo": "ED",
+        "malaria": "positive",
+        "moi": 2,
+        "source": "Sequencing"
+      },
+      {
+        "count": 1,
+        "date": "2021-01-02",
+        "geo": "ED",
+        "malaria": "positive",
+        "moi": 5,
+        "source": "Sequencing"
+      },
+      {
+        "count": 2,
+        "date": "2021-01-02",
+        "geo": "ED",
         "malaria": "positive",
         "moi": 4,
         "source": "Sequencing"
@@ -2578,7 +5174,15 @@
       {
         "count": 6,
         "date": "2021-01-02",
-        "geo": "NA",
+        "geo": "ED",
+        "malaria": "positive",
+        "moi": 1,
+        "source": "Sequencing"
+      },
+      {
+        "count": 1,
+        "date": "2021-01-02",
+        "geo": "ED",
         "malaria": "positive",
         "moi": 3,
         "source": "Sequencing"
@@ -2586,121 +5190,81 @@
       {
         "count": 2,
         "date": "2021-01-02",
-        "geo": "NA",
+        "geo": "EK",
         "malaria": "positive",
-        "moi": 4,
+        "moi": 9,
+        "source": "Sequencing"
+      },
+      {
+        "count": 10,
+        "date": "2021-01-02",
+        "geo": "EK",
+        "malaria": "positive",
+        "moi": 1,
         "source": "Sequencing"
       },
       {
         "count": 3,
         "date": "2021-01-02",
-        "geo": "NA",
-        "malaria": "positive",
-        "moi": 2,
-        "source": "Sequencing"
-      },
-      {
-        "count": 1,
-        "date": "2021-01-02",
-        "geo": "NA",
-        "malaria": "positive",
-        "moi": 1,
-        "source": "Sequencing"
-      },
-      {
-        "count": 23,
-        "date": "2021-01-02",
-        "geo": "KN",
-        "malaria": "positive",
-        "moi": 2,
-        "source": "Sequencing"
-      },
-      {
-        "count": 43,
-        "date": "2021-01-02",
-        "geo": "KN",
-        "malaria": "positive",
-        "moi": 3,
-        "source": "Sequencing"
-      },
-      {
-        "count": 11,
-        "date": "2021-01-02",
-        "geo": "KN",
-        "malaria": "positive",
-        "moi": 1,
-        "source": "Sequencing"
-      },
-      {
-        "count": 15,
-        "date": "2021-01-02",
-        "geo": "KN",
-        "malaria": "positive",
-        "moi": 4,
-        "source": "Sequencing"
-      },
-      {
-        "count": 4,
-        "date": "2021-01-02",
-        "geo": "KN",
+        "geo": "EK",
         "malaria": "positive",
         "moi": 5,
         "source": "Sequencing"
       },
       {
+        "count": 3,
+        "date": "2021-01-02",
+        "geo": "EK",
+        "malaria": "positive",
+        "moi": 3,
+        "source": "Sequencing"
+      },
+      {
+        "count": 3,
+        "date": "2021-01-02",
+        "geo": "EK",
+        "malaria": "positive",
+        "moi": 2,
+        "source": "Sequencing"
+      },
+      {
         "count": 1,
         "date": "2021-01-02",
-        "geo": "KN",
+        "geo": "EK",
+        "malaria": "positive",
+        "moi": 4,
+        "source": "Sequencing"
+      },
+      {
+        "count": 1,
+        "date": "2021-01-02",
+        "geo": "EK",
         "malaria": "positive",
         "moi": 6,
         "source": "Sequencing"
       },
       {
-        "count": 6,
+        "count": 11,
         "date": "2021-01-02",
-        "geo": "GO",
+        "geo": "NA",
         "malaria": "positive",
         "moi": 1,
         "source": "Sequencing"
       },
       {
-        "count": 4,
+        "count": 2,
         "date": "2021-01-02",
-        "geo": "GO",
+        "geo": "NA",
         "malaria": "positive",
-        "moi": 2,
+        "moi": 6,
         "source": "Sequencing"
       },
       {
-        "count": 4,
-        "date": "2021-01-02",
-        "geo": "GO",
-        "malaria": "positive",
-        "moi": 3,
-        "source": "Sequencing"
-      },
-      {
-        "count": 1,
-        "date": "2021-01-02",
-        "geo": "GO",
-        "malaria": "positive",
-        "moi": 4,
-        "source": "Sequencing"
-      },
-      {
-        "count": 14,
+        "count": 11,
         "date": "2021-01-02",
         "geo": "NA",
         "malaria": "positive",
         "moi": 3,
-        "source": "Sequencing"
-      },
-      {
-        "count": 6,
-        "date": "2021-01-02",
-        "geo": "NA",
-        "malaria": "positive",
-        "moi": 4,
         "source": "Sequencing"
       },
       {
@@ -2712,41 +5276,17 @@
         "source": "Sequencing"
       },
       {
-        "count": 4,
+        "count": 2,
         "date": "2021-01-02",
         "geo": "NA",
         "malaria": "positive",
-        "moi": 1,
+        "moi": 9,
         "source": "Sequencing"
       },
       {
-        "count": 10,
+        "count": 3,
         "date": "2021-01-02",
-        "geo": "KD",
-        "malaria": "positive",
-        "moi": 2,
-        "source": "Sequencing"
-      },
-      {
-        "count": 6,
-        "date": "2021-01-02",
-        "geo": "KD",
-        "malaria": "positive",
-        "moi": 1,
-        "source": "Sequencing"
-      },
-      {
-        "count": 13,
-        "date": "2021-01-02",
-        "geo": "KD",
-        "malaria": "positive",
-        "moi": 3,
-        "source": "Sequencing"
-      },
-      {
-        "count": 5,
-        "date": "2021-01-02",
-        "geo": "KD",
+        "geo": "NA",
         "malaria": "positive",
         "moi": 4,
         "source": "Sequencing"
@@ -2754,13 +5294,93 @@
       {
         "count": 1,
         "date": "2021-01-02",
-        "geo": "KD",
+        "geo": "NA",
         "malaria": "positive",
         "moi": 5,
         "source": "Sequencing"
       },
       {
-        "count": 45,
+        "count": 2,
+        "date": "2021-01-02",
+        "geo": "NA",
+        "malaria": "positive",
+        "moi": 7,
+        "source": "Sequencing"
+      },
+      {
+        "count": 1,
+        "date": "2021-01-02",
+        "geo": "NA",
+        "malaria": "positive",
+        "moi": 8,
+        "source": "Sequencing"
+      },
+      {
+        "count": 12,
+        "date": "2021-01-02",
+        "geo": "GO",
+        "malaria": "positive",
+        "moi": 2,
+        "source": "Sequencing"
+      },
+      {
+        "count": 10,
+        "date": "2021-01-02",
+        "geo": "GO",
+        "malaria": "positive",
+        "moi": 1,
+        "source": "Sequencing"
+      },
+      {
+        "count": 8,
+        "date": "2021-01-02",
+        "geo": "GO",
+        "malaria": "positive",
+        "moi": 3,
+        "source": "Sequencing"
+      },
+      {
+        "count": 1,
+        "date": "2021-01-02",
+        "geo": "GO",
+        "malaria": "positive",
+        "moi": 13,
+        "source": "Sequencing"
+      },
+      {
+        "count": 1,
+        "date": "2021-01-02",
+        "geo": "GO",
+        "malaria": "positive",
+        "moi": 9,
+        "source": "Sequencing"
+      },
+      {
+        "count": 4,
+        "date": "2021-01-02",
+        "geo": "GO",
+        "malaria": "positive",
+        "moi": 5,
+        "source": "Sequencing"
+      },
+      {
+        "count": 1,
+        "date": "2021-01-02",
+        "geo": "GO",
+        "malaria": "positive",
+        "moi": 4,
+        "source": "Sequencing"
+      },
+      {
+        "count": 96,
+        "date": "2021-01-02",
+        "geo": "JI",
+        "malaria": "positive",
+        "moi": 1,
+        "source": "Sequencing"
+      },
+      {
+        "count": 49,
         "date": "2021-01-02",
         "geo": "JI",
         "malaria": "positive",
@@ -2768,11 +5388,27 @@
         "source": "Sequencing"
       },
       {
-        "count": 46,
+        "count": 9,
+        "date": "2021-01-02",
+        "geo": "JI",
+        "malaria": "positive",
+        "moi": 6,
+        "source": "Sequencing"
+      },
+      {
+        "count": 26,
         "date": "2021-01-02",
         "geo": "JI",
         "malaria": "positive",
         "moi": 3,
+        "source": "Sequencing"
+      },
+      {
+        "count": 14,
+        "date": "2021-01-02",
+        "geo": "JI",
+        "malaria": "positive",
+        "moi": 4,
         "source": "Sequencing"
       },
       {
@@ -2784,25 +5420,169 @@
         "source": "Sequencing"
       },
       {
-        "count": 26,
+        "count": 2,
         "date": "2021-01-02",
         "geo": "JI",
+        "malaria": "positive",
+        "moi": 7,
+        "source": "Sequencing"
+      },
+      {
+        "count": 16,
+        "date": "2021-01-02",
+        "geo": "KD",
+        "malaria": "positive",
+        "moi": 1,
+        "source": "Sequencing"
+      },
+      {
+        "count": 15,
+        "date": "2021-01-02",
+        "geo": "KD",
+        "malaria": "positive",
+        "moi": 2,
+        "source": "Sequencing"
+      },
+      {
+        "count": 11,
+        "date": "2021-01-02",
+        "geo": "KD",
+        "malaria": "positive",
+        "moi": 3,
+        "source": "Sequencing"
+      },
+      {
+        "count": 4,
+        "date": "2021-01-02",
+        "geo": "KD",
+        "malaria": "positive",
+        "moi": 5,
+        "source": "Sequencing"
+      },
+      {
+        "count": 1,
+        "date": "2021-01-02",
+        "geo": "KD",
+        "malaria": "positive",
+        "moi": 13,
+        "source": "Sequencing"
+      },
+      {
+        "count": 1,
+        "date": "2021-01-02",
+        "geo": "KD",
         "malaria": "positive",
         "moi": 4,
         "source": "Sequencing"
       },
       {
-        "count": 2,
+        "count": 18,
         "date": "2021-01-02",
-        "geo": "JI",
+        "geo": "KN",
+        "malaria": "positive",
+        "moi": 4,
+        "source": "Sequencing"
+      },
+      {
+        "count": 31,
+        "date": "2021-01-02",
+        "geo": "KN",
+        "malaria": "positive",
+        "moi": 1,
+        "source": "Sequencing"
+      },
+      {
+        "count": 29,
+        "date": "2021-01-02",
+        "geo": "KN",
+        "malaria": "positive",
+        "moi": 2,
+        "source": "Sequencing"
+      },
+      {
+        "count": 7,
+        "date": "2021-01-02",
+        "geo": "KN",
+        "malaria": "positive",
+        "moi": 9,
+        "source": "Sequencing"
+      },
+      {
+        "count": 3,
+        "date": "2021-01-02",
+        "geo": "KN",
+        "malaria": "positive",
+        "moi": 10,
+        "source": "Sequencing"
+      },
+      {
+        "count": 6,
+        "date": "2021-01-02",
+        "geo": "KN",
         "malaria": "positive",
         "moi": 6,
         "source": "Sequencing"
       },
       {
-        "count": 23,
+        "count": 1,
         "date": "2021-01-02",
-        "geo": "JI",
+        "geo": "KN",
+        "malaria": "positive",
+        "moi": 19,
+        "source": "Sequencing"
+      },
+      {
+        "count": 3,
+        "date": "2021-01-02",
+        "geo": "KN",
+        "malaria": "positive",
+        "moi": 7,
+        "source": "Sequencing"
+      },
+      {
+        "count": 20,
+        "date": "2021-01-02",
+        "geo": "KN",
+        "malaria": "positive",
+        "moi": 3,
+        "source": "Sequencing"
+      },
+      {
+        "count": 1,
+        "date": "2021-01-02",
+        "geo": "KN",
+        "malaria": "positive",
+        "moi": 12,
+        "source": "Sequencing"
+      },
+      {
+        "count": 3,
+        "date": "2021-01-02",
+        "geo": "KN",
+        "malaria": "positive",
+        "moi": 8,
+        "source": "Sequencing"
+      },
+      {
+        "count": 6,
+        "date": "2021-01-02",
+        "geo": "KN",
+        "malaria": "positive",
+        "moi": 5,
+        "source": "Sequencing"
+      },
+      {
+        "count": 25,
+        "date": "2021-01-02",
+        "geo": "KT",
+        "malaria": "positive",
+        "moi": 2,
+        "source": "Sequencing"
+      },
+      {
+        "count": 55,
+        "date": "2021-01-02",
+        "geo": "KT",
         "malaria": "positive",
         "moi": 1,
         "source": "Sequencing"
@@ -2812,7 +5592,15 @@
         "date": "2021-01-02",
         "geo": "KT",
         "malaria": "positive",
-        "moi": 2,
+        "moi": 3,
+        "source": "Sequencing"
+      },
+      {
+        "count": 7,
+        "date": "2021-01-02",
+        "geo": "KT",
+        "malaria": "positive",
+        "moi": 4,
         "source": "Sequencing"
       },
       {
@@ -2820,15 +5608,879 @@
         "date": "2021-01-02",
         "geo": "KT",
         "malaria": "positive",
+        "moi": 5,
+        "source": "Sequencing"
+      },
+      {
+        "count": 1,
+        "date": "2021-01-02",
+        "geo": "KT",
+        "malaria": "positive",
+        "moi": 9,
+        "source": "Sequencing"
+      },
+      {
+        "count": 1,
+        "date": "2021-01-02",
+        "geo": "KT",
+        "malaria": "positive",
+        "moi": 6,
+        "source": "Sequencing"
+      },
+      {
+        "count": 1,
+        "date": "2021-01-02",
+        "geo": "KT",
+        "malaria": "positive",
+        "moi": 7,
+        "source": "Sequencing"
+      },
+      {
+        "count": 36,
+        "date": "2021-01-02",
+        "geo": "KE",
+        "malaria": "positive",
+        "moi": 2,
+        "source": "Sequencing"
+      },
+      {
+        "count": 26,
+        "date": "2021-01-02",
+        "geo": "KE",
+        "malaria": "positive",
+        "moi": 4,
+        "source": "Sequencing"
+      },
+      {
+        "count": 4,
+        "date": "2021-01-02",
+        "geo": "KE",
+        "malaria": "positive",
+        "moi": 7,
+        "source": "Sequencing"
+      },
+      {
+        "count": 8,
+        "date": "2021-01-02",
+        "geo": "KE",
+        "malaria": "positive",
+        "moi": 6,
+        "source": "Sequencing"
+      },
+      {
+        "count": 20,
+        "date": "2021-01-02",
+        "geo": "KE",
+        "malaria": "positive",
+        "moi": 3,
+        "source": "Sequencing"
+      },
+      {
+        "count": 15,
+        "date": "2021-01-02",
+        "geo": "KE",
+        "malaria": "positive",
+        "moi": 5,
+        "source": "Sequencing"
+      },
+      {
+        "count": 46,
+        "date": "2021-01-02",
+        "geo": "KE",
+        "malaria": "positive",
+        "moi": 1,
+        "source": "Sequencing"
+      },
+      {
+        "count": 6,
+        "date": "2021-01-02",
+        "geo": "KE",
+        "malaria": "positive",
+        "moi": 8,
+        "source": "Sequencing"
+      },
+      {
+        "count": 2,
+        "date": "2021-01-02",
+        "geo": "KE",
+        "malaria": "positive",
+        "moi": 12,
+        "source": "Sequencing"
+      },
+      {
+        "count": 1,
+        "date": "2021-01-02",
+        "geo": "KE",
+        "malaria": "positive",
+        "moi": 10,
+        "source": "Sequencing"
+      },
+      {
+        "count": 7,
+        "date": "2021-01-02",
+        "geo": "NA",
+        "malaria": "positive",
+        "moi": 3,
+        "source": "Sequencing"
+      },
+      {
+        "count": 9,
+        "date": "2021-01-02",
+        "geo": "NA",
+        "malaria": "positive",
+        "moi": 2,
+        "source": "Sequencing"
+      },
+      {
+        "count": 1,
+        "date": "2021-01-02",
+        "geo": "NA",
+        "malaria": "positive",
+        "moi": 8,
+        "source": "Sequencing"
+      },
+      {
+        "count": 3,
+        "date": "2021-01-02",
+        "geo": "NA",
+        "malaria": "positive",
+        "moi": 1,
+        "source": "Sequencing"
+      },
+      {
+        "count": 1,
+        "date": "2021-01-02",
+        "geo": "NA",
+        "malaria": "positive",
+        "moi": 9,
+        "source": "Sequencing"
+      },
+      {
+        "count": 3,
+        "date": "2021-01-02",
+        "geo": "NA",
+        "malaria": "positive",
+        "moi": 4,
+        "source": "Sequencing"
+      },
+      {
+        "count": 2,
+        "date": "2021-01-02",
+        "geo": "NA",
+        "malaria": "positive",
+        "moi": 7,
+        "source": "Sequencing"
+      },
+      {
+        "count": 1,
+        "date": "2021-01-02",
+        "geo": "NA",
+        "malaria": "positive",
+        "moi": 12,
+        "source": "Sequencing"
+      },
+      {
+        "count": 2,
+        "date": "2021-01-02",
+        "geo": "NA",
+        "malaria": "positive",
+        "moi": 5,
+        "source": "Sequencing"
+      },
+      {
+        "count": 1,
+        "date": "2021-01-02",
+        "geo": "NA",
+        "malaria": "positive",
+        "moi": 6,
+        "source": "Sequencing"
+      },
+      {
+        "count": 1,
+        "date": "2021-01-02",
+        "geo": "KW",
+        "malaria": "positive",
+        "moi": 4,
+        "source": "Sequencing"
+      },
+      {
+        "count": 2,
+        "date": "2021-01-02",
+        "geo": "KW",
+        "malaria": "positive",
+        "moi": 3,
+        "source": "Sequencing"
+      },
+      {
+        "count": 1,
+        "date": "2021-01-02",
+        "geo": "KW",
+        "malaria": "positive",
+        "moi": 2,
+        "source": "Sequencing"
+      },
+      {
+        "count": 5,
+        "date": "2021-01-02",
+        "geo": "KW",
+        "malaria": "positive",
+        "moi": 1,
+        "source": "Sequencing"
+      },
+      {
+        "count": 72,
+        "date": "2021-01-02",
+        "geo": "NA",
+        "malaria": "positive",
+        "moi": 1,
+        "source": "Sequencing"
+      },
+      {
+        "count": 5,
+        "date": "2021-01-02",
+        "geo": "NA",
+        "malaria": "positive",
+        "moi": 2,
+        "source": "Sequencing"
+      },
+      {
+        "count": 3,
+        "date": "2021-01-02",
+        "geo": "NA",
+        "malaria": "positive",
+        "moi": 3,
+        "source": "Sequencing"
+      },
+      {
+        "count": 2,
+        "date": "2021-01-02",
+        "geo": "NA",
+        "malaria": "positive",
+        "moi": 5,
+        "source": "Sequencing"
+      },
+      {
+        "count": 4,
+        "date": "2021-01-02",
+        "geo": "NA",
+        "malaria": "positive",
+        "moi": 4,
+        "source": "Sequencing"
+      },
+      {
+        "count": 1,
+        "date": "2021-01-02",
+        "geo": "NA",
+        "malaria": "positive",
+        "moi": 9,
+        "source": "Sequencing"
+      },
+      {
+        "count": 14,
+        "date": "2021-01-02",
+        "geo": "NI",
+        "malaria": "positive",
+        "moi": 1,
+        "source": "Sequencing"
+      },
+      {
+        "count": 7,
+        "date": "2021-01-02",
+        "geo": "NI",
+        "malaria": "positive",
+        "moi": 4,
+        "source": "Sequencing"
+      },
+      {
+        "count": 19,
+        "date": "2021-01-02",
+        "geo": "NI",
+        "malaria": "positive",
+        "moi": 2,
+        "source": "Sequencing"
+      },
+      {
+        "count": 8,
+        "date": "2021-01-02",
+        "geo": "NI",
+        "malaria": "positive",
+        "moi": 3,
+        "source": "Sequencing"
+      },
+      {
+        "count": 1,
+        "date": "2021-01-02",
+        "geo": "NI",
+        "malaria": "positive",
+        "moi": 8,
+        "source": "Sequencing"
+      },
+      {
+        "count": 1,
+        "date": "2021-01-02",
+        "geo": "NI",
+        "malaria": "positive",
+        "moi": 9,
+        "source": "Sequencing"
+      },
+      {
+        "count": 1,
+        "date": "2021-01-02",
+        "geo": "NI",
+        "malaria": "positive",
+        "moi": 7,
+        "source": "Sequencing"
+      },
+      {
+        "count": 3,
+        "date": "2021-01-02",
+        "geo": "NI",
+        "malaria": "positive",
+        "moi": 6,
+        "source": "Sequencing"
+      },
+      {
+        "count": 4,
+        "date": "2021-01-02",
+        "geo": "NI",
+        "malaria": "positive",
+        "moi": 5,
+        "source": "Sequencing"
+      },
+      {
+        "count": 7,
+        "date": "2021-01-02",
+        "geo": "OS",
+        "malaria": "positive",
+        "moi": 3,
+        "source": "Sequencing"
+      },
+      {
+        "count": 7,
+        "date": "2021-01-02",
+        "geo": "OS",
+        "malaria": "positive",
+        "moi": 1,
+        "source": "Sequencing"
+      },
+      {
+        "count": 1,
+        "date": "2021-01-02",
+        "geo": "OS",
+        "malaria": "positive",
+        "moi": 4,
+        "source": "Sequencing"
+      },
+      {
+        "count": 1,
+        "date": "2021-01-02",
+        "geo": "OS",
+        "malaria": "positive",
+        "moi": 7,
+        "source": "Sequencing"
+      },
+      {
+        "count": 5,
+        "date": "2021-01-02",
+        "geo": "OS",
+        "malaria": "positive",
+        "moi": 2,
+        "source": "Sequencing"
+      },
+      {
+        "count": 1,
+        "date": "2021-01-02",
+        "geo": "OS",
+        "malaria": "positive",
+        "moi": 9,
+        "source": "Sequencing"
+      },
+      {
+        "count": 8,
+        "date": "2021-01-02",
+        "geo": "OY",
+        "malaria": "positive",
+        "moi": 1,
+        "source": "Sequencing"
+      },
+      {
+        "count": 1,
+        "date": "2021-01-02",
+        "geo": "OY",
+        "malaria": "positive",
+        "moi": 6,
+        "source": "Sequencing"
+      },
+      {
+        "count": 3,
+        "date": "2021-01-02",
+        "geo": "OY",
+        "malaria": "positive",
+        "moi": 4,
+        "source": "Sequencing"
+      },
+      {
+        "count": 1,
+        "date": "2021-01-02",
+        "geo": "OY",
+        "malaria": "positive",
+        "moi": 11,
+        "source": "Sequencing"
+      },
+      {
+        "count": 1,
+        "date": "2021-01-02",
+        "geo": "OY",
+        "malaria": "positive",
+        "moi": 5,
+        "source": "Sequencing"
+      },
+      {
+        "count": 8,
+        "date": "2021-01-02",
+        "geo": "OY",
+        "malaria": "positive",
+        "moi": 2,
+        "source": "Sequencing"
+      },
+      {
+        "count": 2,
+        "date": "2021-01-02",
+        "geo": "OY",
+        "malaria": "positive",
+        "moi": 7,
+        "source": "Sequencing"
+      },
+      {
+        "count": 6,
+        "date": "2021-01-02",
+        "geo": "OY",
+        "malaria": "positive",
+        "moi": 3,
+        "source": "Sequencing"
+      },
+      {
+        "count": 1,
+        "date": "2021-01-02",
+        "geo": "OY",
+        "malaria": "positive",
+        "moi": 9,
+        "source": "Sequencing"
+      },
+      {
+        "count": 14,
+        "date": "2021-01-02",
+        "geo": "PL",
+        "malaria": "positive",
+        "moi": 3,
+        "source": "Sequencing"
+      },
+      {
+        "count": 1,
+        "date": "2021-01-02",
+        "geo": "PL",
+        "malaria": "positive",
+        "moi": 8,
+        "source": "Sequencing"
+      },
+      {
+        "count": 6,
+        "date": "2021-01-02",
+        "geo": "PL",
+        "malaria": "positive",
+        "moi": 4,
+        "source": "Sequencing"
+      },
+      {
+        "count": 9,
+        "date": "2021-01-02",
+        "geo": "PL",
+        "malaria": "positive",
+        "moi": 2,
+        "source": "Sequencing"
+      },
+      {
+        "count": 2,
+        "date": "2021-01-02",
+        "geo": "PL",
+        "malaria": "positive",
+        "moi": 5,
+        "source": "Sequencing"
+      },
+      {
+        "count": 15,
+        "date": "2021-01-02",
+        "geo": "PL",
+        "malaria": "positive",
         "moi": 1,
         "source": "Sequencing"
       },
       {
         "count": 2,
         "date": "2021-01-02",
-        "geo": "KT",
+        "geo": "PL",
+        "malaria": "positive",
+        "moi": 7,
+        "source": "Sequencing"
+      },
+      {
+        "count": 2,
+        "date": "2021-01-02",
+        "geo": "PL",
+        "malaria": "positive",
+        "moi": 6,
+        "source": "Sequencing"
+      },
+      {
+        "count": 1,
+        "date": "2021-01-02",
+        "geo": "PL",
+        "malaria": "positive",
+        "moi": 10,
+        "source": "Sequencing"
+      },
+      {
+        "count": 2,
+        "date": "2021-01-02",
+        "geo": "RI",
         "malaria": "positive",
         "moi": 4,
+        "source": "Sequencing"
+      },
+      {
+        "count": 2,
+        "date": "2021-01-02",
+        "geo": "RI",
+        "malaria": "positive",
+        "moi": 6,
+        "source": "Sequencing"
+      },
+      {
+        "count": 5,
+        "date": "2021-01-02",
+        "geo": "RI",
+        "malaria": "positive",
+        "moi": 3,
+        "source": "Sequencing"
+      },
+      {
+        "count": 1,
+        "date": "2021-01-02",
+        "geo": "RI",
+        "malaria": "positive",
+        "moi": 9,
+        "source": "Sequencing"
+      },
+      {
+        "count": 1,
+        "date": "2021-01-02",
+        "geo": "RI",
+        "malaria": "positive",
+        "moi": 7,
+        "source": "Sequencing"
+      },
+      {
+        "count": 2,
+        "date": "2021-01-02",
+        "geo": "RI",
+        "malaria": "positive",
+        "moi": 2,
+        "source": "Sequencing"
+      },
+      {
+        "count": 55,
+        "date": "2021-01-02",
+        "geo": "SO",
+        "malaria": "positive",
+        "moi": 1,
+        "source": "Sequencing"
+      },
+      {
+        "count": 5,
+        "date": "2021-01-02",
+        "geo": "SO",
+        "malaria": "positive",
+        "moi": 6,
+        "source": "Sequencing"
+      },
+      {
+        "count": 20,
+        "date": "2021-01-02",
+        "geo": "SO",
+        "malaria": "positive",
+        "moi": 3,
+        "source": "Sequencing"
+      },
+      {
+        "count": 15,
+        "date": "2021-01-02",
+        "geo": "SO",
+        "malaria": "positive",
+        "moi": 4,
+        "source": "Sequencing"
+      },
+      {
+        "count": 28,
+        "date": "2021-01-02",
+        "geo": "SO",
+        "malaria": "positive",
+        "moi": 2,
+        "source": "Sequencing"
+      },
+      {
+        "count": 9,
+        "date": "2021-01-02",
+        "geo": "SO",
+        "malaria": "positive",
+        "moi": 5,
+        "source": "Sequencing"
+      },
+      {
+        "count": 2,
+        "date": "2021-01-02",
+        "geo": "SO",
+        "malaria": "positive",
+        "moi": 8,
+        "source": "Sequencing"
+      },
+      {
+        "count": 2,
+        "date": "2021-01-02",
+        "geo": "SO",
+        "malaria": "positive",
+        "moi": 9,
+        "source": "Sequencing"
+      },
+      {
+        "count": 1,
+        "date": "2021-01-02",
+        "geo": "SO",
+        "malaria": "positive",
+        "moi": 11,
+        "source": "Sequencing"
+      },
+      {
+        "count": 7,
+        "date": "2021-01-02",
+        "geo": "SO",
+        "malaria": "positive",
+        "moi": 7,
+        "source": "Sequencing"
+      },
+      {
+        "count": 1,
+        "date": "2021-01-02",
+        "geo": "SO",
+        "malaria": "positive",
+        "moi": 13,
+        "source": "Sequencing"
+      },
+      {
+        "count": 31,
+        "date": "2021-01-02",
+        "geo": "TA",
+        "malaria": "positive",
+        "moi": 1,
+        "source": "Sequencing"
+      },
+      {
+        "count": 6,
+        "date": "2021-01-02",
+        "geo": "TA",
+        "malaria": "positive",
+        "moi": 5,
+        "source": "Sequencing"
+      },
+      {
+        "count": 2,
+        "date": "2021-01-02",
+        "geo": "TA",
+        "malaria": "positive",
+        "moi": 10,
+        "source": "Sequencing"
+      },
+      {
+        "count": 2,
+        "date": "2021-01-02",
+        "geo": "TA",
+        "malaria": "positive",
+        "moi": 9,
+        "source": "Sequencing"
+      },
+      {
+        "count": 16,
+        "date": "2021-01-02",
+        "geo": "TA",
+        "malaria": "positive",
+        "moi": 3,
+        "source": "Sequencing"
+      },
+      {
+        "count": 13,
+        "date": "2021-01-02",
+        "geo": "TA",
+        "malaria": "positive",
+        "moi": 2,
+        "source": "Sequencing"
+      },
+      {
+        "count": 8,
+        "date": "2021-01-02",
+        "geo": "TA",
+        "malaria": "positive",
+        "moi": 4,
+        "source": "Sequencing"
+      },
+      {
+        "count": 3,
+        "date": "2021-01-02",
+        "geo": "TA",
+        "malaria": "positive",
+        "moi": 7,
+        "source": "Sequencing"
+      },
+      {
+        "count": 4,
+        "date": "2021-01-02",
+        "geo": "TA",
+        "malaria": "positive",
+        "moi": 6,
+        "source": "Sequencing"
+      },
+      {
+        "count": 4,
+        "date": "2021-01-02",
+        "geo": "TA",
+        "malaria": "positive",
+        "moi": 8,
+        "source": "Sequencing"
+      },
+      {
+        "count": 1,
+        "date": "2021-01-02",
+        "geo": "TA",
+        "malaria": "positive",
+        "moi": 11,
+        "source": "Sequencing"
+      },
+      {
+        "count": 10,
+        "date": "2021-01-02",
+        "geo": "YO",
+        "malaria": "positive",
+        "moi": 4,
+        "source": "Sequencing"
+      },
+      {
+        "count": 1,
+        "date": "2021-01-02",
+        "geo": "YO",
+        "malaria": "positive",
+        "moi": 11,
+        "source": "Sequencing"
+      },
+      {
+        "count": 8,
+        "date": "2021-01-02",
+        "geo": "YO",
+        "malaria": "positive",
+        "moi": 2,
+        "source": "Sequencing"
+      },
+      {
+        "count": 6,
+        "date": "2021-01-02",
+        "geo": "YO",
+        "malaria": "positive",
+        "moi": 5,
+        "source": "Sequencing"
+      },
+      {
+        "count": 9,
+        "date": "2021-01-02",
+        "geo": "YO",
+        "malaria": "positive",
+        "moi": 1,
+        "source": "Sequencing"
+      },
+      {
+        "count": 13,
+        "date": "2021-01-02",
+        "geo": "YO",
+        "malaria": "positive",
+        "moi": 3,
+        "source": "Sequencing"
+      },
+      {
+        "count": 4,
+        "date": "2021-01-02",
+        "geo": "YO",
+        "malaria": "positive",
+        "moi": 6,
+        "source": "Sequencing"
+      },
+      {
+        "count": 1,
+        "date": "2021-01-02",
+        "geo": "YO",
+        "malaria": "positive",
+        "moi": 9,
+        "source": "Sequencing"
+      },
+      {
+        "count": 1,
+        "date": "2021-01-02",
+        "geo": "YO",
+        "malaria": "positive",
+        "moi": 10,
+        "source": "Sequencing"
+      },
+      {
+        "count": 10,
+        "date": "2021-01-02",
+        "geo": "ZA",
+        "malaria": "positive",
+        "moi": 1,
+        "source": "Sequencing"
+      },
+      {
+        "count": 1,
+        "date": "2021-01-02",
+        "geo": "ZA",
+        "malaria": "positive",
+        "moi": 7,
+        "source": "Sequencing"
+      },
+      {
+        "count": 7,
+        "date": "2021-01-02",
+        "geo": "ZA",
+        "malaria": "positive",
+        "moi": 2,
+        "source": "Sequencing"
+      },
+      {
+        "count": 4,
+        "date": "2021-01-02",
+        "geo": "ZA",
+        "malaria": "positive",
+        "moi": 3,
+        "source": "Sequencing"
+      },
+      {
+        "count": 4,
+        "date": "2021-01-02",
+        "geo": "ZA",
+        "malaria": "positive",
+        "moi": 4,
+        "source": "Sequencing"
+      },
+      {
+        "count": 1,
+        "date": "2021-01-02",
+        "geo": "ZA",
+        "malaria": "positive",
+        "moi": 8,
         "source": "Sequencing"
       },
       {

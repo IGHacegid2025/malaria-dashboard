@@ -1,0 +1,1072 @@
+[
+  {
+    "sample": "nan",
+    "total_reads": 0,
+    "min_reads_threshold": 0,
+    "sample_MOI": 1,
+    "Hw": null,
+    "haplotypes": []
+  },
+  {
+    "sample": "nan",
+    "total_reads": 0,
+    "min_reads_threshold": 0,
+    "sample_MOI": 1,
+    "Hw": null,
+    "haplotypes": []
+  },
+  {
+    "sample": "nan",
+    "total_reads": 0,
+    "min_reads_threshold": 0,
+    "sample_MOI": 1,
+    "Hw": null,
+    "haplotypes": []
+  },
+  {
+    "sample": "nan",
+    "total_reads": 0,
+    "min_reads_threshold": 0,
+    "sample_MOI": 1,
+    "Hw": null,
+    "haplotypes": []
+  },
+  {
+    "sample": "nan",
+    "total_reads": 0,
+    "min_reads_threshold": 0,
+    "sample_MOI": 1,
+    "Hw": null,
+    "haplotypes": []
+  },
+  {
+    "sample": "nan",
+    "total_reads": 0,
+    "min_reads_threshold": 0,
+    "sample_MOI": 1,
+    "Hw": null,
+    "haplotypes": []
+  },
+  {
+    "sample": "nan",
+    "total_reads": 0,
+    "min_reads_threshold": 0,
+    "sample_MOI": 1,
+    "Hw": null,
+    "haplotypes": []
+  },
+  {
+    "sample": "nan",
+    "total_reads": 0,
+    "min_reads_threshold": 0,
+    "sample_MOI": 1,
+    "Hw": null,
+    "haplotypes": []
+  },
+  {
+    "sample": "nan",
+    "total_reads": 0,
+    "min_reads_threshold": 0,
+    "sample_MOI": 1,
+    "Hw": null,
+    "haplotypes": []
+  },
+  {
+    "sample": "nan",
+    "total_reads": 0,
+    "min_reads_threshold": 0,
+    "sample_MOI": 1,
+    "Hw": null,
+    "haplotypes": []
+  },
+  {
+    "sample": "nan",
+    "total_reads": 0,
+    "min_reads_threshold": 0,
+    "sample_MOI": 1,
+    "Hw": null,
+    "haplotypes": []
+  },
+  {
+    "sample": "nan",
+    "total_reads": 0,
+    "min_reads_threshold": 0,
+    "sample_MOI": 1,
+    "Hw": null,
+    "haplotypes": []
+  },
+  {
+    "sample": "nan",
+    "total_reads": 0,
+    "min_reads_threshold": 0,
+    "sample_MOI": 1,
+    "Hw": null,
+    "haplotypes": []
+  },
+  {
+    "sample": "Gombe_Bauchi_ntc",
+    "total_reads": 27,
+    "min_reads_threshold": 3,
+    "sample_MOI": 1,
+    "Hw": 0.315708,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 24,
+        "Frequency": 1.0,
+        "MOI_contribution": 1.0
+      }
+    ]
+  },
+  {
+    "sample": "nan",
+    "total_reads": 0,
+    "min_reads_threshold": 0,
+    "sample_MOI": 1,
+    "Hw": null,
+    "haplotypes": []
+  },
+  {
+    "sample": "nan",
+    "total_reads": 0,
+    "min_reads_threshold": 0,
+    "sample_MOI": 1,
+    "Hw": null,
+    "haplotypes": []
+  },
+  {
+    "sample": "nan",
+    "total_reads": 0,
+    "min_reads_threshold": 0,
+    "sample_MOI": 1,
+    "Hw": null,
+    "haplotypes": []
+  },
+  {
+    "sample": "nan",
+    "total_reads": 0,
+    "min_reads_threshold": 0,
+    "sample_MOI": 1,
+    "Hw": null,
+    "haplotypes": []
+  },
+  {
+    "sample": "nan",
+    "total_reads": 0,
+    "min_reads_threshold": 0,
+    "sample_MOI": 1,
+    "Hw": null,
+    "haplotypes": []
+  },
+  {
+    "sample": "nan",
+    "total_reads": 0,
+    "min_reads_threshold": 0,
+    "sample_MOI": 1,
+    "Hw": null,
+    "haplotypes": []
+  },
+  {
+    "sample": "nan",
+    "total_reads": 0,
+    "min_reads_threshold": 0,
+    "sample_MOI": 1,
+    "Hw": null,
+    "haplotypes": []
+  },
+  {
+    "sample": "nan",
+    "total_reads": 0,
+    "min_reads_threshold": 0,
+    "sample_MOI": 1,
+    "Hw": null,
+    "haplotypes": []
+  },
+  {
+    "sample": "nan",
+    "total_reads": 0,
+    "min_reads_threshold": 0,
+    "sample_MOI": 1,
+    "Hw": null,
+    "haplotypes": []
+  },
+  {
+    "sample": "nan",
+    "total_reads": 0,
+    "min_reads_threshold": 0,
+    "sample_MOI": 1,
+    "Hw": null,
+    "haplotypes": []
+  },
+  {
+    "sample": "nan",
+    "total_reads": 0,
+    "min_reads_threshold": 0,
+    "sample_MOI": 1,
+    "Hw": null,
+    "haplotypes": []
+  },
+  {
+    "sample": "nan",
+    "total_reads": 0,
+    "min_reads_threshold": 0,
+    "sample_MOI": 1,
+    "Hw": null,
+    "haplotypes": []
+  },
+  {
+    "sample": "nan",
+    "total_reads": 0,
+    "min_reads_threshold": 0,
+    "sample_MOI": 1,
+    "Hw": null,
+    "haplotypes": []
+  },
+  {
+    "sample": "nan",
+    "total_reads": 0,
+    "min_reads_threshold": 0,
+    "sample_MOI": 1,
+    "Hw": null,
+    "haplotypes": []
+  },
+  {
+    "sample": "nan",
+    "total_reads": 0,
+    "min_reads_threshold": 0,
+    "sample_MOI": 1,
+    "Hw": null,
+    "haplotypes": []
+  },
+  {
+    "sample": "nan",
+    "total_reads": 0,
+    "min_reads_threshold": 0,
+    "sample_MOI": 1,
+    "Hw": null,
+    "haplotypes": []
+  },
+  {
+    "sample": "nan",
+    "total_reads": 0,
+    "min_reads_threshold": 0,
+    "sample_MOI": 1,
+    "Hw": null,
+    "haplotypes": []
+  },
+  {
+    "sample": "nan",
+    "total_reads": 0,
+    "min_reads_threshold": 0,
+    "sample_MOI": 1,
+    "Hw": null,
+    "haplotypes": []
+  },
+  {
+    "sample": "nan",
+    "total_reads": 0,
+    "min_reads_threshold": 0,
+    "sample_MOI": 1,
+    "Hw": null,
+    "haplotypes": []
+  },
+  {
+    "sample": "nan",
+    "total_reads": 0,
+    "min_reads_threshold": 0,
+    "sample_MOI": 1,
+    "Hw": null,
+    "haplotypes": []
+  },
+  {
+    "sample": "nan",
+    "total_reads": 0,
+    "min_reads_threshold": 0,
+    "sample_MOI": 1,
+    "Hw": null,
+    "haplotypes": []
+  },
+  {
+    "sample": "nan",
+    "total_reads": 0,
+    "min_reads_threshold": 0,
+    "sample_MOI": 1,
+    "Hw": null,
+    "haplotypes": []
+  },
+  {
+    "sample": "nan",
+    "total_reads": 0,
+    "min_reads_threshold": 0,
+    "sample_MOI": 1,
+    "Hw": null,
+    "haplotypes": []
+  },
+  {
+    "sample": "nan",
+    "total_reads": 0,
+    "min_reads_threshold": 0,
+    "sample_MOI": 1,
+    "Hw": null,
+    "haplotypes": []
+  },
+  {
+    "sample": "nan",
+    "total_reads": 0,
+    "min_reads_threshold": 0,
+    "sample_MOI": 1,
+    "Hw": null,
+    "haplotypes": []
+  },
+  {
+    "sample": "nan",
+    "total_reads": 0,
+    "min_reads_threshold": 0,
+    "sample_MOI": 1,
+    "Hw": null,
+    "haplotypes": []
+  },
+  {
+    "sample": "nan",
+    "total_reads": 0,
+    "min_reads_threshold": 0,
+    "sample_MOI": 1,
+    "Hw": null,
+    "haplotypes": []
+  },
+  {
+    "sample": "nan",
+    "total_reads": 0,
+    "min_reads_threshold": 0,
+    "sample_MOI": 1,
+    "Hw": null,
+    "haplotypes": []
+  },
+  {
+    "sample": "nan",
+    "total_reads": 0,
+    "min_reads_threshold": 0,
+    "sample_MOI": 1,
+    "Hw": null,
+    "haplotypes": []
+  },
+  {
+    "sample": "nan",
+    "total_reads": 0,
+    "min_reads_threshold": 0,
+    "sample_MOI": 1,
+    "Hw": null,
+    "haplotypes": []
+  },
+  {
+    "sample": "nan",
+    "total_reads": 0,
+    "min_reads_threshold": 0,
+    "sample_MOI": 1,
+    "Hw": null,
+    "haplotypes": []
+  },
+  {
+    "sample": "nan",
+    "total_reads": 0,
+    "min_reads_threshold": 0,
+    "sample_MOI": 1,
+    "Hw": null,
+    "haplotypes": []
+  },
+  {
+    "sample": "nan",
+    "total_reads": 0,
+    "min_reads_threshold": 0,
+    "sample_MOI": 1,
+    "Hw": null,
+    "haplotypes": []
+  },
+  {
+    "sample": "nan",
+    "total_reads": 0,
+    "min_reads_threshold": 0,
+    "sample_MOI": 1,
+    "Hw": null,
+    "haplotypes": []
+  },
+  {
+    "sample": "Katsina_Zamfara_empty",
+    "total_reads": 0,
+    "min_reads_threshold": 0,
+    "sample_MOI": 1,
+    "Hw": null,
+    "haplotypes": []
+  },
+  {
+    "sample": "Katsina_Zamfara_nan_1",
+    "total_reads": 0,
+    "min_reads_threshold": 0,
+    "sample_MOI": 1,
+    "Hw": null,
+    "haplotypes": []
+  },
+  {
+    "sample": "Katsina_Zamfara_nan_2",
+    "total_reads": 0,
+    "min_reads_threshold": 0,
+    "sample_MOI": 1,
+    "Hw": null,
+    "haplotypes": []
+  },
+  {
+    "sample": "Katsina_Zamfara_nan_3",
+    "total_reads": 0,
+    "min_reads_threshold": 0,
+    "sample_MOI": 1,
+    "Hw": null,
+    "haplotypes": []
+  },
+  {
+    "sample": "Katsina_Zamfara_nan_4",
+    "total_reads": 0,
+    "min_reads_threshold": 0,
+    "sample_MOI": 1,
+    "Hw": null,
+    "haplotypes": []
+  },
+  {
+    "sample": "Katsina_Zamfara_nan_5",
+    "total_reads": 0,
+    "min_reads_threshold": 0,
+    "sample_MOI": 1,
+    "Hw": null,
+    "haplotypes": []
+  },
+  {
+    "sample": "Katsina_Zamfara_nan_6",
+    "total_reads": 0,
+    "min_reads_threshold": 0,
+    "sample_MOI": 1,
+    "Hw": null,
+    "haplotypes": []
+  },
+  {
+    "sample": "Katsina_Zamfara_nan_7",
+    "total_reads": 0,
+    "min_reads_threshold": 0,
+    "sample_MOI": 1,
+    "Hw": null,
+    "haplotypes": []
+  },
+  {
+    "sample": "Katsina_Zamfara_nan_8",
+    "total_reads": 0,
+    "min_reads_threshold": 0,
+    "sample_MOI": 1,
+    "Hw": null,
+    "haplotypes": []
+  },
+  {
+    "sample": "Katsina_Zamfara_nan_9",
+    "total_reads": 0,
+    "min_reads_threshold": 0,
+    "sample_MOI": 1,
+    "Hw": null,
+    "haplotypes": []
+  },
+  {
+    "sample": "Katsina_Zamfara_nan_10",
+    "total_reads": 0,
+    "min_reads_threshold": 0,
+    "sample_MOI": 1,
+    "Hw": null,
+    "haplotypes": []
+  },
+  {
+    "sample": "Katsina_Zamfara_nan_11",
+    "total_reads": 0,
+    "min_reads_threshold": 0,
+    "sample_MOI": 1,
+    "Hw": null,
+    "haplotypes": []
+  },
+  {
+    "sample": "Katsina_Zamfara_NTC",
+    "total_reads": 4,
+    "min_reads_threshold": 1,
+    "sample_MOI": 1,
+    "Hw": 0.031859,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 1,
+        "Frequency": 1.0,
+        "MOI_contribution": 1.0
+      }
+    ]
+  },
+  {
+    "sample": "Taraba_Adamawa_NTC",
+    "total_reads": 25,
+    "min_reads_threshold": 3,
+    "sample_MOI": 2,
+    "Hw": 0.276585,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 12,
+        "Frequency": 0.6,
+        "MOI_contribution": 1.2
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 8,
+        "Frequency": 0.4,
+        "MOI_contribution": 0.8
+      }
+    ]
+  },
+  {
+    "sample": "Sokoto_Jigawa_ntc",
+    "total_reads": 51,
+    "min_reads_threshold": 3,
+    "sample_MOI": 1,
+    "Hw": 0.132653,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 51,
+        "Frequency": 1.0,
+        "MOI_contribution": 1.0
+      }
+    ]
+  },
+  {
+    "sample": "Sokoto_Jigawa_ntc_2",
+    "total_reads": 0,
+    "min_reads_threshold": 0,
+    "sample_MOI": 1,
+    "Hw": null,
+    "haplotypes": []
+  },
+  {
+    "sample": "Kano_Kaduna_nan_1",
+    "total_reads": 957,
+    "min_reads_threshold": 5,
+    "sample_MOI": 1,
+    "Hw": 0.040786,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 949,
+        "Frequency": 1.0,
+        "MOI_contribution": 1.0
+      }
+    ]
+  },
+  {
+    "sample": "Kano_Kaduna_nan_2",
+    "total_reads": 3607,
+    "min_reads_threshold": 19,
+    "sample_MOI": 3,
+    "Hw": 0.260742,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 1679,
+        "Frequency": 0.465742,
+        "MOI_contribution": 1.397226
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 1170,
+        "Frequency": 0.324549,
+        "MOI_contribution": 0.973647
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 756,
+        "Frequency": 0.209709,
+        "MOI_contribution": 0.629127
+      }
+    ]
+  },
+  {
+    "sample": "Kano_Kaduna_nan_3",
+    "total_reads": 3223,
+    "min_reads_threshold": 17,
+    "sample_MOI": 5,
+    "Hw": 0.090362,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 2043,
+        "Frequency": 0.638637,
+        "MOI_contribution": 3.193185
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 965,
+        "Frequency": 0.301657,
+        "MOI_contribution": 1.508285
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 102,
+        "Frequency": 0.031885,
+        "MOI_contribution": 0.159425
+      },
+      {
+        "Haplotype_ID": "HAP4",
+        "Count": 58,
+        "Frequency": 0.018131,
+        "MOI_contribution": 0.090655
+      },
+      {
+        "Haplotype_ID": "HAP5",
+        "Count": 31,
+        "Frequency": 0.009691,
+        "MOI_contribution": 0.048455
+      }
+    ]
+  },
+  {
+    "sample": "Kano_Kaduna_nan_4",
+    "total_reads": 5107,
+    "min_reads_threshold": 26,
+    "sample_MOI": 4,
+    "Hw": 0.341505,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 3375,
+        "Frequency": 0.661246,
+        "MOI_contribution": 2.644984
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 1130,
+        "Frequency": 0.221395,
+        "MOI_contribution": 0.88558
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 431,
+        "Frequency": 0.084444,
+        "MOI_contribution": 0.337776
+      },
+      {
+        "Haplotype_ID": "HAP4",
+        "Count": 168,
+        "Frequency": 0.032915,
+        "MOI_contribution": 0.13166
+      }
+    ]
+  },
+  {
+    "sample": "Kano_Kaduna_nan_5",
+    "total_reads": 10896,
+    "min_reads_threshold": 55,
+    "sample_MOI": 4,
+    "Hw": 0.328578,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 8494,
+        "Frequency": 0.779552,
+        "MOI_contribution": 3.118208
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 880,
+        "Frequency": 0.080764,
+        "MOI_contribution": 0.323056
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 839,
+        "Frequency": 0.077001,
+        "MOI_contribution": 0.308004
+      },
+      {
+        "Haplotype_ID": "HAP4",
+        "Count": 683,
+        "Frequency": 0.062684,
+        "MOI_contribution": 0.250736
+      }
+    ]
+  },
+  {
+    "sample": "Kano_Kaduna_nan_6",
+    "total_reads": 1159,
+    "min_reads_threshold": 6,
+    "sample_MOI": 3,
+    "Hw": 0.057508,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 842,
+        "Frequency": 0.728374,
+        "MOI_contribution": 2.185122
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 303,
+        "Frequency": 0.262111,
+        "MOI_contribution": 0.786333
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 11,
+        "Frequency": 0.009516,
+        "MOI_contribution": 0.028548
+      }
+    ]
+  },
+  {
+    "sample": "Kano_Kaduna_nan_7",
+    "total_reads": 3376,
+    "min_reads_threshold": 17,
+    "sample_MOI": 2,
+    "Hw": 0.20856,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 2569,
+        "Frequency": 0.775664,
+        "MOI_contribution": 1.551328
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 743,
+        "Frequency": 0.224336,
+        "MOI_contribution": 0.448672
+      }
+    ]
+  },
+  {
+    "sample": "Kano_Kaduna_nan_8",
+    "total_reads": 3891,
+    "min_reads_threshold": 20,
+    "sample_MOI": 5,
+    "Hw": 0.227951,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 2003,
+        "Frequency": 0.51491,
+        "MOI_contribution": 2.57455
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 1067,
+        "Frequency": 0.274293,
+        "MOI_contribution": 1.371465
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 551,
+        "Frequency": 0.141645,
+        "MOI_contribution": 0.708225
+      },
+      {
+        "Haplotype_ID": "HAP4",
+        "Count": 185,
+        "Frequency": 0.047558,
+        "MOI_contribution": 0.23779
+      },
+      {
+        "Haplotype_ID": "HAP5",
+        "Count": 84,
+        "Frequency": 0.021594,
+        "MOI_contribution": 0.10797
+      }
+    ]
+  },
+  {
+    "sample": "20260521_library_2_NTC",
+    "total_reads": 0,
+    "min_reads_threshold": 0,
+    "sample_MOI": 1,
+    "Hw": null,
+    "haplotypes": []
+  },
+  {
+    "sample": "20260521_library_2_NTC_2",
+    "total_reads": 0,
+    "min_reads_threshold": 0,
+    "sample_MOI": 1,
+    "Hw": null,
+    "haplotypes": []
+  },
+  {
+    "sample": "20260525_library_3_NTC",
+    "total_reads": 0,
+    "min_reads_threshold": 0,
+    "sample_MOI": 1,
+    "Hw": null,
+    "haplotypes": []
+  },
+  {
+    "sample": "20260525_library_3_3D7",
+    "total_reads": 80,
+    "min_reads_threshold": 3,
+    "sample_MOI": 2,
+    "Hw": 0.310147,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 59,
+        "Frequency": 0.786667,
+        "MOI_contribution": 1.573334
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 16,
+        "Frequency": 0.213333,
+        "MOI_contribution": 0.426666
+      }
+    ]
+  },
+  {
+    "sample": "20260525_library_3_NTC_2",
+    "total_reads": 0,
+    "min_reads_threshold": 0,
+    "sample_MOI": 1,
+    "Hw": null,
+    "haplotypes": []
+  },
+  {
+    "sample": "20260521_library_1_NTC",
+    "total_reads": 0,
+    "min_reads_threshold": 0,
+    "sample_MOI": 1,
+    "Hw": null,
+    "haplotypes": []
+  },
+  {
+    "sample": "20260521_library_1_3D7",
+    "total_reads": 390,
+    "min_reads_threshold": 3,
+    "sample_MOI": 4,
+    "Hw": 0.319873,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 330,
+        "Frequency": 0.859375,
+        "MOI_contribution": 3.4375
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 43,
+        "Frequency": 0.111979,
+        "MOI_contribution": 0.447916
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 7,
+        "Frequency": 0.018229,
+        "MOI_contribution": 0.072916
+      },
+      {
+        "Haplotype_ID": "HAP4",
+        "Count": 4,
+        "Frequency": 0.010417,
+        "MOI_contribution": 0.041668
+      }
+    ]
+  },
+  {
+    "sample": "20260413_library_D_NTC",
+    "total_reads": 139,
+    "min_reads_threshold": 3,
+    "sample_MOI": 9,
+    "Hw": 0.366476,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 29,
+        "Frequency": 0.208633,
+        "MOI_contribution": 1.877697
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 20,
+        "Frequency": 0.143885,
+        "MOI_contribution": 1.294965
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 17,
+        "Frequency": 0.122302,
+        "MOI_contribution": 1.100718
+      },
+      {
+        "Haplotype_ID": "HAP4",
+        "Count": 16,
+        "Frequency": 0.115108,
+        "MOI_contribution": 1.035972
+      },
+      {
+        "Haplotype_ID": "HAP5",
+        "Count": 13,
+        "Frequency": 0.093525,
+        "MOI_contribution": 0.841725
+      },
+      {
+        "Haplotype_ID": "HAP6",
+        "Count": 13,
+        "Frequency": 0.093525,
+        "MOI_contribution": 0.841725
+      },
+      {
+        "Haplotype_ID": "HAP7",
+        "Count": 11,
+        "Frequency": 0.079137,
+        "MOI_contribution": 0.712233
+      },
+      {
+        "Haplotype_ID": "HAP8",
+        "Count": 10,
+        "Frequency": 0.071942,
+        "MOI_contribution": 0.647478
+      },
+      {
+        "Haplotype_ID": "HAP9",
+        "Count": 10,
+        "Frequency": 0.071942,
+        "MOI_contribution": 0.647478
+      }
+    ]
+  },
+  {
+    "sample": "20260413_library_D_3D7",
+    "total_reads": 173,
+    "min_reads_threshold": 3,
+    "sample_MOI": 2,
+    "Hw": 0.13875,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 159,
+        "Frequency": 0.919075,
+        "MOI_contribution": 1.83815
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 14,
+        "Frequency": 0.080925,
+        "MOI_contribution": 0.16185
+      }
+    ]
+  },
+  {
+    "sample": "20260423_library_E_NTC",
+    "total_reads": 36,
+    "min_reads_threshold": 3,
+    "sample_MOI": 2,
+    "Hw": 0.3721,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 3,
+        "Frequency": 0.5,
+        "MOI_contribution": 1.0
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 3,
+        "Frequency": 0.5,
+        "MOI_contribution": 1.0
+      }
+    ]
+  },
+  {
+    "sample": "20260423_library_F_NTC",
+    "total_reads": 3,
+    "min_reads_threshold": 2,
+    "sample_MOI": 1,
+    "Hw": 0.091532,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 2,
+        "Frequency": 1.0,
+        "MOI_contribution": 1.0
+      }
+    ]
+  },
+  {
+    "sample": "20260423_library_F_3D7",
+    "total_reads": 0,
+    "min_reads_threshold": 0,
+    "sample_MOI": 1,
+    "Hw": null,
+    "haplotypes": []
+  },
+  {
+    "sample": "20260526_library_4_NTC",
+    "total_reads": 0,
+    "min_reads_threshold": 0,
+    "sample_MOI": 1,
+    "Hw": null,
+    "haplotypes": []
+  },
+  {
+    "sample": "20260526_library_4_3D7",
+    "total_reads": 311,
+    "min_reads_threshold": 3,
+    "sample_MOI": 4,
+    "Hw": 0.294039,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 261,
+        "Frequency": 0.841935,
+        "MOI_contribution": 3.36774
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 39,
+        "Frequency": 0.125806,
+        "MOI_contribution": 0.503224
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 7,
+        "Frequency": 0.022581,
+        "MOI_contribution": 0.090324
+      },
+      {
+        "Haplotype_ID": "HAP4",
+        "Count": 3,
+        "Frequency": 0.009677,
+        "MOI_contribution": 0.038708
+      }
+    ]
+  },
+  {
+    "sample": "20260526_library_4_NTC",
+    "total_reads": 92,
+    "min_reads_threshold": 3,
+    "sample_MOI": 3,
+    "Hw": 0.049693,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 45,
+        "Frequency": 0.5,
+        "MOI_contribution": 1.5
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 41,
+        "Frequency": 0.455556,
+        "MOI_contribution": 1.366668
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 4,
+        "Frequency": 0.044444,
+        "MOI_contribution": 0.133332
+      }
+    ]
+  }
+]

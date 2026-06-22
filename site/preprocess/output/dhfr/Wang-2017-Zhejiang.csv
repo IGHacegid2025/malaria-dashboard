@@ -1,0 +1,4 @@
+marker,type,prevalence,c16,c50,c51,c59,c108,c140,c164
+dhfr,double,0.0260,.,.,I,.,N,.,.
+dhfr,double,0.0000,.,.,.,R,N,.,.
+dhfr,triple,0.9740,.,.,I,R,N,.,.

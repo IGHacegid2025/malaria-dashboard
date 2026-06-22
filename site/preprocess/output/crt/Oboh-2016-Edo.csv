@@ -1,0 +1,5 @@
+marker,type,prevalence,c72,c73,c74,c75,c76
+crt,wt-sequence,0.3660,C,V,M,N,K
+crt,single,0.0240,C,V,I,N,K
+crt,single,0.0240,C,V,M,E,K
+crt,triple,0.5860,C,V,I,E,T

@@ -1,0 +1,406 @@
+{
+  "Adamu-2017-Adamawa": {
+    "author": "Adamu",
+    "city": "",
+    "codons_studied": [
+      "86",
+      "184",
+      "1246"
+    ],
+    "corrected_year": "2017",
+    "count": 500,
+    "publication_year": "2020",
+    "sample_collection_year": "2017-2017",
+    "state": "Adamawa",
+    "study focus": ""
+  },
+  "Adamu-2017-Kaduna": {
+    "author": "Adamu",
+    "city": "",
+    "codons_studied": [
+      "86",
+      "184",
+      "1246"
+    ],
+    "corrected_year": "2017",
+    "count": 500,
+    "publication_year": "2020",
+    "sample_collection_year": "2017-2017",
+    "state": "Kaduna",
+    "study focus": ""
+  },
+  "Adamu-2017-Kano": {
+    "author": "Adamu",
+    "city": "",
+    "codons_studied": [
+      "86",
+      "184",
+      "1246"
+    ],
+    "corrected_year": "2017",
+    "count": 500,
+    "publication_year": "2020",
+    "sample_collection_year": "2017-2017",
+    "state": "Kano",
+    "study focus": ""
+  },
+  "Adamu-2017-Yobe": {
+    "author": "Adamu",
+    "city": "",
+    "codons_studied": [
+      "86",
+      "184",
+      "1246"
+    ],
+    "corrected_year": "2017",
+    "count": 500,
+    "publication_year": "2020",
+    "sample_collection_year": "2017-2017",
+    "state": "Yobe",
+    "study focus": ""
+  },
+  "Agomo-2016-Lagos": {
+    "author": "Agomo",
+    "city": "",
+    "codons_studied": [
+      "86",
+      "184",
+      "1034",
+      "1042",
+      "1246"
+    ],
+    "corrected_year": "2016",
+    "count": 54,
+    "publication_year": "2016",
+    "sample_collection_year": "",
+    "state": "Lagos",
+    "study focus": ""
+  },
+  "Beshir-2016-Zamfara": {
+    "author": "Beshir",
+    "city": "Anka",
+    "codons_studied": [
+      "86",
+      "184"
+    ],
+    "corrected_year": "2016",
+    "count": 1096,
+    "publication_year": "2023",
+    "sample_collection_year": "2016",
+    "state": "Zamfara",
+    "study focus": "<5 years & 10-30 years"
+  },
+  "Beshir-2018-Zamfara": {
+    "author": "Beshir",
+    "city": "Anka",
+    "codons_studied": [
+      "86",
+      "184"
+    ],
+    "corrected_year": "2018",
+    "count": 615,
+    "publication_year": "2023",
+    "sample_collection_year": "2018",
+    "state": "Zamfara",
+    "study focus": "<5 years & 10-30 years"
+  },
+  "Cheng-2018-Hubei": {
+    "author": "Cheng",
+    "city": "Wuhan",
+    "codons_studied": [
+      "86",
+      "184"
+    ],
+    "corrected_year": "2018",
+    "count": 18,
+    "publication_year": "2021",
+    "sample_collection_year": "2017-2019",
+    "state": "Hubei",
+    "study focus": "NA returning traveler"
+  },
+  "Chijioke-Nwauche-2010-Rivers": {
+    "author": "Chijioke-Nwauche",
+    "city": "Port Harcourt",
+    "codons_studied": [
+      "86",
+      "184",
+      "1246"
+    ],
+    "corrected_year": "2010",
+    "count": 459,
+    "publication_year": "2021",
+    "sample_collection_year": "2010-2011",
+    "state": "Rivers",
+    "study focus": "HIV+/- adults"
+  },
+  "Dokunmu-2018-Ogun": {
+    "author": "Dokunmu",
+    "city": "Ota",
+    "codons_studied": [
+      "86",
+      "184",
+      "1246"
+    ],
+    "corrected_year": "2018",
+    "count": 75,
+    "publication_year": "2019",
+    "sample_collection_year": "2018",
+    "state": "Ogun",
+    "study focus": "<6 months"
+  },
+  "Ibekpobaoku-2024-Lagos": {
+    "author": "Ibekpobaoku",
+    "city": "Lagos",
+    "codons_studied": [
+      "86",
+      "184",
+      "1042",
+      "1246"
+    ],
+    "corrected_year": "2024",
+    "count": 7,
+    "publication_year": "2024",
+    "sample_collection_year": "",
+    "state": "Lagos",
+    "study focus": "pregnant women"
+  },
+  "Ikegbunam-2014-Anambra": {
+    "author": "Ikegbunam",
+    "city": "Nnewi",
+    "codons_studied": [
+      "86",
+      "184",
+      "1246"
+    ],
+    "corrected_year": "2014",
+    "count": 103,
+    "publication_year": "2019",
+    "sample_collection_year": "2014-2015",
+    "state": "Anambra",
+    "study focus": "mixed, childeren, pregnant women, other adults"
+  },
+  "Kayode-2014-Adamawa": {
+    "author": "Kayode",
+    "city": "",
+    "codons_studied": [
+      "86",
+      "184"
+    ],
+    "corrected_year": "2014",
+    "count": 271,
+    "publication_year": "2021",
+    "sample_collection_year": "2014-2015",
+    "state": "Adamawa",
+    "study focus": "<5 years (children)"
+  },
+  "Kayode-2014-Bayelsa": {
+    "author": "Kayode",
+    "city": "",
+    "codons_studied": [
+      "86",
+      "184"
+    ],
+    "corrected_year": "2014",
+    "count": 271,
+    "publication_year": "2021",
+    "sample_collection_year": "2014-2015",
+    "state": "Bayelsa",
+    "study focus": "<5 years (children)"
+  },
+  "Kayode-2014-Imo": {
+    "author": "Kayode",
+    "city": "",
+    "codons_studied": [
+      "86",
+      "184"
+    ],
+    "corrected_year": "2014",
+    "count": 271,
+    "publication_year": "2021",
+    "sample_collection_year": "2014-2015",
+    "state": "Imo",
+    "study focus": "<5 years (children)"
+  },
+  "Kayode-2014-Kwara": {
+    "author": "Kayode",
+    "city": "",
+    "codons_studied": [
+      "86",
+      "184"
+    ],
+    "corrected_year": "2014",
+    "count": 271,
+    "publication_year": "2021",
+    "sample_collection_year": "2014-2015",
+    "state": "Kwara",
+    "study focus": "<5 years (children)"
+  },
+  "Kayode-2014-Sokoto": {
+    "author": "Kayode",
+    "city": "",
+    "codons_studied": [
+      "86",
+      "184"
+    ],
+    "corrected_year": "2014",
+    "count": 271,
+    "publication_year": "2021",
+    "sample_collection_year": "2014-2015",
+    "state": "Sokoto",
+    "study focus": "<5 years (children)"
+  },
+  "Ojurongbe-2004-Osun": {
+    "author": "Ojurongbe",
+    "city": "Osogbo",
+    "codons_studied": [
+      "86",
+      "184"
+    ],
+    "corrected_year": "2004",
+    "count": 116,
+    "publication_year": "2007",
+    "sample_collection_year": "2004-2005",
+    "state": "Osun",
+    "study focus": "46034"
+  },
+  "Wang-2016-Zhejiang": {
+    "author": "Wang",
+    "city": "",
+    "codons_studied": [
+      "86",
+      "184"
+    ],
+    "corrected_year": "2016",
+    "count": 50,
+    "publication_year": "2022",
+    "sample_collection_year": "2016",
+    "state": "Zhejiang",
+    "study focus": "NA returning traveler"
+  },
+  "Wang-2017-Zhejiang": {
+    "author": "Wang",
+    "city": "",
+    "codons_studied": [
+      "86",
+      "184"
+    ],
+    "corrected_year": "2017",
+    "count": 41,
+    "publication_year": "2022",
+    "sample_collection_year": "2017",
+    "state": "Zhejiang",
+    "study focus": "NA returning traveler"
+  },
+  "Wang-2018-Zhejiang": {
+    "author": "Wang",
+    "city": "",
+    "codons_studied": [
+      "86",
+      "184"
+    ],
+    "corrected_year": "2018",
+    "count": 29,
+    "publication_year": "2022",
+    "sample_collection_year": "2018",
+    "state": "Zhejiang",
+    "study focus": "NA returning traveler"
+  },
+  "Wang-2019-Zhejiang": {
+    "author": "Wang",
+    "city": "",
+    "codons_studied": [
+      "86",
+      "184"
+    ],
+    "corrected_year": "2019",
+    "count": 31,
+    "publication_year": "2022",
+    "sample_collection_year": "2019",
+    "state": "Zhejiang",
+    "study focus": "NA returning traveler"
+  },
+  "Wang-2020-Zhejiang": {
+    "author": "Wang",
+    "city": "",
+    "codons_studied": [
+      "86",
+      "184"
+    ],
+    "corrected_year": "2020",
+    "count": 7,
+    "publication_year": "2022",
+    "sample_collection_year": "2020",
+    "state": "Zhejiang",
+    "study focus": "NA returning traveler"
+  },
+  "Xu-2014-Shandong": {
+    "author": "Xu",
+    "city": "",
+    "codons_studied": [
+      "86",
+      "130",
+      "184",
+      "1034",
+      "1042",
+      "1109",
+      "1246"
+    ],
+    "corrected_year": "2014",
+    "count": 34,
+    "publication_year": "2018",
+    "sample_collection_year": "2012-2015",
+    "state": "Shandong",
+    "study focus": "NA returning traveler"
+  },
+  "Yang-2014-Henan": {
+    "author": "Yang",
+    "city": "",
+    "codons_studied": [
+      "86",
+      "184",
+      "1034",
+      "1042",
+      "1246"
+    ],
+    "corrected_year": "2014",
+    "count": 87,
+    "publication_year": "2018",
+    "sample_collection_year": "2012-2016",
+    "state": "Henan",
+    "study focus": "NA returning traveler"
+  },
+  "Yao-2014-Wuhan": {
+    "author": "Yao",
+    "city": "",
+    "codons_studied": [
+      "86",
+      "184",
+      "1034",
+      "1042",
+      "1246"
+    ],
+    "corrected_year": "2014",
+    "count": 29,
+    "publication_year": "2018",
+    "sample_collection_year": "2011-2016",
+    "state": "Wuhan",
+    "study focus": "NA returning traveler"
+  },
+  "Zhao-2016-Henan": {
+    "author": "Zhao",
+    "city": "",
+    "codons_studied": [
+      "86",
+      "184",
+      "1034",
+      "1042",
+      "1246"
+    ],
+    "corrected_year": "2016",
+    "count": 167,
+    "publication_year": "2021",
+    "sample_collection_year": "2012-2019",
+    "state": "Henan",
+    "study focus": "NA returning traveler"
+  }
+}

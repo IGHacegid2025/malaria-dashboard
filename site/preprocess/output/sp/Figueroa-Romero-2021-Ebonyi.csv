@@ -1,0 +1,12 @@
+marker,type,prevalence,c51,c59,c108,c164,c431,c436,c437,c540,c581,c613
+dhfr/dhps,triple/single,0.2600,N,C,S,I,S,A,A,K,A,A
+dhfr/dhps,triple/double,0.0016,N,C,S,I,S,A,A,K,A,A
+dhfr/dhps,triple/double,0.0016,N,C,S,I,S,V,A,K,A,A
+dhfr/dhps,triple/triple,0.0200,N,C,S,I,S,A,A,K,A,S
+dhfr/dhps,triple/triple,0.3500,N,C,S,I,V,A,A,K,A,A
+dhfr/dhps,triple/quadruple,0.0015,N,C,S,I,V,A,A,K,A,S
+dhfr/dhps,triple/quadruple,0.0200,N,C,S,I,V,A,A,K,A,A
+dhfr/dhps,quadruple/triple,0.0016,N,C,S,L,V,A,A,K,A,A
+dhfr/dhps,triple/quadruple,0.0016,N,C,S,I,S,A,A,K,A,S
+dhfr/dhps,triple/quintuple,0.0100,N,C,S,I,V,A,A,K,A,S
+dhfr/dhps,triple/quadruple,0.0016,I,R,N,I,V,A,G,E,A,A

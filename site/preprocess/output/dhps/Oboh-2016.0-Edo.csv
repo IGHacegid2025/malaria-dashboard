@@ -1,0 +1,6 @@
+marker,type,prevalence,c424,c431,c436,c437,c540,c581,c613
+dhps,double,0.0730,.,.,A,G,.,.,.
+dhps,double,0.0240,.,.,.,G,.,G,.
+dhps,triple,0.1470,.,V,A,G,.,.,.
+dhps,triple,0.0490,.,.,A,.,.,G,S
+dhps,quadruple,0.2200,.,V,A,G,.,G,.
