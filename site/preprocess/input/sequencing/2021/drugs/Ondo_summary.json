@@ -1,0 +1,2228 @@
+[
+  {
+    "sample": "20260608_Ondo_Lagos_Ogun_A3O1S",
+    "total_reads": 234,
+    "min_reads_threshold": 3,
+    "sample_MOI": 5,
+    "Hw": 0.416074,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 72,
+        "Frequency": 0.590164,
+        "MOI_contribution": 2.95082
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 22,
+        "Frequency": 0.180328,
+        "MOI_contribution": 0.90164
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 10,
+        "Frequency": 0.081967,
+        "MOI_contribution": 0.409835
+      },
+      {
+        "Haplotype_ID": "HAP4",
+        "Count": 10,
+        "Frequency": 0.081967,
+        "MOI_contribution": 0.409835
+      },
+      {
+        "Haplotype_ID": "HAP5",
+        "Count": 8,
+        "Frequency": 0.065574,
+        "MOI_contribution": 0.32787
+      }
+    ]
+  },
+  {
+    "sample": "20260608_Ondo_Lagos_Ogun_A4D8P",
+    "total_reads": 1282,
+    "min_reads_threshold": 7,
+    "sample_MOI": 5,
+    "Hw": 0.222951,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 602,
+        "Frequency": 0.564199,
+        "MOI_contribution": 2.820995
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 351,
+        "Frequency": 0.32896,
+        "MOI_contribution": 1.6448
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 81,
+        "Frequency": 0.075914,
+        "MOI_contribution": 0.37957
+      },
+      {
+        "Haplotype_ID": "HAP4",
+        "Count": 17,
+        "Frequency": 0.015933,
+        "MOI_contribution": 0.079665
+      },
+      {
+        "Haplotype_ID": "HAP5",
+        "Count": 16,
+        "Frequency": 0.014995,
+        "MOI_contribution": 0.074975
+      }
+    ]
+  },
+  {
+    "sample": "20260608_Ondo_Lagos_Ogun_A5P0U",
+    "total_reads": 14,
+    "min_reads_threshold": 3,
+    "sample_MOI": 1,
+    "Hw": 0.329063,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 4,
+        "Frequency": 1.0,
+        "MOI_contribution": 1.0
+      }
+    ]
+  },
+  {
+    "sample": "20260608_Ondo_Lagos_Ogun_A6K1R",
+    "total_reads": 79,
+    "min_reads_threshold": 3,
+    "sample_MOI": 5,
+    "Hw": 0.36937,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 21,
+        "Frequency": 0.328125,
+        "MOI_contribution": 1.640625
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 19,
+        "Frequency": 0.296875,
+        "MOI_contribution": 1.484375
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 16,
+        "Frequency": 0.25,
+        "MOI_contribution": 1.25
+      },
+      {
+        "Haplotype_ID": "HAP4",
+        "Count": 5,
+        "Frequency": 0.078125,
+        "MOI_contribution": 0.390625
+      },
+      {
+        "Haplotype_ID": "HAP5",
+        "Count": 3,
+        "Frequency": 0.046875,
+        "MOI_contribution": 0.234375
+      }
+    ]
+  },
+  {
+    "sample": "20260608_Ondo_Lagos_Ogun_B3J7U",
+    "total_reads": 782,
+    "min_reads_threshold": 4,
+    "sample_MOI": 1,
+    "Hw": 0.167461,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 235,
+        "Frequency": 1.0,
+        "MOI_contribution": 1.0
+      }
+    ]
+  },
+  {
+    "sample": "20260608_Ondo_Lagos_Ogun_B5Z1H",
+    "total_reads": 424,
+    "min_reads_threshold": 3,
+    "sample_MOI": 5,
+    "Hw": 0.18312,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 306,
+        "Frequency": 0.874286,
+        "MOI_contribution": 4.37143
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 34,
+        "Frequency": 0.097143,
+        "MOI_contribution": 0.485715
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 4,
+        "Frequency": 0.011429,
+        "MOI_contribution": 0.057145
+      },
+      {
+        "Haplotype_ID": "HAP4",
+        "Count": 3,
+        "Frequency": 0.008571,
+        "MOI_contribution": 0.042855
+      },
+      {
+        "Haplotype_ID": "HAP5",
+        "Count": 3,
+        "Frequency": 0.008571,
+        "MOI_contribution": 0.042855
+      }
+    ]
+  },
+  {
+    "sample": "20260608_Ondo_Lagos_Ogun_B8O7F",
+    "total_reads": 72,
+    "min_reads_threshold": 3,
+    "sample_MOI": 4,
+    "Hw": 0.358737,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 23,
+        "Frequency": 0.396552,
+        "MOI_contribution": 1.586208
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 16,
+        "Frequency": 0.275862,
+        "MOI_contribution": 1.103448
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 14,
+        "Frequency": 0.241379,
+        "MOI_contribution": 0.965516
+      },
+      {
+        "Haplotype_ID": "HAP4",
+        "Count": 5,
+        "Frequency": 0.086207,
+        "MOI_contribution": 0.344828
+      }
+    ]
+  },
+  {
+    "sample": "20260608_Ondo_Lagos_Ogun_B9T5J",
+    "total_reads": 79,
+    "min_reads_threshold": 3,
+    "sample_MOI": 4,
+    "Hw": 0.362857,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 25,
+        "Frequency": 0.378788,
+        "MOI_contribution": 1.515152
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 23,
+        "Frequency": 0.348485,
+        "MOI_contribution": 1.39394
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 14,
+        "Frequency": 0.212121,
+        "MOI_contribution": 0.848484
+      },
+      {
+        "Haplotype_ID": "HAP4",
+        "Count": 4,
+        "Frequency": 0.060606,
+        "MOI_contribution": 0.242424
+      }
+    ]
+  },
+  {
+    "sample": "20260608_Ondo_Lagos_Ogun_C8O4D",
+    "total_reads": 282,
+    "min_reads_threshold": 3,
+    "sample_MOI": 6,
+    "Hw": 0.34955,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 105,
+        "Frequency": 0.446809,
+        "MOI_contribution": 2.680854
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 93,
+        "Frequency": 0.395745,
+        "MOI_contribution": 2.37447
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 16,
+        "Frequency": 0.068085,
+        "MOI_contribution": 0.40851
+      },
+      {
+        "Haplotype_ID": "HAP4",
+        "Count": 10,
+        "Frequency": 0.042553,
+        "MOI_contribution": 0.255318
+      },
+      {
+        "Haplotype_ID": "HAP5",
+        "Count": 8,
+        "Frequency": 0.034043,
+        "MOI_contribution": 0.204258
+      },
+      {
+        "Haplotype_ID": "HAP6",
+        "Count": 3,
+        "Frequency": 0.012766,
+        "MOI_contribution": 0.076596
+      }
+    ]
+  },
+  {
+    "sample": "20260608_Ondo_Lagos_Ogun_E1K3S",
+    "total_reads": 20,
+    "min_reads_threshold": 2,
+    "sample_MOI": 1,
+    "Hw": 0.314689,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 2,
+        "Frequency": 1.0,
+        "MOI_contribution": 1.0
+      }
+    ]
+  },
+  {
+    "sample": "20260608_Ondo_Lagos_Ogun_E7R0D",
+    "total_reads": 1154,
+    "min_reads_threshold": 6,
+    "sample_MOI": 5,
+    "Hw": 0.21062,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 549,
+        "Frequency": 0.551759,
+        "MOI_contribution": 2.758795
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 352,
+        "Frequency": 0.353769,
+        "MOI_contribution": 1.768845
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 57,
+        "Frequency": 0.057286,
+        "MOI_contribution": 0.28643
+      },
+      {
+        "Haplotype_ID": "HAP4",
+        "Count": 21,
+        "Frequency": 0.021106,
+        "MOI_contribution": 0.10553
+      },
+      {
+        "Haplotype_ID": "HAP5",
+        "Count": 16,
+        "Frequency": 0.01608,
+        "MOI_contribution": 0.0804
+      }
+    ]
+  },
+  {
+    "sample": "20260608_Ondo_Lagos_Ogun_F0Z1G",
+    "total_reads": 42,
+    "min_reads_threshold": 3,
+    "sample_MOI": 3,
+    "Hw": 0.372852,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 14,
+        "Frequency": 0.424242,
+        "MOI_contribution": 1.272726
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 10,
+        "Frequency": 0.30303,
+        "MOI_contribution": 0.90909
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 9,
+        "Frequency": 0.272727,
+        "MOI_contribution": 0.818181
+      }
+    ]
+  },
+  {
+    "sample": "20260608_Ondo_Lagos_Ogun_F2Z1I",
+    "total_reads": 81,
+    "min_reads_threshold": 3,
+    "sample_MOI": 5,
+    "Hw": 0.361176,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 19,
+        "Frequency": 0.287879,
+        "MOI_contribution": 1.439395
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 18,
+        "Frequency": 0.272727,
+        "MOI_contribution": 1.363635
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 16,
+        "Frequency": 0.242424,
+        "MOI_contribution": 1.21212
+      },
+      {
+        "Haplotype_ID": "HAP4",
+        "Count": 10,
+        "Frequency": 0.151515,
+        "MOI_contribution": 0.757575
+      },
+      {
+        "Haplotype_ID": "HAP5",
+        "Count": 3,
+        "Frequency": 0.045455,
+        "MOI_contribution": 0.227275
+      }
+    ]
+  },
+  {
+    "sample": "20260608_Ondo_Lagos_Ogun_F8J3Z",
+    "total_reads": 17,
+    "min_reads_threshold": 3,
+    "sample_MOI": 1,
+    "Hw": 0.331364,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 3,
+        "Frequency": 1.0,
+        "MOI_contribution": 1.0
+      }
+    ]
+  },
+  {
+    "sample": "20260608_Ondo_Lagos_Ogun_G2H2R",
+    "total_reads": 101,
+    "min_reads_threshold": 3,
+    "sample_MOI": 6,
+    "Hw": 0.271977,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 15,
+        "Frequency": 0.263158,
+        "MOI_contribution": 1.578948
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 12,
+        "Frequency": 0.210526,
+        "MOI_contribution": 1.263156
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 11,
+        "Frequency": 0.192982,
+        "MOI_contribution": 1.157892
+      },
+      {
+        "Haplotype_ID": "HAP4",
+        "Count": 11,
+        "Frequency": 0.192982,
+        "MOI_contribution": 1.157892
+      },
+      {
+        "Haplotype_ID": "HAP5",
+        "Count": 5,
+        "Frequency": 0.087719,
+        "MOI_contribution": 0.526314
+      },
+      {
+        "Haplotype_ID": "HAP6",
+        "Count": 3,
+        "Frequency": 0.052632,
+        "MOI_contribution": 0.315792
+      }
+    ]
+  },
+  {
+    "sample": "20260608_Ondo_Lagos_Ogun_G5G4V",
+    "total_reads": 24,
+    "min_reads_threshold": 3,
+    "sample_MOI": 1,
+    "Hw": 0.268432,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 3,
+        "Frequency": 1.0,
+        "MOI_contribution": 1.0
+      }
+    ]
+  },
+  {
+    "sample": "20260608_Ondo_Lagos_Ogun_H1I9Z",
+    "total_reads": 493,
+    "min_reads_threshold": 3,
+    "sample_MOI": 12,
+    "Hw": 0.426285,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 105,
+        "Frequency": 0.276316,
+        "MOI_contribution": 3.315792
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 94,
+        "Frequency": 0.247368,
+        "MOI_contribution": 2.968416
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 64,
+        "Frequency": 0.168421,
+        "MOI_contribution": 2.021052
+      },
+      {
+        "Haplotype_ID": "HAP4",
+        "Count": 44,
+        "Frequency": 0.115789,
+        "MOI_contribution": 1.389468
+      },
+      {
+        "Haplotype_ID": "HAP5",
+        "Count": 37,
+        "Frequency": 0.097368,
+        "MOI_contribution": 1.168416
+      },
+      {
+        "Haplotype_ID": "HAP6",
+        "Count": 13,
+        "Frequency": 0.034211,
+        "MOI_contribution": 0.410532
+      },
+      {
+        "Haplotype_ID": "HAP7",
+        "Count": 7,
+        "Frequency": 0.018421,
+        "MOI_contribution": 0.221052
+      },
+      {
+        "Haplotype_ID": "HAP8",
+        "Count": 4,
+        "Frequency": 0.010526,
+        "MOI_contribution": 0.126312
+      },
+      {
+        "Haplotype_ID": "HAP9",
+        "Count": 3,
+        "Frequency": 0.007895,
+        "MOI_contribution": 0.09474
+      },
+      {
+        "Haplotype_ID": "HAP10",
+        "Count": 3,
+        "Frequency": 0.007895,
+        "MOI_contribution": 0.09474
+      },
+      {
+        "Haplotype_ID": "HAP11",
+        "Count": 3,
+        "Frequency": 0.007895,
+        "MOI_contribution": 0.09474
+      },
+      {
+        "Haplotype_ID": "HAP12",
+        "Count": 3,
+        "Frequency": 0.007895,
+        "MOI_contribution": 0.09474
+      }
+    ]
+  },
+  {
+    "sample": "20260608_Ondo_Lagos_Ogun_H3Y2L",
+    "total_reads": 400,
+    "min_reads_threshold": 3,
+    "sample_MOI": 6,
+    "Hw": 0.212806,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 295,
+        "Frequency": 0.910494,
+        "MOI_contribution": 5.462964
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 10,
+        "Frequency": 0.030864,
+        "MOI_contribution": 0.185184
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 6,
+        "Frequency": 0.018519,
+        "MOI_contribution": 0.111114
+      },
+      {
+        "Haplotype_ID": "HAP4",
+        "Count": 6,
+        "Frequency": 0.018519,
+        "MOI_contribution": 0.111114
+      },
+      {
+        "Haplotype_ID": "HAP5",
+        "Count": 4,
+        "Frequency": 0.012346,
+        "MOI_contribution": 0.074076
+      },
+      {
+        "Haplotype_ID": "HAP6",
+        "Count": 3,
+        "Frequency": 0.009259,
+        "MOI_contribution": 0.055554
+      }
+    ]
+  },
+  {
+    "sample": "20260608_Ondo_Lagos_Ogun_H5B8V",
+    "total_reads": 41,
+    "min_reads_threshold": 3,
+    "sample_MOI": 3,
+    "Hw": 0.388648,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 15,
+        "Frequency": 0.555556,
+        "MOI_contribution": 1.666668
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 6,
+        "Frequency": 0.222222,
+        "MOI_contribution": 0.666666
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 6,
+        "Frequency": 0.222222,
+        "MOI_contribution": 0.666666
+      }
+    ]
+  },
+  {
+    "sample": "20260608_Ondo_Lagos_Ogun_H6B8W",
+    "total_reads": 101,
+    "min_reads_threshold": 3,
+    "sample_MOI": 2,
+    "Hw": 0.391494,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 7,
+        "Frequency": 0.636364,
+        "MOI_contribution": 1.272728
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 4,
+        "Frequency": 0.363636,
+        "MOI_contribution": 0.727272
+      }
+    ]
+  },
+  {
+    "sample": "20260608_Ondo_Lagos_Ogun_J5U0J",
+    "total_reads": 71,
+    "min_reads_threshold": 3,
+    "sample_MOI": 3,
+    "Hw": 0.370409,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 23,
+        "Frequency": 0.410714,
+        "MOI_contribution": 1.232142
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 19,
+        "Frequency": 0.339286,
+        "MOI_contribution": 1.017858
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 14,
+        "Frequency": 0.25,
+        "MOI_contribution": 0.75
+      }
+    ]
+  },
+  {
+    "sample": "20260608_Ondo_Lagos_Ogun_J7O6L",
+    "total_reads": 297,
+    "min_reads_threshold": 3,
+    "sample_MOI": 9,
+    "Hw": 0.377006,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 135,
+        "Frequency": 0.475352,
+        "MOI_contribution": 4.278168
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 62,
+        "Frequency": 0.21831,
+        "MOI_contribution": 1.96479
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 41,
+        "Frequency": 0.144366,
+        "MOI_contribution": 1.299294
+      },
+      {
+        "Haplotype_ID": "HAP4",
+        "Count": 23,
+        "Frequency": 0.080986,
+        "MOI_contribution": 0.728874
+      },
+      {
+        "Haplotype_ID": "HAP5",
+        "Count": 10,
+        "Frequency": 0.035211,
+        "MOI_contribution": 0.316899
+      },
+      {
+        "Haplotype_ID": "HAP6",
+        "Count": 4,
+        "Frequency": 0.014085,
+        "MOI_contribution": 0.126765
+      },
+      {
+        "Haplotype_ID": "HAP7",
+        "Count": 3,
+        "Frequency": 0.010563,
+        "MOI_contribution": 0.095067
+      },
+      {
+        "Haplotype_ID": "HAP8",
+        "Count": 3,
+        "Frequency": 0.010563,
+        "MOI_contribution": 0.095067
+      },
+      {
+        "Haplotype_ID": "HAP9",
+        "Count": 3,
+        "Frequency": 0.010563,
+        "MOI_contribution": 0.095067
+      }
+    ]
+  },
+  {
+    "sample": "20260608_Ondo_Lagos_Ogun_J8S2M",
+    "total_reads": 463,
+    "min_reads_threshold": 3,
+    "sample_MOI": 8,
+    "Hw": 0.349812,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 190,
+        "Frequency": 0.432802,
+        "MOI_contribution": 3.462416
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 94,
+        "Frequency": 0.214123,
+        "MOI_contribution": 1.712984
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 75,
+        "Frequency": 0.170843,
+        "MOI_contribution": 1.366744
+      },
+      {
+        "Haplotype_ID": "HAP4",
+        "Count": 47,
+        "Frequency": 0.107062,
+        "MOI_contribution": 0.856496
+      },
+      {
+        "Haplotype_ID": "HAP5",
+        "Count": 15,
+        "Frequency": 0.034169,
+        "MOI_contribution": 0.273352
+      },
+      {
+        "Haplotype_ID": "HAP6",
+        "Count": 10,
+        "Frequency": 0.022779,
+        "MOI_contribution": 0.182232
+      },
+      {
+        "Haplotype_ID": "HAP7",
+        "Count": 4,
+        "Frequency": 0.009112,
+        "MOI_contribution": 0.072896
+      },
+      {
+        "Haplotype_ID": "HAP8",
+        "Count": 4,
+        "Frequency": 0.009112,
+        "MOI_contribution": 0.072896
+      }
+    ]
+  },
+  {
+    "sample": "20260608_Ondo_Lagos_Ogun_K3Y0M",
+    "total_reads": 800,
+    "min_reads_threshold": 4,
+    "sample_MOI": 4,
+    "Hw": 0.136053,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 559,
+        "Frequency": 0.844411,
+        "MOI_contribution": 3.377644
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 76,
+        "Frequency": 0.114804,
+        "MOI_contribution": 0.459216
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 21,
+        "Frequency": 0.031722,
+        "MOI_contribution": 0.126888
+      },
+      {
+        "Haplotype_ID": "HAP4",
+        "Count": 6,
+        "Frequency": 0.009063,
+        "MOI_contribution": 0.036252
+      }
+    ]
+  },
+  {
+    "sample": "20260608_Ondo_Lagos_Ogun_K7B4W",
+    "total_reads": 536,
+    "min_reads_threshold": 3,
+    "sample_MOI": 9,
+    "Hw": 0.364426,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 187,
+        "Frequency": 0.365949,
+        "MOI_contribution": 3.293541
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 173,
+        "Frequency": 0.338552,
+        "MOI_contribution": 3.046968
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 66,
+        "Frequency": 0.129159,
+        "MOI_contribution": 1.162431
+      },
+      {
+        "Haplotype_ID": "HAP4",
+        "Count": 47,
+        "Frequency": 0.091977,
+        "MOI_contribution": 0.827793
+      },
+      {
+        "Haplotype_ID": "HAP5",
+        "Count": 18,
+        "Frequency": 0.035225,
+        "MOI_contribution": 0.317025
+      },
+      {
+        "Haplotype_ID": "HAP6",
+        "Count": 7,
+        "Frequency": 0.013699,
+        "MOI_contribution": 0.123291
+      },
+      {
+        "Haplotype_ID": "HAP7",
+        "Count": 6,
+        "Frequency": 0.011742,
+        "MOI_contribution": 0.105678
+      },
+      {
+        "Haplotype_ID": "HAP8",
+        "Count": 4,
+        "Frequency": 0.007828,
+        "MOI_contribution": 0.070452
+      },
+      {
+        "Haplotype_ID": "HAP9",
+        "Count": 3,
+        "Frequency": 0.005871,
+        "MOI_contribution": 0.052839
+      }
+    ]
+  },
+  {
+    "sample": "20260608_Ondo_Lagos_Ogun_K9K0E",
+    "total_reads": 60,
+    "min_reads_threshold": 3,
+    "sample_MOI": 5,
+    "Hw": 0.388977,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 14,
+        "Frequency": 0.27451,
+        "MOI_contribution": 1.37255
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 13,
+        "Frequency": 0.254902,
+        "MOI_contribution": 1.27451
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 13,
+        "Frequency": 0.254902,
+        "MOI_contribution": 1.27451
+      },
+      {
+        "Haplotype_ID": "HAP4",
+        "Count": 8,
+        "Frequency": 0.156863,
+        "MOI_contribution": 0.784315
+      },
+      {
+        "Haplotype_ID": "HAP5",
+        "Count": 3,
+        "Frequency": 0.058824,
+        "MOI_contribution": 0.29412
+      }
+    ]
+  },
+  {
+    "sample": "20260608_Ondo_Lagos_Ogun_L3K6F",
+    "total_reads": 706,
+    "min_reads_threshold": 4,
+    "sample_MOI": 5,
+    "Hw": 0.230789,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 304,
+        "Frequency": 0.518771,
+        "MOI_contribution": 2.593855
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 228,
+        "Frequency": 0.389078,
+        "MOI_contribution": 1.94539
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 32,
+        "Frequency": 0.054608,
+        "MOI_contribution": 0.27304
+      },
+      {
+        "Haplotype_ID": "HAP4",
+        "Count": 11,
+        "Frequency": 0.018771,
+        "MOI_contribution": 0.093855
+      },
+      {
+        "Haplotype_ID": "HAP5",
+        "Count": 11,
+        "Frequency": 0.018771,
+        "MOI_contribution": 0.093855
+      }
+    ]
+  },
+  {
+    "sample": "20260608_Ondo_Lagos_Ogun_L5D5Y",
+    "total_reads": 64,
+    "min_reads_threshold": 3,
+    "sample_MOI": 4,
+    "Hw": 0.369403,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 20,
+        "Frequency": 0.384615,
+        "MOI_contribution": 1.53846
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 17,
+        "Frequency": 0.326923,
+        "MOI_contribution": 1.307692
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 12,
+        "Frequency": 0.230769,
+        "MOI_contribution": 0.923076
+      },
+      {
+        "Haplotype_ID": "HAP4",
+        "Count": 3,
+        "Frequency": 0.057692,
+        "MOI_contribution": 0.230768
+      }
+    ]
+  },
+  {
+    "sample": "20260608_Ondo_Lagos_Ogun_M1Q5J",
+    "total_reads": 36,
+    "min_reads_threshold": 3,
+    "sample_MOI": 4,
+    "Hw": 0.376756,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 11,
+        "Frequency": 0.354839,
+        "MOI_contribution": 1.419356
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 9,
+        "Frequency": 0.290323,
+        "MOI_contribution": 1.161292
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 8,
+        "Frequency": 0.258065,
+        "MOI_contribution": 1.03226
+      },
+      {
+        "Haplotype_ID": "HAP4",
+        "Count": 3,
+        "Frequency": 0.096774,
+        "MOI_contribution": 0.387096
+      }
+    ]
+  },
+  {
+    "sample": "20260608_Ondo_Lagos_Ogun_M2R3J",
+    "total_reads": 96,
+    "min_reads_threshold": 3,
+    "sample_MOI": 1,
+    "Hw": 0.318466,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 4,
+        "Frequency": 1.0,
+        "MOI_contribution": 1.0
+      }
+    ]
+  },
+  {
+    "sample": "20260608_Ondo_Lagos_Ogun_N4L2F",
+    "total_reads": 1045,
+    "min_reads_threshold": 6,
+    "sample_MOI": 8,
+    "Hw": 0.247459,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 363,
+        "Frequency": 0.560185,
+        "MOI_contribution": 4.48148
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 128,
+        "Frequency": 0.197531,
+        "MOI_contribution": 1.580248
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 96,
+        "Frequency": 0.148148,
+        "MOI_contribution": 1.185184
+      },
+      {
+        "Haplotype_ID": "HAP4",
+        "Count": 24,
+        "Frequency": 0.037037,
+        "MOI_contribution": 0.296296
+      },
+      {
+        "Haplotype_ID": "HAP5",
+        "Count": 16,
+        "Frequency": 0.024691,
+        "MOI_contribution": 0.197528
+      },
+      {
+        "Haplotype_ID": "HAP6",
+        "Count": 8,
+        "Frequency": 0.012346,
+        "MOI_contribution": 0.098768
+      },
+      {
+        "Haplotype_ID": "HAP7",
+        "Count": 7,
+        "Frequency": 0.010802,
+        "MOI_contribution": 0.086416
+      },
+      {
+        "Haplotype_ID": "HAP8",
+        "Count": 6,
+        "Frequency": 0.009259,
+        "MOI_contribution": 0.074072
+      }
+    ]
+  },
+  {
+    "sample": "20260608_Ondo_Lagos_Ogun_O0G6B",
+    "total_reads": 477,
+    "min_reads_threshold": 3,
+    "sample_MOI": 10,
+    "Hw": 0.361843,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 181,
+        "Frequency": 0.40583,
+        "MOI_contribution": 4.0583
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 95,
+        "Frequency": 0.213004,
+        "MOI_contribution": 2.13004
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 81,
+        "Frequency": 0.181614,
+        "MOI_contribution": 1.81614
+      },
+      {
+        "Haplotype_ID": "HAP4",
+        "Count": 42,
+        "Frequency": 0.09417,
+        "MOI_contribution": 0.9417
+      },
+      {
+        "Haplotype_ID": "HAP5",
+        "Count": 19,
+        "Frequency": 0.042601,
+        "MOI_contribution": 0.42601
+      },
+      {
+        "Haplotype_ID": "HAP6",
+        "Count": 9,
+        "Frequency": 0.020179,
+        "MOI_contribution": 0.20179
+      },
+      {
+        "Haplotype_ID": "HAP7",
+        "Count": 8,
+        "Frequency": 0.017937,
+        "MOI_contribution": 0.17937
+      },
+      {
+        "Haplotype_ID": "HAP8",
+        "Count": 5,
+        "Frequency": 0.011211,
+        "MOI_contribution": 0.11211
+      },
+      {
+        "Haplotype_ID": "HAP9",
+        "Count": 3,
+        "Frequency": 0.006726,
+        "MOI_contribution": 0.06726
+      },
+      {
+        "Haplotype_ID": "HAP10",
+        "Count": 3,
+        "Frequency": 0.006726,
+        "MOI_contribution": 0.06726
+      }
+    ]
+  },
+  {
+    "sample": "20260608_Ondo_Lagos_Ogun_O8C1Z",
+    "total_reads": 585,
+    "min_reads_threshold": 3,
+    "sample_MOI": 10,
+    "Hw": 0.400424,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 226,
+        "Frequency": 0.482906,
+        "MOI_contribution": 4.82906
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 92,
+        "Frequency": 0.196581,
+        "MOI_contribution": 1.96581
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 57,
+        "Frequency": 0.121795,
+        "MOI_contribution": 1.21795
+      },
+      {
+        "Haplotype_ID": "HAP4",
+        "Count": 39,
+        "Frequency": 0.083333,
+        "MOI_contribution": 0.83333
+      },
+      {
+        "Haplotype_ID": "HAP5",
+        "Count": 14,
+        "Frequency": 0.029915,
+        "MOI_contribution": 0.29915
+      },
+      {
+        "Haplotype_ID": "HAP6",
+        "Count": 11,
+        "Frequency": 0.023504,
+        "MOI_contribution": 0.23504
+      },
+      {
+        "Haplotype_ID": "HAP7",
+        "Count": 11,
+        "Frequency": 0.023504,
+        "MOI_contribution": 0.23504
+      },
+      {
+        "Haplotype_ID": "HAP8",
+        "Count": 11,
+        "Frequency": 0.023504,
+        "MOI_contribution": 0.23504
+      },
+      {
+        "Haplotype_ID": "HAP9",
+        "Count": 4,
+        "Frequency": 0.008547,
+        "MOI_contribution": 0.08547
+      },
+      {
+        "Haplotype_ID": "HAP10",
+        "Count": 3,
+        "Frequency": 0.00641,
+        "MOI_contribution": 0.0641
+      }
+    ]
+  },
+  {
+    "sample": "20260608_Ondo_Lagos_Ogun_P2L2F",
+    "total_reads": 626,
+    "min_reads_threshold": 4,
+    "sample_MOI": 3,
+    "Hw": 0.238747,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 278,
+        "Frequency": 0.753388,
+        "MOI_contribution": 2.260164
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 76,
+        "Frequency": 0.205962,
+        "MOI_contribution": 0.617886
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 15,
+        "Frequency": 0.04065,
+        "MOI_contribution": 0.12195
+      }
+    ]
+  },
+  {
+    "sample": "20260608_Ondo_Lagos_Ogun_P3E2Y",
+    "total_reads": 46,
+    "min_reads_threshold": 3,
+    "sample_MOI": 3,
+    "Hw": 0.338955,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 9,
+        "Frequency": 0.428571,
+        "MOI_contribution": 1.285713
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 7,
+        "Frequency": 0.333333,
+        "MOI_contribution": 0.999999
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 5,
+        "Frequency": 0.238095,
+        "MOI_contribution": 0.714285
+      }
+    ]
+  },
+  {
+    "sample": "20260608_Ondo_Lagos_Ogun_Q4S8V",
+    "total_reads": 60,
+    "min_reads_threshold": 3,
+    "sample_MOI": 4,
+    "Hw": 0.365825,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 21,
+        "Frequency": 0.466667,
+        "MOI_contribution": 1.866668
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 11,
+        "Frequency": 0.244444,
+        "MOI_contribution": 0.977776
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 8,
+        "Frequency": 0.177778,
+        "MOI_contribution": 0.711112
+      },
+      {
+        "Haplotype_ID": "HAP4",
+        "Count": 5,
+        "Frequency": 0.111111,
+        "MOI_contribution": 0.444444
+      }
+    ]
+  },
+  {
+    "sample": "20260608_Ondo_Lagos_Ogun_Q6J5L",
+    "total_reads": 250,
+    "min_reads_threshold": 3,
+    "sample_MOI": 1,
+    "Hw": 0.195778,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 134,
+        "Frequency": 1.0,
+        "MOI_contribution": 1.0
+      }
+    ]
+  },
+  {
+    "sample": "20260608_Ondo_Lagos_Ogun_Q9P8X",
+    "total_reads": 882,
+    "min_reads_threshold": 5,
+    "sample_MOI": 3,
+    "Hw": 0.16883,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 666,
+        "Frequency": 0.946023,
+        "MOI_contribution": 2.838069
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 33,
+        "Frequency": 0.046875,
+        "MOI_contribution": 0.140625
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 5,
+        "Frequency": 0.007102,
+        "MOI_contribution": 0.021306
+      }
+    ]
+  },
+  {
+    "sample": "20260608_Ondo_Lagos_Ogun_R8N8V",
+    "total_reads": 55,
+    "min_reads_threshold": 3,
+    "sample_MOI": 6,
+    "Hw": 0.352475,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 18,
+        "Frequency": 0.36,
+        "MOI_contribution": 2.16
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 14,
+        "Frequency": 0.28,
+        "MOI_contribution": 1.68
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 9,
+        "Frequency": 0.18,
+        "MOI_contribution": 1.08
+      },
+      {
+        "Haplotype_ID": "HAP4",
+        "Count": 3,
+        "Frequency": 0.06,
+        "MOI_contribution": 0.36
+      },
+      {
+        "Haplotype_ID": "HAP5",
+        "Count": 3,
+        "Frequency": 0.06,
+        "MOI_contribution": 0.36
+      },
+      {
+        "Haplotype_ID": "HAP6",
+        "Count": 3,
+        "Frequency": 0.06,
+        "MOI_contribution": 0.36
+      }
+    ]
+  },
+  {
+    "sample": "20260608_Ondo_Lagos_Ogun_S2U6V",
+    "total_reads": 51,
+    "min_reads_threshold": 3,
+    "sample_MOI": 4,
+    "Hw": 0.379378,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 14,
+        "Frequency": 0.368421,
+        "MOI_contribution": 1.473684
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 11,
+        "Frequency": 0.289474,
+        "MOI_contribution": 1.157896
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 10,
+        "Frequency": 0.263158,
+        "MOI_contribution": 1.052632
+      },
+      {
+        "Haplotype_ID": "HAP4",
+        "Count": 3,
+        "Frequency": 0.078947,
+        "MOI_contribution": 0.315788
+      }
+    ]
+  },
+  {
+    "sample": "20260608_Ondo_Lagos_Ogun_S4P0M",
+    "total_reads": 13,
+    "min_reads_threshold": 3,
+    "sample_MOI": 1,
+    "Hw": 0.329815,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 3,
+        "Frequency": 1.0,
+        "MOI_contribution": 1.0
+      }
+    ]
+  },
+  {
+    "sample": "20260608_Ondo_Lagos_Ogun_S4V6Y",
+    "total_reads": 1031,
+    "min_reads_threshold": 6,
+    "sample_MOI": 3,
+    "Hw": 0.174927,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 450,
+        "Frequency": 0.833333,
+        "MOI_contribution": 2.499999
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 62,
+        "Frequency": 0.114815,
+        "MOI_contribution": 0.344445
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 28,
+        "Frequency": 0.051852,
+        "MOI_contribution": 0.155556
+      }
+    ]
+  },
+  {
+    "sample": "20260608_Ondo_Lagos_Ogun_S6B9J",
+    "total_reads": 382,
+    "min_reads_threshold": 3,
+    "sample_MOI": 9,
+    "Hw": 0.370852,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 133,
+        "Frequency": 0.370474,
+        "MOI_contribution": 3.334266
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 113,
+        "Frequency": 0.314763,
+        "MOI_contribution": 2.832867
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 45,
+        "Frequency": 0.125348,
+        "MOI_contribution": 1.128132
+      },
+      {
+        "Haplotype_ID": "HAP4",
+        "Count": 34,
+        "Frequency": 0.094708,
+        "MOI_contribution": 0.852372
+      },
+      {
+        "Haplotype_ID": "HAP5",
+        "Count": 18,
+        "Frequency": 0.050139,
+        "MOI_contribution": 0.451251
+      },
+      {
+        "Haplotype_ID": "HAP6",
+        "Count": 6,
+        "Frequency": 0.016713,
+        "MOI_contribution": 0.150417
+      },
+      {
+        "Haplotype_ID": "HAP7",
+        "Count": 4,
+        "Frequency": 0.011142,
+        "MOI_contribution": 0.100278
+      },
+      {
+        "Haplotype_ID": "HAP8",
+        "Count": 3,
+        "Frequency": 0.008357,
+        "MOI_contribution": 0.075213
+      },
+      {
+        "Haplotype_ID": "HAP9",
+        "Count": 3,
+        "Frequency": 0.008357,
+        "MOI_contribution": 0.075213
+      }
+    ]
+  },
+  {
+    "sample": "20260608_Ondo_Lagos_Ogun_S8M4R",
+    "total_reads": 407,
+    "min_reads_threshold": 3,
+    "sample_MOI": 5,
+    "Hw": 0.165617,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 183,
+        "Frequency": 0.582803,
+        "MOI_contribution": 2.914015
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 113,
+        "Frequency": 0.359873,
+        "MOI_contribution": 1.799365
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 8,
+        "Frequency": 0.025478,
+        "MOI_contribution": 0.12739
+      },
+      {
+        "Haplotype_ID": "HAP4",
+        "Count": 5,
+        "Frequency": 0.015924,
+        "MOI_contribution": 0.07962
+      },
+      {
+        "Haplotype_ID": "HAP5",
+        "Count": 5,
+        "Frequency": 0.015924,
+        "MOI_contribution": 0.07962
+      }
+    ]
+  },
+  {
+    "sample": "20260608_Ondo_Lagos_Ogun_T0S3P",
+    "total_reads": 101,
+    "min_reads_threshold": 3,
+    "sample_MOI": 4,
+    "Hw": 0.372355,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 35,
+        "Frequency": 0.472973,
+        "MOI_contribution": 1.891892
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 18,
+        "Frequency": 0.243243,
+        "MOI_contribution": 0.972972
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 16,
+        "Frequency": 0.216216,
+        "MOI_contribution": 0.864864
+      },
+      {
+        "Haplotype_ID": "HAP4",
+        "Count": 5,
+        "Frequency": 0.067568,
+        "MOI_contribution": 0.270272
+      }
+    ]
+  },
+  {
+    "sample": "20260608_Ondo_Lagos_Ogun_T5Y1Y",
+    "total_reads": 273,
+    "min_reads_threshold": 3,
+    "sample_MOI": 7,
+    "Hw": 0.366319,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 102,
+        "Frequency": 0.395349,
+        "MOI_contribution": 2.767443
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 69,
+        "Frequency": 0.267442,
+        "MOI_contribution": 1.872094
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 40,
+        "Frequency": 0.155039,
+        "MOI_contribution": 1.085273
+      },
+      {
+        "Haplotype_ID": "HAP4",
+        "Count": 22,
+        "Frequency": 0.085271,
+        "MOI_contribution": 0.596897
+      },
+      {
+        "Haplotype_ID": "HAP5",
+        "Count": 17,
+        "Frequency": 0.065891,
+        "MOI_contribution": 0.461237
+      },
+      {
+        "Haplotype_ID": "HAP6",
+        "Count": 4,
+        "Frequency": 0.015504,
+        "MOI_contribution": 0.108528
+      },
+      {
+        "Haplotype_ID": "HAP7",
+        "Count": 4,
+        "Frequency": 0.015504,
+        "MOI_contribution": 0.108528
+      }
+    ]
+  },
+  {
+    "sample": "20260608_Ondo_Lagos_Ogun_U1D7G",
+    "total_reads": 108,
+    "min_reads_threshold": 3,
+    "sample_MOI": 5,
+    "Hw": 0.361434,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 46,
+        "Frequency": 0.479167,
+        "MOI_contribution": 2.395835
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 24,
+        "Frequency": 0.25,
+        "MOI_contribution": 1.25
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 11,
+        "Frequency": 0.114583,
+        "MOI_contribution": 0.572915
+      },
+      {
+        "Haplotype_ID": "HAP4",
+        "Count": 10,
+        "Frequency": 0.104167,
+        "MOI_contribution": 0.520835
+      },
+      {
+        "Haplotype_ID": "HAP5",
+        "Count": 5,
+        "Frequency": 0.052083,
+        "MOI_contribution": 0.260415
+      }
+    ]
+  },
+  {
+    "sample": "20260608_Ondo_Lagos_Ogun_U2Y9F",
+    "total_reads": 9,
+    "min_reads_threshold": 2,
+    "sample_MOI": 1,
+    "Hw": 0.312897,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 2,
+        "Frequency": 1.0,
+        "MOI_contribution": 1.0
+      }
+    ]
+  },
+  {
+    "sample": "20260608_Ondo_Lagos_Ogun_V4K9T",
+    "total_reads": 140,
+    "min_reads_threshold": 3,
+    "sample_MOI": 5,
+    "Hw": 0.291057,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 95,
+        "Frequency": 0.798319,
+        "MOI_contribution": 3.991595
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 10,
+        "Frequency": 0.084034,
+        "MOI_contribution": 0.42017
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 7,
+        "Frequency": 0.058824,
+        "MOI_contribution": 0.29412
+      },
+      {
+        "Haplotype_ID": "HAP4",
+        "Count": 4,
+        "Frequency": 0.033613,
+        "MOI_contribution": 0.168065
+      },
+      {
+        "Haplotype_ID": "HAP5",
+        "Count": 3,
+        "Frequency": 0.02521,
+        "MOI_contribution": 0.12605
+      }
+    ]
+  },
+  {
+    "sample": "20260608_Ondo_Lagos_Ogun_V4Y5E",
+    "total_reads": 74,
+    "min_reads_threshold": 3,
+    "sample_MOI": 3,
+    "Hw": 0.380239,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 22,
+        "Frequency": 0.392857,
+        "MOI_contribution": 1.178571
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 19,
+        "Frequency": 0.339286,
+        "MOI_contribution": 1.017858
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 15,
+        "Frequency": 0.267857,
+        "MOI_contribution": 0.803571
+      }
+    ]
+  },
+  {
+    "sample": "20260608_Ondo_Lagos_Ogun_V7K1O",
+    "total_reads": 437,
+    "min_reads_threshold": 3,
+    "sample_MOI": 7,
+    "Hw": 0.361224,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 194,
+        "Frequency": 0.469734,
+        "MOI_contribution": 3.288138
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 109,
+        "Frequency": 0.263923,
+        "MOI_contribution": 1.847461
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 51,
+        "Frequency": 0.123487,
+        "MOI_contribution": 0.864409
+      },
+      {
+        "Haplotype_ID": "HAP4",
+        "Count": 38,
+        "Frequency": 0.09201,
+        "MOI_contribution": 0.64407
+      },
+      {
+        "Haplotype_ID": "HAP5",
+        "Count": 13,
+        "Frequency": 0.031477,
+        "MOI_contribution": 0.220339
+      },
+      {
+        "Haplotype_ID": "HAP6",
+        "Count": 5,
+        "Frequency": 0.012107,
+        "MOI_contribution": 0.084749
+      },
+      {
+        "Haplotype_ID": "HAP7",
+        "Count": 3,
+        "Frequency": 0.007264,
+        "MOI_contribution": 0.050848
+      }
+    ]
+  },
+  {
+    "sample": "20260608_Ondo_Lagos_Ogun_V7S4Z",
+    "total_reads": 56,
+    "min_reads_threshold": 3,
+    "sample_MOI": 3,
+    "Hw": 0.36527,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 18,
+        "Frequency": 0.439024,
+        "MOI_contribution": 1.317072
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 12,
+        "Frequency": 0.292683,
+        "MOI_contribution": 0.878049
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 11,
+        "Frequency": 0.268293,
+        "MOI_contribution": 0.804879
+      }
+    ]
+  },
+  {
+    "sample": "20260608_Ondo_Lagos_Ogun_W0F8K",
+    "total_reads": 273,
+    "min_reads_threshold": 3,
+    "sample_MOI": 1,
+    "Hw": 0.181225,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 150,
+        "Frequency": 1.0,
+        "MOI_contribution": 1.0
+      }
+    ]
+  },
+  {
+    "sample": "20260608_Ondo_Lagos_Ogun_W7V3D",
+    "total_reads": 56,
+    "min_reads_threshold": 3,
+    "sample_MOI": 4,
+    "Hw": 0.362954,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 17,
+        "Frequency": 0.369565,
+        "MOI_contribution": 1.47826
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 15,
+        "Frequency": 0.326087,
+        "MOI_contribution": 1.304348
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 11,
+        "Frequency": 0.23913,
+        "MOI_contribution": 0.95652
+      },
+      {
+        "Haplotype_ID": "HAP4",
+        "Count": 3,
+        "Frequency": 0.065217,
+        "MOI_contribution": 0.260868
+      }
+    ]
+  },
+  {
+    "sample": "20260608_Ondo_Lagos_Ogun_X6C6M",
+    "total_reads": 264,
+    "min_reads_threshold": 3,
+    "sample_MOI": 9,
+    "Hw": 0.329823,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 52,
+        "Frequency": 0.278075,
+        "MOI_contribution": 2.502675
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 39,
+        "Frequency": 0.208556,
+        "MOI_contribution": 1.877004
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 28,
+        "Frequency": 0.149733,
+        "MOI_contribution": 1.347597
+      },
+      {
+        "Haplotype_ID": "HAP4",
+        "Count": 20,
+        "Frequency": 0.106952,
+        "MOI_contribution": 0.962568
+      },
+      {
+        "Haplotype_ID": "HAP5",
+        "Count": 14,
+        "Frequency": 0.074866,
+        "MOI_contribution": 0.673794
+      },
+      {
+        "Haplotype_ID": "HAP6",
+        "Count": 14,
+        "Frequency": 0.074866,
+        "MOI_contribution": 0.673794
+      },
+      {
+        "Haplotype_ID": "HAP7",
+        "Count": 11,
+        "Frequency": 0.058824,
+        "MOI_contribution": 0.529416
+      },
+      {
+        "Haplotype_ID": "HAP8",
+        "Count": 5,
+        "Frequency": 0.026738,
+        "MOI_contribution": 0.240642
+      },
+      {
+        "Haplotype_ID": "HAP9",
+        "Count": 4,
+        "Frequency": 0.02139,
+        "MOI_contribution": 0.19251
+      }
+    ]
+  },
+  {
+    "sample": "20260608_Ondo_Lagos_Ogun_Y2S7B",
+    "total_reads": 495,
+    "min_reads_threshold": 3,
+    "sample_MOI": 2,
+    "Hw": 0.247432,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 323,
+        "Frequency": 0.978788,
+        "MOI_contribution": 1.957576
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 7,
+        "Frequency": 0.021212,
+        "MOI_contribution": 0.042424
+      }
+    ]
+  },
+  {
+    "sample": "20260608_Ondo_Lagos_Ogun_Y6S9H",
+    "total_reads": 317,
+    "min_reads_threshold": 3,
+    "sample_MOI": 8,
+    "Hw": 0.243744,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 161,
+        "Frequency": 0.766667,
+        "MOI_contribution": 6.133336
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 18,
+        "Frequency": 0.085714,
+        "MOI_contribution": 0.685712
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 10,
+        "Frequency": 0.047619,
+        "MOI_contribution": 0.380952
+      },
+      {
+        "Haplotype_ID": "HAP4",
+        "Count": 9,
+        "Frequency": 0.042857,
+        "MOI_contribution": 0.342856
+      },
+      {
+        "Haplotype_ID": "HAP5",
+        "Count": 3,
+        "Frequency": 0.014286,
+        "MOI_contribution": 0.114288
+      },
+      {
+        "Haplotype_ID": "HAP6",
+        "Count": 3,
+        "Frequency": 0.014286,
+        "MOI_contribution": 0.114288
+      },
+      {
+        "Haplotype_ID": "HAP7",
+        "Count": 3,
+        "Frequency": 0.014286,
+        "MOI_contribution": 0.114288
+      },
+      {
+        "Haplotype_ID": "HAP8",
+        "Count": 3,
+        "Frequency": 0.014286,
+        "MOI_contribution": 0.114288
+      }
+    ]
+  },
+  {
+    "sample": "20260608_Ondo_Lagos_Ogun_Z3I4P",
+    "total_reads": 293,
+    "min_reads_threshold": 3,
+    "sample_MOI": 7,
+    "Hw": 0.281408,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 190,
+        "Frequency": 0.681004,
+        "MOI_contribution": 4.767028
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 27,
+        "Frequency": 0.096774,
+        "MOI_contribution": 0.677418
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 19,
+        "Frequency": 0.0681,
+        "MOI_contribution": 0.4767
+      },
+      {
+        "Haplotype_ID": "HAP4",
+        "Count": 19,
+        "Frequency": 0.0681,
+        "MOI_contribution": 0.4767
+      },
+      {
+        "Haplotype_ID": "HAP5",
+        "Count": 15,
+        "Frequency": 0.053763,
+        "MOI_contribution": 0.376341
+      },
+      {
+        "Haplotype_ID": "HAP6",
+        "Count": 5,
+        "Frequency": 0.017921,
+        "MOI_contribution": 0.125447
+      },
+      {
+        "Haplotype_ID": "HAP7",
+        "Count": 4,
+        "Frequency": 0.014337,
+        "MOI_contribution": 0.100359
+      }
+    ]
+  },
+  {
+    "sample": "20260608_Ondo_Lagos_Ogun_Z3I9U",
+    "total_reads": 429,
+    "min_reads_threshold": 3,
+    "sample_MOI": 10,
+    "Hw": 0.376232,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 163,
+        "Frequency": 0.461756,
+        "MOI_contribution": 4.61756
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 66,
+        "Frequency": 0.186969,
+        "MOI_contribution": 1.86969
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 38,
+        "Frequency": 0.107649,
+        "MOI_contribution": 1.07649
+      },
+      {
+        "Haplotype_ID": "HAP4",
+        "Count": 32,
+        "Frequency": 0.090652,
+        "MOI_contribution": 0.90652
+      },
+      {
+        "Haplotype_ID": "HAP5",
+        "Count": 16,
+        "Frequency": 0.045326,
+        "MOI_contribution": 0.45326
+      },
+      {
+        "Haplotype_ID": "HAP6",
+        "Count": 15,
+        "Frequency": 0.042493,
+        "MOI_contribution": 0.42493
+      },
+      {
+        "Haplotype_ID": "HAP7",
+        "Count": 11,
+        "Frequency": 0.031161,
+        "MOI_contribution": 0.31161
+      },
+      {
+        "Haplotype_ID": "HAP8",
+        "Count": 6,
+        "Frequency": 0.016997,
+        "MOI_contribution": 0.16997
+      },
+      {
+        "Haplotype_ID": "HAP9",
+        "Count": 3,
+        "Frequency": 0.008499,
+        "MOI_contribution": 0.08499
+      },
+      {
+        "Haplotype_ID": "HAP10",
+        "Count": 3,
+        "Frequency": 0.008499,
+        "MOI_contribution": 0.08499
+      }
+    ]
+  },
+  {
+    "sample": "20260608_Ondo_Lagos_Ogun_Z5P2W",
+    "total_reads": 97,
+    "min_reads_threshold": 3,
+    "sample_MOI": 2,
+    "Hw": 0.29202,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 41,
+        "Frequency": 0.931818,
+        "MOI_contribution": 1.863636
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 3,
+        "Frequency": 0.068182,
+        "MOI_contribution": 0.136364
+      }
+    ]
+  }
+]

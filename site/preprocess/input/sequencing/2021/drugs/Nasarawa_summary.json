@@ -1,0 +1,1655 @@
+[
+  {
+    "sample": "20260601_nassarawa_niger_T8X1B",
+    "total_reads": 0,
+    "min_reads_threshold": 0,
+    "sample_MOI": 1,
+    "Hw": null,
+    "haplotypes": []
+  },
+  {
+    "sample": "20260601_nassarawa_niger_O1F2W",
+    "total_reads": 358,
+    "min_reads_threshold": 3,
+    "sample_MOI": 3,
+    "Hw": 0.033668,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 83,
+        "Frequency": 0.790476,
+        "MOI_contribution": 2.371428
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 17,
+        "Frequency": 0.161905,
+        "MOI_contribution": 0.485715
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 5,
+        "Frequency": 0.047619,
+        "MOI_contribution": 0.142857
+      }
+    ]
+  },
+  {
+    "sample": "20260601_nassarawa_niger_G0I0O",
+    "total_reads": 1023,
+    "min_reads_threshold": 6,
+    "sample_MOI": 5,
+    "Hw": 0.317706,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 281,
+        "Frequency": 0.558648,
+        "MOI_contribution": 2.79324
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 103,
+        "Frequency": 0.204771,
+        "MOI_contribution": 1.023855
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 51,
+        "Frequency": 0.101392,
+        "MOI_contribution": 0.50696
+      },
+      {
+        "Haplotype_ID": "HAP4",
+        "Count": 38,
+        "Frequency": 0.075547,
+        "MOI_contribution": 0.377735
+      },
+      {
+        "Haplotype_ID": "HAP5",
+        "Count": 30,
+        "Frequency": 0.059642,
+        "MOI_contribution": 0.29821
+      }
+    ]
+  },
+  {
+    "sample": "20260601_nassarawa_niger_Q2D6C",
+    "total_reads": 81,
+    "min_reads_threshold": 3,
+    "sample_MOI": 1,
+    "Hw": 0.242892,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 39,
+        "Frequency": 1.0,
+        "MOI_contribution": 1.0
+      }
+    ]
+  },
+  {
+    "sample": "20260601_nassarawa_niger_E7N4D",
+    "total_reads": 1456,
+    "min_reads_threshold": 8,
+    "sample_MOI": 2,
+    "Hw": 0.401894,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 480,
+        "Frequency": 0.910816,
+        "MOI_contribution": 1.821632
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 47,
+        "Frequency": 0.089184,
+        "MOI_contribution": 0.178368
+      }
+    ]
+  },
+  {
+    "sample": "20260601_nassarawa_niger_A4S5C",
+    "total_reads": 63,
+    "min_reads_threshold": 3,
+    "sample_MOI": 1,
+    "Hw": 0.057722,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 11,
+        "Frequency": 1.0,
+        "MOI_contribution": 1.0
+      }
+    ]
+  },
+  {
+    "sample": "20260601_nassarawa_niger_P9D5H",
+    "total_reads": 969,
+    "min_reads_threshold": 5,
+    "sample_MOI": 3,
+    "Hw": 0.340368,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 177,
+        "Frequency": 0.683398,
+        "MOI_contribution": 2.050194
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 64,
+        "Frequency": 0.247104,
+        "MOI_contribution": 0.741312
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 18,
+        "Frequency": 0.069498,
+        "MOI_contribution": 0.208494
+      }
+    ]
+  },
+  {
+    "sample": "20260601_nassarawa_niger_Q6Q4R",
+    "total_reads": 112,
+    "min_reads_threshold": 3,
+    "sample_MOI": 4,
+    "Hw": 0.346828,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 36,
+        "Frequency": 0.4,
+        "MOI_contribution": 1.6
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 25,
+        "Frequency": 0.277778,
+        "MOI_contribution": 1.111112
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 22,
+        "Frequency": 0.244444,
+        "MOI_contribution": 0.977776
+      },
+      {
+        "Haplotype_ID": "HAP4",
+        "Count": 7,
+        "Frequency": 0.077778,
+        "MOI_contribution": 0.311112
+      }
+    ]
+  },
+  {
+    "sample": "20260601_nassarawa_niger_F9Q1G",
+    "total_reads": 3642,
+    "min_reads_threshold": 19,
+    "sample_MOI": 1,
+    "Hw": 0.333299,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 2833,
+        "Frequency": 1.0,
+        "MOI_contribution": 1.0
+      }
+    ]
+  },
+  {
+    "sample": "20260601_nassarawa_niger_NTC",
+    "total_reads": 0,
+    "min_reads_threshold": 0,
+    "sample_MOI": 1,
+    "Hw": null,
+    "haplotypes": []
+  },
+  {
+    "sample": "20260601_nassarawa_niger_C7G5U",
+    "total_reads": 15,
+    "min_reads_threshold": 2,
+    "sample_MOI": 1,
+    "Hw": 0.294424,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 2,
+        "Frequency": 1.0,
+        "MOI_contribution": 1.0
+      }
+    ]
+  },
+  {
+    "sample": "20260601_nassarawa_niger_C4D5O",
+    "total_reads": 2221,
+    "min_reads_threshold": 12,
+    "sample_MOI": 2,
+    "Hw": 0.064602,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 1403,
+        "Frequency": 0.974306,
+        "MOI_contribution": 1.948612
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 37,
+        "Frequency": 0.025694,
+        "MOI_contribution": 0.051388
+      }
+    ]
+  },
+  {
+    "sample": "20260601_nassarawa_niger_Z0F3I",
+    "total_reads": 229,
+    "min_reads_threshold": 3,
+    "sample_MOI": 1,
+    "Hw": 0.058516,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 147,
+        "Frequency": 1.0,
+        "MOI_contribution": 1.0
+      }
+    ]
+  },
+  {
+    "sample": "20260601_nassarawa_niger_Z8U8L",
+    "total_reads": 142,
+    "min_reads_threshold": 3,
+    "sample_MOI": 3,
+    "Hw": 0.27643,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 34,
+        "Frequency": 0.425,
+        "MOI_contribution": 1.275
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 28,
+        "Frequency": 0.35,
+        "MOI_contribution": 1.05
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 18,
+        "Frequency": 0.225,
+        "MOI_contribution": 0.675
+      }
+    ]
+  },
+  {
+    "sample": "20260601_nassarawa_niger_Z2X7H",
+    "total_reads": 0,
+    "min_reads_threshold": 0,
+    "sample_MOI": 1,
+    "Hw": null,
+    "haplotypes": []
+  },
+  {
+    "sample": "20260601_nassarawa_niger_O3R5O",
+    "total_reads": 61,
+    "min_reads_threshold": 3,
+    "sample_MOI": 1,
+    "Hw": 0.12537,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 60,
+        "Frequency": 1.0,
+        "MOI_contribution": 1.0
+      }
+    ]
+  },
+  {
+    "sample": "20260601_nassarawa_niger_V5C7K",
+    "total_reads": 2471,
+    "min_reads_threshold": 13,
+    "sample_MOI": 3,
+    "Hw": 0.128049,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 1638,
+        "Frequency": 0.766495,
+        "MOI_contribution": 2.299485
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 459,
+        "Frequency": 0.214787,
+        "MOI_contribution": 0.644361
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 40,
+        "Frequency": 0.018718,
+        "MOI_contribution": 0.056154
+      }
+    ]
+  },
+  {
+    "sample": "20260601_nassarawa_niger_Y9Q2B",
+    "total_reads": 1079,
+    "min_reads_threshold": 6,
+    "sample_MOI": 3,
+    "Hw": 0.021828,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 764,
+        "Frequency": 0.770938,
+        "MOI_contribution": 2.312814
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 209,
+        "Frequency": 0.210898,
+        "MOI_contribution": 0.632694
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 18,
+        "Frequency": 0.018163,
+        "MOI_contribution": 0.054489
+      }
+    ]
+  },
+  {
+    "sample": "20260601_nassarawa_niger_T6W5C",
+    "total_reads": 19,
+    "min_reads_threshold": 3,
+    "sample_MOI": 2,
+    "Hw": 0.495868,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 11,
+        "Frequency": 0.578947,
+        "MOI_contribution": 1.157894
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 8,
+        "Frequency": 0.421053,
+        "MOI_contribution": 0.842106
+      }
+    ]
+  },
+  {
+    "sample": "20260601_nassarawa_niger_Q8C0B",
+    "total_reads": 38,
+    "min_reads_threshold": 3,
+    "sample_MOI": 3,
+    "Hw": 0.24,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 15,
+        "Frequency": 0.405405,
+        "MOI_contribution": 1.216215
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 12,
+        "Frequency": 0.324324,
+        "MOI_contribution": 0.972972
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 10,
+        "Frequency": 0.27027,
+        "MOI_contribution": 0.81081
+      }
+    ]
+  },
+  {
+    "sample": "20260601_nassarawa_niger_V2K4M",
+    "total_reads": 3943,
+    "min_reads_threshold": 20,
+    "sample_MOI": 2,
+    "Hw": 0.108364,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 582,
+        "Frequency": 0.892638,
+        "MOI_contribution": 1.785276
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 70,
+        "Frequency": 0.107362,
+        "MOI_contribution": 0.214724
+      }
+    ]
+  },
+  {
+    "sample": "20260601_nassarawa_niger_H4Z1M",
+    "total_reads": 0,
+    "min_reads_threshold": 0,
+    "sample_MOI": 1,
+    "Hw": null,
+    "haplotypes": []
+  },
+  {
+    "sample": "20260601_nassarawa_niger_J5T4M",
+    "total_reads": 3148,
+    "min_reads_threshold": 16,
+    "sample_MOI": 3,
+    "Hw": 0.116606,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 856,
+        "Frequency": 0.676145,
+        "MOI_contribution": 2.028435
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 285,
+        "Frequency": 0.225118,
+        "MOI_contribution": 0.675354
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 125,
+        "Frequency": 0.098736,
+        "MOI_contribution": 0.296208
+      }
+    ]
+  },
+  {
+    "sample": "20260601_nassarawa_niger_W3V6C",
+    "total_reads": 0,
+    "min_reads_threshold": 0,
+    "sample_MOI": 1,
+    "Hw": null,
+    "haplotypes": []
+  },
+  {
+    "sample": "20260601_nassarawa_niger_W8I3Q",
+    "total_reads": 46,
+    "min_reads_threshold": 3,
+    "sample_MOI": 2,
+    "Hw": 0.199537,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 25,
+        "Frequency": 0.735294,
+        "MOI_contribution": 1.470588
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 9,
+        "Frequency": 0.264706,
+        "MOI_contribution": 0.529412
+      }
+    ]
+  },
+  {
+    "sample": "20260601_nassarawa_niger_L3H5B",
+    "total_reads": 7179,
+    "min_reads_threshold": 36,
+    "sample_MOI": 2,
+    "Hw": 0.37606,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 2385,
+        "Frequency": 0.984723,
+        "MOI_contribution": 1.969446
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 37,
+        "Frequency": 0.015277,
+        "MOI_contribution": 0.030554
+      }
+    ]
+  },
+  {
+    "sample": "20260601_nassarawa_niger_C2I0M",
+    "total_reads": 1857,
+    "min_reads_threshold": 10,
+    "sample_MOI": 9,
+    "Hw": 0.277877,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 234,
+        "Frequency": 0.292135,
+        "MOI_contribution": 2.629215
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 232,
+        "Frequency": 0.289638,
+        "MOI_contribution": 2.606742
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 182,
+        "Frequency": 0.227216,
+        "MOI_contribution": 2.044944
+      },
+      {
+        "Haplotype_ID": "HAP4",
+        "Count": 96,
+        "Frequency": 0.11985,
+        "MOI_contribution": 1.07865
+      },
+      {
+        "Haplotype_ID": "HAP5",
+        "Count": 13,
+        "Frequency": 0.01623,
+        "MOI_contribution": 0.14607
+      },
+      {
+        "Haplotype_ID": "HAP6",
+        "Count": 12,
+        "Frequency": 0.014981,
+        "MOI_contribution": 0.134829
+      },
+      {
+        "Haplotype_ID": "HAP7",
+        "Count": 11,
+        "Frequency": 0.013733,
+        "MOI_contribution": 0.123597
+      },
+      {
+        "Haplotype_ID": "HAP8",
+        "Count": 11,
+        "Frequency": 0.013733,
+        "MOI_contribution": 0.123597
+      },
+      {
+        "Haplotype_ID": "HAP9",
+        "Count": 10,
+        "Frequency": 0.012484,
+        "MOI_contribution": 0.112356
+      }
+    ]
+  },
+  {
+    "sample": "20260601_nassarawa_niger_3D7",
+    "total_reads": 143,
+    "min_reads_threshold": 3,
+    "sample_MOI": 4,
+    "Hw": 0.319304,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 111,
+        "Frequency": 0.804348,
+        "MOI_contribution": 3.217392
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 14,
+        "Frequency": 0.101449,
+        "MOI_contribution": 0.405796
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 9,
+        "Frequency": 0.065217,
+        "MOI_contribution": 0.260868
+      },
+      {
+        "Haplotype_ID": "HAP4",
+        "Count": 4,
+        "Frequency": 0.028986,
+        "MOI_contribution": 0.115944
+      }
+    ]
+  },
+  {
+    "sample": "20260601_nassarawa_niger_O1U8S",
+    "total_reads": 19,
+    "min_reads_threshold": 1,
+    "sample_MOI": 1,
+    "Hw": 0.300074,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 1,
+        "Frequency": 1.0,
+        "MOI_contribution": 1.0
+      }
+    ]
+  },
+  {
+    "sample": "20260601_nassarawa_niger_I5D3T",
+    "total_reads": 5024,
+    "min_reads_threshold": 26,
+    "sample_MOI": 2,
+    "Hw": 0.283639,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 2637,
+        "Frequency": 0.831075,
+        "MOI_contribution": 1.66215
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 536,
+        "Frequency": 0.168925,
+        "MOI_contribution": 0.33785
+      }
+    ]
+  },
+  {
+    "sample": "20260601_nassarawa_niger_N8F0B",
+    "total_reads": 4231,
+    "min_reads_threshold": 22,
+    "sample_MOI": 6,
+    "Hw": 0.322951,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 799,
+        "Frequency": 0.368883,
+        "MOI_contribution": 2.213298
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 461,
+        "Frequency": 0.212835,
+        "MOI_contribution": 1.27701
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 390,
+        "Frequency": 0.180055,
+        "MOI_contribution": 1.08033
+      },
+      {
+        "Haplotype_ID": "HAP4",
+        "Count": 278,
+        "Frequency": 0.128347,
+        "MOI_contribution": 0.770082
+      },
+      {
+        "Haplotype_ID": "HAP5",
+        "Count": 209,
+        "Frequency": 0.096491,
+        "MOI_contribution": 0.578946
+      },
+      {
+        "Haplotype_ID": "HAP6",
+        "Count": 29,
+        "Frequency": 0.013389,
+        "MOI_contribution": 0.080334
+      }
+    ]
+  },
+  {
+    "sample": "20260601_nassarawa_niger_E3T7I",
+    "total_reads": 1523,
+    "min_reads_threshold": 8,
+    "sample_MOI": 2,
+    "Hw": 0.04798,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 655,
+        "Frequency": 0.659617,
+        "MOI_contribution": 1.319234
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 338,
+        "Frequency": 0.340383,
+        "MOI_contribution": 0.680766
+      }
+    ]
+  },
+  {
+    "sample": "20260601_nassarawa_niger_K1B9V",
+    "total_reads": 2697,
+    "min_reads_threshold": 14,
+    "sample_MOI": 3,
+    "Hw": 0.162729,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 1934,
+        "Frequency": 0.82158,
+        "MOI_contribution": 2.46474
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 325,
+        "Frequency": 0.138063,
+        "MOI_contribution": 0.414189
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 95,
+        "Frequency": 0.040357,
+        "MOI_contribution": 0.121071
+      }
+    ]
+  },
+  {
+    "sample": "20260601_nassarawa_niger_W9B6N",
+    "total_reads": 2295,
+    "min_reads_threshold": 12,
+    "sample_MOI": 2,
+    "Hw": 0.052449,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 775,
+        "Frequency": 0.75906,
+        "MOI_contribution": 1.51812
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 246,
+        "Frequency": 0.24094,
+        "MOI_contribution": 0.48188
+      }
+    ]
+  },
+  {
+    "sample": "20260601_nassarawa_niger_T0U6U",
+    "total_reads": 1484,
+    "min_reads_threshold": 8,
+    "sample_MOI": 2,
+    "Hw": 0.157839,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 1035,
+        "Frequency": 0.918367,
+        "MOI_contribution": 1.836734
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 92,
+        "Frequency": 0.081633,
+        "MOI_contribution": 0.163266
+      }
+    ]
+  },
+  {
+    "sample": "20260601_nassarawa_niger_L1C5T",
+    "total_reads": 412,
+    "min_reads_threshold": 3,
+    "sample_MOI": 3,
+    "Hw": 0.069122,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 75,
+        "Frequency": 0.646552,
+        "MOI_contribution": 1.939656
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 32,
+        "Frequency": 0.275862,
+        "MOI_contribution": 0.827586
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 9,
+        "Frequency": 0.077586,
+        "MOI_contribution": 0.232758
+      }
+    ]
+  },
+  {
+    "sample": "20260601_nassarawa_niger_Y2F7N",
+    "total_reads": 279,
+    "min_reads_threshold": 3,
+    "sample_MOI": 1,
+    "Hw": 0.15872,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 22,
+        "Frequency": 1.0,
+        "MOI_contribution": 1.0
+      }
+    ]
+  },
+  {
+    "sample": "20260601_nassarawa_niger_H6T2J",
+    "total_reads": 0,
+    "min_reads_threshold": 0,
+    "sample_MOI": 1,
+    "Hw": null,
+    "haplotypes": []
+  },
+  {
+    "sample": "20260601_nassarawa_niger_E7V0H",
+    "total_reads": 30,
+    "min_reads_threshold": 3,
+    "sample_MOI": 2,
+    "Hw": 0.426942,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 22,
+        "Frequency": 0.846154,
+        "MOI_contribution": 1.692308
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 4,
+        "Frequency": 0.153846,
+        "MOI_contribution": 0.307692
+      }
+    ]
+  },
+  {
+    "sample": "20260601_nassarawa_niger_V7P6Y",
+    "total_reads": 87,
+    "min_reads_threshold": 3,
+    "sample_MOI": 1,
+    "Hw": 0.251518,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 7,
+        "Frequency": 1.0,
+        "MOI_contribution": 1.0
+      }
+    ]
+  },
+  {
+    "sample": "20260601_nassarawa_niger_Q2F6E",
+    "total_reads": 3134,
+    "min_reads_threshold": 16,
+    "sample_MOI": 10,
+    "Hw": 0.385819,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 831,
+        "Frequency": 0.445099,
+        "MOI_contribution": 4.45099
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 178,
+        "Frequency": 0.09534,
+        "MOI_contribution": 0.9534
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 169,
+        "Frequency": 0.09052,
+        "MOI_contribution": 0.9052
+      },
+      {
+        "Haplotype_ID": "HAP4",
+        "Count": 148,
+        "Frequency": 0.079272,
+        "MOI_contribution": 0.79272
+      },
+      {
+        "Haplotype_ID": "HAP5",
+        "Count": 145,
+        "Frequency": 0.077665,
+        "MOI_contribution": 0.77665
+      },
+      {
+        "Haplotype_ID": "HAP6",
+        "Count": 124,
+        "Frequency": 0.066417,
+        "MOI_contribution": 0.66417
+      },
+      {
+        "Haplotype_ID": "HAP7",
+        "Count": 102,
+        "Frequency": 0.054633,
+        "MOI_contribution": 0.54633
+      },
+      {
+        "Haplotype_ID": "HAP8",
+        "Count": 79,
+        "Frequency": 0.042314,
+        "MOI_contribution": 0.42314
+      },
+      {
+        "Haplotype_ID": "HAP9",
+        "Count": 47,
+        "Frequency": 0.025174,
+        "MOI_contribution": 0.25174
+      },
+      {
+        "Haplotype_ID": "HAP10",
+        "Count": 44,
+        "Frequency": 0.023567,
+        "MOI_contribution": 0.23567
+      }
+    ]
+  },
+  {
+    "sample": "20260601_nassarawa_niger_W5C8M",
+    "total_reads": 3280,
+    "min_reads_threshold": 17,
+    "sample_MOI": 4,
+    "Hw": 0.209275,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 942,
+        "Frequency": 0.918129,
+        "MOI_contribution": 3.672516
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 37,
+        "Frequency": 0.036062,
+        "MOI_contribution": 0.144248
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 25,
+        "Frequency": 0.024366,
+        "MOI_contribution": 0.097464
+      },
+      {
+        "Haplotype_ID": "HAP4",
+        "Count": 22,
+        "Frequency": 0.021442,
+        "MOI_contribution": 0.085768
+      }
+    ]
+  },
+  {
+    "sample": "20260601_nassarawa_niger_N0Q8M",
+    "total_reads": 5736,
+    "min_reads_threshold": 29,
+    "sample_MOI": 4,
+    "Hw": 0.184923,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 1159,
+        "Frequency": 0.616817,
+        "MOI_contribution": 2.467268
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 512,
+        "Frequency": 0.272485,
+        "MOI_contribution": 1.08994
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 114,
+        "Frequency": 0.060671,
+        "MOI_contribution": 0.242684
+      },
+      {
+        "Haplotype_ID": "HAP4",
+        "Count": 94,
+        "Frequency": 0.050027,
+        "MOI_contribution": 0.200108
+      }
+    ]
+  },
+  {
+    "sample": "20260601_nassarawa_niger_Q8Z2B",
+    "total_reads": 29,
+    "min_reads_threshold": 3,
+    "sample_MOI": 2,
+    "Hw": 0.094793,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 13,
+        "Frequency": 0.8125,
+        "MOI_contribution": 1.625
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 3,
+        "Frequency": 0.1875,
+        "MOI_contribution": 0.375
+      }
+    ]
+  },
+  {
+    "sample": "20260601_nassarawa_niger_W9O5Z",
+    "total_reads": 437,
+    "min_reads_threshold": 3,
+    "sample_MOI": 3,
+    "Hw": 0.100176,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 244,
+        "Frequency": 0.910448,
+        "MOI_contribution": 2.731344
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 19,
+        "Frequency": 0.070896,
+        "MOI_contribution": 0.212688
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 5,
+        "Frequency": 0.018657,
+        "MOI_contribution": 0.055971
+      }
+    ]
+  },
+  {
+    "sample": "20260601_nassarawa_niger_NTC_2",
+    "total_reads": 1384,
+    "min_reads_threshold": 7,
+    "sample_MOI": 4,
+    "Hw": 0.451255,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 770,
+        "Frequency": 0.561634,
+        "MOI_contribution": 2.246536
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 483,
+        "Frequency": 0.352298,
+        "MOI_contribution": 1.409192
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 111,
+        "Frequency": 0.080963,
+        "MOI_contribution": 0.323852
+      },
+      {
+        "Haplotype_ID": "HAP4",
+        "Count": 7,
+        "Frequency": 0.005106,
+        "MOI_contribution": 0.020424
+      }
+    ]
+  },
+  {
+    "sample": "20260601_nassarawa_niger_P3S2N",
+    "total_reads": 752,
+    "min_reads_threshold": 4,
+    "sample_MOI": 1,
+    "Hw": 0.065586,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 621,
+        "Frequency": 1.0,
+        "MOI_contribution": 1.0
+      }
+    ]
+  },
+  {
+    "sample": "20260601_nassarawa_niger_C8K3X",
+    "total_reads": 972,
+    "min_reads_threshold": 5,
+    "sample_MOI": 3,
+    "Hw": 0.164004,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 565,
+        "Frequency": 0.906902,
+        "MOI_contribution": 2.720706
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 42,
+        "Frequency": 0.067416,
+        "MOI_contribution": 0.202248
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 16,
+        "Frequency": 0.025682,
+        "MOI_contribution": 0.077046
+      }
+    ]
+  },
+  {
+    "sample": "20260601_nassarawa_niger_A3L9X",
+    "total_reads": 10901,
+    "min_reads_threshold": 55,
+    "sample_MOI": 7,
+    "Hw": 0.30182,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 6188,
+        "Frequency": 0.673121,
+        "MOI_contribution": 4.711847
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 2200,
+        "Frequency": 0.239313,
+        "MOI_contribution": 1.675191
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 520,
+        "Frequency": 0.056565,
+        "MOI_contribution": 0.395955
+      },
+      {
+        "Haplotype_ID": "HAP4",
+        "Count": 78,
+        "Frequency": 0.008485,
+        "MOI_contribution": 0.059395
+      },
+      {
+        "Haplotype_ID": "HAP5",
+        "Count": 71,
+        "Frequency": 0.007723,
+        "MOI_contribution": 0.054061
+      },
+      {
+        "Haplotype_ID": "HAP6",
+        "Count": 68,
+        "Frequency": 0.007397,
+        "MOI_contribution": 0.051779
+      },
+      {
+        "Haplotype_ID": "HAP7",
+        "Count": 68,
+        "Frequency": 0.007397,
+        "MOI_contribution": 0.051779
+      }
+    ]
+  },
+  {
+    "sample": "20260601_nassarawa_niger_A8D3O",
+    "total_reads": 47,
+    "min_reads_threshold": 3,
+    "sample_MOI": 4,
+    "Hw": 0.253438,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 21,
+        "Frequency": 0.525,
+        "MOI_contribution": 2.1
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 9,
+        "Frequency": 0.225,
+        "MOI_contribution": 0.9
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 7,
+        "Frequency": 0.175,
+        "MOI_contribution": 0.7
+      },
+      {
+        "Haplotype_ID": "HAP4",
+        "Count": 3,
+        "Frequency": 0.075,
+        "MOI_contribution": 0.3
+      }
+    ]
+  },
+  {
+    "sample": "20260601_nassarawa_niger_B5N6Z",
+    "total_reads": 1549,
+    "min_reads_threshold": 8,
+    "sample_MOI": 5,
+    "Hw": 0.397473,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 1152,
+        "Frequency": 0.839039,
+        "MOI_contribution": 4.195195
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 74,
+        "Frequency": 0.053897,
+        "MOI_contribution": 0.269485
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 67,
+        "Frequency": 0.048798,
+        "MOI_contribution": 0.24399
+      },
+      {
+        "Haplotype_ID": "HAP4",
+        "Count": 52,
+        "Frequency": 0.037873,
+        "MOI_contribution": 0.189365
+      },
+      {
+        "Haplotype_ID": "HAP5",
+        "Count": 28,
+        "Frequency": 0.020393,
+        "MOI_contribution": 0.101965
+      }
+    ]
+  },
+  {
+    "sample": "20260601_nassarawa_niger_P3T9V",
+    "total_reads": 7977,
+    "min_reads_threshold": 40,
+    "sample_MOI": 3,
+    "Hw": 0.066614,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 1558,
+        "Frequency": 0.565928,
+        "MOI_contribution": 1.697784
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 948,
+        "Frequency": 0.344352,
+        "MOI_contribution": 1.033056
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 247,
+        "Frequency": 0.08972,
+        "MOI_contribution": 0.26916
+      }
+    ]
+  },
+  {
+    "sample": "20260601_nassarawa_niger_Z6B7O",
+    "total_reads": 3517,
+    "min_reads_threshold": 18,
+    "sample_MOI": 2,
+    "Hw": 0.10071,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 992,
+        "Frequency": 0.615385,
+        "MOI_contribution": 1.23077
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 620,
+        "Frequency": 0.384615,
+        "MOI_contribution": 0.76923
+      }
+    ]
+  },
+  {
+    "sample": "20260601_nassarawa_niger_A2Z8K",
+    "total_reads": 4213,
+    "min_reads_threshold": 22,
+    "sample_MOI": 3,
+    "Hw": 0.041474,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 1897,
+        "Frequency": 0.564751,
+        "MOI_contribution": 1.694253
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 1045,
+        "Frequency": 0.311104,
+        "MOI_contribution": 0.933312
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 417,
+        "Frequency": 0.124144,
+        "MOI_contribution": 0.372432
+      }
+    ]
+  },
+  {
+    "sample": "20260601_nassarawa_niger_S5N1M",
+    "total_reads": 1763,
+    "min_reads_threshold": 9,
+    "sample_MOI": 1,
+    "Hw": 0.104565,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 1015,
+        "Frequency": 1.0,
+        "MOI_contribution": 1.0
+      }
+    ]
+  },
+  {
+    "sample": "20260601_nassarawa_niger_L1R2G",
+    "total_reads": 3612,
+    "min_reads_threshold": 19,
+    "sample_MOI": 2,
+    "Hw": 0.069912,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 858,
+        "Frequency": 0.710265,
+        "MOI_contribution": 1.42053
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 350,
+        "Frequency": 0.289735,
+        "MOI_contribution": 0.57947
+      }
+    ]
+  },
+  {
+    "sample": "20260601_nassarawa_niger_U0J4I",
+    "total_reads": 3453,
+    "min_reads_threshold": 18,
+    "sample_MOI": 2,
+    "Hw": 0.263373,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 1057,
+        "Frequency": 0.662281,
+        "MOI_contribution": 1.324562
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 539,
+        "Frequency": 0.337719,
+        "MOI_contribution": 0.675438
+      }
+    ]
+  },
+  {
+    "sample": "20260601_nassarawa_niger_I4T7N",
+    "total_reads": 1973,
+    "min_reads_threshold": 10,
+    "sample_MOI": 3,
+    "Hw": 0.036941,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 1887,
+        "Frequency": 0.965217,
+        "MOI_contribution": 2.895651
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 41,
+        "Frequency": 0.020972,
+        "MOI_contribution": 0.062916
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 27,
+        "Frequency": 0.013811,
+        "MOI_contribution": 0.041433
+      }
+    ]
+  },
+  {
+    "sample": "20260601_nassarawa_niger_D0V8H",
+    "total_reads": 1666,
+    "min_reads_threshold": 9,
+    "sample_MOI": 1,
+    "Hw": 0.040395,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 378,
+        "Frequency": 1.0,
+        "MOI_contribution": 1.0
+      }
+    ]
+  },
+  {
+    "sample": "20260601_nassarawa_niger_W0W0T",
+    "total_reads": 137,
+    "min_reads_threshold": 3,
+    "sample_MOI": 3,
+    "Hw": 0.195938,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 39,
+        "Frequency": 0.565217,
+        "MOI_contribution": 1.695651
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 21,
+        "Frequency": 0.304348,
+        "MOI_contribution": 0.913044
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 9,
+        "Frequency": 0.130435,
+        "MOI_contribution": 0.391305
+      }
+    ]
+  },
+  {
+    "sample": "20260601_nassarawa_niger_L1A1N",
+    "total_reads": 6140,
+    "min_reads_threshold": 31,
+    "sample_MOI": 3,
+    "Hw": 0.107841,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 2091,
+        "Frequency": 0.612478,
+        "MOI_contribution": 1.837434
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 681,
+        "Frequency": 0.199473,
+        "MOI_contribution": 0.598419
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 642,
+        "Frequency": 0.188049,
+        "MOI_contribution": 0.564147
+      }
+    ]
+  },
+  {
+    "sample": "20260601_nassarawa_niger_E1O1U",
+    "total_reads": 3744,
+    "min_reads_threshold": 19,
+    "sample_MOI": 2,
+    "Hw": 0.413191,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 1223,
+        "Frequency": 0.869225,
+        "MOI_contribution": 1.73845
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 184,
+        "Frequency": 0.130775,
+        "MOI_contribution": 0.26155
+      }
+    ]
+  },
+  {
+    "sample": "20260601_nassarawa_niger_V3U7B",
+    "total_reads": 103,
+    "min_reads_threshold": 3,
+    "sample_MOI": 4,
+    "Hw": 0.092748,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 85,
+        "Frequency": 0.833333,
+        "MOI_contribution": 3.333332
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 8,
+        "Frequency": 0.078431,
+        "MOI_contribution": 0.313724
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 6,
+        "Frequency": 0.058824,
+        "MOI_contribution": 0.235296
+      },
+      {
+        "Haplotype_ID": "HAP4",
+        "Count": 3,
+        "Frequency": 0.029412,
+        "MOI_contribution": 0.117648
+      }
+    ]
+  },
+  {
+    "sample": "20260601_nassarawa_niger_W5U3Z",
+    "total_reads": 2466,
+    "min_reads_threshold": 13,
+    "sample_MOI": 2,
+    "Hw": 0.292729,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 864,
+        "Frequency": 0.733447,
+        "MOI_contribution": 1.466894
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 314,
+        "Frequency": 0.266553,
+        "MOI_contribution": 0.533106
+      }
+    ]
+  },
+  {
+    "sample": "20260601_nassarawa_niger_E6U2H",
+    "total_reads": 311,
+    "min_reads_threshold": 3,
+    "sample_MOI": 3,
+    "Hw": 0.03027,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 296,
+        "Frequency": 0.957929,
+        "MOI_contribution": 2.873787
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 7,
+        "Frequency": 0.022654,
+        "MOI_contribution": 0.067962
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 6,
+        "Frequency": 0.019417,
+        "MOI_contribution": 0.058251
+      }
+    ]
+  },
+  {
+    "sample": "20260601_nassarawa_niger_G8B2R",
+    "total_reads": 26,
+    "min_reads_threshold": 3,
+    "sample_MOI": 1,
+    "Hw": 0.31972,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 3,
+        "Frequency": 1.0,
+        "MOI_contribution": 1.0
+      }
+    ]
+  },
+  {
+    "sample": "20260601_nassarawa_niger_U9M9Z",
+    "total_reads": 3971,
+    "min_reads_threshold": 20,
+    "sample_MOI": 8,
+    "Hw": 0.103991,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 1264,
+        "Frequency": 0.577433,
+        "MOI_contribution": 4.619464
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 388,
+        "Frequency": 0.17725,
+        "MOI_contribution": 1.418
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 338,
+        "Frequency": 0.154408,
+        "MOI_contribution": 1.235264
+      },
+      {
+        "Haplotype_ID": "HAP4",
+        "Count": 63,
+        "Frequency": 0.02878,
+        "MOI_contribution": 0.23024
+      },
+      {
+        "Haplotype_ID": "HAP5",
+        "Count": 48,
+        "Frequency": 0.021928,
+        "MOI_contribution": 0.175424
+      },
+      {
+        "Haplotype_ID": "HAP6",
+        "Count": 35,
+        "Frequency": 0.015989,
+        "MOI_contribution": 0.127912
+      },
+      {
+        "Haplotype_ID": "HAP7",
+        "Count": 31,
+        "Frequency": 0.014162,
+        "MOI_contribution": 0.113296
+      },
+      {
+        "Haplotype_ID": "HAP8",
+        "Count": 22,
+        "Frequency": 0.01005,
+        "MOI_contribution": 0.0804
+      }
+    ]
+  }
+]

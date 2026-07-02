@@ -228,7 +228,7 @@ def process_crt_pub():
         record = {
             "source": convert_data_source(pub_name),
             "crt": {"K76T": prevalence},
-            "geo": GEO_SET.get(geo.capitalize(), "NA"),
+            "geo": GEO_SET.get(geo.title(), "NA"),
             "count": sample_size,
             "city": city,
             "date": date,

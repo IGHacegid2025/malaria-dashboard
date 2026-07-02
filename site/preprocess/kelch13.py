@@ -57,7 +57,7 @@ def process_k13_seq(k13_filename, fragment_json_filename, geo, debug=False):
                 {
                     "count": total_samples,
                     "date": f"{int(year)}-01-02",
-                    "geo": GEO_SET.get(geo.capitalize(), geo),
+                    "geo": GEO_SET.get(geo.title(), geo),
                     "malaria": "positive",
                     gene_key: gene_data,
                     "source": "Sequencing",
@@ -88,7 +88,7 @@ def process_k13_pub():
             record = {
                 "count": int_or_none(row["sample size Nigeria only"]),
                 "malaria": "positive",
-                "geo": GEO_SET.get(row["state"].capitalize(), row["state"]),
+                "geo": GEO_SET.get(row["state"].title(), row["state"]),
                 "city": row["city"],
                 "date": f"{row["corrected year"]}-01-02",
                 "kelch13": {mutation: float_or_none(row["prevalence"])},

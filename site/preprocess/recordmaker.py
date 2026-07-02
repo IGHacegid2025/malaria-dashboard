@@ -71,7 +71,11 @@ def process_moi_seq():
                 continue
             with open(os.path.join(drugs_path, entry.name)) as f:
                 sample_summary_by_state = json.load(f)
-                state = GEO_SET.get(entry.name.split("_")[0], "NA")
+                state_name = entry.name.split("_")[0].title()
+                geo = GEO_SET.get(state_name)
+                if geo is None:
+                    print(f"Skipping {entry.name}: unrecognized state '{state_name}'")
+                    continue
 
                 moi_count_map = {}
 
@@ -85,7 +89,7 @@ def process_moi_seq():
                 for moi, count in moi_count_map.items():
                     outgoing.append(
                         {
-                            "geo": state,
+                            "geo": geo,
                             "date": f"{year}-01-02",
                             "malaria": "positive",
                             "moi": moi,
@@ -247,6 +251,10 @@ def process_sequencing_csvs():
             if entry.name.endswith("csv"):
                 rows = read_csv(os.path.join(drug_path, entry.name))
                 [_, state] = entry.name.split(".")[0].split("-")
+                geo = GEO_SET.get(state.title())
+                if geo is None:
+                    print(f"Skipping {entry.name}: unrecognized state '{state}'")
+                    continue
                 # group rows by marker
                 marker_groups = defaultdict(list)
                 for row in rows:
@@ -274,7 +282,7 @@ def process_sequencing_csvs():
                     if count > 0:
                         rec = {
                             "count": count,
-                            "geo": GEO_SET.get(state.capitalize(), "NA"),
+                            "geo": geo,
                             "malaria": "positive",
                             "source": "Sequencing",
                             "date": f"{year}-01-02",

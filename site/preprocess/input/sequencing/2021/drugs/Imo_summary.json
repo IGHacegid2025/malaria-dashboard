@@ -1,0 +1,632 @@
+[
+  {
+    "sample": "03062026_Enugu_Imo_M4V6S",
+    "total_reads": 0,
+    "min_reads_threshold": 0,
+    "sample_MOI": 1,
+    "Hw": null,
+    "haplotypes": []
+  },
+  {
+    "sample": "03062026_Enugu_Imo_N5Z5X",
+    "total_reads": 1191,
+    "min_reads_threshold": 6,
+    "sample_MOI": 3,
+    "Hw": 0.078672,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 496,
+        "Frequency": 0.8,
+        "MOI_contribution": 2.4
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 67,
+        "Frequency": 0.108065,
+        "MOI_contribution": 0.324195
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 57,
+        "Frequency": 0.091935,
+        "MOI_contribution": 0.275805
+      }
+    ]
+  },
+  {
+    "sample": "03062026_Enugu_Imo_Z1N8W",
+    "total_reads": 381,
+    "min_reads_threshold": 3,
+    "sample_MOI": 3,
+    "Hw": 0.012101,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 105,
+        "Frequency": 0.766423,
+        "MOI_contribution": 2.299269
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 23,
+        "Frequency": 0.167883,
+        "MOI_contribution": 0.503649
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 9,
+        "Frequency": 0.065693,
+        "MOI_contribution": 0.197079
+      }
+    ]
+  },
+  {
+    "sample": "03062026_Enugu_Imo_C7I6X",
+    "total_reads": 650,
+    "min_reads_threshold": 4,
+    "sample_MOI": 3,
+    "Hw": 0.036865,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 166,
+        "Frequency": 0.515528,
+        "MOI_contribution": 1.546584
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 107,
+        "Frequency": 0.332298,
+        "MOI_contribution": 0.996894
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 49,
+        "Frequency": 0.152174,
+        "MOI_contribution": 0.456522
+      }
+    ]
+  },
+  {
+    "sample": "03062026_Enugu_Imo_W3U6B",
+    "total_reads": 281,
+    "min_reads_threshold": 3,
+    "sample_MOI": 5,
+    "Hw": 0.366068,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 58,
+        "Frequency": 0.773333,
+        "MOI_contribution": 3.866665
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 6,
+        "Frequency": 0.08,
+        "MOI_contribution": 0.4
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 5,
+        "Frequency": 0.066667,
+        "MOI_contribution": 0.333335
+      },
+      {
+        "Haplotype_ID": "HAP4",
+        "Count": 3,
+        "Frequency": 0.04,
+        "MOI_contribution": 0.2
+      },
+      {
+        "Haplotype_ID": "HAP5",
+        "Count": 3,
+        "Frequency": 0.04,
+        "MOI_contribution": 0.2
+      }
+    ]
+  },
+  {
+    "sample": "03062026_Enugu_Imo_Q4G6H",
+    "total_reads": 692,
+    "min_reads_threshold": 4,
+    "sample_MOI": 3,
+    "Hw": 0.241983,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 148,
+        "Frequency": 0.708134,
+        "MOI_contribution": 2.124402
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 40,
+        "Frequency": 0.191388,
+        "MOI_contribution": 0.574164
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 21,
+        "Frequency": 0.100478,
+        "MOI_contribution": 0.301434
+      }
+    ]
+  },
+  {
+    "sample": "03062026_Enugu_Imo_G1E5Q",
+    "total_reads": 352,
+    "min_reads_threshold": 3,
+    "sample_MOI": 5,
+    "Hw": 0.348463,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 89,
+        "Frequency": 0.597315,
+        "MOI_contribution": 2.986575
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 48,
+        "Frequency": 0.322148,
+        "MOI_contribution": 1.61074
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 6,
+        "Frequency": 0.040268,
+        "MOI_contribution": 0.20134
+      },
+      {
+        "Haplotype_ID": "HAP4",
+        "Count": 3,
+        "Frequency": 0.020134,
+        "MOI_contribution": 0.10067
+      },
+      {
+        "Haplotype_ID": "HAP5",
+        "Count": 3,
+        "Frequency": 0.020134,
+        "MOI_contribution": 0.10067
+      }
+    ]
+  },
+  {
+    "sample": "03062026_Enugu_Imo_O0D7Y",
+    "total_reads": 842,
+    "min_reads_threshold": 5,
+    "sample_MOI": 6,
+    "Hw": 0.291719,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 181,
+        "Frequency": 0.641844,
+        "MOI_contribution": 3.851064
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 57,
+        "Frequency": 0.202128,
+        "MOI_contribution": 1.212768
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 17,
+        "Frequency": 0.060284,
+        "MOI_contribution": 0.361704
+      },
+      {
+        "Haplotype_ID": "HAP4",
+        "Count": 15,
+        "Frequency": 0.053191,
+        "MOI_contribution": 0.319146
+      },
+      {
+        "Haplotype_ID": "HAP5",
+        "Count": 7,
+        "Frequency": 0.024823,
+        "MOI_contribution": 0.148938
+      },
+      {
+        "Haplotype_ID": "HAP6",
+        "Count": 5,
+        "Frequency": 0.01773,
+        "MOI_contribution": 0.10638
+      }
+    ]
+  },
+  {
+    "sample": "03062026_Enugu_Imo_M1U7P",
+    "total_reads": 62,
+    "min_reads_threshold": 3,
+    "sample_MOI": 2,
+    "Hw": 0.094638,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 47,
+        "Frequency": 0.903846,
+        "MOI_contribution": 1.807692
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 5,
+        "Frequency": 0.096154,
+        "MOI_contribution": 0.192308
+      }
+    ]
+  },
+  {
+    "sample": "03062026_Enugu_Imo_X5E7O",
+    "total_reads": 392,
+    "min_reads_threshold": 3,
+    "sample_MOI": 2,
+    "Hw": 0.06531,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 203,
+        "Frequency": 0.783784,
+        "MOI_contribution": 1.567568
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 56,
+        "Frequency": 0.216216,
+        "MOI_contribution": 0.432432
+      }
+    ]
+  },
+  {
+    "sample": "03062026_Enugu_Imo_V1O3O",
+    "total_reads": 37,
+    "min_reads_threshold": 3,
+    "sample_MOI": 1,
+    "Hw": 0.072047,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 36,
+        "Frequency": 1.0,
+        "MOI_contribution": 1.0
+      }
+    ]
+  },
+  {
+    "sample": "03062026_Enugu_Imo_J2Z0L",
+    "total_reads": 428,
+    "min_reads_threshold": 3,
+    "sample_MOI": 6,
+    "Hw": 0.362387,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 335,
+        "Frequency": 0.807229,
+        "MOI_contribution": 4.843374
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 36,
+        "Frequency": 0.086747,
+        "MOI_contribution": 0.520482
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 27,
+        "Frequency": 0.06506,
+        "MOI_contribution": 0.39036
+      },
+      {
+        "Haplotype_ID": "HAP4",
+        "Count": 10,
+        "Frequency": 0.024096,
+        "MOI_contribution": 0.144576
+      },
+      {
+        "Haplotype_ID": "HAP5",
+        "Count": 4,
+        "Frequency": 0.009639,
+        "MOI_contribution": 0.057834
+      },
+      {
+        "Haplotype_ID": "HAP6",
+        "Count": 3,
+        "Frequency": 0.007229,
+        "MOI_contribution": 0.043374
+      }
+    ]
+  },
+  {
+    "sample": "03062026_Enugu_Imo_W4J4O",
+    "total_reads": 0,
+    "min_reads_threshold": 0,
+    "sample_MOI": 1,
+    "Hw": null,
+    "haplotypes": []
+  },
+  {
+    "sample": "03062026_Enugu_Imo_G7Y2O",
+    "total_reads": 1348,
+    "min_reads_threshold": 7,
+    "sample_MOI": 7,
+    "Hw": 0.333469,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 93,
+        "Frequency": 0.341912,
+        "MOI_contribution": 2.393384
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 68,
+        "Frequency": 0.25,
+        "MOI_contribution": 1.75
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 59,
+        "Frequency": 0.216912,
+        "MOI_contribution": 1.518384
+      },
+      {
+        "Haplotype_ID": "HAP4",
+        "Count": 20,
+        "Frequency": 0.073529,
+        "MOI_contribution": 0.514703
+      },
+      {
+        "Haplotype_ID": "HAP5",
+        "Count": 14,
+        "Frequency": 0.051471,
+        "MOI_contribution": 0.360297
+      },
+      {
+        "Haplotype_ID": "HAP6",
+        "Count": 10,
+        "Frequency": 0.036765,
+        "MOI_contribution": 0.257355
+      },
+      {
+        "Haplotype_ID": "HAP7",
+        "Count": 8,
+        "Frequency": 0.029412,
+        "MOI_contribution": 0.205884
+      }
+    ]
+  },
+  {
+    "sample": "03062026_Enugu_Imo_T5M6R",
+    "total_reads": 163,
+    "min_reads_threshold": 3,
+    "sample_MOI": 2,
+    "Hw": 0.014727,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 32,
+        "Frequency": 0.571429,
+        "MOI_contribution": 1.142858
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 24,
+        "Frequency": 0.428571,
+        "MOI_contribution": 0.857142
+      }
+    ]
+  },
+  {
+    "sample": "03062026_Enugu_Imo_I2E9X",
+    "total_reads": 0,
+    "min_reads_threshold": 0,
+    "sample_MOI": 1,
+    "Hw": null,
+    "haplotypes": []
+  },
+  {
+    "sample": "03062026_Enugu_Imo_I1U8M",
+    "total_reads": 384,
+    "min_reads_threshold": 3,
+    "sample_MOI": 4,
+    "Hw": 0.071304,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 296,
+        "Frequency": 0.791444,
+        "MOI_contribution": 3.165776
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 62,
+        "Frequency": 0.165775,
+        "MOI_contribution": 0.6631
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 9,
+        "Frequency": 0.024064,
+        "MOI_contribution": 0.096256
+      },
+      {
+        "Haplotype_ID": "HAP4",
+        "Count": 7,
+        "Frequency": 0.018717,
+        "MOI_contribution": 0.074868
+      }
+    ]
+  },
+  {
+    "sample": "03062026_Enugu_Imo_F9U1K",
+    "total_reads": 509,
+    "min_reads_threshold": 3,
+    "sample_MOI": 5,
+    "Hw": 0.301362,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 71,
+        "Frequency": 0.427711,
+        "MOI_contribution": 2.138555
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 56,
+        "Frequency": 0.337349,
+        "MOI_contribution": 1.686745
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 28,
+        "Frequency": 0.168675,
+        "MOI_contribution": 0.843375
+      },
+      {
+        "Haplotype_ID": "HAP4",
+        "Count": 8,
+        "Frequency": 0.048193,
+        "MOI_contribution": 0.240965
+      },
+      {
+        "Haplotype_ID": "HAP5",
+        "Count": 3,
+        "Frequency": 0.018072,
+        "MOI_contribution": 0.09036
+      }
+    ]
+  },
+  {
+    "sample": "03062026_Enugu_Imo_B6S0Z",
+    "total_reads": 521,
+    "min_reads_threshold": 3,
+    "sample_MOI": 8,
+    "Hw": 0.118447,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 71,
+        "Frequency": 0.339713,
+        "MOI_contribution": 2.717704
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 36,
+        "Frequency": 0.172249,
+        "MOI_contribution": 1.377992
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 35,
+        "Frequency": 0.167464,
+        "MOI_contribution": 1.339712
+      },
+      {
+        "Haplotype_ID": "HAP4",
+        "Count": 27,
+        "Frequency": 0.129187,
+        "MOI_contribution": 1.033496
+      },
+      {
+        "Haplotype_ID": "HAP5",
+        "Count": 20,
+        "Frequency": 0.095694,
+        "MOI_contribution": 0.765552
+      },
+      {
+        "Haplotype_ID": "HAP6",
+        "Count": 13,
+        "Frequency": 0.062201,
+        "MOI_contribution": 0.497608
+      },
+      {
+        "Haplotype_ID": "HAP7",
+        "Count": 4,
+        "Frequency": 0.019139,
+        "MOI_contribution": 0.153112
+      },
+      {
+        "Haplotype_ID": "HAP8",
+        "Count": 3,
+        "Frequency": 0.014354,
+        "MOI_contribution": 0.114832
+      }
+    ]
+  },
+  {
+    "sample": "03062026_Enugu_Imo_U0O2L",
+    "total_reads": 211,
+    "min_reads_threshold": 3,
+    "sample_MOI": 2,
+    "Hw": 0.032748,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 96,
+        "Frequency": 0.820513,
+        "MOI_contribution": 1.641026
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 21,
+        "Frequency": 0.179487,
+        "MOI_contribution": 0.358974
+      }
+    ]
+  },
+  {
+    "sample": "03062026_Enugu_Imo_K4D4V",
+    "total_reads": 756,
+    "min_reads_threshold": 4,
+    "sample_MOI": 2,
+    "Hw": 0.080661,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 481,
+        "Frequency": 0.975659,
+        "MOI_contribution": 1.951318
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 12,
+        "Frequency": 0.024341,
+        "MOI_contribution": 0.048682
+      }
+    ]
+  },
+  {
+    "sample": "03062026_Enugu_Imo_F4G3S",
+    "total_reads": 119,
+    "min_reads_threshold": 3,
+    "sample_MOI": 1,
+    "Hw": 0.229786,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 28,
+        "Frequency": 1.0,
+        "MOI_contribution": 1.0
+      }
+    ]
+  },
+  {
+    "sample": "03062026_Enugu_Imo_I6F7B",
+    "total_reads": 19,
+    "min_reads_threshold": 3,
+    "sample_MOI": 1,
+    "Hw": 0.0,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 17,
+        "Frequency": 1.0,
+        "MOI_contribution": 1.0
+      }
+    ]
+  }
+]

@@ -1,0 +1,110 @@
+[
+  {
+    "sample": "20260608_Ondo_Lagos_Ogun_I8I7G",
+    "total_reads": 361,
+    "min_reads_threshold": 3,
+    "sample_MOI": 4,
+    "Hw": 0.292037,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 140,
+        "Frequency": 0.55336,
+        "MOI_contribution": 2.21344
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 100,
+        "Frequency": 0.395257,
+        "MOI_contribution": 1.581028
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 9,
+        "Frequency": 0.035573,
+        "MOI_contribution": 0.142292
+      },
+      {
+        "Haplotype_ID": "HAP4",
+        "Count": 4,
+        "Frequency": 0.01581,
+        "MOI_contribution": 0.06324
+      }
+    ]
+  },
+  {
+    "sample": "20260608_Ondo_Lagos_Ogun_R3Q6R",
+    "total_reads": 374,
+    "min_reads_threshold": 3,
+    "sample_MOI": 1,
+    "Hw": 0.161433,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 213,
+        "Frequency": 1.0,
+        "MOI_contribution": 1.0
+      }
+    ]
+  },
+  {
+    "sample": "20260608_Ondo_Lagos_Ogun_D4S1B",
+    "total_reads": 611,
+    "min_reads_threshold": 4,
+    "sample_MOI": 4,
+    "Hw": 0.273305,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 215,
+        "Frequency": 0.515588,
+        "MOI_contribution": 2.062352
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 174,
+        "Frequency": 0.417266,
+        "MOI_contribution": 1.669064
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 16,
+        "Frequency": 0.038369,
+        "MOI_contribution": 0.153476
+      },
+      {
+        "Haplotype_ID": "HAP4",
+        "Count": 12,
+        "Frequency": 0.028777,
+        "MOI_contribution": 0.115108
+      }
+    ]
+  },
+  {
+    "sample": "20260608_Ondo_Lagos_Ogun_X8K5V",
+    "total_reads": 383,
+    "min_reads_threshold": 3,
+    "sample_MOI": 3,
+    "Hw": 0.215284,
+    "haplotypes": [
+      {
+        "Haplotype_ID": "HAP1",
+        "Count": 317,
+        "Frequency": 0.975385,
+        "MOI_contribution": 2.926155
+      },
+      {
+        "Haplotype_ID": "HAP2",
+        "Count": 4,
+        "Frequency": 0.012308,
+        "MOI_contribution": 0.036924
+      },
+      {
+        "Haplotype_ID": "HAP3",
+        "Count": 4,
+        "Frequency": 0.012308,
+        "MOI_contribution": 0.036924
+      }
+    ]
+  }
+]

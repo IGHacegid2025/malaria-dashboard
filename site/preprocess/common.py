@@ -46,6 +46,7 @@ GEO_SET = {
     "Benue": "BE",
     "Borno": "BO",
     "Cross River": "CR",
+    "Cross-River": "CR",  # some publication data uses a hyphen instead of a space
     "Delta": "DE",
     "Ebonyi": "EB",
     "Edo": "ED",
@@ -53,6 +54,7 @@ GEO_SET = {
     "Enugu": "EN",
     "FCT": "FC",
     "FCT-Abuja": "FC",  # Abuja Federal Capital Territory
+    "Federal Capital Territory": "FC",  # sequencing data spells it out in full
     "Gombe": "GO",
     "Imo": "IM",
     "Jigawa": "JI",
