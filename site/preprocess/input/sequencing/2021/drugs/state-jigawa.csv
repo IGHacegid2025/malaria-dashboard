@@ -1,9 +1,9 @@
 Marker,Validated haplotype,Numerator (Mutation Count),Denominator (Sample size/Samples_Pass_This_Fragment),Calculated Prevalence
 mdr1,"N86, Y184F, D1246",0,89,0.0
-coronin,E107V,0,106,0.0
-coronin,G50E,0,106,0.0
-coronin,R100K,0,106,0.0
-ferredoxin,D193Y,0,109,0.0
+coronin,E107V,0,105,0.0
+coronin,G50E,0,105,0.0
+coronin,R100K,0,105,0.0
+ferredoxin,D193Y,0,107,0.0
 k13,A481V,0,73,0.0
 k13,A675V,0,73,0.0
 k13,A724E,0,73,0.0
@@ -29,13 +29,13 @@ k13,R622I,0,73,0.0
 k13,V568G,0,73,0.0
 k13,Y493H,0,73,0.0
 mdr1,"N86Y, Y184F, D1246N",0,89,0.0
-crt,K76T,14,99,0.1414
+crt,K76T,25,87,0.2874
 mdr1,N86Y,3,89,0.0337
-exonuclease,E415G,0,110,0.0
-dhfr,"N51I, C59R, S108N",67,87,0.7701
-mdr2,F423Y,92,108,0.8519
-dhps,A437G,72,83,0.8675
+exonuclease,E415G,0,108,0.0
+dhfr,"N51I, C59R, S108N",70,87,0.8046
+mdr2,F423Y,98,107,0.9159
+dhps,A437G,73,83,0.8795
 dhps/dhfr,"A437G, K540E, A581G/N51I, C59R, S108N",0,83,0.0
 dhps/dhfr,"A437G, K540E/N51I, C59R, S108N",0,83,0.0
 dhps/dhfr,"A437G, K540E/N51I, C59R, S108N, I164L",0,83,0.0
-dhps/dhfr,"A437G/N51I, C59R, S108N",58,83,0.6988
+dhps/dhfr,"A437G/N51I, C59R, S108N",62,83,0.747
