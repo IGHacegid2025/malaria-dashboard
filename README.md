@@ -1,6 +1,7 @@
 # Lookout Dashboard for IGH Malaria
 
 This readme walks you through two things:
+
 1. **Running the app locally** to view the dashboard
 2. **Updating the data** when new information is available
 
@@ -13,6 +14,7 @@ This readme walks you through two things:
 You can get the project files in one of two ways:
 
 **Option A: Download as a zip**
+
 - Click the green Code button on this page and select **Download ZIP**
 - Unzip the downloaded file
 
@@ -46,9 +48,9 @@ Double-click the file named `server.tool` at the root of the project folder. It 
 ./server.tool
 ```
 
-On Windows: 
+On Windows:
 
-Rename `server.tool` to `server.py`. Make sure you have python3 installed, then at the root of the folder, run: 
+Rename `server.tool` to `server.py`. Make sure you have python3 installed, then at the root of the folder, run:
 
 ```bash
 python3 ./server.py
@@ -99,15 +101,15 @@ preprocess/
 
 Here's a summary of each data type and where it lives:
 
-| Data type | Location | Filename requirement |
-|---|---|---|
-| Drug resistance (publications) | `input/publication/` | `.csv` files |
-| HRP2/3 deletion (publications) | `input/publication/` | must be named `hrp_deletion.csv` |
-| Drug resistance (sequencing) | `input/sequencing/2021/` | `.tsv` files |
-| HRP2/3 deletion (sequencing) | `input/sequencing/2021/` | must be named `hrp2_3_deletion_20XX.csv` |
-| Alert level info | `input/` | must be named `information_for_report.csv` |
-| Plasmodium species info | `input/sequencing/2021/` | must be named `speciation_summary.csv` |
-| Malaria infection prevalence (MIS) | `input/MIS/` | must be named `positive_YEAR.csv`|
+| Data type                          | Location                   | Filename requirement                        |
+| ---------------------------------- | -------------------------- | ------------------------------------------- |
+| Drug resistance (publications)     | `input/publication/`     | `.csv` files                              |
+| HRP2/3 deletion (publications)     | `input/publication/`     | must be named`hrp_deletion.csv`           |
+| Drug resistance (sequencing)       | `input/sequencing/2021/` | `.tsv` files                              |
+| HRP2/3 deletion (sequencing)       | `input/sequencing/2021/` | must be named`hrp2_3_deletion_20XX.csv`   |
+| Alert level info                   | `input/`                 | must be named`information_for_report.csv` |
+| Plasmodium species info            | `input/sequencing/2021/` | must be named`speciation_summary.csv`     |
+| Malaria infection prevalence (MIS) | `input/MIS/`             | must be named`positive_YEAR.csv`          |
 
 > File names matter. The processing script looks for specific names, so renaming a file will cause it to be skipped.
 
@@ -116,6 +118,7 @@ Here's a summary of each data type and where it lives:
 #### Publication data
 
 To add new publication data entries:
+
 - Append new rows to the relevant gene's `.csv` file
 - Also append the relevant information to `all_publication_information.csv`
 - Do not change the column headers
@@ -140,7 +143,6 @@ The script will automatically extract MOI data from all `*_summary.json` files, 
 
 Add a `.csv` file to `preprocess/input/MIS/` following the naming convention `positive_YEAR.csv`, where `YEAR` is the four-digit year.
 
-
 ### Run the transformation script
 
 With all data in place, run:
@@ -151,11 +153,10 @@ With all data in place, run:
 
 This script processes the raw input and writes to two locations:
 
-| Output location | Contents | Purpose |
-|---|---|---|
-| `preprocess/output/` | Intermediate `.csv` files | More readable; useful for sanity-checking results |
-| `site/data/` | Final `.json` files | Consumed by the dashboard |
-
+| Output location        | Contents                   | Purpose                                           |
+| ---------------------- | -------------------------- | ------------------------------------------------- |
+| `preprocess/output/` | Intermediate`.csv` files | More readable; useful for sanity-checking results |
+| `site/data/`         | Final`.json` files       | Consumed by the dashboard                         |
 
 Now, go back to your browser at **http://localhost:9200/** and refresh the page. If changes are not showing up,clear your browser cache or open the page in a private/incognito window. Browsers sometimes serve a cached version of the data.
 
