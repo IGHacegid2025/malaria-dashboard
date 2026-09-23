@@ -90,7 +90,7 @@ def convert_data_source(raw):
 
 def int_or_none(str):
     try:
-        return int(str)
+        return int(float(str))
     except:
         return None
 
@@ -144,4 +144,4 @@ def read_tsv(input_path, delimiter="\t"):
 
 def write_json(path, outgoing):
     with open(path, "w") as f:
-        json.dump(outgoing, f, indent=2, separators=(",", ": "), sort_keys=True)
+        json.dump(outgoing, f, indent=2, separators=(",", ": "))

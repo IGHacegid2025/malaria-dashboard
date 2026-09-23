@@ -176,7 +176,7 @@ SINGLE_CODONS = {
 
 def int_or_none(str):
     try:
-        return int(str)
+        return int(float(str))
     except:
         return None
 

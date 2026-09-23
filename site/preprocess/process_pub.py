@@ -34,7 +34,6 @@ def process_sp_pub():
             continue
 
         if has_haplotype:
-            # A437G, N51I-C59R-S108N
             single_triple = (
                 (~df["type"].isin(["snp", "wt-singlepos"]))
                 & (df["c51"] == "I")
@@ -45,7 +44,6 @@ def process_sp_pub():
                 & (df["c540"] == "K")
                 & (df["c581"] == "A")
             )
-            # A437G-K540E, N51I-C59R-S108N
             double_triple = (
                 (~df["type"].isin(["snp", "wt-singlepos"]))
                 & (df["c51"] == "I")
@@ -57,7 +55,6 @@ def process_sp_pub():
                 & (df["c581"] == "A")
             )
 
-            # A437G-K540E, N51I-C59R-S108N-I164L
             double_quad = (
                 (~df["type"].isin(["snp", "wt-singlepos"]))
                 & (df["c51"] == "I")
@@ -69,7 +66,6 @@ def process_sp_pub():
                 & (df["c581"] == "A")
             )
 
-            # A437G-K540E-A581G, N51I-C59R-S108N
             triple_triple = (
                 (~df["type"].isin(["snp", "wt-singlepos"]))
                 & (df["c51"] == "I")
@@ -81,7 +77,10 @@ def process_sp_pub():
                 & (df["c581"] == "G")
             )
         else:
-            print("TODO: process snp ")
+            single_triple = pd.Series(False, index=df.index)
+            double_triple = pd.Series(False, index=df.index)
+            double_quad = pd.Series(False, index=df.index)
+            triple_triple = pd.Series(False, index=df.index)
 
         # calculate the counts for each mutation group
         single_triple_prevalence = df.loc[single_triple, "prevalence"].sum()

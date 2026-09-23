@@ -29,7 +29,7 @@ def process_k13_seq(k13_filename, fragment_json_filename, geo, debug=False):
         except Exception as e:
             # print(e)
             print(f"No {k13_filename} found.")
-            return []
+            return []   
 
         gene_key = "kelch13"  
 
@@ -70,8 +70,7 @@ def process_k13_seq(k13_filename, fragment_json_filename, geo, debug=False):
 def process_k13_pub():
     print(f"Processing kelch13 publication data...")
     k13pub = read_csv(os.path.join(PUB_FOLDER, "kelch13.csv"))
-    outgoing = []
-    pubs = []
+    records_by_key = {}
 
     for row in k13pub:
         wtaa = row["WT AA"].strip()
@@ -83,24 +82,19 @@ def process_k13_pub():
         if int(row["corrected year"]) < EARLIEST_YEAR:
             continue
         key = f"{row["Author"]}-{row["year of publication"]}-{row["state"]}"
-        if key not in pubs:
-            pubs.append(key)
-            record = {
+        if key not in records_by_key:
+            records_by_key[key] = {
                 "count": int_or_none(row["sample size Nigeria only"]),
                 "malaria": "positive",
                 "geo": GEO_SET.get(row["state"].title(), row["state"]),
                 "city": row["city"],
                 "date": f"{row["corrected year"]}-01-02",
-                "kelch13": {mutation: float_or_none(row["prevalence"])},
+                "kelch13": {},
                 "source": convert_data_source(key),
             }
-            outgoing.append(record)
-        else:
-            for record in outgoing:
-                if record["source"] == key:
-                    record["kelch13"][mutation] = float_or_none(row["prevalence"])
+        records_by_key[key]["kelch13"][mutation] = float_or_none(row["prevalence"])
 
-    return outgoing
+    return list(records_by_key.values())
 
 
 if __name__ == "__main__":

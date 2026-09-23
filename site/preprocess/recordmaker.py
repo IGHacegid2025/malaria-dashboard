@@ -26,6 +26,7 @@ from process_pub import (
     process_sp_pub,
 )
 from kelch13 import process_k13_pub
+from coronin import process_coronin_pub
 
 
 def process_MIS_cases():
@@ -296,7 +297,7 @@ def process_sequencing_csvs():
 def process_pSpecies():
     outgoing = []
     for year, year_path in SEQUENCING_FOLDERS:
-        path = os.path.join(year_path, "Speciation_summary.csv")
+        path = os.path.join(year_path, "speciation_summary.csv")
         csv = read_csv(path)
 
         species_list = ["pf", "pv", "pm", "po", "pk"]
@@ -356,16 +357,41 @@ def process_pSpecies():
     return outgoing
 
 
+GENE_MUTATION_FIELDS = [
+    "crt",
+    "mdr1",
+    "kelch13",
+    "ferredoxin",
+    "coronin",
+    "psfr",
+    "exonuclease",
+]
+
+
+def sort_mutations_by_prevalence(records):
+    for record in records:
+        for field in GENE_MUTATION_FIELDS:
+            mutations = record.get(field)
+            if isinstance(mutations, dict):
+                record[field] = dict(
+                    sorted(
+                        mutations.items(),
+                        key=lambda item: item[1] if item[1] is not None else 0,
+                        reverse=True,
+                    )
+                )
+    return records
+
+
 def make_records():
-    # ========== publication ==========
     mdr1_pub_data = process_mdr1_pub()
     sp_pub_data = process_sp_pub()
     kelch13_pub_data = process_k13_pub()
     crt_pub_data = process_crt_pub()
-    # no exonuclease, mdr2, or ferredoxin from publication data
+    coronin_pub_data = process_coronin_pub()
 
     merged = {}
-    all_pub = mdr1_pub_data + sp_pub_data + kelch13_pub_data + crt_pub_data
+    all_pub = mdr1_pub_data + sp_pub_data + kelch13_pub_data + crt_pub_data + coronin_pub_data
     for entry in all_pub:
         group_key = (
             entry["date"],
@@ -439,7 +465,7 @@ def make_records():
         ],
         "records": [],
     }
-    drug_resist_dataset["records"] = (
+    drug_resist_dataset["records"] = sort_mutations_by_prevalence(
         merged_pub
         + all_sequencing
         + process_hrp_pub()
