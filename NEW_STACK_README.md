@@ -124,6 +124,41 @@ is built on this computer and the API serves it, so one process runs the whole s
 Environment variables still win over `connection.config`, for hosts that set them in their panel.
 `connection.config` holds passwords: it is ignored by git and must never be shared.
 
+## Deploying on cPanel hosting (Namecheap Stellar and similar)
+
+cPanel runs Python apps through Passenger (WSGI). `passenger_wsgi.py` at the project root wraps the FastAPI app with
+`a2wsgi`, so the site, the admin area and the API run as one application. Tested locally under a WSGI server with the
+full smoke test (`SMOKE_WSGI=1`), page loads, uploads up to 18 MB and downloads. The host does not officially support
+ASGI apps behind this adapter, so keep the Netlify and Render option in mind.
+
+1. On this computer: `cd frontend && npm run build`, then `.\sql\export_for_deploy.ps1`.
+2. cPanel > MySQL Databases: create a database and a user with all privileges. phpMyAdmin > Import `sql/deploy/database.sql`.
+3. Upload the project with FileZilla (without `node_modules`), including `frontend/dist`, plus `sql/deploy/media` into
+   `api/media` and `sql/deploy/gene_flow` into `data_analysis/gene_flow`.
+4. Create `connection.config` from `connection.config.example` (database from step 2, `JWT_SECRET`, SMTP of a
+   cPanel email account, `TRUST_PROXY=1`).
+5. cPanel > Setup Python App > Create: Python 3.11, application root = the project folder, startup file
+   `passenger_wsgi.py`, entry point `application`. Run pip install with `api/requirements.txt`, then Restart.
+6. Run `python api/check_setup.py` in the app's terminal (or SSH) and open the site.
+
+## Deploying with Netlify (site) and Render (API)
+
+The website is built by Netlify from `netlify.toml`, the API runs on Render from `render.yaml`, the database is any
+MySQL service (for example Aiven, free plan).
+
+1. Database: create the MySQL service, download its CA certificate (`ca.pem`), then from this computer
+   `.\sql\export_for_deploy.ps1 -WithoutPersonalData` and
+   `C:\xampp\mysql\bin\mysql.exe -h HOST -P PORT -u USER -p --ssl-ca=ca.pem DBNAME < sql\deploy\database.sql`.
+2. API: Render > New > Blueprint > this repository. Fill in `DB_HOST`, `DB_PORT`, `DB_NAME`, `DB_USER`, `DB_PASSWORD`,
+   add `ca.pem` under Secret Files, and set `ALLOWED_ORIGINS` to the website address. Check `/api/health`.
+3. Website: Netlify > Add new project > this repository, branch `dev` for a test. Add the environment variable
+   `VITE_API_URL` with the Render address (for example `https://malaria-dashboard-api.onrender.com`) and deploy.
+4. Domain: in Netlify > DNS > para-sight.org, add a CNAME `api` pointing to the Render address, add `api.para-sight.org`
+   as custom domain in Render, then use `https://api.para-sight.org` in `VITE_API_URL`.
+
+Files in `api/media` (uploaded logos and banners) are not in git: upload them again from the admin area. On the Render
+free plan, files uploaded later are lost when the API is redeployed.
+
 ## Running in production
 
 **HTTPS.** Put the site behind a web server that handles certificates. With Caddy, this is the whole configuration

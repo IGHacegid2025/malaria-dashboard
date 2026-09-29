@@ -2,6 +2,7 @@
 # End-to-end check of the admin API against the TEST database only.
 # Reset it first with sql/setup_test_database.ps1, then run from the api folder:
 #   DB_NAME=malaria_dashboard_test python tests/smoke_admin.py
+#   Add SMOKE_WSGI=1 to go through the WSGI adapter used on cPanel hosting.
 # Author: Khadim Gueye
 
 import io
@@ -18,7 +19,14 @@ from openpyxl import load_workbook
 
 from main import app
 
-client = TestClient(app)
+if os.environ.get("SMOKE_WSGI") == "1":
+    import httpx
+    from a2wsgi import ASGIMiddleware
+
+    client = httpx.Client(transport=httpx.WSGITransport(app=ASGIMiddleware(app)), base_url="http://testserver", timeout=120, headers={"User-Agent": "testclient"})
+    print("Running through the WSGI adapter (cPanel mode)")
+else:
+    client = TestClient(app)
 OWNER = "khadimg@run.edu.ng"
 results = []
 

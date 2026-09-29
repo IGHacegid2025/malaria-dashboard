@@ -1,0 +1,33 @@
+# Render blueprint for the API (Python). Values marked sync: false are typed in the Render dashboard.
+# Author: Khadim Gueye
+
+services:
+  - type: web
+    name: malaria-dashboard-api
+    runtime: python
+    plan: free
+    branch: dev
+    buildCommand: pip install -r api/requirements.txt
+    startCommand: cd api && uvicorn main:app --host 0.0.0.0 --port $PORT --proxy-headers
+    healthCheckPath: /api/health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
+      - key: TRUST_PROXY
+        value: "1"
+      - key: JWT_SECRET
+        generateValue: true
+      - key: DB_SSL_CA
+        value: /etc/secrets/ca.pem
+      - key: DB_HOST
+        sync: false
+      - key: DB_PORT
+        sync: false
+      - key: DB_NAME
+        sync: false
+      - key: DB_USER
+        sync: false
+      - key: DB_PASSWORD
+        sync: false
+      - key: ALLOWED_ORIGINS
+        sync: false

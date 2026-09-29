@@ -17,6 +17,8 @@ CONN_INFO = dict(
     charset="utf8mb4",
     cursorclass=pymysql.cursors.DictCursor,
 )
+if os.environ.get("DB_SSL_CA"):
+    CONN_INFO.update(ssl_ca=os.environ["DB_SSL_CA"], ssl_verify_cert=True)
 
 
 def connect():

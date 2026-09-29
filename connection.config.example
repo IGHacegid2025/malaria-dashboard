@@ -7,6 +7,8 @@ DB_PORT=3306
 DB_NAME=malaria_dashboard
 DB_USER=malaria_app
 DB_PASSWORD=change-me
+# Only for databases that require a secure connection (Aiven, Azure...): path of the CA certificate file
+DB_SSL_CA=
 
 # Signs admin sessions: a long random value, different on every server
 JWT_SECRET=change-me-to-a-long-random-value
