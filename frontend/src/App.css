@@ -3699,6 +3699,88 @@ td {
   box-shadow: 0 8px 24px rgba(42, 120, 214, 0.35);
 }
 
+
+@property --cta-angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+.landing-button.cta-live {
+  position: relative;
+  gap: 8px;
+  isolation: isolate;
+  animation: cta-glow 3.6s ease-in-out infinite;
+}
+
+.landing-button.cta-live::before {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  z-index: -1;
+  padding: 2px;
+  border-radius: 14px;
+  background: conic-gradient(from var(--cta-angle), transparent 0 68%, rgba(159, 227, 201, 0.9) 80%, #fff 86%, transparent 94%);
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  animation: cta-orbit 3.6s linear infinite;
+  pointer-events: none;
+}
+
+.cta-arrow {
+  width: 16px;
+  height: 16px;
+  animation: cta-nudge 3.6s ease-in-out infinite;
+}
+
+.landing-button.cta-live:hover .cta-arrow {
+  animation: none;
+  transform: translateX(3px);
+}
+
+@keyframes cta-orbit {
+  to {
+    --cta-angle: 360deg;
+  }
+}
+
+@keyframes cta-glow {
+  0%,
+  100% {
+    box-shadow: 0 8px 24px rgba(42, 120, 214, 0.35);
+  }
+  50% {
+    box-shadow: 0 8px 30px rgba(42, 120, 214, 0.6), 0 0 0 4px rgba(42, 120, 214, 0.14);
+  }
+}
+
+@keyframes cta-nudge {
+  0%,
+  70%,
+  100% {
+    transform: none;
+  }
+  80% {
+    transform: translateX(4px);
+  }
+  90% {
+    transform: translateX(1px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .landing-button.cta-live,
+  .landing-button.cta-live::before,
+  .cta-arrow {
+    animation: none;
+  }
+
+  .landing-button.cta-live::before {
+    display: none;
+  }
+}
+
 .landing-button.ghost {
   color: #fff;
   border: 1px solid rgba(255, 255, 255, 0.55);

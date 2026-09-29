@@ -228,8 +228,11 @@ export default function LandingPage() {
             year.
           </p>
           <div className="landing-ctas">
-            <Link to="/dashboard" className="landing-button primary">
+            <Link to="/dashboard" className="landing-button primary cta-live">
               Open the dashboard
+              <svg className="cta-arrow" viewBox="0 0 16 16" aria-hidden="true">
+                <path d="M3 8h9M8.5 4.5 12 8l-3.5 3.5" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
             </Link>
             <Link to="/map" className="landing-button ghost">
               Explore the map
