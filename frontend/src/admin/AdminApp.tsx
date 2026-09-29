@@ -65,15 +65,31 @@ function LoginScreen({ onLogin }: { onLogin: (user: AdminUser) => void }) {
   const [password, setPassword] = useState("");
   const [error, setError] = useState<string | null>(null);
   const [busy, setBusy] = useState(false);
+  const [step, setStep] = useState<{ challenge: string; email: string } | null>(null);
+  const [code, setCode] = useState("");
 
   const submit = async (e: FormEvent) => {
     e.preventDefault();
     setBusy(true);
     setError(null);
     try {
-      const res = await adminApi.post<{ token: string; user: AdminUser }>("/auth/login", { email, password });
-      setToken(res.token);
-      onLogin(res.user);
+      if (step) {
+        const res = await adminApi.post<{ token: string; user: AdminUser }>("/auth/verify-code", { challenge: step.challenge, code });
+        setToken(res.token);
+        onLogin(res.user);
+        return;
+      }
+      const res = await adminApi.post<{ token?: string; user?: AdminUser; two_factor?: boolean; challenge?: string; email?: string }>(
+        "/auth/login",
+        { email, password },
+      );
+      if (res.two_factor && res.challenge) {
+        setStep({ challenge: res.challenge, email: res.email ?? email });
+        setCode("");
+        return;
+      }
+      setToken(res.token!);
+      onLogin(res.user!);
     } catch (err) {
       setError((err as Error).message);
     } finally {
@@ -81,21 +97,53 @@ function LoginScreen({ onLogin }: { onLogin: (user: AdminUser) => void }) {
     }
   };
 
+  const restart = () => {
+    setStep(null);
+    setCode("");
+    setError(null);
+  };
+
   return (
     <div className="auth-screen">
       <form className="auth-card" onSubmit={submit}>
         <Brand />
-        <h1>Sign in</h1>
-        <p className="auth-lede">Administration of the malaria genomic surveillance dashboard.</p>
-        <label className="admin-field">
-          <span>Email</span>
-          <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} autoComplete="username" required autoFocus />
-        </label>
-        <PasswordField label="Password" value={password} onChange={setPassword} autoComplete="current-password" />
+        <h1>{step ? "Check your email" : "Sign in"}</h1>
+        {step ? (
+          <>
+            <p className="auth-lede">We sent a 6-digit code to {step.email}. It expires in 10 minutes.</p>
+            <label className="admin-field">
+              <span>Sign-in code</span>
+              <input
+                className="code-input"
+                value={code}
+                onChange={(e) => setCode(e.target.value.replace(/\D/g, "").slice(0, 6))}
+                inputMode="numeric"
+                autoComplete="one-time-code"
+                pattern="\d{6}"
+                required
+                autoFocus
+              />
+            </label>
+          </>
+        ) : (
+          <>
+            <p className="auth-lede">Administration of the malaria genomic surveillance dashboard.</p>
+            <label className="admin-field">
+              <span>Email</span>
+              <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} autoComplete="username" required autoFocus />
+            </label>
+            <PasswordField label="Password" value={password} onChange={setPassword} autoComplete="current-password" />
+          </>
+        )}
         {error && <div className="admin-alert error">{error}</div>}
-        <button className="admin-button primary wide" disabled={busy}>
-          {busy ? "Signing in..." : "Sign in"}
+        <button className="admin-button primary wide" disabled={busy || (step !== null && code.length !== 6)}>
+          {busy ? (step ? "Checking..." : "Signing in...") : step ? "Verify" : "Sign in"}
         </button>
+        {step && (
+          <button type="button" className="auth-back link-like" onClick={restart}>
+            Use another account or get a new code
+          </button>
+        )}
         <Link to="/" className="auth-back">
           Back to the dashboard
         </Link>

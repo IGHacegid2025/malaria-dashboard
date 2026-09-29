@@ -1,5 +1,6 @@
 // Author: Khadim Gueye
 
+import { markerLabel } from "./markers";
 import type {
   AlertRule,
   HrpRow,
@@ -359,7 +360,7 @@ export function collectSources(
     const entry = touch(row.source_type, row.author, row.year_of_publication);
     entry.dataPoints += 1;
     entry.stateSet.add(row.state);
-    if (Number(row.prevalence) > 0) entry.markerSet.add(`${row.gene} ${row.mutation}`);
+    if (Number(row.prevalence) > 0) entry.markerSet.add(markerLabel(row.gene, row.mutation));
   }
   for (const row of hrp) {
     if (!inSelection(row, sel)) continue;

@@ -4,12 +4,14 @@
 import csv
 import hashlib
 import io
+import json
 import re
 import threading
 import time
 from collections import defaultdict, deque
 from datetime import date
 from typing import Optional
+from urllib.parse import parse_qs
 
 from fastapi import APIRouter, Depends, HTTPException, Request
 from fastapi.responses import Response
@@ -57,6 +59,10 @@ def clip(value, size):
     return value[:size] or None
 
 
+def ip_fingerprint(ip):
+    return hashlib.sha256(f"{JWT_SECRET}:{ip}".encode()).hexdigest()
+
+
 class VisitBody(BaseModel):
     visitor_id: str
     path: str
@@ -86,7 +92,7 @@ def track(body: VisitBody, request: Request):
         INSERT INTO site_visits (visitor_id, ip_hash, country_code, region, city, latitude, longitude, path, referrer, device)
         VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
         """,
-        (body.visitor_id, hashlib.sha256(f"{JWT_SECRET}:{ip}".encode()).hexdigest(), geo["country_code"],
+        (body.visitor_id, ip_fingerprint(ip), geo["country_code"],
          clip(geo["region"], 120), clip(geo["city"], 160), geo["latitude"], geo["longitude"], path, referrer,
          device_of(user_agent)),
     )
@@ -98,6 +104,9 @@ class ReportRequest(BaseModel):
     email: str
     organization: Optional[str] = None
     page: Optional[str] = None
+    kind: str = "report"
+    label: Optional[str] = None
+    consent: bool = False
 
 
 @router.post("/api/report-requests")
@@ -108,18 +117,23 @@ def report_request(body: ReportRequest, request: Request):
         raise HTTPException(400, "Please enter your full name")
     if len(email) > 200 or not EMAIL.match(email):
         raise HTTPException(400, "Please enter a valid email address")
+    if not body.consent:
+        raise HTTPException(400, "Please accept the privacy notice to download")
+    if body.kind not in ("report", "data"):
+        raise HTTPException(400, "Unknown download type")
     ip = client_ip(request) or ""
     if too_many(f"report:{ip}", 30, 3600):
         raise HTTPException(429, "Too many downloads from this network. Please try again later.")
     geo = geo_lookup.lookup(ip)
     execute(
         """
-        INSERT INTO report_downloads (name, email, organization, ip_address, country_code, region, city,
-                                      latitude, longitude, page, user_agent)
-        VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+        INSERT INTO report_downloads (name, email, organization, kind, ip_hash, country_code, region, city,
+                                      latitude, longitude, page, label, user_agent)
+        VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
         """,
-        (name, email, clip(body.organization, 200), ip[:45] or None, geo["country_code"], clip(geo["region"], 120),
-         clip(geo["city"], 160), geo["latitude"], geo["longitude"], clip(body.page, 255),
+        (name, email, clip(body.organization, 200), body.kind, ip_fingerprint(ip), geo["country_code"],
+         clip(geo["region"], 120), clip(geo["city"], 160), geo["latitude"], geo["longitude"], clip(body.page, 255),
+         clip(body.label, 255),
          clip(request.headers.get("user-agent"), 400)),
     )
     return {"ok": True}
@@ -202,8 +216,45 @@ def visitors(days: int = 7, user=Depends(current_user)):
     }
 
 
+DHFR_CODONS = {16, 50, 51, 59, 108, 164}
+DOWNLOAD_COLUMNS = "id, name, email, organization, kind, country_code, region, city, latitude, longitude, page, label, created_at"
+
+
+def marker_label(key):
+    gene, _, mutation = key.partition("|")
+    if gene != "psfr":
+        return f"{gene} {mutation}".strip()
+    dhps, dhfr = [], []
+    for part in filter(None, mutation.split("-")):
+        codon = re.search(r"\d+", part)
+        (dhfr if codon and int(codon.group()) in DHFR_CODONS else dhps).append(part)
+    return "dhps/dhfr " + " + ".join(p for p in (", ".join(dhps), ", ".join(dhfr)) if p)
+
+
+def report_label(page, state_names):
+    if not page:
+        return ""
+    params = parse_qs(page.partition("?")[2])
+    first = lambda key: (params.get(key) or [""])[0]
+    codes = [c for c in first("states").split(",") if c]
+    place = ", ".join(state_names.get(c, c) for c in codes) if codes else "Nigeria"
+    parts = [f"{place}, {first('year') or 'latest year'}"]
+    if first("marker"):
+        parts.append(marker_label(first("marker")))
+    if first("view") == "detailed":
+        parts.append("detailed view")
+    return " · ".join(parts)
+
+
+def _with_labels(rows):
+    names = {r["code"]: r["name"] for r in query("SELECT code, name FROM states")}
+    for r in rows:
+        r["report"] = r["label"] or report_label(r["page"], names)
+    return rows
+
+
 def _downloads(search):
-    sql = "SELECT * FROM report_downloads WHERE 1 = 1"
+    sql = f"SELECT {DOWNLOAD_COLUMNS} FROM report_downloads WHERE 1 = 1"
     params = []
     if search:
         like = f"%{search.strip()}%"
@@ -215,8 +266,8 @@ def _downloads(search):
 @router.get("/api/admin/report-downloads")
 def report_downloads(search: Optional[str] = None, limit: int = 50, offset: int = 0, user=Depends(current_user)):
     sql, params = _downloads(search)
-    total = query_one(sql.replace("SELECT *", "SELECT COUNT(*) AS n", 1), params)["n"]
-    rows = query(sql + " ORDER BY id DESC LIMIT %s OFFSET %s", [*params, max(1, min(limit, 200)), max(0, offset)])
+    total = query_one(sql.replace(f"SELECT {DOWNLOAD_COLUMNS}", "SELECT COUNT(*) AS n", 1), params)["n"]
+    rows = _with_labels(query(sql + " ORDER BY id DESC LIMIT %s OFFSET %s", [*params, max(1, min(limit, 200)), max(0, offset)]))
     stats = query_one(
         """
         SELECT COUNT(*) AS downloads, COUNT(DISTINCT email) AS people,
@@ -237,10 +288,14 @@ def report_downloads(search: Optional[str] = None, limit: int = 50, offset: int 
 @router.get("/api/admin/report-downloads.csv")
 def report_downloads_csv(request: Request, search: Optional[str] = None, user=Depends(current_user)):
     sql, params = _downloads(search)
-    rows = query(sql + " ORDER BY id DESC", params)
+    rows = _with_labels(query(sql + " ORDER BY id DESC", params))
+    setting = query_one("SELECT setting_value FROM site_settings WHERE setting_key = 'site.public_url'")
+    base = (json.loads(setting["setting_value"]) if setting else "") or "https://para-sight.org/"
+    for r in rows:
+        r["link"] = base.rstrip("/") + r["page"] if (r["page"] or "").startswith("/") else ""
     out = io.StringIO()
     writer = csv.writer(out)
-    columns = ["created_at", "name", "email", "organization", "country_code", "region", "city", "ip_address", "page"]
+    columns = ["created_at", "kind", "name", "email", "organization", "country_code", "region", "city", "report", "link"]
     writer.writerow(columns)
     for r in rows:
         writer.writerow([r[c] if r[c] is not None else "" for c in columns])

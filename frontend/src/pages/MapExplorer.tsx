@@ -4,6 +4,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import type { HrpRow, Observation } from "../api";
 import HeroBackdrop from "../components/HeroBackdrop";
+import ReportGate from "../components/ReportGate";
 import InfoTip, { GLOSSARY } from "../components/InfoTip";
 import { CountUp } from "../components/Motion";
 import NigeriaMap from "../components/NigeriaMap";
@@ -23,6 +24,7 @@ import {
   weightedPrevalence,
   type Classification,
 } from "../lib/analysis";
+import { geneLabel, markerLabel, mutationLabel } from "../lib/markers";
 
 const PLAY_MS = 1400;
 
@@ -154,6 +156,7 @@ export default function MapExplorer() {
   const [drug, setDrug] = useState(params.get("drug") ?? "artemisinin");
   const [markerKey, setMarkerKey] = useState(params.get("marker") ?? "");
   const [hrpGene, setHrpGene] = useState<"hrp2" | "hrp3">("hrp2");
+  const [gate, setGate] = useState(false);
   const [year, setYear] = useState<number | "latest">("latest");
   const [focus, setFocus] = useState<string | null>(params.get("state"));
   const [activeClass, setActiveClass] = useState<number | null>(null);
@@ -266,7 +269,7 @@ export default function MapExplorer() {
 
   const [mGene, mMutation] = activeMarker.split("|");
   const metricLabel =
-    theme === "drug" ? `${mGene} ${mMutation}` : theme === "diagnostic" ? `${hrpGene} deletion` : "Malaria in children";
+    theme === "drug" ? markerLabel(mGene, mMutation) : theme === "diagnostic" ? `${hrpGene} deletion` : "Malaria in children";
   const yearLabel = effectiveYear === "latest" ? "latest year available per state" : String(effectiveYear);
   const missing = data.states.length - values.size;
 
@@ -276,13 +279,15 @@ export default function MapExplorer() {
     setActiveClass(null);
   };
 
+  const mapQuery = new URLSearchParams({ theme });
+  if (theme === "drug") {
+    mapQuery.set("drug", drug);
+    mapQuery.set("marker", activeMarker);
+  }
+  if (focus) mapQuery.set("state", focus);
+
   const shareLink = () => {
-    const q = new URLSearchParams({ theme });
-    if (theme === "drug") {
-      q.set("drug", drug);
-      q.set("marker", activeMarker);
-    }
-    const url = `${window.location.origin}/map?${q.toString()}`;
+    const url = `${window.location.origin}/map?${mapQuery.toString()}`;
     navigator.clipboard?.writeText(url).then(
       () => {
         setCopied(true);
@@ -363,7 +368,7 @@ export default function MapExplorer() {
                 >
                   {markersForDrug.map(([k, m]) => (
                     <option key={k} value={k}>
-                      {m.gene} {m.mutation} ({m.detectedStates.size} states)
+                      {markerLabel(m.gene, m.mutation)} ({m.detectedStates.size} states)
                     </option>
                   ))}
                 </select>
@@ -460,7 +465,7 @@ export default function MapExplorer() {
               <span>{theme === "children" ? surveyName([...values.values()][0]?.year) : yearLabel}</span>
             </div>
             <div className="toolbar-actions">
-              <button className="tool-button" onClick={exportCsv}>
+              <button className="tool-button" onClick={() => setGate(true)}>
                 <svg viewBox="0 0 16 16" aria-hidden="true">
                   <path d="M8 2v8M4.5 6.5L8 10l3.5-3.5M3 13h10" stroke="currentColor" strokeWidth="1.6" fill="none" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
@@ -505,6 +510,7 @@ export default function MapExplorer() {
           navigate(`/dashboard?states=${focus}`);
         }} />}
       </div>
+      {gate && <ReportGate kind="data" page={`/map?${mapQuery.toString()}`} label={[theme === "drug" ? titleCase(drug) : null, metricLabel, yearLabel].filter(Boolean).join(" · ")} onClose={() => setGate(false)} onReady={exportCsv} />}
     </div>
   );
 }
@@ -586,8 +592,8 @@ function StateDrawer({
           {profile.markers.slice(0, 8).map((m) => (
             <li key={m.key}>
               <div className="drawer-marker-head">
-                <span className="mutation-chip">{m.mutation}</span>
-                <span className="drawer-gene">{m.gene}</span>
+                <span className="mutation-chip">{mutationLabel(m.gene, m.mutation)}</span>
+                <span className="drawer-gene">{geneLabel(m.gene)}</span>
                 <span className="drawer-value">{formatPercent(m.prevalence, 1)}</span>
               </div>
               <div className="drawer-bar">

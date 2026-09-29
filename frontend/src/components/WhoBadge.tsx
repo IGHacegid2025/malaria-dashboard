@@ -14,10 +14,10 @@ const TIPS: Record<WhoStatus, string> = {
   none: "Associated with resistance, but not classified here as a WHO validated or candidate marker.",
 };
 
-export default function WhoBadge({ status, showOther = false }: { status: WhoStatus; showOther?: boolean }) {
+export default function WhoBadge({ status, showOther = false, large = false }: { status: WhoStatus; showOther?: boolean; large?: boolean }) {
   if (status === "none" && !showOther) return null;
   return (
-    <span className={`who-badge who-${status}`} title={TIPS[status]}>
+    <span className={`who-badge who-${status}${large ? " who-badge-lg" : ""}`} title={TIPS[status]}>
       {LABELS[status]}
     </span>
   );

@@ -17,10 +17,12 @@ import { StateRanking } from "../components/InsightPanels";
 import NigeriaMap from "../components/NigeriaMap";
 import { EmptyState, Panel } from "../components/Panels";
 import StatusBadge, { PLAIN_LABELS } from "../components/StatusBadge";
+import WhoBadge from "../components/WhoBadge";
 import { StatePicker } from "../components/SelectionBar";
 import { placeLabel, useFilters } from "../filters";
 import { useSettings } from "../settings";
 import { useDashboardData } from "../hooks/useDashboardData";
+import type { WhoStatus } from "../api";
 import {
   classify,
   findRule,
@@ -29,6 +31,7 @@ import {
   weightedPrevalence,
   type Classification,
 } from "../lib/analysis";
+import { geneLabel, markerLabel, mutationLabel } from "../lib/markers";
 
 const MS_PER_YEAR = 1600;
 const BAND_COLORS: Record<Classification, string> = {
@@ -184,6 +187,8 @@ export default function ExplorePage() {
   const current = trend.find((t) => t.year === playYear);
   const stateValues = playYear !== null ? markerByState(data.observations, gene, mutation, playYear) : new Map();
   const rule = findRule(data.alerts, gene, mutation);
+  const whoStatus: WhoStatus = rule && rule.mutation_pattern === mutation ? rule.who_status ?? "none" : "none";
+  const whoRule = Boolean(rule && rule.who_status && rule.who_status !== "none");
   const currentLevel = current?.prevalence != null ? classify(rule, current.prevalence / 100) : null;
   const thresholds = (rule?.levels ?? []).map((l) => Number(l.max_prevalence)).filter((t) => t > 0 && t < 1);
   const sortedLevels = [...(rule?.levels ?? [])].sort((a, b) => a.level_order - b.level_order);
@@ -202,12 +207,12 @@ export default function ExplorePage() {
   }
   const bandLevels = [...new Set(bands.map((b) => b.level))];
   const ruleScope = !rule
-    ? "No WHO threshold defined for this marker"
+    ? "No threshold defined for this marker"
     : rule.mutation_pattern === mutation
       ? sortedLevels.length === 1
-        ? `WHO validated marker: any detection of ${mutation} is a ${PLAIN_LABELS[sortedLevels[0].classification].toLowerCase()}`
-        : `WHO thresholds specific to ${mutation}`
-      : `General ${gene} thresholds (no specific rule for ${mutation} yet)`;
+        ? `${whoStatus === "validated" ? "WHO validated marker: a" : "A"}ny detection of ${mutationLabel(gene, mutation)} is a ${PLAIN_LABELS[sortedLevels[0].classification].toLowerCase()}`
+        : `${whoRule ? "WHO thresholds" : "Thresholds"} specific to ${mutationLabel(gene, mutation)}`
+      : `General ${geneLabel(gene)} thresholds (no specific rule for ${mutationLabel(gene, mutation)} yet)`;
   const rawMax = Math.max(5, ...trend.map((t) => t.prevalence ?? 0), ...thresholds.map((t) => (t * 100 <= 70 ? t * 100 : 0))) * 1.1;
   const tickStep = rawMax <= 10 ? 2 : rawMax <= 25 ? 5 : rawMax <= 60 ? 10 : 20;
   const yMax = Math.min(100, Math.ceil(rawMax / tickStep) * tickStep);
@@ -221,7 +226,7 @@ export default function ExplorePage() {
         <div>
           <p className="eyebrow">Trends over time</p>
           <h1 className="page-title">
-            {gene} <span>{mutation}</span>
+            {geneLabel(gene)} <span>{mutationLabel(gene, mutation)}</span>
           </h1>
           <p className="page-lede">
             Press play to watch how this marker evolved across {place}, step by step. Values come from yearly
@@ -245,7 +250,7 @@ export default function ExplorePage() {
           >
             {genes.map((g) => (
               <option key={g} value={g}>
-                {g}
+                {geneLabel(g)}
               </option>
             ))}
           </select>
@@ -263,7 +268,7 @@ export default function ExplorePage() {
           >
             {mutations.map((m) => (
               <option key={m} value={m}>
-                {m}
+                {mutationLabel(gene, m)}
               </option>
             ))}
           </select>
@@ -326,7 +331,8 @@ export default function ExplorePage() {
       <div className="grid-trend">
         <Panel
           className="trend-chart-panel"
-          title={`${gene} ${mutation} prevalence, ${place}`}
+          title={`${markerLabel(gene, mutation)} prevalence, ${place}`}
+          badge={mutation ? <WhoBadge status={whoStatus} showOther large /> : undefined}
           subtitle={`Sample-weighted prevalence per year across all sources · ${ruleScope}`}
           actions={
             current && current.prevalence !== null && currentLevel ? (
@@ -382,7 +388,7 @@ export default function ExplorePage() {
                         y={t * 100}
                         stroke="var(--text-muted)"
                         strokeDasharray="4 4"
-                        label={{ value: `WHO ${Math.round(t * 100)}% · above: ${aboveLabel(t)}`, position: "insideTopRight", fill: "var(--text-muted)", fontSize: 11 }}
+                        label={{ value: `${whoRule ? "WHO " : ""}${Math.round(t * 100)}% · above: ${aboveLabel(t)}`, position: "insideTopRight", fill: "var(--text-muted)", fontSize: 11 }}
                       />
                     ))}
                   <Tooltip
@@ -445,7 +451,7 @@ export default function ExplorePage() {
                       {PLAIN_LABELS[level]}
                     </span>
                   ))}
-                  <span className="band-note">Zones follow the WHO rule of this marker</span>
+                  <span className="band-note">{whoRule ? "Zones follow the WHO rule of this marker" : "Zones follow the lab thresholds, no WHO rule for this marker"}</span>
                 </div>
               )}
             </div>
@@ -460,7 +466,7 @@ export default function ExplorePage() {
               selected={selected}
               onToggle={toggleState}
               format={(v) => formatPercent(v, 2)}
-              metricLabel={`${gene} ${mutation}`}
+              metricLabel={markerLabel(gene, mutation)}
               showSamples
             />
           </div>
@@ -473,6 +479,7 @@ export default function ExplorePage() {
             selected={selected}
             onToggle={toggleState}
             format={(v) => formatPercent(v, 1)}
+            showSamples
           />
         </Panel>
       </div>

@@ -4,6 +4,7 @@
 USE malaria_dashboard;
 
 SET FOREIGN_KEY_CHECKS = 0;
+DROP TABLE IF EXISTS admin_login_codes;
 DROP TABLE IF EXISTS partners;
 DROP TABLE IF EXISTS site_visits;
 DROP TABLE IF EXISTS report_downloads;

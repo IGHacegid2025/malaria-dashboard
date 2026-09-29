@@ -7,7 +7,9 @@ import { mediaSrc } from "../components/HeroBackdrop";
 import { CountUp, Reveal } from "../components/Motion";
 import { useDashboardData } from "../hooks/useDashboardData";
 import { availableYears, formatPercent, summariseDrugs, summariseMarkers, titleCase } from "../lib/analysis";
+import { useFilters } from "../filters";
 import { useSettings } from "../settings";
+import { geneLabel, markerLabel, markerTip, mutationLabel } from "../lib/markers";
 
 interface Slide {
   src: string;
@@ -165,6 +167,7 @@ export default function LandingPage() {
   const location = useLocation();
   const { data } = useDashboardData();
   const { settings } = useSettings();
+  const { setMarker } = useFilters();
   const [lead, setLead] = useState<TeamMember | null>(null);
   const [activities, setActivities] = useState<Activity[]>([]);
   const [photo, setPhoto] = useState<number | null>(null);
@@ -290,8 +293,15 @@ export default function LandingPage() {
               {[0, 1].map((copy) => (
                 <div key={copy} className="signal-ticker-set" aria-hidden={copy === 1}>
                   {Array.from({ length: Math.ceil(10 / stats.ticker.length) }, () => stats.ticker).flat().map((m, i) => (
-                    <Link key={`${m.key}-${i}`}to={`/dashboard?year=${stats.latest}&marker=${encodeURIComponent(`${m.gene}|${m.mutation}`)}`} className={`signal-chip ${m.classification}`} tabIndex={copy || i >= stats.ticker.length ? -1 : 0}>
-                      <em>{m.gene}</em> {m.mutation}
+                    <Link
+                      key={`${m.key}-${i}`}
+                      to={`/trends?marker=${encodeURIComponent(`${m.gene}|${m.mutation}`)}`}
+                      onClick={() => setMarker(`${m.gene}|${m.mutation}`)}
+                      title={markerTip(m.gene, m.mutation) ?? `See the trend of ${markerLabel(m.gene, m.mutation)}`}
+                      className={`signal-chip ${m.classification}`}
+                      tabIndex={copy || i >= stats.ticker.length ? -1 : 0}
+                    >
+                      <em>{geneLabel(m.gene)}</em> {mutationLabel(m.gene, m.mutation)}
                       <strong>{formatPercent(m.prevalence)}</strong>
                     </Link>
                   ))}

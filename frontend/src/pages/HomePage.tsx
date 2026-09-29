@@ -18,7 +18,7 @@ import ReportGate from "../components/ReportGate";
 import ResistanceTable from "../components/ResistanceTable";
 import SelectionBar from "../components/SelectionBar";
 import StatusBadge from "../components/StatusBadge";
-import CiteBlock from "../components/CiteBlock";
+import CiteBlock, { useRelease } from "../components/CiteBlock";
 import SurveySource from "../components/SurveySource";
 import { placeLabel, useFilters } from "../filters";
 import { useSettings } from "../settings";
@@ -41,6 +41,7 @@ import {
   type DrugOutlook,
   type HrpSummary,
 } from "../lib/analysis";
+import { markerLabel } from "../lib/markers";
 
 export const FUNDING_TEXT = [
   "The concept of the molecular surveillance reporting tool (dashboard) was developed by Dr. Ifeyinwa Aniebo in her role as Principal Investigator (PI), a Calestous Juma Science Leadership Fellow, and Associate Professor of Molecular Biology and Genomics from a 5 year grant funding from the Bill and Melinda Gates Foundation.",
@@ -78,6 +79,8 @@ function headline(place: string, year: number, drugs: DrugOutlook[], hrp: HrpSum
 export default function HomePage() {
   const { data, error } = useDashboardData();
   const { settings: siteSettings } = useSettings();
+  const release = useRelease();
+  const siteHost = (siteSettings?.["site.public_url"] || "https://para-sight.org/").replace(/^https?:\/\//, "").replace(/\/$/, "");
   const { view, setView, year, setYear, states: selected, setStates, toggleState, marker, setMarker } = useFilters();
 
   const years = useMemo(() => (data ? availableYears(data.observations, data.hrp) : []), [data]);
@@ -154,7 +157,7 @@ export default function HomePage() {
     ? markerByState(data.observations, selectedMarker.gene, selectedMarker.mutation, year)
     : insights.mis.values;
   const mapLabel = selectedMarker
-    ? `Share of samples carrying ${selectedMarker.gene} ${selectedMarker.mutation}, ${year}`
+    ? `Share of samples carrying ${markerLabel(selectedMarker.gene, selectedMarker.mutation)}, ${year}`
     : insights.mis.values.size
       ? `Children aged 6 to 59 months testing positive for malaria (microscopy), ${surveyName(year)}`
       : `No data available for ${year}`;
@@ -175,11 +178,21 @@ export default function HomePage() {
   const place = placeLabel(selected, names);
   const summary = headline(place, year, insights.drugs, insights.hrp);
   const detailed = view === "detailed";
+  const reportQuery = new URLSearchParams(window.location.search);
+  reportQuery.set("year", String(year));
+  const reportPage = `/dashboard?${reportQuery.toString()}`;
+  const reportLabel = [
+    `${place}, ${year}`,
+    selectedMarker ? markerLabel(selectedMarker.gene, selectedMarker.mutation) : null,
+    detailed ? "detailed view" : "summary view",
+  ]
+    .filter(Boolean)
+    .join(" · ");
 
   const mapPanel = (
     <Panel
       className={`map-panel ${detailed ? "col-5" : "col-12 map-wide"}`}
-      title={selectedMarker ? `${selectedMarker.gene} ${selectedMarker.mutation} by state` : "Malaria in children by state"}
+      title={selectedMarker ? `${markerLabel(selectedMarker.gene, selectedMarker.mutation)} by state` : "Malaria in children by state"}
       subtitle={mapLabel}
       info={selectedMarker ? GLOSSARY.marker : GLOSSARY.mis}
       actions={
@@ -198,7 +211,7 @@ export default function HomePage() {
             disabled={!selectedMarker && detected.length === 0}
             onClick={() => setMapMetric("resistance")}
           >
-            {selectedMarker ? `${selectedMarker.gene} ${selectedMarker.mutation}` : "Resistance marker"}
+            {selectedMarker ? `${markerLabel(selectedMarker.gene, selectedMarker.mutation)}` : "Resistance marker"}
           </button>
         </div>
       }
@@ -223,7 +236,7 @@ export default function HomePage() {
             States ranked
             <span>{selected.length ? `${selected.length} selected` : "tap to select one or more"}</span>
           </div>
-          <StateRanking values={mapValues} names={names} selected={selected} onToggle={toggleState} format={mapFormat} />
+          <StateRanking values={mapValues} names={names} selected={selected} onToggle={toggleState} format={mapFormat} showSamples={Boolean(selectedMarker)} />
         </div>
       </div>
       {!selectedMarker && mapValues.size > 0 && <SurveySource year={year} />}
@@ -238,9 +251,12 @@ export default function HomePage() {
           <div>
             <p className="eyebrow">
               Genomic surveillance ·{" "}
-              <RotatingText
-                items={["antimalarial drug resistance", "diagnostic resistance (hrp2 / hrp3)", "parasite diversity and species"]}
-              />
+              <span className="no-print">
+                <RotatingText
+                  items={["antimalarial drug resistance", "diagnostic resistance (hrp2 / hrp3)", "parasite diversity and species"]}
+                />
+              </span>
+              <span className="print-inline">report</span>
             </p>
             <h1 className="page-title">
               {place}, <span>{year}</span>
@@ -272,8 +288,8 @@ export default function HomePage() {
         </div>
         <p className="print-only print-meta">
           Malaria genomic surveillance report, Ify Aniebo Lab, Institute of Genomics and Global Health. Generated on{" "}
-          {new Date().toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" })} from {window.location.host}.
-          Selection: {place}, {year}.
+          {new Date().toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" })} from {siteHost}.
+          Selection: {place}, {year}.{release.text ? ` ${release.text}.` : ""}{release.doi ? ` doi:${release.doi}.` : ""}
         </p>
         <p className="page-lede">
           <strong>{summary.lead}</strong> {summary.text}
@@ -317,7 +333,7 @@ export default function HomePage() {
             highAlerts.length
               ? highAlerts
                   .slice(0, 3)
-                  .map((m) => `${m.gene} ${m.mutation}`)
+                  .map((m) => markerLabel(m.gene, m.mutation))
                   .join(", ") + (highAlerts.length > 3 ? ` and ${highAlerts.length - 3} more` : "")
               : "No marker above the WHO alert level"
           }
@@ -338,7 +354,7 @@ export default function HomePage() {
               {GLOSSARY.marker} {GLOSSARY.who}
             </InfoTip>
           </h2>
-          <p>Each card shows the strongest resistance signal for a drug. Tap a card to see where it was found.</p>
+          <p>Each card shows the strongest resistance signal for a drug.<span className="no-print"> Tap a card to see where it was found.</span></p>
         </div>
         {insights.drugs.length === 0 && insights.hrp.tested === 0 ? (
           <div className="no-data-card">
@@ -378,7 +394,11 @@ export default function HomePage() {
               className="col-7"
               title="Antimalarial resistance markers"
               info={GLOSSARY.marker}
-              subtitle={`${place}, ${year}. Hover a marker for details, click it to map it across states.`}
+              subtitle={
+                <>
+                  {place}, {year}.<span className="no-print"> Hover a marker for details, click it to map it across states.</span>
+                </>
+              }
             >
               <ResistanceTable
                 markers={insights.markers}
@@ -419,7 +439,7 @@ export default function HomePage() {
           <CiteBlock compact />
         </Panel>
       </div>
-      {gate && <ReportGate onClose={() => setGate(false)} />}
+      {gate && <ReportGate label={reportLabel} page={reportPage} onClose={() => setGate(false)} onReady={() => window.setTimeout(() => window.print(), 250)} />}
     </div>
   );
 }

@@ -252,6 +252,26 @@ export default function AppearancePage() {
                 <span>Public address of the dashboard (used in the citation)</span>
                 <input value={draft["site.public_url"] ?? ""} placeholder="https://para-sight.org/" onChange={(e) => set("site.public_url", e.target.value)} />
               </label>
+              <label className="admin-field">
+                <span>Data release</span>
+                <input value={draft["site.data_release"] ?? ""} placeholder="2026.1" onChange={(e) => set("site.data_release", e.target.value)} />
+              </label>
+              <label className="admin-field">
+                <span>Release date</span>
+                <input type="date" value={draft["site.data_release_date"] ?? ""} onChange={(e) => set("site.data_release_date", e.target.value)} />
+              </label>
+              <label className="admin-field grow">
+                <span>DOI (Zenodo)</span>
+                <input value={draft["site.doi"] ?? ""} placeholder="10.5281/zenodo.1234567" onChange={(e) => set("site.doi", e.target.value.trim())} />
+              </label>
+            </div>
+            <div className="admin-form-row" onPointerDownCapture={() => point("footer")} onFocusCapture={() => point("footer")}>
+              <label className="admin-field grow">
+                <span>Contact email (privacy requests)</span>
+                <input type="email" value={draft["site.contact_email"] ?? ""} placeholder="lab@example.org" onChange={(e) => set("site.contact_email", e.target.value)} />
+              </label>
+            </div>
+            <div className="admin-form-row" onPointerDownCapture={() => point("footer")} onFocusCapture={() => point("footer")}>
               <label className="admin-field grow">
                 <span>Institute website (footer link)</span>
                 <input value={draft["site.website_url"] ?? ""} placeholder="https://" onChange={(e) => set("site.website_url", e.target.value)} />

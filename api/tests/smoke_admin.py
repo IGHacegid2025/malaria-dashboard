@@ -326,15 +326,22 @@ check("visitors map needs login", client.get("/api/admin/visitors").status_code 
 
 r = client.post("/api/report-requests", headers=lagos, json={"name": "A", "email": "bad"})
 check("report request validated", r.status_code == 400)
-r = client.post("/api/report-requests", headers=lagos, json={"name": "Ada Obi", "email": "Ada@Health.gov.ng", "organization": "NMEP", "page": "/dashboard?year=2023"})
+r = client.post("/api/report-requests", headers=lagos, json={"name": "Ada Obi", "email": "ada@health.gov.ng"})
+check("download refused without privacy consent", r.status_code == 400 and "privacy" in r.text.lower())
+r = client.post("/api/report-requests", headers=lagos, json={"name": "Ada Obi", "email": "Ada@Health.gov.ng", "organization": "NMEP", "page": "/dashboard?year=2023", "consent": True})
 check("report request stored", r.status_code == 200)
 r = client.get("/api/admin/report-downloads", headers=auth(case_token), params={"search": "nmep"})
 d = r.json() if r.status_code == 200 else {}
 row = (d.get("rows") or [{}])[0]
 check("report download with country from IP", d.get("total") == 1 and row.get("country_code") == "NG" and row.get("email") == "ada@health.gov.ng", d)
+check("report download keeps no IP address", "ip_address" not in row and row.get("report") == "Nigeria, 2023", row)
 r = client.get("/api/admin/report-downloads.csv", headers=auth(case_token))
-check("report downloads CSV export", r.status_code == 200 and "ada@health.gov.ng" in r.text)
+check("report downloads CSV export", r.status_code == 200 and "ada@health.gov.ng" in r.text and "ip_address" not in r.text.splitlines()[0] and "/dashboard?year=2023" in r.text)
 check("report downloads need login", client.get("/api/admin/report-downloads").status_code == 401)
+r = client.post("/api/report-requests", headers=lagos, json={"name": "Ada Obi", "email": "ada@health.gov.ng", "kind": "data", "label": "crt K76T, 2021", "page": "/map", "consent": True})
+rows = client.get("/api/admin/report-downloads", headers=auth(case_token)).json().get("rows", [])
+check("data download recorded with its type", r.status_code == 200 and rows[0].get("kind") == "data" and rows[0].get("report") == "crt K76T, 2021", rows[:1])
+check("unknown download type refused", client.post("/api/report-requests", headers=lagos, json={"name": "Ada Obi", "email": "ada@health.gov.ng", "kind": "x", "consent": True}).status_code == 400)
 security.TRUST_PROXY = False
 
 check("seeded activities public", len(client.get("/api/activities").json()) == 4)
@@ -404,6 +411,40 @@ r = client.put("/api/admin/settings", headers=auth(case_token), json={**settings
 check("unknown menu tab refused", r.status_code == 400)
 r = client.put("/api/admin/settings", headers=auth(case_token), json={**settings_now, "nav.hidden": ["team", "projects"]})
 check("menu tabs saved", r.status_code == 200 and client.get("/api/settings").json()["nav.hidden"] == ["team", "projects"], r.text[:200])
+
+for key, bad in (("site.doi", "not a doi"), ("site.contact_email", "nobody"), ("site.data_release_date", "2026-13-40")):
+    r = client.put("/api/admin/settings", headers=auth(case_token), json={**settings_now, key: bad})
+    check(f"invalid {key} refused", r.status_code == 400, r.text[:120])
+r = client.put("/api/admin/settings", headers=auth(case_token), json={**settings_now, "site.doi": "10.5281/zenodo.1234567", "site.data_release": "2026.1"})
+check("DOI and data release saved", r.status_code == 200 and client.get("/api/settings").json()["site.doi"] == "10.5281/zenodo.1234567")
+
+from db import execute as db_execute
+
+db_execute("UPDATE admin_users SET failed_attempts = 0, locked_until = NULL WHERE email = %s", (OWNER,))
+import mailer
+sent = []
+mailer.configured = lambda: True
+mailer.send = lambda to, subject, text: sent.append((to, text))
+r = client.post("/api/auth/login", json={"email": OWNER, "password": "Owner2026pass"})
+body = r.json() if r.status_code == 200 else {}
+check("super admin asked for an email code", body.get("two_factor") is True and "token" not in body and len(sent) == 1, r.text[:200])
+code = "".join(ch for ch in (sent[-1][1] if sent else "") if ch.isdigit())[:6]
+challenge = body.get("challenge", "")
+r = client.post("/api/auth/verify-code", json={"challenge": challenge, "code": "000000" if code != "000000" else "111111"})
+check("wrong sign-in code refused", r.status_code == 401)
+r = client.post("/api/auth/verify-code", json={"challenge": challenge, "code": code})
+check("right sign-in code gives a session", r.status_code == 200 and r.json().get("token"), r.text[:200])
+r = client.post("/api/auth/verify-code", json={"challenge": challenge, "code": code})
+check("sign-in code works only once", r.status_code == 401)
+r = client.post("/api/auth/login", json={"email": OWNER, "password": "Owner2026pass"})
+challenge = r.json().get("challenge", "")
+code = "".join(ch for ch in (sent[-1][1] if sent else "") if ch.isdigit())[:6]
+for _ in range(5):
+    client.post("/api/auth/verify-code", json={"challenge": challenge, "code": "999999" if code != "999999" else "888888"})
+r = client.post("/api/auth/verify-code", json={"challenge": challenge, "code": code})
+check("sign-in code blocked after 5 wrong tries", r.status_code == 401)
+r = client.post("/api/auth/login", json={"email": "case@test.ng", "password": "Case2026pass"})
+check("plain admins sign in without a code", r.status_code == 200 and r.json().get("token") and len(sent) == 2, r.text[:200])
 
 failed = [label for label, ok in results if not ok]
 print(f"\n{len(results) - len(failed)}/{len(results)} checks passed")

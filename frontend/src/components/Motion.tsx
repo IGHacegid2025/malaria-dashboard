@@ -14,10 +14,11 @@ export function CountUp({
 }) {
   const [shown, setShown] = useState(0);
   const from = useRef(0);
+  const stop = useRef<(() => void) | null>(null);
 
   useEffect(() => {
     const start = from.current;
-    return animate(
+    stop.current = animate(
       duration,
       (k) => {
         const next = start + (value - start) * k;
@@ -26,9 +27,25 @@ export function CountUp({
       },
       easeOut,
     );
+    return () => stop.current?.();
   }, [value, duration]);
 
-  return <span className="count-up">{format(shown)}</span>;
+  useEffect(() => {
+    const settle = () => {
+      stop.current?.();
+      from.current = value;
+      setShown(value);
+    };
+    window.addEventListener("beforeprint", settle);
+    return () => window.removeEventListener("beforeprint", settle);
+  }, [value]);
+
+  return (
+    <span className="count-up">
+      <span className="count-live">{format(shown)}</span>
+      <span className="count-final">{format(value)}</span>
+    </span>
+  );
 }
 
 function offsetLabel(date: Date) {

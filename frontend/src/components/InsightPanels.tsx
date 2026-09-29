@@ -15,6 +15,7 @@ import { stepFor } from "./NigeriaMap";
 import { CountUp } from "./Motion";
 import StatusBadge from "./StatusBadge";
 import { TooltipLayer, useTooltip } from "./Tooltip";
+import { LOW_SAMPLES } from "../lib/stats";
 
 const WHO_HRP_THRESHOLD = 0.05;
 
@@ -336,19 +337,24 @@ export function StateRanking({
   selected,
   onToggle,
   format,
+  showSamples = false,
 }: {
   values: Map<string, MapValue>;
   names: Record<string, string>;
   selected: string[];
   onToggle: (code: string) => void;
   format: (v: number) => string;
+  showSamples?: boolean;
 }) {
   const rows = [...values.entries()].sort((a, b) => b[1].value - a[1].value);
+  const lowN = (v: MapValue) => showSamples && v.samples > 0 && v.samples < LOW_SAMPLES;
+  const anyLow = rows.some(([, v]) => lowN(v));
   const max = rows.length ? rows[0][1].value : 0;
   if (rows.length === 0) {
     return <div className="empty-state">No state-level data.</div>;
   }
   return (
+    <>
     <ol className="ranking">
       {rows.map(([code, v], i) => (
         <li key={code}>
@@ -358,7 +364,14 @@ export function StateRanking({
             aria-pressed={selected.includes(code)}
           >
             <span className="ranking-index">{selected.includes(code) ? "✓" : i + 1}</span>
-            <span className="ranking-name">{names[code] ?? code}</span>
+            <span className="ranking-name">
+              {names[code] ?? code}
+              {lowN(v) && (
+                <span className="ranking-lown" title={`Only ${v.samples} samples: interpret with care`}>
+                  n={v.samples}
+                </span>
+              )}
+            </span>
             <span className="ranking-track" aria-hidden="true">
               <span
                 className="ranking-fill"
@@ -373,5 +386,12 @@ export function StateRanking({
         </li>
       ))}
     </ol>
+    {anyLow && (
+      <p className="ranking-note">
+        <span className="no-print">n = fewer than {LOW_SAMPLES} samples in the state, interpret with care.</span>
+        <span className="print-inline">* fewer than {LOW_SAMPLES} samples in the state, interpret with care.</span>
+      </p>
+    )}
+    </>
   );
 }

@@ -11,13 +11,14 @@ interface Download {
   name: string;
   email: string;
   organization: string | null;
-  ip_address: string | null;
+  kind: "report" | "data";
   country_code: string | null;
   region: string | null;
   city: string | null;
   latitude: string | null;
   longitude: string | null;
   page: string | null;
+  report: string;
   created_at: string;
 }
 
@@ -71,7 +72,7 @@ export default function ReportDownloadsPage() {
     <div className="admin-page">
       <div className="admin-page-head">
         <h1>Report downloads</h1>
-        <p>Everyone who exported a PDF report from the dashboard. The country and city come from their IP address, the visitor is not asked.</p>
+        <p>Everyone who downloaded a PDF report or a data file from the website. The country and city are worked out from the connection when the report is requested. The IP address itself is not kept.</p>
       </div>
       {error && <div className="admin-alert error">{error}</div>}
       {exportError && <div className="admin-alert error">{exportError}</div>}
@@ -80,7 +81,7 @@ export default function ReportDownloadsPage() {
         <div className="visit-stats">
           <div className="visit-stat">
             <strong>{data.stats.downloads.toLocaleString()}</strong>
-            <span>reports downloaded</span>
+            <span>downloads</span>
           </div>
           <div className="visit-stat">
             <strong>{data.stats.people.toLocaleString()}</strong>
@@ -125,11 +126,11 @@ export default function ReportDownloadsPage() {
               <thead>
                 <tr>
                   <th>When</th>
+                  <th>Type</th>
                   <th>Name</th>
                   <th>Email</th>
                   <th>Organisation</th>
                   <th>Place</th>
-                  <th>IP address</th>
                   <th>Report</th>
                 </tr>
               </thead>
@@ -137,6 +138,9 @@ export default function ReportDownloadsPage() {
                 {data?.rows.map((r) => (
                   <tr key={r.id}>
                     <td>{formatDate(r.created_at)}</td>
+                    <td>
+                      <span className={`download-kind ${r.kind}`}>{r.kind === "data" ? "Data (CSV)" : "PDF report"}</span>
+                    </td>
                     <td>
                       <strong>{r.name}</strong>
                     </td>
@@ -147,9 +151,14 @@ export default function ReportDownloadsPage() {
                     <td>
                       {flag(r.country_code)} {place(r.city, r.region, r.country_code)}
                     </td>
-                    <td className="mono">{r.ip_address ?? ""}</td>
                     <td className="ellipsis" title={r.page ?? ""}>
-                      {r.page ?? ""}
+                      {r.page?.startsWith("/") ? (
+                        <a href={r.page} target="_blank" rel="noreferrer">
+                          {r.report || r.page}
+                        </a>
+                      ) : (
+                        r.report || r.page || ""
+                      )}
                     </td>
                   </tr>
                 ))}

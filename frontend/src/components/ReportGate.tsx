@@ -21,9 +21,36 @@ function remembered(): Reporter {
   return { name: "", email: "", organization: "" };
 }
 
-export default function ReportGate({ onClose }: { onClose: () => void }) {
+const TEXT = {
+  report: {
+    title: "Download the PDF report",
+    intro: "Tell us who you are so the lab knows how the evidence is used. The report opens right after.",
+    button: "Download report",
+  },
+  data: {
+    title: "Download the data",
+    intro: "Tell us who you are so the lab knows how the data is used. The file downloads right after.",
+    button: "Download data",
+  },
+};
+
+export default function ReportGate({
+  onClose,
+  onReady,
+  kind = "report",
+  label,
+  page,
+}: {
+  onClose: () => void;
+  onReady: () => void;
+  kind?: "report" | "data";
+  label?: string;
+  page?: string;
+}) {
+  const text = TEXT[kind];
   const [form, setForm] = useState<Reporter>(remembered);
   const [busy, setBusy] = useState(false);
+  const [consent, setConsent] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const first = useRef<HTMLInputElement>(null);
 
@@ -39,14 +66,14 @@ export default function ReportGate({ onClose }: { onClose: () => void }) {
     setBusy(true);
     setError(null);
     try {
-      await api.requestReport({ ...form, page: `${window.location.pathname}${window.location.search}` });
+      await api.requestReport({ ...form, kind, label, consent, page: page ?? `${window.location.pathname}${window.location.search}` });
       try {
         localStorage.setItem(KEY, JSON.stringify(form));
       } catch {
         /* ignore */
       }
       onClose();
-      window.setTimeout(() => window.print(), 250);
+      onReady();
     } catch (err) {
       setError((err as Error).message);
       setBusy(false);
@@ -69,8 +96,8 @@ export default function ReportGate({ onClose }: { onClose: () => void }) {
             <path d="M14 3v5h5M10 13h6M10 17h6" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" />
           </svg>
         </div>
-        <h2 id="gate-title">Download the PDF report</h2>
-        <p>Tell us who you are so the lab knows how the evidence is used. The report opens right after.</p>
+        <h2 id="gate-title">{text.title}</h2>
+        <p>{text.intro}</p>
         <label className="gate-field">
           <span>Full name *</span>
           <input ref={first} value={form.name} onChange={set("name")} required minLength={2} maxLength={160} autoComplete="name" />
@@ -83,9 +110,18 @@ export default function ReportGate({ onClose }: { onClose: () => void }) {
           <span>Organisation</span>
           <input value={form.organization} onChange={set("organization")} maxLength={200} autoComplete="organization" placeholder="e.g. NMEP, State Ministry of Health" />
         </label>
+        <label className="gate-consent">
+          <input type="checkbox" checked={consent} onChange={(e) => setConsent(e.target.checked)} required />
+          <span>
+            I agree that the IGH team keeps these details to follow how the dashboard is used.{" "}
+            <a href="/privacy" target="_blank" rel="noreferrer">
+              Privacy notice
+            </a>
+          </span>
+        </label>
         {error && <div className="gate-error">{error}</div>}
-        <button type="submit" className="gate-submit" disabled={busy}>
-          {busy ? "Preparing..." : "Download report"}
+        <button type="submit" className="gate-submit" disabled={busy || !consent}>
+          {busy ? "Preparing..." : text.button}
         </button>
         <small>Your details are only seen by the IGH team and are never shared.</small>
       </form>

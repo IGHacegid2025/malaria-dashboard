@@ -124,6 +124,43 @@ is built on this computer and the API serves it, so one process runs the whole s
 Environment variables still win over `connection.config`, for hosts that set them in their panel.
 `connection.config` holds passwords: it is ignored by git and must never be shared.
 
+## Running in production
+
+**HTTPS.** Put the site behind a web server that handles certificates. With Caddy, this is the whole configuration
+(the certificate is obtained and renewed automatically), then set `TRUST_PROXY=1` in `connection.config`:
+
+```
+para-sight.org {
+    reverse_proxy 127.0.0.1:8000
+}
+```
+
+**Nightly backup.** `sql/backup_nightly.sh` saves the database (compressed) and `api/media` to `backups/`, and removes
+copies older than 30 days (`KEEP_DAYS`). Add it to cron on the server (`crontab -e`):
+
+```
+30 2 * * * /path/to/malaria-dashboard/sql/backup_nightly.sh >> /path/to/malaria-dashboard/backups/backup.log 2>&1
+```
+
+Copy the `backups/` folder to another machine or cloud storage from time to time: a backup on the same server does not
+survive the loss of that server. On this Windows computer, `sql\backup_database.ps1` does the same by hand.
+
+**Alert when the site is down.** `https://para-sight.org/api/health` answers `{"status":"ok"}` only when the API and the
+database both work. Add this address to a free monitoring service (for example UptimeRobot, check every 5 minutes) with
+the lab email as contact.
+
+**Two-step sign-in.** Once `SMTP_HOST` and `SMTP_FROM` are set in `connection.config`, super admins receive a 6-digit
+code by email after their password (valid 10 minutes, 5 tries). Admins keep signing in with the password only. Set
+`TWO_FACTOR=0` to switch it off. `python api/check_setup.py` tells whether the email server is set.
+
+**DOI and data release.** Create a free account on zenodo.org, upload a snapshot of the data (the CSV exports and a short
+description), choose "Dataset" and publish: Zenodo gives a DOI like `10.5281/zenodo.1234567`. Enter it in Admin > Site
+settings with the data release number and date. They then appear in the citation, the footer and the PDF report. For a
+new release, create a new version of the same Zenodo record and update the three fields.
+
+**Sharing preview.** Links shared on WhatsApp, LinkedIn or by email show `frontend/public/og-image.jpg` with the site
+title. Rebuild the image with `python assets/make_og_image.py` after changing the photo or the text.
+
 ## Visitor locations
 
 Visits and PDF report requests are located from the IP address with the free DB-IP city database

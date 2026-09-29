@@ -12,6 +12,10 @@ export interface SiteSettings {
   "site.github_url": string;
   "site.website_url": string;
   "site.public_url": string;
+  "site.contact_email": string;
+  "site.data_release": string;
+  "site.data_release_date": string;
+  "site.doi": string;
   "site.linkedin_url": string;
   "site.default_year": number | "auto";
   "theme.primary": string;

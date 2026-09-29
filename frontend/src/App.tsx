@@ -6,8 +6,10 @@ import AdminApp from "./admin/AdminApp";
 import { FilterProvider } from "./filters";
 import { useVisitTracking } from "./lib/track";
 import { SettingsProvider, useSettings } from "./settings";
+import { useRelease } from "./components/CiteBlock";
 import ExplorePage from "./pages/ExplorePage";
 import GenomicsPage from "./pages/GenomicsPage";
+import PrivacyPage from "./pages/PrivacyPage";
 import HomePage from "./pages/HomePage";
 import LandingPage from "./pages/LandingPage";
 import TeamPage from "./pages/TeamPage";
@@ -52,6 +54,7 @@ function Logo() {
 function PublicSite() {
   useVisitTracking();
   const { settings } = useSettings();
+  const release = useRelease();
   const title = settings?.["site.title"] ?? "Malaria Genomic Surveillance";
   const hidden = new Set(settings ? settings["nav.hidden"] ?? [] : ["projects"]);
   const off = (key: string, page: ReactElement) => (settings && hidden.has(key) ? <Navigate to="/" replace /> : page);
@@ -101,13 +104,25 @@ function PublicSite() {
             <Route path="/sources" element={off("sources", <SourcesPage />)} />
             <Route path="/genomics" element={off("genomics", <GenomicsPage />)} />
             <Route path="/projects" element={off("projects", <ProjectsPage />)} />
+            <Route path="/privacy" element={<PrivacyPage />} />
           </Routes>
         </main>
         <footer className="app-footer">
           <span>
             {lab}, {institute}
           </span>
-          <span>Data: IGH sequencing and published studies</span>
+          <span>
+            Data: IGH sequencing and published studies
+            {release.text && <> · {release.text}</>}
+            {release.doi && (
+              <>
+                {" · "}
+                <a href={`https://doi.org/${release.doi}`} target="_blank" rel="noreferrer">
+                  doi:{release.doi}
+                </a>
+              </>
+            )}
+          </span>
           <span className="footer-links">
             {website && (
               <a href={website} target="_blank" rel="noreferrer">
@@ -135,6 +150,9 @@ function PublicSite() {
               </a>
             )}
           </span>
+          <NavLink to="/privacy" className="footer-admin">
+            Privacy
+          </NavLink>
           <NavLink to="/admin" className="footer-admin">
             Admin
           </NavLink>

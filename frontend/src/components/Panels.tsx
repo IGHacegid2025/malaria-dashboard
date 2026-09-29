@@ -5,6 +5,7 @@ import InfoTip from "./InfoTip";
 
 export function Panel({
   title,
+  badge,
   subtitle,
   actions,
   info,
@@ -12,6 +13,7 @@ export function Panel({
   className = "",
 }: {
   title: string;
+  badge?: ReactNode;
   subtitle?: ReactNode;
   actions?: ReactNode;
   info?: ReactNode;
@@ -24,6 +26,7 @@ export function Panel({
         <div>
           <h2>
             {title}
+            {badge}
             {info && <InfoTip label={`About ${title}`}>{info}</InfoTip>}
           </h2>
           {subtitle && <p className="panel-subtitle">{subtitle}</p>}

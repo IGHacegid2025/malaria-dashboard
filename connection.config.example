@@ -16,3 +16,12 @@ ALLOWED_ORIGINS=https://para-sight.org
 
 # 1 behind nginx, Apache or a hosting proxy, so visitor IPs are read correctly
 TRUST_PROXY=0
+
+# Email server, used to send sign-in codes to super admins (two-step sign-in).
+# Leave SMTP_HOST empty to sign in with the password only.
+SMTP_HOST=
+SMTP_PORT=587
+SMTP_SECURITY=starttls
+SMTP_USER=
+SMTP_PASSWORD=
+SMTP_FROM=Malaria dashboard <no-reply@para-sight.org>

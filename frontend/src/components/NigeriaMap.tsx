@@ -3,6 +3,7 @@
 import { useEffect, useLayoutEffect, useMemo, useRef, useState } from "react";
 import { STATE_PATHS } from "../data/nigeriaMap";
 import { animate } from "../lib/motion";
+import { LOW_SAMPLES, ciText } from "../lib/stats";
 import { TooltipLayer, useTooltip } from "./Tooltip";
 
 export interface MapValue {
@@ -180,10 +181,17 @@ export default function NigeriaMap({
                         <strong>{entry ? format(entry.value) : "No data"}</strong>
                       </div>
                       {showSamples && entry && entry.samples > 0 && (
-                        <div className="tooltip-row">
-                          <span>Samples</span>
-                          <strong>{entry.samples.toLocaleString()}</strong>
-                        </div>
+                        <>
+                          <div className="tooltip-row">
+                            <span>Samples</span>
+                            <strong>{entry.samples.toLocaleString()}</strong>
+                          </div>
+                          <div className="tooltip-row">
+                            <span>95% CI</span>
+                            <strong>{ciText(entry.value, entry.samples)}</strong>
+                          </div>
+                          {entry.samples < LOW_SAMPLES && <div className="tooltip-warn">Few samples: interpret with care</div>}
+                        </>
                       )}
                       <div className="tooltip-hint">
                         {hint ?? (isSelected ? "Click to remove from selection" : "Click to add to selection")}

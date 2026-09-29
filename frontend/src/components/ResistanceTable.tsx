@@ -5,6 +5,8 @@ import { formatPercent, titleCase, type MarkerSummary } from "../lib/analysis";
 import StatusBadge from "./StatusBadge";
 import WhoBadge from "./WhoBadge";
 import { TooltipLayer, useTooltip } from "./Tooltip";
+import { geneLabel, markerTip, mutationLabel } from "../lib/markers";
+import { ciText } from "../lib/stats";
 
 const DRUG_ORDER = [
   "artemisinin",
@@ -101,8 +103,8 @@ export default function ResistanceTable({ markers, selectedKey, onSelect, scope 
                             e,
                             <div className="marker-tip">
                               <div className="marker-tip-head">
-                                <span className="mutation-chip">{m.mutation}</span>
-                                <span className="marker-tip-gene">{m.gene}</span>
+                                <span className="mutation-chip">{mutationLabel(m.gene, m.mutation)}</span>
+                                <span className="marker-tip-gene">{geneLabel(m.gene)}</span>
                                 <WhoBadge status={m.whoStatus} />
                                 <StatusBadge level={m.classification} />
                               </div>
@@ -124,6 +126,12 @@ export default function ResistanceTable({ markers, selectedKey, onSelect, scope 
                                 <span>Samples</span>
                                 <strong>{m.samples.toLocaleString()}</strong>
                               </div>
+                              {m.samples > 0 && (
+                                <div className="tooltip-row">
+                                  <span>95% CI</span>
+                                  <strong>{ciText(m.prevalence, m.samples)}</strong>
+                                </div>
+                              )}
                               {m.thresholds.length > 0 && (
                                 <div className="tooltip-row">
                                   <span>WHO thresholds</span>
@@ -149,8 +157,8 @@ export default function ResistanceTable({ markers, selectedKey, onSelect, scope 
                         onMouseLeave={hide}
                       >
                         <td className="marker-cell">
-                          <span className="gene-name">{m.gene}</span>
-                          <span className="mutation-chip">{m.mutation}</span>
+                          <span className="gene-name" title={markerTip(m.gene, m.mutation)}>{geneLabel(m.gene)}</span>
+                          <span className="mutation-chip">{mutationLabel(m.gene, m.mutation)}</span>
                           <WhoBadge status={m.whoStatus} />
                         </td>
                         <td className="num strong">{formatPercent(m.prevalence, 2)}</td>
@@ -181,7 +189,7 @@ export default function ResistanceTable({ markers, selectedKey, onSelect, scope 
       <div className="table-footer">
         <span>
           Prevalence is weighted by sample size across {scope} and sources.
-          Ticks mark WHO alert thresholds.
+          <span className="no-print"> Ticks mark WHO alert thresholds.</span>
         </span>
         {hidden > 0 && (
           <button className="link-button" onClick={() => setShowAll((v) => !v)}>

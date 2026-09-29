@@ -10,6 +10,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 import config
 import db
+import mailer
 from security import JWT_SECRET
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -18,7 +19,7 @@ TABLES = [
     "admin_users", "alert_levels", "alert_rules", "articles", "audit_log", "genes", "hrp_deletions",
     "lab_activities", "mis_prevalence", "moi_distribution", "mutations", "observations", "partners",
     "publications", "report_downloads", "sequencing_batches", "site_settings", "site_visits",
-    "species_observations", "states", "team_members", "uploads",
+    "species_observations", "states", "team_members", "uploads", "admin_login_codes",
 ]
 COLUMNS = {
     "team_members": ["linkedin_url", "is_alumni", "is_deleted"],
@@ -69,6 +70,7 @@ def main():
         conn.close()
 
     report(not JWT_SECRET.startswith("dev-only"), "JWT_SECRET set for production", blocking=False)
+    report(mailer.configured(), "email server set (sign-in codes for super admins)", blocking=False)
     media = os.path.join(HERE, "media")
     os.makedirs(media, exist_ok=True)
     report(os.access(media, os.W_OK), f"media folder writable ({media})")

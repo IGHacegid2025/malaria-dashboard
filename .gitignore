@@ -9,3 +9,4 @@ api/media/
 api/geo/
 connection.config
 sql/deploy/
+backups/

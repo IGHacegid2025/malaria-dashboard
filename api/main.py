@@ -6,7 +6,7 @@ from typing import Optional
 
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import FileResponse
+from fastapi.responses import FileResponse, HTMLResponse
 from fastapi.staticfiles import StaticFiles
 
 from admin_routes import MEDIA_DIR, load_settings, router as admin_router
@@ -272,8 +272,11 @@ if os.path.isfile(INDEX_FILE):
         if path == "api" or path.startswith("api/"):
             raise HTTPException(status_code=404, detail="Not Found")
         target = os.path.realpath(os.path.join(FRONTEND_DIR, path))
-        if path and target.startswith(FRONTEND_DIR + os.sep) and os.path.isfile(target):
+        if path and target != INDEX_FILE and target.startswith(FRONTEND_DIR + os.sep) and os.path.isfile(target):
             return FileResponse(target)
         if "." in path.rsplit("/", 1)[-1]:
             raise HTTPException(status_code=404, detail="Not Found")
-        return FileResponse(INDEX_FILE, headers={"Cache-Control": "no-cache"})
+        site = (load_settings().get("site.public_url") or "https://para-sight.org/").rstrip("/")
+        with open(INDEX_FILE, encoding="utf-8") as fh:
+            page = fh.read().replace("__SITE_URL__", site)
+        return HTMLResponse(page, headers={"Cache-Control": "no-cache"})

@@ -50,7 +50,7 @@ async function request<T>(path: string, init: RequestInit = {}): Promise<T> {
   if (token) headers.set("Authorization", `Bearer ${token}`);
   if (init.body && !(init.body instanceof FormData)) headers.set("Content-Type", "application/json");
   const res = await fetch(`${API_BASE}${path}`, { ...init, headers });
-  if (res.status === 401 && path !== "/auth/login") onUnauthorized();
+  if (res.status === 401 && path !== "/auth/login" && path !== "/auth/verify-code") onUnauthorized();
   if (!res.ok) {
     let message = `Request failed (${res.status})`;
     try {

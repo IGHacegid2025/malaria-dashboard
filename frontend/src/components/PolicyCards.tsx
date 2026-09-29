@@ -17,6 +17,8 @@ import {
 import { CountUp } from "./Motion";
 import StatusBadge from "./StatusBadge";
 import WhoBadge from "./WhoBadge";
+import { geneLabel, markerLabel, markerTip, mutationLabel } from "../lib/markers";
+import { LOW_SAMPLES, ciText } from "../lib/stats";
 
 const SEVERITY: Record<Classification, number> = { high: 3, intermediate: 2, low: 1, none: 0 };
 
@@ -155,11 +157,11 @@ function OtherMarkers({
                     type="button"
                     className={selectedMarker === m.key ? "active" : ""}
                     onClick={() => onSelectMarker(selectedMarker === m.key ? null : m.key)}
-                    title={`Show ${m.gene} ${m.mutation} on the map`}
+                    title={markerTip(m.gene, m.mutation) ?? `Show ${markerLabel(m.gene, m.mutation)} on the map`}
                   >
                     <span className={`marker-dot level-${m.classification}`} aria-hidden="true" />
                     <span className="marker-name">
-                      <em>{m.gene}</em> {m.mutation}
+                      <em>{geneLabel(m.gene)}</em> {mutationLabel(m.gene, m.mutation)}
                     </span>
                     <strong>{formatPercent(m.prevalence, 1)}</strong>
                   </button>
@@ -209,10 +211,18 @@ function DrugCard({
       title={titleCase(d.drug)}
       context={DRUG_CONTEXT[d.drug] ?? "Antimalarial drug"}
       value={top ? <CountUp value={top.prevalence} format={(v) => formatPercent(v, 1)} /> : "0%"}
-      valueCaption={top ? `of samples carry ${top.gene} ${top.mutation}` : "no resistance marker found"}
+      valueCaption={top ? `of samples carry ${markerLabel(top.gene, top.mutation)}` : "no resistance marker found"}
       badge={top ? <WhoBadge status={top.whoStatus} showOther /> : undefined}
       barValue={top ? top.prevalence : 0}
       text={widespread ? "Found in most samples, but WHO has not confirmed its link to drug resistance." : d.summary ?? (top ? null : "Current data show no sign of resistance to this drug.")}
+      extra={
+        top && top.samples > 0 ? (
+          <p className="policy-card-ci">
+            95% CI {ciText(top.prevalence, top.samples)} · {top.samples.toLocaleString()} samples
+            {top.samples < LOW_SAMPLES ? " · few samples, interpret with care" : ""}
+          </p>
+        ) : undefined
+      }
       footer={`${d.detected} of ${d.tested} markers detected`}
       footerAction={
         d.others.length > 0 ? (

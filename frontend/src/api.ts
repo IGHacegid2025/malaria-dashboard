@@ -62,6 +62,9 @@ export interface ReportRequest {
   email: string;
   organization?: string;
   page?: string;
+  kind?: "report" | "data";
+  label?: string;
+  consent?: boolean;
 }
 
 export interface StateInfo {

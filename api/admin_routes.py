@@ -1,9 +1,12 @@
 # Author: Khadim Gueye
 
+import hashlib
+import hmac
 import io
 import json
 import os
 import re
+import secrets
 import uuid
 from datetime import datetime, timedelta
 from typing import Any, Optional
@@ -13,9 +16,11 @@ from fastapi.responses import Response
 from PIL import Image, ImageOps
 from pydantic import BaseModel
 
+import mailer
 import uploads
 from db import execute, query, query_one, transaction
 from security import (
+    JWT_SECRET,
     LOCK_MINUTES,
     MAX_FAILED_ATTEMPTS,
     audit,
@@ -116,6 +121,10 @@ SETTING_KEYS = {
     "site.default_year": (str, int),
     "site.website_url": str,
     "site.public_url": str,
+    "site.contact_email": str,
+    "site.data_release": str,
+    "site.data_release_date": str,
+    "site.doi": str,
     "theme.primary": str,
     "theme.hero_from": str,
     "theme.hero_via": str,
@@ -260,12 +269,87 @@ def login(body: LoginBody, request: Request):
         )
         audit(user, "login_failed", "user", user["id"], {"attempt": attempts}, ip)
         raise HTTPException(401, "Wrong email or password")
+    if two_factor_required(user):
+        execute("UPDATE admin_users SET failed_attempts = 0, locked_until = NULL WHERE id = %s", (user["id"],))
+        return send_login_code(user, ip)
+    return finish_login(user, ip)
+
+
+def two_factor_required(user):
+    return user["role"] == "super_admin" and os.environ.get("TWO_FACTOR", "1") != "0" and mailer.configured()
+
+
+def masked(email):
+    name, _, domain = email.partition("@")
+    return f"{name[0]}{'*' * max(2, len(name) - 1)}@{domain}"
+
+
+def send_login_code(user, ip):
+    recent = query_one(
+        "SELECT COUNT(*) AS n FROM admin_login_codes WHERE user_id = %s AND created_at > NOW() - INTERVAL 15 MINUTE",
+        (user["id"],),
+    )
+    if recent["n"] >= 5:
+        raise HTTPException(429, "Too many codes requested. Please wait 15 minutes.")
+    code = f"{secrets.randbelow(1_000_000):06d}"
+    challenge = secrets.token_urlsafe(32)
+    try:
+        mailer.send(
+            user["email"],
+            "Your sign-in code",
+            f"Your sign-in code for the malaria dashboard admin is {code}.\n\n"
+            "It expires in 10 minutes. If you did not try to sign in, change your password.",
+        )
+    except Exception:
+        audit(user, "login_code_failed", "user", user["id"], None, ip)
+        raise HTTPException(503, "The sign-in code could not be sent. Please try again later.")
+    execute(
+        """
+        INSERT INTO admin_login_codes (user_id, challenge_hash, code_hash, expires_at)
+        VALUES (%s, %s, %s, NOW() + INTERVAL 10 MINUTE)
+        """,
+        (user["id"], digest(challenge), digest(f"{user['id']}:{code}")),
+    )
+    audit(user, "login_code_sent", "user", user["id"], None, ip)
+    return {"two_factor": True, "challenge": challenge, "email": masked(user["email"])}
+
+
+def digest(value):
+    return hashlib.sha256(f"{JWT_SECRET}:{value}".encode()).hexdigest()
+
+
+def finish_login(user, ip):
     execute(
         "UPDATE admin_users SET failed_attempts = 0, locked_until = NULL, last_login_at = NOW() WHERE id = %s",
         (user["id"],),
     )
     audit(user, "login", "user", user["id"], None, ip)
     return {"token": create_token(user["id"]), "user": public_user(user)}
+
+
+class CodeBody(BaseModel):
+    challenge: str
+    code: str
+
+
+@router.post("/api/auth/verify-code")
+def verify_code(body: CodeBody, request: Request):
+    ip = client_ip(request)
+    row = query_one(
+        "SELECT * FROM admin_login_codes WHERE challenge_hash = %s AND used_at IS NULL AND expires_at > NOW()",
+        (digest(body.challenge),),
+    )
+    if not row or row["attempts"] >= 5:
+        raise HTTPException(401, "This code has expired. Sign in again to get a new one.")
+    user = query_one("SELECT * FROM admin_users WHERE id = %s", (row["user_id"],))
+    if not user or not user["is_active"]:
+        raise HTTPException(401, "This code has expired. Sign in again to get a new one.")
+    if not hmac.compare_digest(row["code_hash"], digest(f"{user['id']}:{body.code.strip()}")):
+        execute("UPDATE admin_login_codes SET attempts = attempts + 1 WHERE id = %s", (row["id"],))
+        audit(user, "login_code_wrong", "user", user["id"], {"attempt": row["attempts"] + 1}, ip)
+        raise HTTPException(401, "Wrong code")
+    execute("UPDATE admin_login_codes SET used_at = NOW() WHERE id = %s", (row["id"],))
+    return finish_login(user, ip)
 
 
 @router.get("/api/auth/me")
@@ -711,6 +795,21 @@ def update_settings(body: dict[str, Any], request: Request, user=Depends(current
         elif key in ("site.github_url", "site.website_url", "site.linkedin_url", "site.public_url"):
             if value and (not re.match(r"^https://\S+$", value) or any(ch in value for ch in "<>'\"")):
                 raise HTTPException(400, "Links must start with https://")
+        elif key == "site.data_release":
+            if value and not re.match(r"^[A-Za-z0-9 ._-]{1,30}$", value):
+                raise HTTPException(400, "Data release: letters, numbers and dots only, for example 2026.1")
+        elif key == "site.data_release_date":
+            if value:
+                try:
+                    datetime.strptime(value, "%Y-%m-%d")
+                except ValueError:
+                    raise HTTPException(400, "Release date must be a date")
+        elif key == "site.doi":
+            if value and not re.match(r"^10\.\d{4,9}/[A-Za-z0-9._;()/:-]+$", value):
+                raise HTTPException(400, "DOI must look like 10.5281/zenodo.1234567")
+        elif key == "site.contact_email":
+            if value and (len(value) > 200 or not re.match(r"^[^@\s<>'\"]+@[^@\s<>'\"]+\.[A-Za-z]{2,}$", value)):
+                raise HTTPException(400, "Enter a valid contact email")
         elif key == "nav.hidden":
             if any(not isinstance(v, str) or v not in NAV_TABS for v in value):
                 raise HTTPException(400, "Unknown menu tab")
