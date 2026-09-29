@@ -1,0 +1,10 @@
+Partner logos used on the Projects page (Admin > Projects & partners).
+Files in this folder are the versions served by the site (api/media/logo_*.png).
+Files in original/ are the untouched downloads.
+
+PATH        https://media.path.org/images/PATH-logo.2e16d0ba.fill-1200x630.png
+NMEP        https://nmcp.gov.ng/wp-content/uploads/2018/02/cropped-cropped-NMEP_logo_revised_1.2020-9-1.png
+Africa CDC  https://africacdc.org/wp-content/uploads/2020/02/AfricaCDC_Logo.png
+Gates       https://www.gatesfoundation.org/-/media/logos/gf-primary-weathered-slate-logo_4by1-ratio-fixed.svg (2026-09-29)
+
+Downloaded 2026-09-28.

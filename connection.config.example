@@ -1,0 +1,18 @@
+# Copy this file to connection.config (same folder) and fill in the values of the server.
+# connection.config is never committed. Lines starting with # are ignored.
+
+# Database (the host gives these values when the database is created)
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_NAME=malaria_dashboard
+DB_USER=malaria_app
+DB_PASSWORD=change-me
+
+# Signs admin sessions: a long random value, different on every server
+JWT_SECRET=change-me-to-a-long-random-value
+
+# Address of the website, comma separated if several
+ALLOWED_ORIGINS=https://para-sight.org
+
+# 1 behind nginx, Apache or a hosting proxy, so visitor IPs are read correctly
+TRUST_PROXY=0
