@@ -158,16 +158,26 @@ const SPECIES_COLORS: Record<string, string> = {
   pk: "#8b5cf6",
 };
 
-function Mosquito({ color }: { color: string }) {
+function Parasite({ species, color }: { species: string; color: string }) {
+  const oval = species === "po" || species === "pv";
+  const cell = { fill: "currentColor", fillOpacity: 0.14, stroke: "currentColor", strokeOpacity: 0.5, strokeWidth: 1.2 };
   return (
-    <svg className="species-mosquito" viewBox="0 0 24 24" style={{ color }}>
-      <path className="mosquito-wing" d="M9 10.5C10 5.5 15 2.5 19.5 3c-1 4-5 7-10.5 7.5z" fill="currentColor" opacity="0.45" />
-      <path className="mosquito-wing back" d="M10 11c2.5-3.5 7-5 11-4-1.8 3.2-6 4.8-11 4z" fill="currentColor" opacity="0.3" />
-      <path d="M7 12.8L3.8 16.8 2 21.5M8.6 13.4L8 17.5 6.5 22M10.2 13.2l2.6 3.8 1.2 4.8" fill="none" stroke="currentColor" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round" />
-      <path d="M9.6 11.4c3.4-1.2 8.3-.4 12.9 2.8-4.3 1.5-9.3 1.2-12.4-.4z" fill="currentColor" />
-      <circle cx="8" cy="11.6" r="2.3" fill="currentColor" />
-      <circle cx="5.1" cy="10.4" r="1.5" fill="currentColor" />
-      <path d="M4 10.8L0.6 12.3" stroke="currentColor" strokeWidth="1.3" strokeLinecap="round" />
+    <svg className="species-parasite" viewBox="0 0 24 24" style={{ color }}>
+      {oval ? <ellipse cx="12" cy="12" rx="10.8" ry="8.6" {...cell} /> : <circle cx="12" cy="12" r="9.6" {...cell} />}
+      <g className="parasite-body">
+        {species === "pm" ? (
+          <>
+            <rect x="5.6" y="10.3" width="12.8" height="3.4" rx="1.7" fill="currentColor" />
+            <circle cx="15.8" cy="12" r="1.2" fill="#fff" fillOpacity="0.8" />
+          </>
+        ) : (
+          <>
+            <circle cx="12" cy="12.4" r="3.8" fill="none" stroke="currentColor" strokeWidth="1.6" />
+            <circle cx="14.9" cy="9.8" r="1.6" fill="currentColor" />
+            {species === "pf" && <circle cx="9.1" cy="9.8" r="1.3" fill="currentColor" />}
+          </>
+        )}
+      </g>
     </svg>
   );
 }
@@ -176,7 +186,7 @@ function SpeciesDots({ combo }: { combo: string }) {
   return (
     <span className="species-dots" aria-hidden="true">
       {combo.split(",").map((s) => (
-        <Mosquito key={s} color={SPECIES_COLORS[s] ?? "var(--text-muted)"} />
+        <Parasite key={s} species={s} color={SPECIES_COLORS[s] ?? "var(--text-muted)"} />
       ))}
     </span>
   );

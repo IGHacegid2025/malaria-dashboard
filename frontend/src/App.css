@@ -6224,85 +6224,75 @@ button.activity-inner:focus-visible {
   margin-left: -4px;
 }
 
-.species-mosquito {
+.species-parasite {
   width: 20px;
   height: 20px;
   flex: none;
-  animation: dot-in 0.4s ease-out both;
+  overflow: visible;
+  animation:
+    dot-in 0.4s ease-out both,
+    parasite-float 3.4s ease-in-out 0.4s infinite;
 }
 
-.bar-list-label .species-mosquito {
+.bar-list-label .species-parasite {
   width: 16px;
   height: 16px;
 }
 
 .species-dots-cell .species-dots {
-  gap: 1px;
+  gap: 2px;
 }
 
-.species-mosquito {
-  overflow: visible;
-  animation:
-    dot-in 0.4s ease-out both,
-    mosquito-hover 2.8s ease-in-out 0.4s infinite;
+.species-dots > .species-parasite:nth-child(2) {
+  animation-duration: 0.4s, 3.9s;
+  animation-delay: 0s, 1s;
 }
 
-.species-dots > .species-mosquito:nth-child(2) {
-  animation-duration: 0.4s, 3.3s;
-  animation-delay: 0s, 0.9s;
+.species-dots > .species-parasite:nth-child(3) {
+  animation-duration: 0.4s, 3s;
+  animation-delay: 0s, 1.8s;
 }
 
-.species-dots > .species-mosquito:nth-child(3) {
-  animation-duration: 0.4s, 2.5s;
-  animation-delay: 0s, 1.6s;
+tr:nth-child(even) .species-parasite {
+  animation-delay: 0s, 1.3s;
 }
 
-tr:nth-child(even) .species-mosquito {
-  animation-delay: 0s, 1.2s;
+.parasite-body {
+  transform-box: view-box;
+  transform-origin: 50% 50%;
+  animation: parasite-pulse 3.2s ease-in-out infinite;
 }
 
-.mosquito-wing {
-  transform-box: fill-box;
-  transform-origin: 0% 100%;
-  animation: mosquito-flap 0.12s ease-in-out infinite alternate;
-}
-
-.mosquito-wing.back {
-  animation-delay: 0.06s;
-}
-
-@keyframes mosquito-hover {
+@keyframes parasite-float {
   0%,
   100% {
-    transform: translate(0, 0) rotate(0deg);
-  }
-  25% {
-    transform: translate(1px, -2px) rotate(-5deg);
+    transform: translateY(0);
   }
   50% {
-    transform: translate(0, -0.5px) rotate(1deg);
-  }
-  75% {
-    transform: translate(-1px, -2.5px) rotate(4deg);
+    transform: translateY(-1.5px);
   }
 }
 
-@keyframes mosquito-flap {
-  to {
-    transform: scaleY(0.3);
+@keyframes parasite-pulse {
+  0%,
+  100% {
+    transform: scale(0.92) rotate(0deg);
+  }
+  50% {
+    transform: scale(1.04) rotate(8deg);
   }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .species-mosquito,
-  .mosquito-wing {
+  .species-parasite,
+  .parasite-body {
     animation: none;
   }
 }
 
 @media print {
-  .species-mosquito,
-  .mosquito-wing {
+  .species-parasite,
+  .parasite-body {
     animation: none !important;
   }
 }

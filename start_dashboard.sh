@@ -25,7 +25,10 @@ uvicorn main:app --host 127.0.0.1 --port "$API_PORT" &
 API_PID=$!
 trap 'kill $API_PID 2>/dev/null' EXIT INT TERM
 
-sleep 2
+for _ in $(seq 1 20); do
+  curl -sf "http://127.0.0.1:$API_PORT/api/health" >/dev/null && break
+  sleep 1
+done
 if ! curl -sf "http://127.0.0.1:$API_PORT/api/health" >/dev/null; then
   echo "API cannot reach MySQL at $DB_HOST:3306. Is MySQL started in XAMPP?"
   exit 1
