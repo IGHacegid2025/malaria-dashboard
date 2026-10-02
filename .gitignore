@@ -10,3 +10,4 @@ api/geo/
 connection.config
 sql/deploy/
 backups/
+deploy/package/

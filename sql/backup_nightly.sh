@@ -12,7 +12,7 @@ if [ -f "$CONFIG" ]; then
     value="${value%$'\r'}"
     value="${value#[\"\']}"
     value="${value%[\"\']}"
-    if [ -z "${!key:-}" ]; then export "$key=$value"; fi
+    if [ -z "${!key+x}" ]; then export "$key=$value"; fi
   done < <(grep -E '^DB_(HOST|PORT|NAME|USER|PASSWORD)=' "$CONFIG")
 fi
 
